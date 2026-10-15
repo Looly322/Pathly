@@ -1,0 +1,95 @@
+[
+  {
+    "city": "Paris",
+    "language": "zh",
+    "center": [
+      2.3376,
+      48.8606
+    ],
+    "zoom": 13,
+    "namedFeatures": 52,
+    "translated": 39,
+    "fallbackExamples": [
+      "Rue de la Convention",
+      "Rue de Vaugirard",
+      "Rue Falguière",
+      "Rue Monge",
+      "Rue d'Assas",
+      "Rue de Charonne"
+    ]
+  },
+  {
+    "city": "Paris",
+    "language": "en",
+    "center": [
+      2.3376,
+      48.8606
+    ],
+    "zoom": 13,
+    "namedFeatures": 46,
+    "translated": 46,
+    "fallbackExamples": []
+  },
+  {
+    "city": "Tokyo",
+    "language": "zh",
+    "center": [
+      139.7454,
+      35.6586
+    ],
+    "zoom": 13,
+    "namedFeatures": 116,
+    "translated": 16,
+    "fallbackExamples": [
+      "東京湾1号埋め立て地",
+      "東京港1号埋立地",
+      "東京港4号埋立地",
+      "越中島",
+      "東京港5号埋立地",
+      "東京港6号・10号・11号埋立地"
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "language": "en",
+    "center": [
+      139.7454,
+      35.6586
+    ],
+    "zoom": 13,
+    "namedFeatures": 104,
+    "translated": 104,
+    "fallbackExamples": []
+  },
+  {
+    "city": "Cairo",
+    "language": "zh",
+    "center": [
+      31.2336,
+      30.0478
+    ],
+    "zoom": 13,
+    "namedFeatures": 66,
+    "translated": 4,
+    "fallbackExamples": [
+      "نزلة بهجت",
+      "روض الفرج",
+      "كيت كات",
+      "عباسية",
+      "بولاق الدكرور",
+      "المهندسين"
+    ]
+  },
+  {
+    "city": "Cairo",
+    "language": "en",
+    "center": [
+      31.2336,
+      30.0478
+    ],
+    "zoom": 13,
+    "namedFeatures": 60,
+    "translated": 60,
+    "fallbackExamples": []
+  }
+]

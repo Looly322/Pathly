@@ -1,0 +1,35 @@
+[
+  {
+    "city": "北京",
+    "timezone": "Asia/Shanghai",
+    "forecastHours": 384,
+    "date": "2026-10-16",
+    "complete": true,
+    "affected": [],
+    "proposal": false,
+    "reason": "calm",
+    "note": "Real forecast snapshot; visit durations are planning allowances. No opening hours fabricated."
+  },
+  {
+    "city": "巴黎",
+    "timezone": "Europe/Paris",
+    "forecastHours": 384,
+    "date": "2026-10-16",
+    "complete": true,
+    "affected": [],
+    "proposal": false,
+    "reason": "calm",
+    "note": "Real forecast snapshot; visit durations are planning allowances. No opening hours fabricated."
+  },
+  {
+    "city": "东京",
+    "timezone": "Asia/Tokyo",
+    "forecastHours": 384,
+    "date": "2026-10-16",
+    "complete": true,
+    "affected": [],
+    "proposal": false,
+    "reason": "calm",
+    "note": "Real forecast snapshot; visit durations are planning allowances. No opening hours fabricated."
+  }
+]

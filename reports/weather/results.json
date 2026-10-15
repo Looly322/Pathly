@@ -1,0 +1,79 @@
+[
+  {
+    "city": "北京",
+    "status": 200,
+    "ms": 4276,
+    "requested": {
+      "latitude": 39.9042,
+      "longitude": 116.4074
+    },
+    "grid": [
+      39.89455,
+      116.35983
+    ],
+    "timezone": "Asia/Shanghai",
+    "current": {
+      "time": "2026-10-15T20:45",
+      "interval": 900,
+      "temperature_2m": 19.8,
+      "weather_code": 2,
+      "wind_speed_10m": 5.9
+    },
+    "forecastStart": "2026-10-15",
+    "forecastEnd": "2026-10-30",
+    "days": 16
+  },
+  {
+    "city": "巴黎",
+    "status": 200,
+    "ms": 3914,
+    "requested": {
+      "latitude": 48.8566,
+      "longitude": 2.3522
+    },
+    "grid": [
+      48.853382,
+      2.355208
+    ],
+    "timezone": "Europe/Paris",
+    "current": {
+      "time": "2026-10-15T14:45",
+      "interval": 900,
+      "temperature_2m": 21.3,
+      "weather_code": 2,
+      "wind_speed_10m": 8.7
+    },
+    "forecastStart": "2026-10-15",
+    "forecastEnd": "2026-10-30",
+    "days": 16
+  },
+  {
+    "city": "东京",
+    "status": 200,
+    "ms": 2909,
+    "requested": {
+      "latitude": 35.6762,
+      "longitude": 139.6503
+    },
+    "grid": [
+      35.7,
+      139.625
+    ],
+    "timezone": "Asia/Tokyo",
+    "current": {
+      "time": "2026-10-15T21:45",
+      "interval": 900,
+      "temperature_2m": 17.7,
+      "weather_code": 1,
+      "wind_speed_10m": 2.2
+    },
+    "forecastStart": "2026-10-15",
+    "forecastEnd": "2026-10-30",
+    "days": 16
+  },
+  {
+    "city": "开罗",
+    "status": 502,
+    "error": "{\"error\": \"WEATHER_UNAVAILABLE\"}"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "result": [
+    {
+      "name": "Beijing",
+      "lang": "zh",
+      "loadEvent": "complete",
+      "streetZoom": 16,
+      "version": "2.0",
+      "center": [
+        116.3972,
+        39.9163
+      ],
+      "zoom": 12,
+      "setLanguage": "undefined",
+      "mapCreated": true
+    },
+    {
+      "name": "Beijing",
+      "lang": "en",
+      "loadEvent": "complete",
+      "streetZoom": 16,
+      "version": "2.0",
+      "center": [
+        116.3972,
+        39.9163
+      ],
+      "zoom": 12,
+      "setLanguage": "undefined",
+      "mapCreated": true
+    }
+  ],
+  "errors": [
+    "network-failed: jsapi-data1.amap.com",
+    "network-failed: jsapi-data4.amap.com",
+    "network-failed: jsapi-data1.amap.com",
+    "network-failed: jsapi-data1.amap.com",
+    "network-failed: jsapi-data4.amap.com",
+    "network-failed: jsapi-data1.amap.com",
+    "network-failed: jsapi-data4.amap.com",
+    "network-failed: jsapi-data4.amap.com",
+    "network-failed: jsapi-data3.amap.com",
+    "network-failed: jsapi-data3.amap.com",
+    "network-failed: jsapi-data5.amap.com",
+    "network-failed: jsapi-data5.amap.com",
+    "network-failed: jsapi-data3.amap.com",
+    "network-failed: jsapi-data5.amap.com",
+    "network-failed: jsapi-data2.amap.com",
+    "network-failed: jsapi-data2.amap.com",
+    "network-failed: jsapi-data3.amap.com",
+    "network-failed: jsapi-data5.amap.com",
+    "network-failed: jsapi-data3.amap.com",
+    "network-failed: jsapi-data1.amap.com",
+    "network-failed: jsapi-data3.amap.com"
+  ]
+}

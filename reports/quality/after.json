@@ -1,0 +1,299 @@
+[
+  {
+    "city": "巴黎",
+    "resolveMs": 131,
+    "itineraryMs": 264,
+    "activities": 4,
+    "imageLoaded": 2,
+    "loading": 0,
+    "names": [
+      "巴黎圣母院",
+      "Louis XIII",
+      "Wallace fountains on place Louis-Lépine",
+      "Paris Métro entrances by Hector Guimard"
+    ],
+    "descriptionChars": 2202,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 37,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/places",
+        "ms": 23,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 15,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 15,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 863,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 7,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 2710,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 3507,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 1,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 4587,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 5246,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 4398,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 4563,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 4562,
+        "status": 200
+      },
+      {
+        "path": "/api/open-places",
+        "ms": 12001,
+        "failed": true
+      }
+    ]
+  },
+  {
+    "city": "东京",
+    "resolveMs": 141,
+    "itineraryMs": 7066,
+    "activities": 4,
+    "imageLoaded": 2,
+    "loading": 0,
+    "names": [
+      "Tokyo City Hall Tower II",
+      "新宿尼亚加拉瀑布",
+      "Ryo",
+      "Juniso Kumano Shrine"
+    ],
+    "descriptionChars": 1603,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 43,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/places",
+        "ms": 6503,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 15,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 18,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 18,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 5,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 1227,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 1499,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 1502,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 297,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 1943,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 1499,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 2509,
+        "status": 200
+      },
+      {
+        "path": "/api/open-places",
+        "ms": 12001,
+        "failed": true
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 4134,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "city": "开罗",
+    "resolveMs": 134,
+    "itineraryMs": 273,
+    "activities": 4,
+    "imageLoaded": 4,
+    "loading": 0,
+    "names": [
+      "Gamal Eddin Youssef Istadar Mosque",
+      "Sabil-Kuttab Abd El Rahman Katkhuda",
+      "Sultan Qaytbay Complex",
+      "ramsees"
+    ],
+    "descriptionChars": 2548,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 40,
+        "status": 200
+      },
+      {
+        "path": "/api/open-places",
+        "ms": 14,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/places",
+        "ms": 26,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 11,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 11,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 11,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 11,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 9,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 3,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 10,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 8,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 2,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 2,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 754,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 2246,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "city": "北京",
+    "itineraryMs": 3366,
+    "activities": 4,
+    "imageLoaded": 4,
+    "loading": 0,
+    "names": [
+      "故宫博物院",
+      "天安门",
+      "天安门广场",
+      "南锣鼓巷"
+    ],
+    "descriptionChars": 497,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 39,
+        "status": 200
+      }
+    ]
+  }
+]

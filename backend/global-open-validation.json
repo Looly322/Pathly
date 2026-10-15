@@ -1,0 +1,30 @@
+[
+  {
+    "city": "Porto",
+    "country": "Portugal",
+    "latitude": 41.1485,
+    "longitude": -8.61097,
+    "count": 173,
+    "examples": [
+      "Museu Aurélia e Sofia de Souza",
+      "Miradouro do Largo de Aviz",
+      "Farolim de Felgueiras",
+      "Miradouro da Escarpa",
+      "Miradouro da Rua das Aldas"
+    ]
+  },
+  {
+    "city": "Nairobi",
+    "country": "Kenya",
+    "latitude": -1.28333,
+    "longitude": 36.81667,
+    "count": 147,
+    "examples": [
+      "GP Karting",
+      "KIMC Film Department",
+      "Bench",
+      "Athletics Museum",
+      "Freeing in Africa"
+    ]
+  }
+]

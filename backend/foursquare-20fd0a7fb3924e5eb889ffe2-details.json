@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://places-api.foursquare.com/places/20fd0a7fb3924e5eb889ffe2?fields=fsq_place_id%2Cname%2Clatitude%2Clongitude%2Crating%2Cpopularity%2Cstats%2Ctips%2Cphotos%2Ccategories%2Cwebsite",
+  "http_status": 429,
+  "response_body": {
+    "message": "Your account has no API credits remaining. Please visit your organization’s billing page at https://foursquare.com/developers/orgs to manually add credits or enable automatic payments. Purchasing credits is required if you are trying to make Premium calls or you have exceeded your freePro tier limit."
+  },
+  "raw_response": "{\"message\":\"Your account has no API credits remaining. Please visit your organization’s billing page at https://foursquare.com/developers/orgs to manually add credits or enable automatic payments. Purchasing credits is required if you are trying to make Premium calls or you have exceeded your freePro tier limit.\"}"
+}

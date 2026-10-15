@@ -1,0 +1,666 @@
+{
+  "attractions": {
+    "places": [
+      {
+        "id": "foursquare-4adcda09f964a520e83321e3",
+        "source": "foursquare",
+        "sourceId": "4adcda09f964a520e83321e3",
+        "name": "Cathedral of Notre-Dame de Paris (Cathédrale Notre-Dame de Paris)",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85312443201169,
+        "longitude": 2.3495614528656006,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "6 parvis Notre-Dame (Place Jean-Paul II), 75004 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d132941735",
+            "name": "Church"
+          },
+          {
+            "id": "4bf58dd8d48988d12d941735",
+            "name": "Monument"
+          }
+        ],
+        "website": "https://www.notredamedeparis.fr",
+        "distance": 64
+      },
+      {
+        "id": "foursquare-4c00046cc30a2d7fbeda111d",
+        "source": "foursquare",
+        "sourceId": "4c00046cc30a2d7fbeda111d",
+        "name": "Parvis Notre-Dame — Place Jean-Paul II",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85340681055016,
+        "longitude": 2.348456382751465,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Parvis Notre-Dame (Place Jean-Paul II), 75004 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d164941735",
+            "name": "Plaza"
+          }
+        ],
+        "website": "http://www.paris.fr",
+        "distance": 25
+      },
+      {
+        "id": "foursquare-4bf41231e5eba59334341f90",
+        "source": "foursquare",
+        "sourceId": "4bf41231e5eba59334341f90",
+        "name": "Place de l'Hôtel de Ville – Esplanade de la Libération",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85709466177455,
+        "longitude": 2.3515192506880584,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Place de l'Hôtel de Ville, 75004 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d164941735",
+            "name": "Plaza"
+          }
+        ],
+        "website": "http://www.paris.fr",
+        "distance": 455
+      }
+    ],
+    "queryUsed": "",
+    "source": "foursquare"
+  },
+  "museums": {
+    "places": [
+      {
+        "id": "foursquare-4adcda10f964a520af3521e3",
+        "source": "foursquare",
+        "sourceId": "4adcda10f964a520af3521e3",
+        "name": "Louvre Museum (Musée du Louvre)",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.86084691113991,
+        "longitude": 2.336440086364746,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Rue de Rivoli (Place du Carrousel), 75001 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d181941735",
+            "name": "Museum"
+          }
+        ],
+        "website": "https://www.louvre.fr",
+        "distance": 1224
+      },
+      {
+        "id": "foursquare-4bae535af964a520f5a23be3",
+        "source": "foursquare",
+        "sourceId": "4bae535af964a520f5a23be3",
+        "name": "Maison Européenne de la Photographie",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85512804426985,
+        "longitude": 2.358947843313217,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "5 rue de Fourcy, 75004 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d18f941735",
+            "name": "Art Museum"
+          }
+        ],
+        "website": "http://www.mep-fr.org",
+        "distance": 766
+      },
+      {
+        "id": "foursquare-4adcda10f964a5208b3521e3",
+        "source": "foursquare",
+        "sourceId": "4adcda10f964a5208b3521e3",
+        "name": "Orsay Museum (Musée d'Orsay)",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85999283813253,
+        "longitude": 2.3263871669769287,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "1 rue de la Légion d'Honneur (Quai Anatole France), 75007 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d18f941735",
+            "name": "Art Museum"
+          }
+        ],
+        "website": "https://www.musee-orsay.fr",
+        "distance": 1794
+      }
+    ],
+    "queryUsed": "",
+    "source": "foursquare"
+  },
+  "parks": {
+    "places": [
+      {
+        "id": "foursquare-4e0754b21838eb15af00b5c5",
+        "source": "foursquare",
+        "sourceId": "4e0754b21838eb15af00b5c5",
+        "name": "Jardin des Archives Nationales",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.859981,
+        "longitude": 2.35812,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "87 rue Vieille-du-Temple, 75003 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d15a941735",
+            "name": "Garden"
+          },
+          {
+            "id": "4bf58dd8d48988d163941735",
+            "name": "Park"
+          }
+        ],
+        "website": null,
+        "distance": 998
+      },
+      {
+        "id": "foursquare-58e0f18f561ded7abcbbbd01",
+        "source": "foursquare",
+        "sourceId": "58e0f18f561ded7abcbbbd01",
+        "name": "Parc Rives de Seine",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85551048052973,
+        "longitude": 2.3514188826084137,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Quais de Seine, 75000 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d163941735",
+            "name": "Park"
+          },
+          {
+            "id": "52e81612bcbc57f1066b7a25",
+            "name": "Pedestrian Plaza"
+          }
+        ],
+        "website": "http://www.paris.fr/rivesdeseine",
+        "distance": 301
+      },
+      {
+        "id": "foursquare-4b93cba4f964a520155234e3",
+        "source": "foursquare",
+        "sourceId": "4b93cba4f964a520155234e3",
+        "name": "Square du Temple",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.86448891012796,
+        "longitude": 2.3607194423675537,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Rue du Temple, 75003 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d163941735",
+            "name": "Park"
+          },
+          {
+            "id": "4bf58dd8d48988d1e7941735",
+            "name": "Playground"
+          },
+          {
+            "id": "4bf58dd8d48988d1e5941735",
+            "name": "Dog Park"
+          }
+        ],
+        "website": "http://www.paris.fr",
+        "distance": 1508
+      }
+    ],
+    "queryUsed": "",
+    "source": "foursquare"
+  },
+  "landmarks": {
+    "places": [
+      {
+        "id": "foursquare-4adcda09f964a520ea3321e3",
+        "source": "foursquare",
+        "sourceId": "4adcda09f964a520ea3321e3",
+        "name": "Panthéon",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.846229,
+        "longitude": 2.346084,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Place du Panthéon, 75005 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d12d941735",
+            "name": "Monument"
+          },
+          {
+            "id": "4deefb944765f83613cdba6e",
+            "name": "Historic and Protected Site"
+          }
+        ],
+        "website": "http://pantheon.monuments-nationaux.fr",
+        "distance": 822
+      },
+      {
+        "id": "foursquare-4f6dabf5003944083fe0002e",
+        "source": "foursquare",
+        "sourceId": "4f6dabf5003944083fe0002e",
+        "name": "Vestige de la Forteresse du Louvre",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.860436640284796,
+        "longitude": 2.338065505027771,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Musée de Louvre (Palais du Louvre), 75001 Paris",
+        "categories": [
+          {
+            "id": "4deefb944765f83613cdba6e",
+            "name": "Historic and Protected Site"
+          }
+        ],
+        "website": "",
+        "distance": 1107
+      },
+      {
+        "id": "foursquare-4adcda09f964a520ed3321e3",
+        "source": "foursquare",
+        "sourceId": "4adcda09f964a520ed3321e3",
+        "name": "Palais Royal",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.86323576771446,
+        "longitude": 2.3371267318725586,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Place du Palais Royal, 75001 Paris",
+        "categories": [
+          {
+            "id": "4deefb944765f83613cdba6e",
+            "name": "Historic and Protected Site"
+          }
+        ],
+        "website": "http://www.monuments-nationaux.fr",
+        "distance": 1385
+      }
+    ],
+    "queryUsed": "",
+    "source": "foursquare"
+  },
+  "restaurants": {
+    "places": [
+      {
+        "id": "foursquare-56a761bd498e4801a8e214da",
+        "source": "foursquare",
+        "sourceId": "56a761bd498e4801a8e214da",
+        "name": "L'Avant Comptoir de la Mer",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85203451872476,
+        "longitude": 2.3388361756680562,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "3 carrefour de l'Odéon, 75006 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1ce941735",
+            "name": "Seafood Restaurant"
+          },
+          {
+            "id": "4bf58dd8d48988d10c941735",
+            "name": "French Restaurant"
+          }
+        ],
+        "website": "http://www.hotel-paris-relais-saint-germain.com",
+        "distance": 744
+      },
+      {
+        "id": "foursquare-58f3634235f98340ef64a066",
+        "source": "foursquare",
+        "sourceId": "58f3634235f98340ef64a066",
+        "name": "Maison Sauvage",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85363949689882,
+        "longitude": 2.3380885759973404,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "5 rue de Buci, 75006 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d10c941735",
+            "name": "French Restaurant"
+          }
+        ],
+        "website": "http://www.maison-sauvage.fr",
+        "distance": 783
+      },
+      {
+        "id": "foursquare-4b867a97f964a520e48b31e3",
+        "source": "foursquare",
+        "sourceId": "4b867a97f964a520e48b31e3",
+        "name": "L'As du Fallafel",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85741376683434,
+        "longitude": 2.3590779304504395,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "34 rue des Rosiers (Rue des Écouffes), 75004 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d10b941735",
+            "name": "Falafel Restaurant"
+          }
+        ],
+        "website": null,
+        "distance": 873
+      }
+    ],
+    "queryUsed": "",
+    "source": "foursquare"
+  },
+  "coffee": {
+    "places": [
+      {
+        "id": "foursquare-60e1b6ede9ea3506ec20380b",
+        "source": "foursquare",
+        "sourceId": "60e1b6ede9ea3506ec20380b",
+        "name": "Terres de Café",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.861963459750335,
+        "longitude": 2.340381577067303,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "150 rue Saint-Honoré, 75001 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1e0931735",
+            "name": "Coffee Shop"
+          }
+        ],
+        "website": "https://www.terresdecafe.com",
+        "distance": 1132
+      },
+      {
+        "id": "foursquare-5ae44cf7dd8442002cc065ca",
+        "source": "foursquare",
+        "sourceId": "5ae44cf7dd8442002cc065ca",
+        "name": "Partisan",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.86465557391021,
+        "longitude": 2.3530262009153176,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "36 rue de Turbigo, 75003 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1e0931735",
+            "name": "Coffee Shop"
+          }
+        ],
+        "website": "https://www.parispartisancafe.com",
+        "distance": 1287
+      },
+      {
+        "id": "foursquare-57b0b2c6498ef62eda148b41",
+        "source": "foursquare",
+        "sourceId": "57b0b2c6498ef62eda148b41",
+        "name": "A. Lacroix Pâtissier",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.851714,
+        "longitude": 2.349406,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "11 quai de Montebello (Rue du Haut Pavé), 75005 Paris",
+        "categories": [
+          {
+            "id": "5744ccdfe4b0c0459246b4e2",
+            "name": "Pastry Shop"
+          },
+          {
+            "id": "4bf58dd8d48988d1e0931735",
+            "name": "Coffee Shop"
+          },
+          {
+            "id": "4bf58dd8d48988d1c9941735",
+            "name": "Ice Cream Parlor"
+          }
+        ],
+        "website": "http://www.alacroixparis.com",
+        "distance": 193
+      }
+    ],
+    "queryUsed": "",
+    "source": "foursquare"
+  },
+  "shopping": {
+    "places": [
+      {
+        "id": "foursquare-57035c8b498ebcbc85d70c40",
+        "source": "foursquare",
+        "sourceId": "57035c8b498ebcbc85d70c40",
+        "name": "LEGO Store",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.8615930877951,
+        "longitude": 2.347383606494844,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Passage de la Canopée (Forum des Halles), 75001 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1f3941735",
+            "name": "Toy Store"
+          }
+        ],
+        "website": "https://www.lego.com/fr-fr/stores/store/paris-les-halles",
+        "distance": 915
+      },
+      {
+        "id": "foursquare-4db72dc9ced7dba4f02ddc41",
+        "source": "foursquare",
+        "sourceId": "4db72dc9ced7dba4f02ddc41",
+        "name": "La Samaritaine",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.8594088,
+        "longitude": 2.3424653,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "9 rue de la Monnaie (Quai du Louvre), 75001 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1f6941735",
+            "name": "Department Store"
+          }
+        ],
+        "website": "http://samaritaine.com",
+        "distance": 811
+      },
+      {
+        "id": "foursquare-4ce573dd7785a1cdf4e519b9",
+        "source": "foursquare",
+        "sourceId": "4ce573dd7785a1cdf4e519b9",
+        "name": "Hermès",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.851543082763335,
+        "longitude": 2.3278945684432983,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "17 rue de Sèvres, 75007 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d102951735",
+            "name": "Fashion Accessories Store"
+          },
+          {
+            "id": "52f2ab2ebcbc57f1066b8b2b",
+            "name": "Leather Goods Store"
+          }
+        ],
+        "website": "http://www.hermes.com",
+        "distance": 1542
+      }
+    ],
+    "queryUsed": "",
+    "source": "foursquare"
+  },
+  "entertainment": {
+    "places": [
+      {
+        "id": "foursquare-5864efb745c3ed1e7d88e96d",
+        "source": "foursquare",
+        "sourceId": "5864efb745c3ed1e7d88e96d",
+        "name": "Venus of Milo (Vénus de Milo)",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.859911665146164,
+        "longitude": 2.3372822999954224,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Musée du Louvre (Aile Sully, niveau 0, salle 345), 75001 Paris",
+        "categories": [
+          {
+            "id": "56aa371be4b08b9a8d573532",
+            "name": "Exhibit"
+          }
+        ],
+        "website": "https://collections.louvre.fr/en/ark:/53355/cl010277627",
+        "distance": 1109
+      },
+      {
+        "id": "foursquare-4adcda10f964a520af3521e3",
+        "source": "foursquare",
+        "sourceId": "4adcda10f964a520af3521e3",
+        "name": "Louvre Museum (Musée du Louvre)",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.86084691113991,
+        "longitude": 2.336440086364746,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Rue de Rivoli (Place du Carrousel), 75001 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d181941735",
+            "name": "Museum"
+          }
+        ],
+        "website": "https://www.louvre.fr",
+        "distance": 1224
+      },
+      {
+        "id": "foursquare-588ba9a9fc5a5f18a36a2a05",
+        "source": "foursquare",
+        "sourceId": "588ba9a9fc5a5f18a36a2a05",
+        "name": "Arts d'Afrique, d'Asie, d'Océanie et des Amériques",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.860724043718605,
+        "longitude": 2.332121414307368,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Musée du Louvre (Aile Denon, Pavillon des Sessions), 75001 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1e2931735",
+            "name": "Art Gallery"
+          }
+        ],
+        "website": "https://www.louvre.fr/en/explore/the-palace/artworks-from-around-the-world",
+        "distance": 1465
+      }
+    ],
+    "queryUsed": "",
+    "source": "foursquare"
+  }
+}

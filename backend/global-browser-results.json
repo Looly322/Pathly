@@ -1,0 +1,30 @@
+[
+  {
+    "city": "北京",
+    "source": "amap",
+    "names": [
+      "什刹海-后海",
+      "什刹海",
+      "北海公园",
+      "天安门",
+      "天安门-城楼",
+      "天安门广场"
+    ]
+  },
+  {
+    "city": "巴黎",
+    "source": "foursquare",
+    "names": [
+      "Louvre Museum (Musée du Louvre)",
+      "Place du Louvre",
+      "Vestige de la Forteresse du Louvre",
+      "Louvre Pyramid (Pyramide du Louvre)",
+      "La Clef Louvre Paris",
+      "Carrousel du Louvre",
+      "Les Caves du Louvre",
+      "Café Kitsuné Louvre",
+      "Hôtel Du Louvre - In the Unbound Collection by Hyatt",
+      "Reebok CrossFit Louvre"
+    ]
+  }
+]

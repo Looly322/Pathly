@@ -1,0 +1,214 @@
+[
+  {
+    "city": "北京",
+    "days": [],
+    "status": "passed_on_retry",
+    "error": "expect(locator).toBeVisible() failed\n\nLocator: locator('.trip-result')\nExpected: visible\nTimeout: 110000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" locator('.trip-result') with timeout 110000ms\n  - waiting for locator('.trip-result')\n",
+    "pageErrors": [],
+    "retry": {
+      "city": "北京",
+      "days": [
+        {
+          "names": [
+            "中山公园",
+            "故宫博物院",
+            "景山公园-明思宗殉国处"
+          ],
+          "mainActivities": 3
+        },
+        {
+          "names": [
+            "菖蒲河公园",
+            "东单公园",
+            "北京明城墙遗址公园"
+          ],
+          "mainActivities": 3
+        },
+        {
+          "names": [
+            "天坛公园",
+            "龙潭中湖公园",
+            "金中都水关遗址"
+          ],
+          "mainActivities": 3
+        }
+      ],
+      "status": "passed",
+      "map": 1,
+      "pageErrors": []
+    }
+  },
+  {
+    "city": "东京",
+    "days": [
+      {
+        "names": [
+          "Tokyo City Hall Tower II",
+          "新宿中央公園",
+          "新宿尼亚加拉瀑布",
+          "Kabukicho Ichibangai-dori Street"
+        ],
+        "mainActivities": 4
+      },
+      {
+        "names": [
+          "Shinjuku Sumitomo Building",
+          "PASSI",
+          "The Eye of Shinjuku",
+          "Shinjuku Gyoen National Garden"
+        ],
+        "mainActivities": 4
+      },
+      {
+        "names": [
+          "Juniso Kumano Shrine",
+          "KDDI Building",
+          "Pleiades",
+          "Space Zero"
+        ],
+        "mainActivities": 4
+      }
+    ],
+    "status": "passed",
+    "map": 1,
+    "pageErrors": []
+  },
+  {
+    "city": "巴黎",
+    "days": [
+      {
+        "names": [
+          "Cathedral of Notre Dame",
+          "Louis XIII",
+          "jardin de la place Jean-Paul-II",
+          "Paris Métro entrances by Hector Guimard"
+        ],
+        "mainActivities": 4
+      },
+      {
+        "names": [
+          "ancienne chapelle Saint-Aignan",
+          "Wallace fountains on place Louis-Lépine",
+          "PA1200 Shakespeare",
+          "Square René-Viviani"
+        ],
+        "mainActivities": 4
+      },
+      {
+        "names": [
+          "Hôtel de la Motte-Montgaubert",
+          "La fontaine de la Vierge",
+          "Square Jean XXIII",
+          "Bust of Carlo Goldoni"
+        ],
+        "mainActivities": 4
+      }
+    ],
+    "status": "passed",
+    "map": 1,
+    "pageErrors": []
+  },
+  {
+    "city": "开罗",
+    "days": [
+      {
+        "names": [
+          "Gamal Eddin Youssef Istadar Mosque",
+          "Sabil-Kuttab Abd El Rahman Katkhuda",
+          "Sultan Qaytbay Complex",
+          "ramsees"
+        ],
+        "mainActivities": 4
+      },
+      {
+        "names": [
+          "Sultan Al-Ghouri Complex",
+          "Wikala of Al-Ghuri",
+          "Abu Eldahab Mosque",
+          "talaat"
+        ],
+        "mainActivities": 4
+      },
+      {
+        "names": [
+          "El Azhar Mosque",
+          "Wekalat Qaitbay",
+          "House of Zaynab Khatun",
+          "Al-Azhar Park"
+        ],
+        "mainActivities": 4
+      }
+    ],
+    "status": "passed",
+    "map": 1,
+    "pageErrors": []
+  },
+  {
+    "city": "马拉喀什",
+    "days": [
+      {
+        "names": [
+          "La Terrasse Ben Youssef",
+          "Shrob ou shouf fountain",
+          "Jemaa El Fna",
+          "Cyber Parc Arsat Moulay Abdeslam"
+        ],
+        "mainActivities": 4
+      },
+      {
+        "names": [
+          "La table de la Koutoubia",
+          "Fontaine Mouassine",
+          "Jardins de La Mamounia"
+        ],
+        "mainActivities": 3
+      },
+      {
+        "names": [
+          "Almoravid Koubba",
+          "Ben Youssef Madrasa",
+          "Jardin Majorelle",
+          "Ogrody"
+        ],
+        "mainActivities": 4
+      }
+    ],
+    "status": "passed",
+    "map": 1,
+    "pageErrors": []
+  },
+  {
+    "city": "库斯科",
+    "days": [
+      {
+        "names": [
+          "Convent of Santo Domingo, Cusco",
+          "Church of the Society of Jesus",
+          "Paraninfo Universitario",
+          "Plaza de Armas of Cuzco"
+        ],
+        "mainActivities": 4
+      },
+      {
+        "names": [
+          "Limacpampa Chico",
+          "House of the four busts",
+          "Saint Agustin street"
+        ],
+        "mainActivities": 3
+      },
+      {
+        "names": [
+          "Church of Belén",
+          "Ajna",
+          "Plaza San Francisco, Cusco",
+          "Calle Santa Clara"
+        ],
+        "mainActivities": 4
+      }
+    ],
+    "status": "passed",
+    "map": 1,
+    "pageErrors": []
+  }
+]

@@ -1,0 +1,4008 @@
+{
+  "places": [
+    {
+      "id": "osm-node-917097368",
+      "source": "openstreetmap",
+      "sourceId": "node/917097368",
+      "name": "\"Mugeo\" Valdemar Lefèvre",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.532289,
+      "longitude": -46.6710374,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/917097368",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1180813951",
+      "source": "openstreetmap",
+      "sourceId": "node/1180813951",
+      "name": "Ghost Bike Márcia Prado",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5640604,
+      "longitude": -46.6530194,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        },
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1180813951",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1770102280",
+      "source": "openstreetmap",
+      "sourceId": "node/1770102280",
+      "name": "Museu do Futebol",
+      "nameZh": null,
+      "nameEnglish": "Museum of Football",
+      "latitude": -23.5474227,
+      "longitude": -46.6654699,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "Praça Charles Miller",
+      "website": "https://www.museudofutebol.org.br/",
+      "sourceUrl": "https://www.openstreetmap.org/node/1770102280",
+      "wikidata": "Q2356412",
+      "image": null
+    },
+    {
+      "id": "osm-node-2428250462",
+      "source": "openstreetmap",
+      "sourceId": "node/2428250462",
+      "name": "Bourbom",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5259736,
+      "longitude": -46.6812608,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "viewpoint"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/2428250462",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-2634256028",
+      "source": "openstreetmap",
+      "sourceId": "node/2634256028",
+      "name": "Viaduto do Chá",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5465818,
+      "longitude": -46.6379543,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        },
+        {
+          "name": "bridge"
+        }
+      ],
+      "address": "",
+      "website": "https://www.saopaulo.sp.gov.br/conhecasp/turismo_pontos-turisticos_viaduto-do-cha",
+      "sourceUrl": "https://www.openstreetmap.org/node/2634256028",
+      "wikidata": "Q7924455",
+      "image": null
+    },
+    {
+      "id": "osm-node-2812210894",
+      "source": "openstreetmap",
+      "sourceId": "node/2812210894",
+      "name": "Museu de Arte Moderna de São Paulo",
+      "nameZh": null,
+      "nameEnglish": "São Paulo Museum of Modern Art",
+      "latitude": -23.5880162,
+      "longitude": -46.655484,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "",
+      "website": "https://www.mam.org.br/",
+      "sourceUrl": "https://www.openstreetmap.org/node/2812210894",
+      "wikidata": "Q1581634",
+      "image": null
+    },
+    {
+      "id": "osm-node-3679337228",
+      "source": "openstreetmap",
+      "sourceId": "node/3679337228",
+      "name": "Chamine da Usina de Luz Elétrica",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5327164,
+      "longitude": -46.6312408,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        },
+        {
+          "name": "yes"
+        }
+      ],
+      "address": "Rua João Teodoro 100",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/3679337228",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-3893660656",
+      "source": "openstreetmap",
+      "sourceId": "node/3893660656",
+      "name": "A CASA",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5604107,
+      "longitude": -46.6941957,
+      "coordinateSystem": "WGS84",
+      "city": "Sao Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "Avenida Pedroso de Morais 1216",
+      "website": "https://www.acasa.org.br/",
+      "sourceUrl": "https://www.openstreetmap.org/node/3893660656",
+      "wikidata": "Q30938319",
+      "image": null
+    },
+    {
+      "id": "osm-node-4041877220",
+      "source": "openstreetmap",
+      "sourceId": "node/4041877220",
+      "name": "Tapete de asfalto",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5291001,
+      "longitude": -46.6911037,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4041877220",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4369006877",
+      "source": "openstreetmap",
+      "sourceId": "node/4369006877",
+      "name": "Galeria White Cube",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5995103,
+      "longitude": -46.6499074,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "gallery"
+        },
+        {
+          "name": "art"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4369006877",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4467659990",
+      "source": "openstreetmap",
+      "sourceId": "node/4467659990",
+      "name": "Estúdio Lâmina",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5451244,
+      "longitude": -46.6349531,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "Avenida São João 108, sala 41",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4467659990",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4536471385",
+      "source": "openstreetmap",
+      "sourceId": "node/4536471385",
+      "name": "Edifício Itália",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.54531,
+      "longitude": -46.6435216,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "viewpoint"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4536471385",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4552554789",
+      "source": "openstreetmap",
+      "sourceId": "node/4552554789",
+      "name": "Chácara Lane",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5483957,
+      "longitude": -46.6510315,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "Rua da Consolação 1024",
+      "website": "https://www.museudacidade.sp.gov.br/chacaralane.php",
+      "sourceUrl": "https://www.openstreetmap.org/node/4552554789",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4601779990",
+      "source": "openstreetmap",
+      "sourceId": "node/4601779990",
+      "name": "Memorial da pessoa com deficiência",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5268281,
+      "longitude": -46.6634804,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4601779990",
+      "wikidata": "Q30937723",
+      "image": null
+    },
+    {
+      "id": "osm-node-4686956920",
+      "source": "openstreetmap",
+      "sourceId": "node/4686956920",
+      "name": "Aquário do Centro",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5487701,
+      "longitude": -46.6404442,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "aquarium"
+        }
+      ],
+      "address": "Rua João Adolfo 121",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4686956920",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4922707321",
+      "source": "openstreetmap",
+      "sourceId": "node/4922707321",
+      "name": "Prandiano",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.580683,
+      "longitude": -46.6355384,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "Rua Gaspar Lourenço 64",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4922707321",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4964274008",
+      "source": "openstreetmap",
+      "sourceId": "node/4964274008",
+      "name": "Belvedere Avanhandava",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5513681,
+      "longitude": -46.6477277,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "viewpoint"
+        }
+      ],
+      "address": "",
+      "website": "https://pt.foursquare.com/v/belvedere-avanhandava-escadarias-entre-ruas-frei-caneca-e-avanhandava/4fb97da9e4b036f8b0fd56b0",
+      "sourceUrl": "https://www.openstreetmap.org/node/4964274008",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4973028945",
+      "source": "openstreetmap",
+      "sourceId": "node/4973028945",
+      "name": "Centro Cultural Banco do Brasil São Paulo",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5475552,
+      "longitude": -46.6346871,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        },
+        {
+          "name": "arts centre"
+        }
+      ],
+      "address": "Rua Álvares Penteado 112",
+      "website": "http://culturabancodobrasil.com.br/portal/sao-paulo",
+      "sourceUrl": "https://www.openstreetmap.org/node/4973028945",
+      "wikidata": "Q26869711",
+      "image": null
+    },
+    {
+      "id": "osm-node-4987322723",
+      "source": "openstreetmap",
+      "sourceId": "node/4987322723",
+      "name": "Beco do Batman",
+      "nameZh": null,
+      "nameEnglish": "Batman's alley",
+      "latitude": -23.5564923,
+      "longitude": -46.6866662,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4987322723",
+      "wikidata": "Q18932366",
+      "image": null
+    },
+    {
+      "id": "osm-node-5056306621",
+      "source": "openstreetmap",
+      "sourceId": "node/5056306621",
+      "name": "Baro Galeria",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5619768,
+      "longitude": -46.6694892,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "Rua da Consolação 3433",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5056306621",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-5058261758",
+      "source": "openstreetmap",
+      "sourceId": "node/5058261758",
+      "name": "Arte brasileira",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5599405,
+      "longitude": -46.6704572,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "gallery"
+        }
+      ],
+      "address": "Alameda Lorena 2163",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5058261758",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-5129855297",
+      "source": "openstreetmap",
+      "sourceId": "node/5129855297",
+      "name": "Mercado Municipal Kinjo Yamato",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5408277,
+      "longitude": -46.629798,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        },
+        {
+          "name": "marketplace"
+        },
+        {
+          "name": "greengrocer"
+        }
+      ],
+      "address": "Rua da Cantareira 377",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5129855297",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-5137272122",
+      "source": "openstreetmap",
+      "sourceId": "node/5137272122",
+      "name": "Zebra Car",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5600897,
+      "longitude": -46.6880149,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        },
+        {
+          "name": "garden"
+        }
+      ],
+      "address": "Rua Padre João Gonçalves 181",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5137272122",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-5137272123",
+      "source": "openstreetmap",
+      "sourceId": "node/5137272123",
+      "name": "Beco do Aprendiz",
+      "nameZh": null,
+      "nameEnglish": "Learner's Alley",
+      "latitude": -23.5600791,
+      "longitude": -46.6875405,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        }
+      ],
+      "address": "Beco do Aprendiz",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5137272123",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-5198946981",
+      "source": "openstreetmap",
+      "sourceId": "node/5198946981",
+      "name": "Escada do Bixiga",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5599601,
+      "longitude": -46.6465427,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5198946981",
+      "wikidata": "Q42407678",
+      "image": null
+    },
+    {
+      "id": "osm-node-5294409425",
+      "source": "openstreetmap",
+      "sourceId": "node/5294409425",
+      "name": "Ó do Borogodó samba",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5601965,
+      "longitude": -46.6862159,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        }
+      ],
+      "address": "Rua Horácio Lane 21",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5294409425",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-5620416668",
+      "source": "openstreetmap",
+      "sourceId": "node/5620416668",
+      "name": "Santos FC Business Center",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5426269,
+      "longitude": -46.6649508,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        }
+      ],
+      "address": "Avenida Pacaembu 1897",
+      "website": "https://www.santosfc.com.br/",
+      "sourceUrl": "https://www.openstreetmap.org/node/5620416668",
+      "wikidata": "Q80955",
+      "image": null
+    },
+    {
+      "id": "osm-node-5627377671",
+      "source": "openstreetmap",
+      "sourceId": "node/5627377671",
+      "name": "Galeria Jaqueline Martins",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.545799,
+      "longitude": -46.648837,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "gallery"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5627377671",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-5628334980",
+      "source": "openstreetmap",
+      "sourceId": "node/5628334980",
+      "name": "Tattoo Museum",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5433106,
+      "longitude": -46.6404463,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5628334980",
+      "wikidata": "Q55154531",
+      "image": null
+    },
+    {
+      "id": "osm-node-5646851035",
+      "source": "openstreetmap",
+      "sourceId": "node/5646851035",
+      "name": "Museus de Arte Brasileira da FAAP",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5450801,
+      "longitude": -46.6627025,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "museum"
+        }
+      ],
+      "address": "Rua Alagoas 903",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5646851035",
+      "wikidata": "Q10333751",
+      "image": null
+    },
+    {
+      "id": "osm-node-5808186573",
+      "source": "openstreetmap",
+      "sourceId": "node/5808186573",
+      "name": "Yatch Club",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5594023,
+      "longitude": -46.6462249,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        },
+        {
+          "name": "nightclub"
+        }
+      ],
+      "address": "Rua Treze de Maio 703",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/5808186573",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-6102799985",
+      "source": "openstreetmap",
+      "sourceId": "node/6102799985",
+      "name": "Galeria de Arte André",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5624281,
+      "longitude": -46.6747086,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "gallery"
+        }
+      ],
+      "address": "Rua Estados Unidos 2280",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/6102799985",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-6285153611",
+      "source": "openstreetmap",
+      "sourceId": "node/6285153611",
+      "name": "Locomotiva Jiboia",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5449019,
+      "longitude": -46.627586,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        },
+        {
+          "name": "locomotive"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/6285153611",
+      "wikidata": "Q61750201",
+      "image": null
+    },
+    {
+      "id": "osm-node-6285153649",
+      "source": "openstreetmap",
+      "sourceId": "node/6285153649",
+      "name": "Locomotiva Elétrica MK 1 C + C - 1",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5442968,
+      "longitude": -46.6286118,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        },
+        {
+          "name": "locomotive"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/6285153649",
+      "wikidata": "Q61750177",
+      "image": null
+    },
+    {
+      "id": "osm-node-6357370285",
+      "source": "openstreetmap",
+      "sourceId": "node/6357370285",
+      "name": "Casa Barbosa",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5605075,
+      "longitude": -46.6450631,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "attraction"
+        },
+        {
+          "name": "nightclub"
+        }
+      ],
+      "address": "Rua Rui Barbosa 559",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/6357370285",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-2081876311",
+      "source": "openstreetmap",
+      "sourceId": "node/2081876311",
+      "name": "Joaquim Eugenio de Lima",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5618685,
+      "longitude": -46.6567724,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "artwork"
+        },
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/2081876311",
+      "wikidata": "Q44992137",
+      "image": null
+    },
+    {
+      "id": "osm-node-2087120718",
+      "source": "openstreetmap",
+      "sourceId": "node/2087120718",
+      "name": "Monumento à Mãe Preta",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5429182,
+      "longitude": -46.6383075,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/2087120718",
+      "wikidata": "Q45052140",
+      "image": null
+    },
+    {
+      "id": "osm-node-2157624155",
+      "source": "openstreetmap",
+      "sourceId": "node/2157624155",
+      "name": "Glória Imortal aos Fundadores de São Paulo",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5481348,
+      "longitude": -46.6330584,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "monument"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/2157624155",
+      "wikidata": "Q45052099",
+      "image": null
+    },
+    {
+      "id": "osm-node-4228769932",
+      "source": "openstreetmap",
+      "sourceId": "node/4228769932",
+      "name": "Vida Positiva",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5618183,
+      "longitude": -46.6562862,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4228769932",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4228822530",
+      "source": "openstreetmap",
+      "sourceId": "node/4228822530",
+      "name": "Vida Positiva",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5574371,
+      "longitude": -46.6576053,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4228822530",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4272498210",
+      "source": "openstreetmap",
+      "sourceId": "node/4272498210",
+      "name": "Estátua de Anhanguera",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5617858,
+      "longitude": -46.6562454,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "artwork"
+        },
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4272498210",
+      "wikidata": "Q44952522",
+      "image": null
+    },
+    {
+      "id": "osm-node-4690414591",
+      "source": "openstreetmap",
+      "sourceId": "node/4690414591",
+      "name": "Obelisco do Piques",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.547683,
+      "longitude": -46.6397807,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "monument"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4690414591",
+      "wikidata": "Q10340005",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983909633",
+      "source": "openstreetmap",
+      "sourceId": "node/4983909633",
+      "name": "Monumento a Rui Barbosa",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5458993,
+      "longitude": -46.6380825,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983909633",
+      "wikidata": "Q45052820",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983909634",
+      "source": "openstreetmap",
+      "sourceId": "node/4983909634",
+      "name": "Estátua Guarani",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5457542,
+      "longitude": -46.6381727,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983909634",
+      "wikidata": "Q52033946",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983909931",
+      "source": "openstreetmap",
+      "sourceId": "node/4983909931",
+      "name": "Estátua Condor",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5456662,
+      "longitude": -46.6383455,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983909931",
+      "wikidata": "Q45052169",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983954221",
+      "source": "openstreetmap",
+      "sourceId": "node/4983954221",
+      "name": "Giuseppe Verdi",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5464741,
+      "longitude": -46.6367359,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983954221",
+      "wikidata": "Q44996400",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983971921",
+      "source": "openstreetmap",
+      "sourceId": "node/4983971921",
+      "name": "Lo Schiavo",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5457654,
+      "longitude": -46.6384234,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983971921",
+      "wikidata": "Q45052771",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983971922",
+      "source": "openstreetmap",
+      "sourceId": "node/4983971922",
+      "name": "Monumento à República brasileira",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5459548,
+      "longitude": -46.6383815,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983971922",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4983971923",
+      "source": "openstreetmap",
+      "sourceId": "node/4983971923",
+      "name": "Salvador Rosa",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5458146,
+      "longitude": -46.6382229,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983971923",
+      "wikidata": "Q45052784",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983972021",
+      "source": "openstreetmap",
+      "sourceId": "node/4983972021",
+      "name": "Monumento à Casa de Savoia",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.545687,
+      "longitude": -46.6381009,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983972021",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4983972022",
+      "source": "openstreetmap",
+      "sourceId": "node/4983972022",
+      "name": "Fosca",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.545788,
+      "longitude": -46.6384693,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983972022",
+      "wikidata": "Q45052761",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983980023",
+      "source": "openstreetmap",
+      "sourceId": "node/4983980023",
+      "name": "Cruzeiro",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.547186,
+      "longitude": -46.6424152,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983980023",
+      "wikidata": "Q45319670",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983984122",
+      "source": "openstreetmap",
+      "sourceId": "node/4983984122",
+      "name": "Cervantes",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5473787,
+      "longitude": -46.6416836,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983984122",
+      "wikidata": "Q45224176",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983985822",
+      "source": "openstreetmap",
+      "sourceId": "node/4983985822",
+      "name": "Maria Tudor",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5456111,
+      "longitude": -46.6383036,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983985822",
+      "wikidata": "Q45052808",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983985823",
+      "source": "openstreetmap",
+      "sourceId": "node/4983985823",
+      "name": "Camões",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5476389,
+      "longitude": -46.6421566,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983985823",
+      "wikidata": "Q51804782",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983985824",
+      "source": "openstreetmap",
+      "sourceId": "node/4983985824",
+      "name": "Mário de Andrade",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5475417,
+      "longitude": -46.6417903,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "artwork"
+        },
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983985824",
+      "wikidata": "Q45320138",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983986421",
+      "source": "openstreetmap",
+      "sourceId": "node/4983986421",
+      "name": "Dante",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5469657,
+      "longitude": -46.6417435,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983986421",
+      "wikidata": "Q44992055",
+      "image": null
+    },
+    {
+      "id": "osm-node-4983986422",
+      "source": "openstreetmap",
+      "sourceId": "node/4983986422",
+      "name": "Busto de Chopin",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5471224,
+      "longitude": -46.6418325,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4983986422",
+      "wikidata": "Q45320073",
+      "image": null
+    },
+    {
+      "id": "osm-node-4985307922",
+      "source": "openstreetmap",
+      "sourceId": "node/4985307922",
+      "name": "Mercúrio",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5432695,
+      "longitude": -46.6418773,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4985307922",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4985307923",
+      "source": "openstreetmap",
+      "sourceId": "node/4985307923",
+      "name": "Pedra M.M.D.C",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.543415,
+      "longitude": -46.6420283,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4985307923",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4985378623",
+      "source": "openstreetmap",
+      "sourceId": "node/4985378623",
+      "name": "Busto Carolina Ribeiro",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5436185,
+      "longitude": -46.6430551,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4985378623",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4985378624",
+      "source": "openstreetmap",
+      "sourceId": "node/4985378624",
+      "name": "Busto Doutor Esperanto",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5435374,
+      "longitude": -46.6430221,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4985378624",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4985380223",
+      "source": "openstreetmap",
+      "sourceId": "node/4985380223",
+      "name": "Totem a Bernardino de Campos et al.",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5434759,
+      "longitude": -46.643141,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4985380223",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4985385823",
+      "source": "openstreetmap",
+      "sourceId": "node/4985385823",
+      "name": "Busto Caetano de Campos",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5436677,
+      "longitude": -46.64271,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4985385823",
+      "wikidata": "Q45320053",
+      "image": null
+    },
+    {
+      "id": "osm-node-4985398021",
+      "source": "openstreetmap",
+      "sourceId": "node/4985398021",
+      "name": "Busto Cesário Motta",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.543369,
+      "longitude": -46.6431945,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4985398021",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4985399921",
+      "source": "openstreetmap",
+      "sourceId": "node/4985399921",
+      "name": "Busto a Baden Powell",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.543275,
+      "longitude": -46.6433461,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4985399921",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4985408721",
+      "source": "openstreetmap",
+      "sourceId": "node/4985408721",
+      "name": "Índio Caçador",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.542557,
+      "longitude": -46.6430906,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4985408721",
+      "wikidata": "Q44993196",
+      "image": null
+    },
+    {
+      "id": "osm-node-4987188126",
+      "source": "openstreetmap",
+      "sourceId": "node/4987188126",
+      "name": "Monumento a Luiz Pereira Barreto",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5353012,
+      "longitude": -46.6534872,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4987188126",
+      "wikidata": "Q44994007",
+      "image": null
+    },
+    {
+      "id": "osm-node-4987268785",
+      "source": "openstreetmap",
+      "sourceId": "node/4987268785",
+      "name": "O Índio e o Tamanduá",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5349724,
+      "longitude": -46.6539726,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "memorial"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4987268785",
+      "wikidata": "Q45320149",
+      "image": null
+    },
+    {
+      "id": "osm-node-9465998286",
+      "source": "openstreetmap",
+      "sourceId": "node/9465998286",
+      "name": "Horta Edifício Cristália",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5641662,
+      "longitude": -46.6499374,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "garden"
+        }
+      ],
+      "address": "Alameda Ribeirão Preto 267",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/9465998286",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-11155822802",
+      "source": "openstreetmap",
+      "sourceId": "node/11155822802",
+      "name": "arvore",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5478744,
+      "longitude": -46.6723355,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "Rua Almirante Pereira Guimarães",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/11155822802",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-8840623",
+      "source": "openstreetmap",
+      "sourceId": "way/8840623",
+      "name": "Praça da República",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5431871,
+      "longitude": -46.6425331,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "Praça da República",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/8840623",
+      "wikidata": "Q10353439",
+      "image": null
+    },
+    {
+      "id": "osm-way-8843657",
+      "source": "openstreetmap",
+      "sourceId": "way/8843657",
+      "name": "Parque Princesa Isabel",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5358972,
+      "longitude": -46.6436018,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/8843657",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-27639559",
+      "source": "openstreetmap",
+      "sourceId": "way/27639559",
+      "name": "Praça do Vaticano",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5782503,
+      "longitude": -46.6814175,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/27639559",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-33858197",
+      "source": "openstreetmap",
+      "sourceId": "way/33858197",
+      "name": "Praça da Bíblia",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5926089,
+      "longitude": -46.6382639,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/33858197",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-33968290",
+      "source": "openstreetmap",
+      "sourceId": "way/33968290",
+      "name": "Praça Vereador Miguel Sansigolo",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5816391,
+      "longitude": -46.6500129,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/33968290",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-33998954",
+      "source": "openstreetmap",
+      "sourceId": "way/33998954",
+      "name": "Praça Kenichi Nakagawa",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5927443,
+      "longitude": -46.6469824,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/33998954",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-33998955",
+      "source": "openstreetmap",
+      "sourceId": "way/33998955",
+      "name": "Praça Kenichi Nakagawa",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5932165,
+      "longitude": -46.6460605,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/33998955",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-39048515",
+      "source": "openstreetmap",
+      "sourceId": "way/39048515",
+      "name": "Praça Maria Noeli Carly Lacerda",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5553156,
+      "longitude": -46.6952714,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/39048515",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-39053422",
+      "source": "openstreetmap",
+      "sourceId": "way/39053422",
+      "name": "Praça Horácio Sabino",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.550864,
+      "longitude": -46.6840398,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/39053422",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-39081418",
+      "source": "openstreetmap",
+      "sourceId": "way/39081418",
+      "name": "Parque da Aclimação",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5746132,
+      "longitude": -46.6285309,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": "https://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/regiao_centrooeste/?p=5728",
+      "sourceUrl": "https://www.openstreetmap.org/way/39081418",
+      "wikidata": "Q10345413",
+      "image": null
+    },
+    {
+      "id": "osm-way-39117754",
+      "source": "openstreetmap",
+      "sourceId": "way/39117754",
+      "name": "Praça Rosa Alves da Silva",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5792976,
+      "longitude": -46.6326962,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/39117754",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-40790349",
+      "source": "openstreetmap",
+      "sourceId": "way/40790349",
+      "name": "Praça Ramos de Azevedo",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5457637,
+      "longitude": -46.6379945,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/40790349",
+      "wikidata": "Q5817032",
+      "image": null
+    },
+    {
+      "id": "osm-way-41374277",
+      "source": "openstreetmap",
+      "sourceId": "way/41374277",
+      "name": "Praça Centenário",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5093319,
+      "longitude": -46.6570191,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/41374277",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-46893597",
+      "source": "openstreetmap",
+      "sourceId": "way/46893597",
+      "name": "Praça General Craveiro Lopes",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5507842,
+      "longitude": -46.6421922,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/46893597",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-46893598",
+      "source": "openstreetmap",
+      "sourceId": "way/46893598",
+      "name": "Praça Emílio Miguel Abellá",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5503875,
+      "longitude": -46.642372,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/46893598",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-46893599",
+      "source": "openstreetmap",
+      "sourceId": "way/46893599",
+      "name": "Praça Pérola Byington",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.555846,
+      "longitude": -46.6398513,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/46893599",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-46929070",
+      "source": "openstreetmap",
+      "sourceId": "way/46929070",
+      "name": "Praça Darcy Penteado",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5457116,
+      "longitude": -46.6446039,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/46929070",
+      "wikidata": "Q105802037",
+      "image": null
+    },
+    {
+      "id": "osm-way-48511928",
+      "source": "openstreetmap",
+      "sourceId": "way/48511928",
+      "name": "Vale do Anhangabaú",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.545403,
+      "longitude": -46.6367104,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/48511928",
+      "wikidata": "Q9092315",
+      "image": null
+    },
+    {
+      "id": "osm-way-48799402",
+      "source": "openstreetmap",
+      "sourceId": "way/48799402",
+      "name": "Praça José Vieira de Carvalho Mesquita",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5181429,
+      "longitude": -46.6791112,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/48799402",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-48800158",
+      "source": "openstreetmap",
+      "sourceId": "way/48800158",
+      "name": "Praça Maria Cândida Freitas de Oliveira",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5533128,
+      "longitude": -46.59858,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/48800158",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-48800588",
+      "source": "openstreetmap",
+      "sourceId": "way/48800588",
+      "name": "Largo da Concórdia",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5418347,
+      "longitude": -46.6166759,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/48800588",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-48801408",
+      "source": "openstreetmap",
+      "sourceId": "way/48801408",
+      "name": "Praça Major Guilherme Rudge",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5369593,
+      "longitude": -46.5891211,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/48801408",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-48802840",
+      "source": "openstreetmap",
+      "sourceId": "way/48802840",
+      "name": "Praça Mário Câmara",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5507263,
+      "longitude": -46.6380669,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/48802840",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-49723146",
+      "source": "openstreetmap",
+      "sourceId": "way/49723146",
+      "name": "Praça Clóvis Beviláqua",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.550824,
+      "longitude": -46.6317382,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/49723146",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-50226561",
+      "source": "openstreetmap",
+      "sourceId": "way/50226561",
+      "name": "Praça Barão de Tiête",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5464729,
+      "longitude": -46.5941725,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/50226561",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-50226569",
+      "source": "openstreetmap",
+      "sourceId": "way/50226569",
+      "name": "Praça Barão de Tiête",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5466444,
+      "longitude": -46.5946907,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/50226569",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-50226577",
+      "source": "openstreetmap",
+      "sourceId": "way/50226577",
+      "name": "Largo Ubirajara",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5457627,
+      "longitude": -46.5921436,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/50226577",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-51388366",
+      "source": "openstreetmap",
+      "sourceId": "way/51388366",
+      "name": "Parque do Povo",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5879909,
+      "longitude": -46.6887738,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": "http://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/regiao_centrooeste/index.php?p=22396",
+      "sourceUrl": "https://www.openstreetmap.org/way/51388366",
+      "wikidata": "Q10345520",
+      "image": null
+    },
+    {
+      "id": "osm-way-52049865",
+      "source": "openstreetmap",
+      "sourceId": "way/52049865",
+      "name": "Parque Modernista",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.596238,
+      "longitude": -46.6331307,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "Rua Santa Cruz 325",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/52049865",
+      "wikidata": "Q9698113",
+      "image": null
+    },
+    {
+      "id": "osm-way-60723583",
+      "source": "openstreetmap",
+      "sourceId": "way/60723583",
+      "name": "Praça Monteiro dos Santos",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5890827,
+      "longitude": -46.6287856,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/60723583",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-72317303",
+      "source": "openstreetmap",
+      "sourceId": "way/72317303",
+      "name": "Parque Mário Covas",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.560342,
+      "longitude": -46.6587823,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/72317303",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-way-72916514",
+      "source": "openstreetmap",
+      "sourceId": "way/72916514",
+      "name": "Praça Oswaldo Cruz",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5710862,
+      "longitude": -46.6441594,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "park"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/way/72916514",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-185633494",
+      "source": "openstreetmap",
+      "sourceId": "node/185633494",
+      "name": "Gauchão",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5273007,
+      "longitude": -46.5769501,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/185633494",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-440405776",
+      "source": "openstreetmap",
+      "sourceId": "node/440405776",
+      "name": "choperia siri bar",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5373131,
+      "longitude": -46.6843487,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/440405776",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-465994688",
+      "source": "openstreetmap",
+      "sourceId": "node/465994688",
+      "name": "El Kabong Grill",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5657001,
+      "longitude": -46.6834399,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": "BR",
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Mateus Grou 15",
+      "website": "https://www.elkabong.com.br/",
+      "sourceUrl": "https://www.openstreetmap.org/node/465994688",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-598667067",
+      "source": "openstreetmap",
+      "sourceId": "node/598667067",
+      "name": "Maria Paula Bar e Restaurante",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5520829,
+      "longitude": -46.6383065,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/598667067",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-598678147",
+      "source": "openstreetmap",
+      "sourceId": "node/598678147",
+      "name": "Teatro Oficina",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5551932,
+      "longitude": -46.6412477,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "theatre"
+        }
+      ],
+      "address": "Rua Jaceguai 520",
+      "website": "https://www.teatroficina.com.br/",
+      "sourceUrl": "https://www.openstreetmap.org/node/598678147",
+      "wikidata": "Q7691937",
+      "image": null
+    },
+    {
+      "id": "osm-node-598678152",
+      "source": "openstreetmap",
+      "sourceId": "node/598678152",
+      "name": "Teatro Imprensa",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5554071,
+      "longitude": -46.6397962,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "theatre"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/598678152",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-599006013",
+      "source": "openstreetmap",
+      "sourceId": "node/599006013",
+      "name": "Tanka",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.555258,
+      "longitude": -46.6351745,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Praça da Liberdade 149",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/599006013",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-629100013",
+      "source": "openstreetmap",
+      "sourceId": "node/629100013",
+      "name": "Mori Sushi",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5630465,
+      "longitude": -46.6708263,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua da Consolação 3610",
+      "website": "http://www.ohtasushi.com.br",
+      "sourceUrl": "https://www.openstreetmap.org/node/629100013",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-696177760",
+      "source": "openstreetmap",
+      "sourceId": "node/696177760",
+      "name": "Pobre Juan",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5937983,
+      "longitude": -46.6778126,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/696177760",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-745720898",
+      "source": "openstreetmap",
+      "sourceId": "node/745720898",
+      "name": "Juanita",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5579392,
+      "longitude": -46.663391,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Bela Cintra 1307",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/745720898",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-772915947",
+      "source": "openstreetmap",
+      "sourceId": "node/772915947",
+      "name": "Degas Restaurante e Churascaria",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5566344,
+      "longitude": -46.6760952,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Teodoro Sampaio 568",
+      "website": "https://www.degasrestaurante.com.br/",
+      "sourceUrl": "https://www.openstreetmap.org/node/772915947",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-840718002",
+      "source": "openstreetmap",
+      "sourceId": "node/840718002",
+      "name": "Dinos",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5967934,
+      "longitude": -46.6423796,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/840718002",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-846124349",
+      "source": "openstreetmap",
+      "sourceId": "node/846124349",
+      "name": "Veneza",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.597645,
+      "longitude": -46.6424628,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/846124349",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-887123331",
+      "source": "openstreetmap",
+      "sourceId": "node/887123331",
+      "name": "Merceira São Pedro",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5503074,
+      "longitude": -46.6896958,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/887123331",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-892108153",
+      "source": "openstreetmap",
+      "sourceId": "node/892108153",
+      "name": "Excellence Bar e Restaurante",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5571585,
+      "longitude": -46.6755567,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/892108153",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-904634177",
+      "source": "openstreetmap",
+      "sourceId": "node/904634177",
+      "name": "Shopia",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5543387,
+      "longitude": -46.6763723,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Oscar Freire 2117",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/904634177",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-914049516",
+      "source": "openstreetmap",
+      "sourceId": "node/914049516",
+      "name": "Canto Madalena",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5534694,
+      "longitude": -46.6857999,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/914049516",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-931043616",
+      "source": "openstreetmap",
+      "sourceId": "node/931043616",
+      "name": "Morro da Villa Bar e Restaurante‎",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5530479,
+      "longitude": -46.6883078,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Jericó 15",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/931043616",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-931043626",
+      "source": "openstreetmap",
+      "sourceId": "node/931043626",
+      "name": "Jacaré Grill‎",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5553763,
+      "longitude": -46.6880427,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Harmonia 305",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/931043626",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-931043641",
+      "source": "openstreetmap",
+      "sourceId": "node/931043641",
+      "name": "Matterello Pau de Macarrão‎",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5581626,
+      "longitude": -46.6885148,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/931043641",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-931043690",
+      "source": "openstreetmap",
+      "sourceId": "node/931043690",
+      "name": "Pizzaria Pizzabella‎",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5533916,
+      "longitude": -46.6884007,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Original 177",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/931043690",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1056698095",
+      "source": "openstreetmap",
+      "sourceId": "node/1056698095",
+      "name": "Restaurante Sinha'na",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5720041,
+      "longitude": -46.656532,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1056698095",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1056714454",
+      "source": "openstreetmap",
+      "sourceId": "node/1056714454",
+      "name": "Nobar",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5731694,
+      "longitude": -46.6577096,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1056714454",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1056733094",
+      "source": "openstreetmap",
+      "sourceId": "node/1056733094",
+      "name": "Restaurante Trattoria do Pietro",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5743125,
+      "longitude": -46.6587299,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": "http://www.trattoriadopiero.com.br/",
+      "sourceUrl": "https://www.openstreetmap.org/node/1056733094",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1056786853",
+      "source": "openstreetmap",
+      "sourceId": "node/1056786853",
+      "name": "Washoi",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5686122,
+      "longitude": -46.649197,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Manuel da Nóbrega 88",
+      "website": "http://washoi.com.br/",
+      "sourceUrl": "https://www.openstreetmap.org/node/1056786853",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1056786855",
+      "source": "openstreetmap",
+      "sourceId": "node/1056786855",
+      "name": "Restaurante Diner´s",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5689928,
+      "longitude": -46.6491029,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Manoel da Nóbrega 129",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1056786855",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1059213958",
+      "source": "openstreetmap",
+      "sourceId": "node/1059213958",
+      "name": "Restaurante Natural",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5703788,
+      "longitude": -46.6484915,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Maria Figueiredo 189",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1059213958",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1059492730",
+      "source": "openstreetmap",
+      "sourceId": "node/1059492730",
+      "name": "Restaurante Comida Chinesa",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5682526,
+      "longitude": -46.6502366,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Alameda Santos 658",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1059492730",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1059511085",
+      "source": "openstreetmap",
+      "sourceId": "node/1059511085",
+      "name": "La Cabaleriza",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5660082,
+      "longitude": -46.6535446,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Alameda Campinas 530",
+      "website": "https://www.lacaballeriza.com.br/",
+      "sourceUrl": "https://www.openstreetmap.org/node/1059511085",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1066854995",
+      "source": "openstreetmap",
+      "sourceId": "node/1066854995",
+      "name": "Rotisserie Santa Gema",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5702482,
+      "longitude": -46.6547807,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Alameda Joaquim Eugênio de Lima 1105",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1066854995",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1066864055",
+      "source": "openstreetmap",
+      "sourceId": "node/1066864055",
+      "name": "Restaurante Orange",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.57033,
+      "longitude": -46.656999,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Batatais 388",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1066864055",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1066864703",
+      "source": "openstreetmap",
+      "sourceId": "node/1066864703",
+      "name": "Pizzaria Delluccio",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5710717,
+      "longitude": -46.6564156,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "Rua Batatais 282",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1066864703",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1480096185",
+      "source": "openstreetmap",
+      "sourceId": "node/1480096185",
+      "name": "Prueba",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5520663,
+      "longitude": -46.64585,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1480096185",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1597731422",
+      "source": "openstreetmap",
+      "sourceId": "node/1597731422",
+      "name": "Mascarino",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5895476,
+      "longitude": -46.629629,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "restaurant"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1597731422",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1685187744",
+      "source": "openstreetmap",
+      "sourceId": "node/1685187744",
+      "name": "Centro de Eventos Vila Mariana",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5914811,
+      "longitude": -46.6343725,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "theatre"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1685187744",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-745723015",
+      "source": "openstreetmap",
+      "sourceId": "node/745723015",
+      "name": "Americanas Express",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5603068,
+      "longitude": -46.6379515,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "department store"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/745723015",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-1747574209",
+      "source": "openstreetmap",
+      "sourceId": "node/1747574209",
+      "name": "Top Center Shopping",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5658304,
+      "longitude": -46.6508381,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Avenida Paulista 854",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/1747574209",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-2421036971",
+      "source": "openstreetmap",
+      "sourceId": "node/2421036971",
+      "name": "Preçolândia",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5961893,
+      "longitude": -46.6223458,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "department store"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/2421036971",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-2619074740",
+      "source": "openstreetmap",
+      "sourceId": "node/2619074740",
+      "name": "Galeria do Reggae",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5438964,
+      "longitude": -46.6396424,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua 24 de Maio 116",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/2619074740",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-3796304377",
+      "source": "openstreetmap",
+      "sourceId": "node/3796304377",
+      "name": "Galeria Florêncio",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.539687,
+      "longitude": -46.6328046,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Florêncio de Abreu 510",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/3796304377",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4128424588",
+      "source": "openstreetmap",
+      "sourceId": "node/4128424588",
+      "name": "Shopping Market Paulista",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5596013,
+      "longitude": -46.6589972,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Avenida Paulista 1941",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4128424588",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4128823612",
+      "source": "openstreetmap",
+      "sourceId": "node/4128823612",
+      "name": "Americanas Express",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5689628,
+      "longitude": -46.6469304,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "department store"
+        }
+      ],
+      "address": "Avenida Paulista 332",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4128823612",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4363503749",
+      "source": "openstreetmap",
+      "sourceId": "node/4363503749",
+      "name": "Miller Boulevard",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5364452,
+      "longitude": -46.6178164,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Miller 567",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4363503749",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4363511211",
+      "source": "openstreetmap",
+      "sourceId": "node/4363511211",
+      "name": "Shopping Plaza Polo",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5370698,
+      "longitude": -46.6188503,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4363511211",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4390877495",
+      "source": "openstreetmap",
+      "sourceId": "node/4390877495",
+      "name": "Shopping Mega Polo",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5360108,
+      "longitude": -46.6189071,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Barão de Ladário 670",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4390877495",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4418136230",
+      "source": "openstreetmap",
+      "sourceId": "node/4418136230",
+      "name": "Casas Bahia",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5031544,
+      "longitude": -46.6265468,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "department store"
+        }
+      ],
+      "address": "Rua Voluntários da Pátria 1955",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4418136230",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341757",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341757",
+      "name": "Galeria Cinelli",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5386089,
+      "longitude": -46.6391773,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 383",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341757",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341760",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341760",
+      "name": "Shopping 399",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.538553,
+      "longitude": -46.6392189,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 399",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341760",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341761",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341761",
+      "name": "Galeria Cinelli",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5384953,
+      "longitude": -46.6392618,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 403",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341761",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341764",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341764",
+      "name": "Shopping 373",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5387425,
+      "longitude": -46.6390781,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 373",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341764",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341765",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341765",
+      "name": "Shopping",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5387968,
+      "longitude": -46.6390377,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 361",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341765",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341766",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341766",
+      "name": "Shopping 355",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5388545,
+      "longitude": -46.6389948,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 355",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341766",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341769",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341769",
+      "name": "Galeria 490",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5377117,
+      "longitude": -46.6395894,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 490",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341769",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341770",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341770",
+      "name": "Shopping Etecompe",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5376353,
+      "longitude": -46.639645,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 502",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341770",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341774",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341774",
+      "name": "Inter Shopping",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5377702,
+      "longitude": -46.6395367,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 486",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341774",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341776",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341776",
+      "name": "Shopping Maravilha",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5378493,
+      "longitude": -46.6394804,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 480",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341776",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517341777",
+      "source": "openstreetmap",
+      "sourceId": "node/4517341777",
+      "name": "Shopping Intercontinetal",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5379813,
+      "longitude": -46.6393719,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 452",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517341777",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517965213",
+      "source": "openstreetmap",
+      "sourceId": "node/4517965213",
+      "name": "Shopping",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5394493,
+      "longitude": -46.6383589,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 264",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517965213",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4517965218",
+      "source": "openstreetmap",
+      "sourceId": "node/4517965218",
+      "name": "Galeria Garagi",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5392992,
+      "longitude": -46.6384671,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 280",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4517965218",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4530304315",
+      "source": "openstreetmap",
+      "sourceId": "node/4530304315",
+      "name": "Shopping Universo",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5401146,
+      "longitude": -46.6380785,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 185",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4530304315",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4530304317",
+      "source": "openstreetmap",
+      "sourceId": "node/4530304317",
+      "name": "Shopping Brasil (fechado)",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5400097,
+      "longitude": -46.6381208,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 195",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4530304317",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4530304326",
+      "source": "openstreetmap",
+      "sourceId": "node/4530304326",
+      "name": "Still Shopping",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5395745,
+      "longitude": -46.6384565,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 257",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4530304326",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4530304327",
+      "source": "openstreetmap",
+      "sourceId": "node/4530304327",
+      "name": "Shopping 261",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.539541,
+      "longitude": -46.6384804,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 261",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4530304327",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4530304329",
+      "source": "openstreetmap",
+      "sourceId": "node/4530304329",
+      "name": "Capitan Center",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5394677,
+      "longitude": -46.6385303,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 269",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4530304329",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4530454692",
+      "source": "openstreetmap",
+      "sourceId": "node/4530454692",
+      "name": "Iphigenia Shopping",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5388845,
+      "longitude": -46.6387595,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 338",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4530454692",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4530454696",
+      "source": "openstreetmap",
+      "sourceId": "node/4530454696",
+      "name": "Galeria São Paulo",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5386849,
+      "longitude": -46.6389023,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "mall"
+        }
+      ],
+      "address": "Rua Santa Ifigênia 364",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4530454696",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4560354189",
+      "source": "openstreetmap",
+      "sourceId": "node/4560354189",
+      "name": "Niazi Chohfi",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.564269,
+      "longitude": -46.6653543,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "department store"
+        }
+      ],
+      "address": "Alameda Lorena 1444",
+      "website": "https://www.niazi.com.br",
+      "sourceUrl": "https://www.openstreetmap.org/node/4560354189",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4585241766",
+      "source": "openstreetmap",
+      "sourceId": "node/4585241766",
+      "name": "Casas Bahia",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5416448,
+      "longitude": -46.6147358,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "department store"
+        }
+      ],
+      "address": "Avenida Rangel Pestana 2173",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4585241766",
+      "wikidata": null,
+      "image": null
+    },
+    {
+      "id": "osm-node-4585241776",
+      "source": "openstreetmap",
+      "sourceId": "node/4585241776",
+      "name": "Ponto Frio",
+      "nameZh": null,
+      "nameEnglish": null,
+      "latitude": -23.5418047,
+      "longitude": -46.6149985,
+      "coordinateSystem": "WGS84",
+      "city": "São Paulo",
+      "countryCode": null,
+      "categories": [
+        {
+          "name": "department store"
+        }
+      ],
+      "address": "Avenida Rangel Pestana 2145",
+      "website": null,
+      "sourceUrl": "https://www.openstreetmap.org/node/4585241776",
+      "wikidata": null,
+      "image": null
+    }
+  ],
+  "source": "openstreetmap",
+  "attribution": "© OpenStreetMap contributors · ODbL",
+  "radius": 8000
+}

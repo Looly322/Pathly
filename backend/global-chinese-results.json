@@ -1,0 +1,542 @@
+[
+  {
+    "city": "巴黎",
+    "query": "卢浮宫",
+    "places": [
+      {
+        "id": "foursquare-4adcda10f964a520af3521e3",
+        "source": "foursquare",
+        "sourceId": "4adcda10f964a520af3521e3",
+        "name": "Louvre Museum (Musée du Louvre)",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.86084691113991,
+        "longitude": 2.336440086364746,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Rue de Rivoli (Place du Carrousel), 75001 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d181941735",
+            "name": "Museum"
+          }
+        ],
+        "website": "https://www.louvre.fr",
+        "distance": 1224
+      },
+      {
+        "id": "foursquare-4f979c8ae4b05465dae0714f",
+        "source": "foursquare",
+        "sourceId": "4f979c8ae4b05465dae0714f",
+        "name": "Place du Louvre",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.859841,
+        "longitude": 2.340822,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Place du Louvre, 75001 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d164941735",
+            "name": "Plaza"
+          }
+        ],
+        "website": "http://www.paris.fr",
+        "distance": 922
+      },
+      {
+        "id": "foursquare-4f6dabf5003944083fe0002e",
+        "source": "foursquare",
+        "sourceId": "4f6dabf5003944083fe0002e",
+        "name": "Vestige de la Forteresse du Louvre",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.860436640284796,
+        "longitude": 2.338065505027771,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Musée de Louvre (Palais du Louvre), 75001 Paris",
+        "categories": [
+          {
+            "id": "4deefb944765f83613cdba6e",
+            "name": "Historic and Protected Site"
+          }
+        ],
+        "website": "",
+        "distance": 1107
+      },
+      {
+        "id": "foursquare-4b5b0a4ef964a5204ae028e3",
+        "source": "foursquare",
+        "sourceId": "4b5b0a4ef964a5204ae028e3",
+        "name": "Louvre Pyramid (Pyramide du Louvre)",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.86102337068847,
+        "longitude": 2.3358500003814693,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Cour Napoléon (Musée du Louvre), 75001 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d12d941735",
+            "name": "Monument"
+          }
+        ],
+        "website": "https://www.louvre.fr",
+        "distance": 1269
+      },
+      {
+        "id": "foursquare-571fe799498ef36a9fd63f1a",
+        "source": "foursquare",
+        "sourceId": "571fe799498ef36a9fd63f1a",
+        "name": "La Clef Louvre Paris",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.86397721115658,
+        "longitude": 2.336139678955078,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "8 rue de Richelieu, 75001 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel"
+          }
+        ],
+        "website": "https://www.discoverasr.com/the-crest-collection/france/la-clef-louvre-paris-by-the-crest-collection",
+        "distance": 1495
+      }
+    ],
+    "queryUsed": "Louvre Museum",
+    "source": "foursquare"
+  },
+  {
+    "city": "巴黎",
+    "query": "埃菲尔铁塔",
+    "places": [
+      {
+        "id": "foursquare-51a2445e5019c80b56934c75",
+        "source": "foursquare",
+        "sourceId": "51a2445e5019c80b56934c75",
+        "name": "Eiffel Tower (Tour Eiffel)",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.858256,
+        "longitude": 2.294478,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "5 avenue Anatole France, 75007 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d12d941735",
+            "name": "Monument"
+          },
+          {
+            "id": "4bf58dd8d48988d165941735",
+            "name": "Scenic Lookout"
+          }
+        ],
+        "website": "https://www.toureiffel.paris",
+        "distance": 4008
+      },
+      {
+        "id": "foursquare-64eed259864df31378b44acd",
+        "source": "foursquare",
+        "sourceId": "64eed259864df31378b44acd",
+        "name": "Eiffel Tower View",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.88584,
+        "longitude": 2.3414078,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "Rues aminte euthere, 75018 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d165941735",
+            "name": "Scenic Lookout"
+          }
+        ],
+        "website": null,
+        "distance": 3644
+      },
+      {
+        "id": "foursquare-58c41f2b0e0a1e57d8dc841c",
+        "source": "foursquare",
+        "sourceId": "58c41f2b0e0a1e57d8dc841c",
+        "name": "Top of the Eiffel Tower (Sommet de la Tour Eiffel)",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85833092066099,
+        "longitude": 2.2945008587019395,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "5 avenue Anatole France (3e étage), 75007 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d165941735",
+            "name": "Scenic Lookout"
+          }
+        ],
+        "website": null,
+        "distance": 4007
+      },
+      {
+        "id": "foursquare-4d28d094dbc160fc50b043b6",
+        "source": "foursquare",
+        "sourceId": "4d28d094dbc160fc50b043b6",
+        "name": "Hôtel Les Jardins Eiffel",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.85917345473579,
+        "longitude": 2.307351772817556,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "8 rue Amélie (Rue Dominique), 75007 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel"
+          }
+        ],
+        "website": "http://www.hoteljardinseiffel.com",
+        "distance": 3097
+      },
+      {
+        "id": "foursquare-4e5b8fead22dfba6f48ec09e",
+        "source": "foursquare",
+        "sourceId": "4e5b8fead22dfba6f48ec09e",
+        "name": "Hotel Vic Eiffel",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 48.845241766551396,
+        "longitude": 2.309948446116998,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "FR",
+        "region": "Île-de-France",
+        "city": "Paris",
+        "address": "92 boulevard Garibaldi, 75015 Paris",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel"
+          }
+        ],
+        "website": "http://www.hotelviceiffel.com/en",
+        "distance": 2982
+      }
+    ],
+    "queryUsed": "Eiffel Tower",
+    "source": "foursquare"
+  },
+  {
+    "city": "伦敦",
+    "query": "大英博物馆",
+    "places": [
+      {
+        "id": "foursquare-4ac518d2f964a5203da720e3",
+        "source": "foursquare",
+        "sourceId": "4ac518d2f964a5203da720e3",
+        "name": "British Museum",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 51.51900874337275,
+        "longitude": -0.12643718771869317,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "GB",
+        "region": "Greater London",
+        "city": "London",
+        "address": "Great Russell St (btwn Montague & Bloomsbury St), London, Greater London, WC1B 3DG",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d190941735",
+            "name": "History Museum"
+          },
+          {
+            "id": "4bf58dd8d48988d18f941735",
+            "name": "Art Museum"
+          }
+        ],
+        "website": "http://britishmuseum.org",
+        "distance": 1165
+      },
+      {
+        "id": "foursquare-4fae6d1fe4b03b8054f2fedb",
+        "source": "foursquare",
+        "sourceId": "4fae6d1fe4b03b8054f2fedb",
+        "name": "British Museum Shop",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 51.518944652797195,
+        "longitude": -0.1267075538635254,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "GB",
+        "region": "Greater London",
+        "city": "London",
+        "address": "Great Russell St, London, Greater London, WC1B 3DG",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d128951735",
+            "name": "Gift Store"
+          },
+          {
+            "id": "52f2ab2ebcbc57f1066b8b1b",
+            "name": "Souvenir Store"
+          }
+        ],
+        "website": "http://www.britishmuseumshoponline.org",
+        "distance": 1159
+      },
+      {
+        "id": "foursquare-4ac518cdf964a520eca520e3",
+        "source": "foursquare",
+        "sourceId": "4ac518cdf964a520eca520e3",
+        "name": "London Transport Museum",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 51.5120008940347,
+        "longitude": -0.12130816793336828,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "GB",
+        "region": "Greater London",
+        "city": "London",
+        "address": "Covent Garden Piazza, London, Greater London, WC2E 7BB",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d181941735",
+            "name": "Museum"
+          }
+        ],
+        "website": "https://ltmuseum.co.uk",
+        "distance": 492
+      },
+      {
+        "id": "foursquare-4ac518d3f964a52077a720e3",
+        "source": "foursquare",
+        "sourceId": "4ac518d3f964a52077a720e3",
+        "name": "Churchill War Rooms (Churchill Museum & Cabinet War Rooms)",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 51.502079,
+        "longitude": -0.129305,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "GB",
+        "region": "Greater London",
+        "city": "London",
+        "address": "King Charles St, London, Greater London, SW1A 2AQ",
+        "categories": [
+          {
+            "id": "4deefb944765f83613cdba6e",
+            "name": "Historic and Protected Site"
+          },
+          {
+            "id": "4bf58dd8d48988d190941735",
+            "name": "History Museum"
+          },
+          {
+            "id": "4bf58dd8d48988d126941735",
+            "name": "Government Building"
+          }
+        ],
+        "website": "http://www.iwm.org.uk/visits/churchill-war-rooms",
+        "distance": 758
+      },
+      {
+        "id": "foursquare-5366690f498ef8ea0e7f5bc4",
+        "source": "foursquare",
+        "sourceId": "5366690f498ef8ea0e7f5bc4",
+        "name": "London Transport Museum Shop",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 51.51180827080036,
+        "longitude": -0.12151582676071886,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "GB",
+        "region": "Greater London",
+        "city": "Covent Garden",
+        "address": "Covent Garden Piazza, Covent Garden, Greater London, WC2E 7BB",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d128951735",
+            "name": "Gift Store"
+          }
+        ],
+        "website": "https://ltmuseum.co.uk",
+        "distance": 466
+      }
+    ],
+    "queryUsed": "British Museum",
+    "source": "foursquare"
+  },
+  {
+    "city": "纽约",
+    "query": "时代广场",
+    "places": [
+      {
+        "id": "foursquare-49b7ed6df964a52030531fe3",
+        "source": "foursquare",
+        "sourceId": "49b7ed6df964a52030531fe3",
+        "name": "Times Square",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 40.75734624948815,
+        "longitude": -73.98584961891174,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "US",
+        "region": "NY",
+        "city": "New York",
+        "address": "Broadway & 7th Ave (btwn W 42nd & 47th St), New York, NY 10036",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d164941735",
+            "name": "Plaza"
+          }
+        ],
+        "website": "https://www.timessquarenyc.org",
+        "distance": 5077
+      },
+      {
+        "id": "foursquare-438d6b12f964a520322b1fe3",
+        "source": "foursquare",
+        "sourceId": "438d6b12f964a520322b1fe3",
+        "name": "W New York - Times Square",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 40.75929565924598,
+        "longitude": -73.98557268083096,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "US",
+        "region": "NY",
+        "city": "New York",
+        "address": "1567 Broadway (W 47th St), New York, NY 10036",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel"
+          }
+        ],
+        "website": "https://www.marriott.com/hotels/travel/nycwh-w-new-york-times-square",
+        "distance": 5290
+      },
+      {
+        "id": "foursquare-4a2458a3f964a520127e1fe3",
+        "source": "foursquare",
+        "sourceId": "4a2458a3f964a520127e1fe3",
+        "name": "The Westin New York at Times Square",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 40.7577137,
+        "longitude": -73.9891186,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "US",
+        "region": "NY",
+        "city": "New York",
+        "address": "270 W 43rd St (at 8th Ave), New York, NY 10036",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel"
+          }
+        ],
+        "website": "https://www.marriott.com/hotels/travel/nycsw-the-westin-new-york-at-times-square",
+        "distance": 5031
+      },
+      {
+        "id": "foursquare-4a328a57f964a520579a1fe3",
+        "source": "foursquare",
+        "sourceId": "4a328a57f964a520579a1fe3",
+        "name": "MUJI",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 40.75602958734989,
+        "longitude": -73.98962375826834,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "US",
+        "region": "NY",
+        "city": "New York",
+        "address": "620 8th Ave (at W 40th St), New York, NY 10018",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1f8941735",
+            "name": "Furniture and Home Store"
+          },
+          {
+            "id": "4bf58dd8d48988d1ff941735",
+            "name": "Miscellaneous Store"
+          },
+          {
+            "id": "4bf58dd8d48988d103951735",
+            "name": "Clothing Store"
+          }
+        ],
+        "website": "http://www.muji.us",
+        "distance": 4840
+      },
+      {
+        "id": "foursquare-5a7b352bd807ee3ef81d893c",
+        "source": "foursquare",
+        "sourceId": "5a7b352bd807ee3ef81d893c",
+        "name": "Pod Times Square",
+        "nameLocal": null,
+        "nameEnglish": null,
+        "latitude": 40.75821446509751,
+        "longitude": -73.99315501347948,
+        "coordinateSystem": "WGS84",
+        "country": null,
+        "countryCode": "US",
+        "region": "NY",
+        "city": "New York",
+        "address": "400 W 42nd St, New York, NY 10036",
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1fa931735",
+            "name": "Hotel"
+          }
+        ],
+        "website": "https://www.thepodhotel.com/pod-times-square",
+        "distance": 5001
+      }
+    ],
+    "queryUsed": "Times Square",
+    "source": "foursquare"
+  }
+]

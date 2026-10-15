@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "name": "巴黎圣母院",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/500px-Notre-Dame_de_Paris_2013-07-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 500,
+      "text": "Peter Haas · CC BY-SA 3.0"
+    },
+    {
+      "name": "Louis XIII",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Louis_XIII_Guillaume_Coustou_Notre-Dame_Paris.jpg/500px-Louis_XIII_Guillaume_Coustou_Notre-Dame_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 500,
+      "text": "aconcagua (talk) · CC BY-SA 3.0"
+    },
+    {
+      "name": "Wallace fountains on place Louis-Lépine",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/P1030930_Paris_IV_fontaines_Wallace_de_la_place_Louis-L%C3%A9pine_rwk.JPG/500px-P1030930_Paris_IV_fontaines_Wallace_de_la_place_Louis-L%C3%A9pine_rwk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 500,
+      "text": "Mbzt · CC BY 3.0"
+    },
+    {
+      "name": "Paris Métro entrances by Hector Guimard",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/M%C3%A9tro_P%C3%A8re_Lachaise_sous_la_neige_01.jpg/500px-M%C3%A9tro_P%C3%A8re_Lachaise_sous_la_neige_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 500,
+      "text": "Coyau / Wikimedia Commons · CC BY-SA 3.0"
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Louis_XIII_Guillaume_Coustou_Notre-Dame_Paris.jpg/500px-Louis_XIII_Guillaume_Coustou_Notre-Dame_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/500px-Notre-Dame_de_Paris_2013-07-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/M%C3%A9tro_P%C3%A8re_Lachaise_sous_la_neige_01.jpg/500px-M%C3%A9tro_P%C3%A8re_Lachaise_sous_la_neige_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/P1030930_Paris_IV_fontaines_Wallace_de_la_place_Louis-L%C3%A9pine_rwk.JPG/500px-P1030930_Paris_IV_fontaines_Wallace_de_la_place_Louis-L%C3%A9pine_rwk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200
+    }
+  ]
+}

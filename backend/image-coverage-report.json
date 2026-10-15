@@ -1,0 +1,1673 @@
+[
+  {
+    "id": "existing-4b5bd0a2f964a520c31729e3",
+    "name": "Meiji Jingu Shrine (明治神宮)",
+    "country": "JP",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Courtyard_of_Meiji_Shrine_20190717.jpg/500px-Courtyard_of_Meiji_Shrine_20190717.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Courtyard_of_Meiji_Shrine_20190717.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Courtyard_of_Meiji_Shrine_20190717.jpg",
+      "author": "Tokuzo in Edomura",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "明治神宫"
+  },
+  {
+    "id": "existing-4b5ff761f964a520f1d129e3",
+    "name": "Shinjuku Gyoen (新宿御苑)",
+    "country": "JP",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG/500px-Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG",
+      "author": "Kakidai",
+      "license": "CC BY-SA 3.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "新宿御苑"
+  },
+  {
+    "id": "existing-4b5a3a54f964a520cdb528e3",
+    "name": "Yoyogi Park (代々木公園)",
+    "country": "JP",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Cherry_blossom_at_Yoyogi_Park_during_covid-19_2.jpg/500px-Cherry_blossom_at_Yoyogi_Park_during_covid-19_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:Cherry_blossom_at_Yoyogi_Park_during_covid-19_2.jpg",
+      "author": "Syced",
+      "license": "CC0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "代代木公园"
+  },
+  {
+    "id": "existing-4ba42635f964a520998638e3",
+    "name": "Yoyogi Park Dogrun (代々木公園ドッグラン)",
+    "country": "JP",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4b74e3e5f964a52003f72de3",
+    "name": "Meiji Jingu Gaien (明治神宮外苑)",
+    "country": "JP",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Jingu_Gaien_Ginkgo_Street_in_Autumn_4.jpg/500px-Jingu_Gaien_Ginkgo_Street_in_Autumn_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Jingu_Gaien_Ginkgo_Street_in_Autumn_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Jingu_Gaien_Ginkgo_Street_in_Autumn_4.jpg",
+      "author": "Kakidai",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "明治神宮外苑"
+  },
+  {
+    "id": "existing-4b55dc56f964a5205bf327e3",
+    "name": "Shinjuku Chuo Park (新宿中央公園)",
+    "country": "JP",
+    "status": "error",
+    "photo": null,
+    "nameZh": "新宿中央公園"
+  },
+  {
+    "id": "existing-4b5af10df964a5205ddb28e3",
+    "name": "Heiwa no Mori Park (平和の森公園)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b58e99ff964a5207e7228e3",
+    "name": "Hanegi Park (羽根木公園)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b58ec71f964a520467328e3",
+    "name": "Kokyo Gaien (皇居外苑)",
+    "country": "JP",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Outer_garden_of_the_imperial_palace_Japan_1989_air.jpg/500px-Outer_garden_of_the_imperial_palace_Japan_1989_air.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Outer_garden_of_the_imperial_palace_Japan_1989_air.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Outer_garden_of_the_imperial_palace_Japan_1989_air.jpg",
+      "author": "Copyright © National Land Image Information (Color Aerial Photographs), Ministry of Land, Infrastructure, Transport and Tourism",
+      "license": "Attribution",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "皇居外苑"
+  },
+  {
+    "id": "existing-4b566b84f964a5209e0f28e3",
+    "name": "Imperial Palace (皇居)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4abe4502f964a520558c20e3",
+    "name": "Buckingham Palace",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-61509ff6b63ad61cc0632a47",
+    "name": "Buckingham Palace",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4bb8fad5cf2fc9b6a819a002",
+    "name": "Buckingham Palace Garden",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4c6a984d8e7c0f47d388e20f",
+    "name": "Buckingham Palace Gate",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-504c5761e4b09ab3b3d3a752",
+    "name": "Buckingham Palace Shop",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-49b7ed6df964a52030531fe3",
+    "name": "Times Square",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-438d6b12f964a520322b1fe3",
+    "name": "W New York - Times Square",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4a2458a3f964a520127e1fe3",
+    "name": "The Westin New York at Times Square",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4a328a57f964a520579a1fe3",
+    "name": "MUJI",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-5a7b352bd807ee3ef81d893c",
+    "name": "Pod Times Square",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4ac518cef964a520f7a520e3",
+    "name": "Tower of London",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-58054fdf38fa86cde7e2ca15",
+    "name": "cloudM Tower of London",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-51fcc649498e5634fea52725",
+    "name": "Tower of London Park",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-5919a4434382ab502a32b26b",
+    "name": "Tower of London Shop",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-67f39917221d0a4915c2e6c6",
+    "name": "tower of london cafe",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-5864efb745c3ed1e7d88e96d",
+    "name": "Venus of Milo (Vénus de Milo)",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda10f964a520af3521e3",
+    "name": "Louvre Museum (Musée du Louvre)",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-588ba9a9fc5a5f18a36a2a05",
+    "name": "Arts d'Afrique, d'Asie, d'Océanie et des Amériques",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4c387b8018e72d7fef5918f5",
+    "name": "Colosseum Bar",
+    "country": "IT",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-506ab80be4b0ab9925c70de5",
+    "name": "Wow Colosseum",
+    "country": "IT",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-13987373bef84838caf3ae29",
+    "name": "Colosseum B",
+    "country": "IT",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4adcdac6f964a520355321e3",
+    "name": "Colosseum (Colosseo)",
+    "country": "IT",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/500px-Colosseo_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+      "author": "FeaturedPics",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "罗马斗兽场"
+  },
+  {
+    "id": "existing-4fbe42a2e4b058a3cbe71a0e",
+    "name": "Retrome Colosseum Garden",
+    "country": "IT",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4b058762f964a5201b8f22e3",
+    "name": "Sydney Opera House",
+    "country": "AU",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/00_1375_Sydney_Opera_House_%28Australia%29.jpg/500px-00_1375_Sydney_Opera_House_%28Australia%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:00_1375_Sydney_Opera_House_(Australia).jpg",
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "悉尼歌剧院"
+  },
+  {
+    "id": "existing-69474f6c578fce3ecd531a9b",
+    "name": "Sydney Opera House",
+    "country": "AU",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/00_1375_Sydney_Opera_House_%28Australia%29.jpg/500px-00_1375_Sydney_Opera_House_%28Australia%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:00_1375_Sydney_Opera_House_(Australia).jpg",
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "悉尼歌剧院"
+  },
+  {
+    "id": "existing-68669c2349d9ad6653d41d09",
+    "name": "Sydney Opera House",
+    "country": "AU",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/00_1375_Sydney_Opera_House_%28Australia%29.jpg/500px-00_1375_Sydney_Opera_House_%28Australia%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:00_1375_Sydney_Opera_House_(Australia).jpg",
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "悉尼歌剧院"
+  },
+  {
+    "id": "existing-4b05876af964a520509122e3",
+    "name": "Sydney Opera House - Playhouse",
+    "country": "AU",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4b9de72af964a5202dc236e3",
+    "name": "Sydney Opera House Forecourt",
+    "country": "AU",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4adcda09f964a520e83321e3",
+    "name": "Cathedral of Notre-Dame de Paris (Cathédrale Notre-Dame de Paris)",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4c00046cc30a2d7fbeda111d",
+    "name": "Parvis Notre-Dame — Place Jean-Paul II",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4bf41231e5eba59334341f90",
+    "name": "Place de l'Hôtel de Ville – Esplanade de la Libération",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcdac6f964a5202b5321e3",
+    "name": "Trevi Fountain (Fontana di Trevi)",
+    "country": "IT",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Trevi_Fountain_-_Roma.jpg/500px-Trevi_Fountain_-_Roma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:Trevi_Fountain_-_Roma.jpg",
+      "author": "NikonZ7II",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "特莱维喷泉"
+  },
+  {
+    "id": "existing-4e677734183850162854a4c3",
+    "name": "Gelato In Trevi",
+    "country": "IT",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4e620f14e4cdf1e2bf1e97a0",
+    "name": "Pizza in Trevi",
+    "country": "IT",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-54848b5a498ef51e69c5601d",
+    "name": "don nino fontana di trevi",
+    "country": "IT",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4ea9edb56c250fcc73f883ef",
+    "name": "Piazza di Trevi",
+    "country": "IT",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Fontana_di_Trevi_%28Piranesi_50%29.jpg/500px-Fontana_di_Trevi_%28Piranesi_50%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:Fontana_di_Trevi_(Piranesi_50).jpg",
+      "author": "Giovanni Battista Piranesi",
+      "license": "Public domain",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": null
+  },
+  {
+    "id": "existing-49ebbf61f964a52020671fe3",
+    "name": "Central Park Mall",
+    "country": "US",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Central_Park_Mall_and_Literary_Walk_1.jpg/500px-Central_Park_Mall_and_Literary_Walk_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:Central_Park_Mall_and_Literary_Walk_1.jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": null
+  },
+  {
+    "id": "existing-4a09f665f964a52077741fe3",
+    "name": "Central Park Zoo",
+    "country": "US",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Central_Park_Zoo_area.jpg/500px-Central_Park_Zoo_area.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Central_Park_Zoo_area.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Central_Park_Zoo_area.jpg",
+      "author": "Tim Rodenberg",
+      "license": "CC BY 2.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "中央公園動物園"
+  },
+  {
+    "id": "existing-4b05562cf964a520cf5722e3",
+    "name": "AKA Central Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-412d2800f964a520df0c1fe3",
+    "name": "Central Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-52122654bce6fde818ebecdd",
+    "name": "1 Hotel Central Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4cc2c6f97ed8ef3bab7112a0",
+    "name": "El Moez St (شارع المعز لدين الله)",
+    "country": "EG",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4e04c0632271233b767e45cf",
+    "name": "Al Haakem Mosque (جامع الحاكم بامر الله)",
+    "country": "EG",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4d0d11ddf393224bf44a1aee",
+    "name": "Bab Al-Fotouh (باب الفُتوح)",
+    "country": "EG",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-610e55ff18f69e4acfcbf07f",
+    "name": "Mamsha Ahl Misr (ممشي أهل مصر)",
+    "country": "EG",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4d91aadcf5388cfa779bb93d",
+    "name": "Al Azhar Mosque (الجامع الأزهر)",
+    "country": "EG",
+    "status": "error",
+    "photo": null,
+    "nameZh": "爱资哈尔清真寺"
+  },
+  {
+    "id": "existing-4ddaaff9b0fb8af380d36829",
+    "name": "Talaat Harb Square (ميدان طلعت حرب)",
+    "country": "EG",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-52efd182498e6e2ef0c7281e",
+    "name": "Al-Azhar Al-Shareif (مشيخة الأزهر الشريف)",
+    "country": "EG",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-5016d2f9e4b0535571ebaaaa",
+    "name": "Mausoleum of Al Ghouri (قبة الغورى)",
+    "country": "EG",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4bb1faa0f964a52040af3ce3",
+    "name": "Muhammad Ali Mosque (مسجد محمد على)",
+    "country": "EG",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4cee65cb3b03f04deec239dc",
+    "name": "The Saladin Citadel of Cairo (قلعة صلاح الدين)",
+    "country": "EG",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4f979c8ae4b05465dae0714f",
+    "name": "Place du Louvre",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4f6dabf5003944083fe0002e",
+    "name": "Vestige de la Forteresse du Louvre",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b5b0a4ef964a5204ae028e3",
+    "name": "Louvre Pyramid (Pyramide du Louvre)",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-571fe799498ef36a9fd63f1a",
+    "name": "La Clef Louvre Paris",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-55536fca498e1bf662c2ed7d",
+    "name": "Grand Bassin du Jardin du Luxembourg",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4ba8b203f964a520a6e739e3",
+    "name": "Luxembourg Garden (Jardin du Luxembourg)",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-58d800df9435a979b8a645fa",
+    "name": "Berges de Seine – Rive droite",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b82c9adf964a520f7e430e3",
+    "name": "Place des Vosges",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda09f964a520ea3321e3",
+    "name": "Panthéon",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-5096523c498ecb7e553bc676",
+    "name": "Medici Fountain (Fontaine Médicis)",
+    "country": "FR",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Monument_a_cot%C3%A9_du_palais.jpg/500px-Monument_a_cot%C3%A9_du_palais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Monument_a_cot%C3%A9_du_palais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Monument_a_cot%C3%A9_du_palais.jpg",
+      "author": "Francis Bourgouin",
+      "license": "CC BY 2.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "美第奇喷泉"
+  },
+  {
+    "id": "existing-4ba8b650f964a520f5e839e3",
+    "name": "Jardin du Palais Royal",
+    "country": "FR",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Jardins_du_Palais_Royal.JPG/500px-Jardins_du_Palais_Royal.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Jardins_du_Palais_Royal.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Jardins_du_Palais_Royal.JPG",
+      "author": "LPLT",
+      "license": "CC BY-SA 3.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": null
+  },
+  {
+    "id": "existing-4ac518d2f964a5203da720e3",
+    "name": "British Museum",
+    "country": "GB",
+    "status": "error",
+    "photo": null,
+    "nameZh": "大英博物馆"
+  },
+  {
+    "id": "existing-4fae6d1fe4b03b8054f2fedb",
+    "name": "British Museum Shop",
+    "country": "GB",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4ac518cdf964a520eca520e3",
+    "name": "London Transport Museum",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4ac518d3f964a52077a720e3",
+    "name": "Churchill War Rooms (Churchill Museum & Cabinet War Rooms)",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-5366690f498ef8ea0e7f5bc4",
+    "name": "London Transport Museum Shop",
+    "country": "GB",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4bae535af964a520f5a23be3",
+    "name": "Maison Européenne de la Photographie",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda10f964a5208b3521e3",
+    "name": "Orsay Museum (Musée d'Orsay)",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b058761f964a520188f22e3",
+    "name": "Royal Botanic Garden",
+    "country": "AU",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b058762f964a520648f22e3",
+    "name": "The Opera House to the Botanic Gardens Walk",
+    "country": "AU",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b9af88af964a5200ee835e3",
+    "name": "Chinese Garden of Friendship",
+    "country": "AU",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b29ebacf964a5201ea424e3",
+    "name": "Royal Albert Hotel",
+    "country": "AU",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b7f4a6af964a520492530e3",
+    "name": "Wendy Whiteley's Secret Garden",
+    "country": "AU",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4ba0e4e3f964a520498537e3",
+    "name": "Pier 25 at Hudson River Park",
+    "country": "US",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4b929790f964a5209a0734e3",
+    "name": "Nelson A. Rockefeller Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4ba0e528f964a5205c8537e3",
+    "name": "Pier 26 - Hudson River Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-430d0a00f964a5203e271fe3",
+    "name": "Brooklyn Bridge Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4bd9d7af3f01c9b63c5b53a5",
+    "name": "Robert F. Wagner, Jr. Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-42daf100f964a52035261fe3",
+    "name": "Battery Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-40abf500f964a52035f31ee3",
+    "name": "Washington Square Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-42377700f964a52024201fe3",
+    "name": "Brooklyn Heights Promenade",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b955a1af964a520f29d34e3",
+    "name": "Empire-Fulton Ferry State Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b240a1ff964a520b25f24e3",
+    "name": "Hudson River Park",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-50840c40e4b07e40749c87ab",
+    "name": "Hole in the corner",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-52f11ecc11d201bccccc442c",
+    "name": "The Law Office Of Luke P Taylor PC",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-50a86167e4b02a7dc03c3291",
+    "name": "Mario time with the wii",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4ec0ba92d3e3700a5bf1522d",
+    "name": "The Hide Out!",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-50cbe235e4b0d0701f1866aa",
+    "name": "The Look Out!¡!¡!¡",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4c0e1fb37189c92809eed7b6",
+    "name": "Twin Towers-Cafeteria",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4f2194efe4b0b7e18a53a168",
+    "name": "Georgia Governor's Office",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4e95f2588b811f0c6611ee98",
+    "name": "Secretary Of State Corporations Division",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-5058aa2ee4b0b66b95662686",
+    "name": "Administrative Office of the Courts of Georgia",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4c5dc5a86ebe2d7f45e0d32e",
+    "name": "H3LL!",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4dc7ff25ae608779d17788c9",
+    "name": "State Road & Tollway Authority",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4fa13b22e4b08c9b81db10a3",
+    "name": "Capitol Education Center",
+    "country": "US",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4b56a5e8f964a5208e1728e3",
+    "name": "Tokyo Tower (東京タワー)",
+    "country": "JP",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tokyo_Tower_2023.jpg/500px-Tokyo_Tower_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Tokyo_Tower_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_2023.jpg",
+      "author": "Akonnchiroll",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "东京铁塔"
+  },
+  {
+    "id": "existing-625521c9f8a2661187d954e9",
+    "name": "RED° TOKYO TOWER",
+    "country": "JP",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4c6bde979669e21eaad8ab51",
+    "name": "THE TOKYO TOWERS",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b05879af964a520b69b22e3",
+    "name": "Park Hyatt Tokyo (パークハイアット東京)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b058799f964a5208b9b22e3",
+    "name": "Hyatt Regency Tokyo (ハイアットリージェンシー東京)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-51a2445e5019c80b56934c75",
+    "name": "Eiffel Tower (Tour Eiffel)",
+    "country": "FR",
+    "status": "error",
+    "photo": null,
+    "nameZh": "埃菲尔铁塔"
+  },
+  {
+    "id": "existing-64eed259864df31378b44acd",
+    "name": "Eiffel Tower View",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-58c41f2b0e0a1e57d8dc841c",
+    "name": "Top of the Eiffel Tower (Sommet de la Tour Eiffel)",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4d28d094dbc160fc50b043b6",
+    "name": "Hôtel Les Jardins Eiffel",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4bbf7aa6abf49521b9b3bd93",
+    "name": "Sofitel Paris Baltimore Tour Eiffel",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b55202af964a5200fdc27e3",
+    "name": "Starbucks",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-508047e4e4b0ee1f0d94f7fa",
+    "name": "Costco",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-56aff21f498eb78a5c3040da",
+    "name": "Chick-fil-A",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4c2269c2fbe5c9b632d99921",
+    "name": "PetSmart",
+    "country": "US",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4b15501ef964a520efaf23e3",
+    "name": "Dozer Park",
+    "country": "US",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/OBrienFieldPeoria.jpg/500px-OBrienFieldPeoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/OBrienFieldPeoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:OBrienFieldPeoria.jpg",
+      "author": "Strikerforce",
+      "license": "CC BY 3.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "道澤公園"
+  },
+  {
+    "id": "existing-4cd5555fa5b34688a1248d50",
+    "name": "Musée des Arts Décoratifs",
+    "country": "FR",
+    "status": "error",
+    "photo": null,
+    "nameZh": "裝飾藝術博物館"
+  },
+  {
+    "id": "existing-600af5ddd49d6e3b5b1abf05",
+    "name": "Bourse de Commerce – Pinault Collection",
+    "country": "FR",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4adcda0ef964a520353521e3",
+    "name": "Monnaie de Paris",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda0ef964a520533521e3",
+    "name": "Musée Carnavalet",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda0ff964a520683521e3",
+    "name": "Grande Galerie de l'Évolution (Grande Galerie de l'évolution)",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda10f964a520983521e3",
+    "name": "Musée de l'Orangerie",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda10f964a520b13521e3",
+    "name": "Rodin Museum (Musée Rodin)",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-56a761bd498e4801a8e214da",
+    "name": "L'Avant Comptoir de la Mer",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-58f3634235f98340ef64a066",
+    "name": "Maison Sauvage",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b867a97f964a520e48b31e3",
+    "name": "L'As du Fallafel",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b0587a1f964a5207f9d22e3",
+    "name": "Senso-ji Temple (浅草寺)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b5661b6f964a520050e28e3",
+    "name": "Hanazono Shrine (花園神社)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b5aa689f964a52075cf28e3",
+    "name": "Joen-ji Temple (常圓寺)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4c1a916a63750f475a7fb367",
+    "name": "Meiji Jingu Gyoen (明治神宮御苑)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda1df964a5202e3921e3",
+    "name": "Carrousel du Louvre",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-5666c960498eebab648cbfe3",
+    "name": "Les Caves du Louvre",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-5d5d299759e2b50008c0127d",
+    "name": "Café Kitsuné Louvre",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda04f964a520073221e3",
+    "name": "Hôtel Du Louvre - In the Unbound Collection by Hyatt",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4fa81d41e4b0d6f4be98c6bd",
+    "name": "Reebok CrossFit Louvre",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b058762f964a5201c8f22e3",
+    "name": "Sydney Harbour Bridge",
+    "country": "AU",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-6ab362672e5e3f23d81c2c2b",
+    "name": "Sydney Harbour Bridge",
+    "country": "AU",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4be371a4d27a20a1ae5a925b",
+    "name": "BridgeClimb Sydney",
+    "country": "AU",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4ba864dcf964a5204ed939e3",
+    "name": "Sydney Harbour YHA",
+    "country": "AU",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b93005df964a520da2d34e3",
+    "name": "Sydney Harbour Marriott Hotel at Circular Quay",
+    "country": "AU",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4e5b8fead22dfba6f48ec09e",
+    "name": "Hotel Vic Eiffel",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4dfc3ad762846d918b93b27e",
+    "name": "Summer",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4fd1e6a6e4b04e713ca2dbbe",
+    "name": "Summer School HQ",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-04556a37ef6d4bd6dc139482",
+    "name": "Poochies Palace",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4fce0355e4b0e42eec522305",
+    "name": "COCUSA Summer Day Camp",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4ed68b850e61cbb939e64686",
+    "name": "Bridal Palace",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-60e1b6ede9ea3506ec20380b",
+    "name": "Terres de Café",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-5ae44cf7dd8442002cc065ca",
+    "name": "Partisan",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-57b0b2c6498ef62eda148b41",
+    "name": "A. Lacroix Pâtissier",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-57035c8b498ebcbc85d70c40",
+    "name": "LEGO Store",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4db72dc9ced7dba4f02ddc41",
+    "name": "La Samaritaine",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4ce573dd7785a1cdf4e519b9",
+    "name": "Hermès",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda09f964a520de3321e3",
+    "name": "Arc de Triomphe (Arc de Triomphe de l'Étoile)",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-6815f25fd96fe06ee4debe7c",
+    "name": "Arc De Triomphe",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-35907ed6fa6d45b63b4b6f45",
+    "name": "Laser Arc de Triomphe",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4c924b1b1adc37047a4437d1",
+    "name": "Hôtel Arc de Triomphe",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b6ace27f964a52028e12be3",
+    "name": "Ascott Arc de Triomphe",
+    "country": "FR",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4ac518cef964a520f9a520e3",
+    "name": "Trafalgar Square",
+    "country": "GB",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Trafalgar_Square%2C_London_2_-_Jun_2009.jpg/500px-Trafalgar_Square%2C_London_2_-_Jun_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Trafalgar_Square%2C_London_2_-_Jun_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Trafalgar_Square,_London_2_-_Jun_2009.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "特拉法加广场"
+  },
+  {
+    "id": "existing-4ac518cdf964a520f2a520e3",
+    "name": "St James's Park",
+    "country": "GB",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Londonstjamespark2.jpg/500px-Londonstjamespark2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Londonstjamespark2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Londonstjamespark2.jpg",
+      "author": "No machine-readable author provided. Gerry Lynch~commonswiki assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "圣詹姆士公园"
+  },
+  {
+    "id": "existing-4ac518cdf964a520f0a520e3",
+    "name": "Horse Guards Parade",
+    "country": "GB",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Horse_Guards_Parade.jpg/500px-Horse_Guards_Parade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Horse_Guards_Parade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Horse_Guards_Parade.jpg",
+      "author": "Lcw27, Lucia Constance Wallbank",
+      "license": "CC BY-SA 3.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "騎兵衛隊閱兵場"
+  },
+  {
+    "id": "existing-4eb1587693adccbac49e282f",
+    "name": "Palace of Westminster",
+    "country": "GB",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Houses_of_Parliament_in_2022_%28cropped%29.jpg/500px-Houses_of_Parliament_in_2022_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:Houses_of_Parliament_in_2022_(cropped).jpg",
+      "author": "Terry Ott from Washington, DC Metro Area, United States of America",
+      "license": "CC BY 2.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "威斯敏斯特宫"
+  },
+  {
+    "id": "existing-4c9c6a059c48236a1cb14dee",
+    "name": "Piccadilly Circus",
+    "country": "GB",
+    "status": "error",
+    "photo": null,
+    "nameZh": "皮卡迪利圆环站"
+  },
+  {
+    "id": "existing-4ac518cdf964a520eea520e3",
+    "name": "Westminster Abbey",
+    "country": "GB",
+    "status": "error",
+    "photo": null,
+    "nameZh": "威斯敏斯特教堂"
+  },
+  {
+    "id": "existing-4ac518cef964a520f6a520e3",
+    "name": "Big Ben (Elizabeth Tower)",
+    "country": "GB",
+    "status": "error",
+    "photo": null,
+    "nameZh": "大本钟"
+  },
+  {
+    "id": "existing-4c1512aaa9c220a1b77d589d",
+    "name": "Kingly Court",
+    "country": "GB",
+    "status": "error",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4b96b2bbf964a520c2de34e3",
+    "name": "Green Park",
+    "country": "GB",
+    "status": "error",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-427c0500f964a52097211fe3",
+    "name": "Metropolitan Museum of Art",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4e3c08e318a83d5b28300149",
+    "name": "The Metropolitan Museum of Art Store at Newark Airport",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4af5a46af964a520b5fa21e3",
+    "name": "Museum of Modern Art (MoMA)",
+    "country": "US",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/MoMa_NY_USA_1.jpg/500px-MoMa_NY_USA_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/MoMa_NY_USA_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:MoMa_NY_USA_1.jpg",
+      "author": "hibino",
+      "license": "CC BY 2.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "现代艺术博物馆"
+  },
+  {
+    "id": "existing-4c30f3c166e40f477d4fc48b",
+    "name": "Metropolitan Museum Steps",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b6b5abff964a520fb022ce3",
+    "name": "National September 11 Memorial",
+    "country": "US",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4e0754b21838eb15af00b5c5",
+    "name": "Jardin des Archives Nationales",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-58e0f18f561ded7abcbbbd01",
+    "name": "Parc Rives de Seine",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4b93cba4f964a520155234e3",
+    "name": "Square du Temple",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4a05d34ef964a52083721fe3",
+    "name": "Centennial Olympic Park",
+    "country": "US",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Centenial_olympic_park_downtown_Atlanta.jpg/500px-Centenial_olympic_park_downtown_Atlanta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Centenial_olympic_park_downtown_Atlanta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Centenial_olympic_park_downtown_Atlanta.jpg",
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "奧林匹克百年公園"
+  },
+  {
+    "id": "existing-4bba235f3db7b7137ff2229a",
+    "name": "Martin Luther King Jr. National Historical Park",
+    "country": "US",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ebenezer-Baptist-from-pulpit.jpg/500px-Ebenezer-Baptist-from-pulpit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Ebenezer-Baptist-from-pulpit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Ebenezer-Baptist-from-pulpit.jpg",
+      "author": "Jet Lowe",
+      "license": "Public domain",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "马丁·路德·金国家历史遗址"
+  },
+  {
+    "id": "existing-4a36c20bf964a520de9d1fe3",
+    "name": "Oakland Cemetery",
+    "country": "US",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Oakland_Cemetery_and_Atlanta_Skyscrapers.jpg/500px-Oakland_Cemetery_and_Atlanta_Skyscrapers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Oakland_Cemetery_and_Atlanta_Skyscrapers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Oakland_Cemetery_and_Atlanta_Skyscrapers.jpg",
+      "author": "Mike Schinkel",
+      "license": "CC BY 2.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "奥克兰公墓"
+  },
+  {
+    "id": "existing-44bb819ff964a52091351fe3",
+    "name": "Grant Park",
+    "country": "US",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-5b7b259bc53093002c5d337b",
+    "name": "The Home Depot Backyard",
+    "country": "US",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-538e646d498ec07320c4001d",
+    "name": "Polaris",
+    "country": "US",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4d86380281fdb1f7a24b21c0",
+    "name": "Atlanta BeltLine - Midtown",
+    "country": "US",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-415b4c80f964a520441d1fe3",
+    "name": "Piedmont Park",
+    "country": "US",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Piedmont_Park%E2%80%99s_Lake_Clara_Meer_with_Midtown_Atlanta_skyline_%282024%29-104A8428.jpg/500px-Piedmont_Park%E2%80%99s_Lake_Clara_Meer_with_Midtown_Atlanta_skyline_%282024%29-104A8428.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:Piedmont_Park%E2%80%99s_Lake_Clara_Meer_with_Midtown_Atlanta_skyline_(2024)-104A8428.jpg",
+      "author": "Frank Schulenburg",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "皮埃蒙特公园"
+  },
+  {
+    "id": "existing-4ffdbe1ce4b0854b25f70e6e",
+    "name": "Georgia International Plaza",
+    "country": "US",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Georgia_International_Plaza_in_March_2017.jpg/500px-Georgia_International_Plaza_in_March_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:Georgia_International_Plaza_in_March_2017.jpg",
+      "author": "Mx. Granger",
+      "license": "CC0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": null
+  },
+  {
+    "id": "existing-4a31751af964a520d7991fe3",
+    "name": "Atlanta Botanical Garden",
+    "country": "US",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Dorothy_Chapman_Fuqua_Conservatory_-_Atlanta_Botanical_Garden%2C_Atlanta%2C_GA.JPG/500px-Dorothy_Chapman_Fuqua_Conservatory_-_Atlanta_Botanical_Garden%2C_Atlanta%2C_GA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Dorothy_Chapman_Fuqua_Conservatory_-_Atlanta_Botanical_Garden%2C_Atlanta%2C_GA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page": "https://commons.wikimedia.org/wiki/File:Dorothy_Chapman_Fuqua_Conservatory_-_Atlanta_Botanical_Garden,_Atlanta,_GA.JPG",
+      "author": "Daderot",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "亚历山大植物园"
+  },
+  {
+    "id": "existing-4adcdac6f964a5202f5321e3",
+    "name": "Pantheon",
+    "country": "IT",
+    "status": "matched",
+    "photo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Pantheon_%28Rome%29_-_Right_side_and_front.jpg/500px-Pantheon_%28Rome%29_-_Right_side_and_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "fallbackUrl": null,
+      "page": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Right_side_and_front.jpg",
+      "author": "NikonZ7II",
+      "license": "CC BY-SA 4.0",
+      "source": "wikimedia-commons"
+    },
+    "nameZh": "万神庙"
+  },
+  {
+    "id": "existing-4adcdad3f964a520145721e3",
+    "name": "Al Pantheon",
+    "country": "IT",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-c5cf39a7054846f15deee304",
+    "name": "Pantheon 3E",
+    "country": "IT",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-532f2245498ed6fa9cee5135",
+    "name": "iRooms Pantheon & Navona",
+    "country": "IT",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-514f8820e4b06f82838cc158",
+    "name": "iRooms Forum & Colosseum",
+    "country": "IT",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-58801864cc5b6a14dedce689",
+    "name": "9/11 Memorial North Pool",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-587ffcc3ea29b80cdce3468d",
+    "name": "9/11 Memorial South Pool",
+    "country": "US",
+    "status": "missing",
+    "photo": null,
+    "nameZh": null
+  },
+  {
+    "id": "existing-4a43bcb7f964a520bba61fe3",
+    "name": "Brooklyn Bridge",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4fd4ff3ce4b0bd432923a7c7",
+    "name": "Pebble Beach",
+    "country": "US",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4fc5383ae4b0821fe5525e34",
+    "name": "Honden (Main Shrine) (明治神宮 本殿)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-50824c94e4b0ac00f55b4028",
+    "name": "Otorii (Grand Shrine Gate) (大鳥居)",
+    "country": "JP",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  },
+  {
+    "id": "existing-4adcda09f964a520ed3321e3",
+    "name": "Palais Royal",
+    "country": "FR",
+    "status": "not_cached",
+    "error": "NOT_IN_LOCAL_CACHE"
+  }
+]

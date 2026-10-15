@@ -1,0 +1,113 @@
+[
+  {
+    "city": "巴黎",
+    "resolveMs": 4375,
+    "itineraryMs": 13275,
+    "activities": 4,
+    "imageLoaded": 1,
+    "loading": 0,
+    "names": [
+      "Cathedral of Notre Dame",
+      "Louis XIII",
+      "Wallace fountains on place Louis-Lépine",
+      "Paris Métro entrances by Hector Guimard"
+    ],
+    "descriptionChars": 2840,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 7,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/places",
+        "ms": 32,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 22,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 23,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 6,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 5,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "city": "东京",
+    "error": "TimeoutError",
+    "elapsedMs": 65045,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 60008,
+        "failed": true
+      }
+    ]
+  },
+  {
+    "city": "开罗",
+    "resolveMs": 1353,
+    "itineraryMs": 26834,
+    "activities": 4,
+    "imageLoaded": 0,
+    "loading": 6,
+    "names": [
+      "Gamal Eddin Youssef Istadar Mosque",
+      "Sabil-Kuttab Abd El Rahman Katkhuda",
+      "Sultan Qaytbay Complex",
+      "ramsees"
+    ],
+    "descriptionChars": 1172,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 5,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/places",
+        "ms": 34,
+        "status": 200
+      },
+      {
+        "path": "/api/open-places",
+        "ms": 25104,
+        "failed": true
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 10635,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "city": "北京",
+    "itineraryMs": 1867,
+    "activities": 4,
+    "imageLoaded": 4,
+    "loading": 0,
+    "names": [
+      "故宫博物院",
+      "天安门",
+      "天安门广场",
+      "南锣鼓巷"
+    ],
+    "descriptionChars": 497,
+    "requests": []
+  }
+]

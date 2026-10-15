@@ -1,0 +1,132 @@
+<script setup>
+import { t, placeName } from "../i18n";
+import { formatTime } from "../utils/itinerary";
+import { recommendationReasons } from "../utils/recommendation";
+import PlaceImage from "./PlaceImage.vue";
+import CrowdBadge from "./CrowdBadge.vue";
+defineProps({ stops: Array, active: String, settings: Object, buffer: Number });
+defineEmits(["select", "detail", "edit"]);
+function reason(r) {
+  return t(
+    r.key,
+    r.tags
+      ? { tags: r.tags.map((x) => t("categories." + x)).join(" / ") }
+      : r.params,
+  );
+}
+</script>
+<template>
+  <div class="timeline">
+    <article
+      v-for="(stop, i) in stops"
+      :key="stop.place.id"
+      :id="'stop-' + stop.place.id"
+      class="timeline-item"
+      :class="{ highlighted: active === stop.place.id }"
+    >
+      <div class="timeline-rail">
+        <span>{{ i + 1 }}</span>
+      </div>
+      <div class="timeline-body">
+        <div v-if="i" class="transit">
+          ↳ {{ t("transport") }} {{ stop.route.time }} {{ t("minutes") }} ·
+          {{ t("buffer") }}
+          {{ buffer + (stop.delay || 0) + (stop.waiting || 0) }}
+          {{ t("minutes") }}
+        </div>
+        <div class="time-row">
+          <strong
+            >{{ formatTime(stop.start) }} <span>—</span>
+            {{ formatTime(stop.end) }}</strong
+          ><span v-if="stop.locked" class="lock-indicator"
+            >▣ {{ t("lock") }}</span
+          ><span v-else>{{ stop.duration }} {{ t("minutes") }}</span>
+        </div>
+        <div class="place-card" @click="$emit('select', stop.place.id)">
+          <button class="place-main" @click="$emit('detail', stop)">
+            <PlaceImage :place="stop.place" /><span class="place-summary"
+              ><span class="place-category"
+                >{{ t("categories." + stop.place.category)
+                }}<span v-if="stop.place.rating != null"
+                  >★ {{ stop.place.rating.toFixed(1) }}</span
+                ><span v-else>{{ t("livePlan.ratingUnknown") }}</span></span
+              ><strong>{{ placeName(stop.place) }}</strong
+              ><CrowdBadge :value="stop.crowd" /><span class="place-cost"
+                >{{
+                  stop.place.price != null
+                    ? "¥" + stop.place.price
+                    : t("livePlan.costReserve", { n: stop.place.costEstimate })
+                }}
+                <span v-if="settings.wishIds.includes(stop.place.id)"
+                  >♡ {{ t("wished") }}</span
+                ></span
+              ></span
+            >
+          </button>
+          <p class="recommendation">
+            ✧ {{ reason(recommendationReasons(stop.place, settings)[0]) }}
+          </p>
+          <div class="card-actions">
+            <div class="duration-control">
+              <button
+                :aria-label="t('stay') + ' -15'"
+                :disabled="stop.duration <= 15"
+                @click.stop="$emit('edit', 'duration', i, -15)"
+              >
+                −</button
+              ><span>{{ stop.duration }} {{ t("minutes") }}</span
+              ><button
+                :aria-label="t('stay') + ' +15'"
+                @click.stop="$emit('edit', 'duration', i, 15)"
+              >
+                +
+              </button>
+            </div>
+            <button
+              class="text-action"
+              :disabled="stop.locked"
+              @click.stop="$emit('edit', 'replace', i)"
+            >
+              ↻ {{ t("replace") }}</button
+            ><button
+              class="text-action"
+              :class="{ selected: stop.locked }"
+              :aria-label="stop.locked ? t('unlock') : t('lock')"
+              :title="t('lockedNote')"
+              @click.stop="$emit('edit', 'lock', i)"
+            >
+              {{ stop.locked ? "▣" : "□" }}
+              {{ stop.locked ? t("unlock") : t("lock") }}
+            </button>
+          </div>
+          <div class="secondary-actions">
+            <button
+              :disabled="i === 0"
+              @click.stop="$emit('edit', 'move', i, -1)"
+            >
+              ↑ {{ t("up") }}</button
+            ><button
+              :disabled="i === stops.length - 1"
+              @click.stop="$emit('edit', 'move', i, 1)"
+            >
+              ↓ {{ t("down") }}</button
+            ><button
+              :disabled="(stop.delay || 0) <= (i === 0 ? 0 : -buffer)"
+              @click.stop="$emit('edit', 'delay', i, -15)"
+            >
+              {{ t("earlier") }}</button
+            ><button @click.stop="$emit('edit', 'delay', i, 15)">
+              {{ t("later") }}</button
+            ><button
+              class="delete"
+              :disabled="stop.locked"
+              @click.stop="$emit('edit', 'remove', i)"
+            >
+              {{ t("remove") }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</template>

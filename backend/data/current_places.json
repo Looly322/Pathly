@@ -1,0 +1,4435 @@
+[
+  {
+    "id": "existing-4b5bd0a2f964a520c31729e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b5bd0a2f964a520c31729e3",
+    "originalSource": "foursquare",
+    "name": "Meiji Jingu Shrine (明治神宮)",
+    "latitude": 35.67637194402257,
+    "longitude": 139.6993589401245,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "代々木神園町1-1, 渋谷区, 東京都, 151-8557",
+    "categories": [
+      {
+        "name": "Shrine"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "https://www.meijijingu.or.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b5ff761f964a520f1d129e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b5ff761f964a520f1d129e3",
+    "originalSource": "foursquare",
+    "name": "Shinjuku Gyoen (新宿御苑)",
+    "latitude": 35.685267844287104,
+    "longitude": 139.70952773146564,
+    "countryCode": "JP",
+    "city": "新宿区",
+    "address": "内藤町11, 新宿区, 東京都, 160-0014",
+    "categories": [
+      {
+        "name": "Garden"
+      }
+    ],
+    "website": "https://www.env.go.jp/garden/shinjukugyoen/",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b5a3a54f964a520cdb528e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b5a3a54f964a520cdb528e3",
+    "originalSource": "foursquare",
+    "name": "Yoyogi Park (代々木公園)",
+    "latitude": 35.67043660939139,
+    "longitude": 139.69567090272903,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "代々木神園町/神南2, 渋谷区, 東京都, 151-0052",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "https://www.tokyo-park.or.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ba42635f964a520998638e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ba42635f964a520998638e3",
+    "originalSource": "foursquare",
+    "name": "Yoyogi Park Dogrun (代々木公園ドッグラン)",
+    "latitude": 35.67267814006101,
+    "longitude": 139.69407127724088,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "代々木神園町2-1, 渋谷区, 東京都, 151-0052",
+    "categories": [
+      {
+        "name": "Dog Park"
+      }
+    ],
+    "website": "http://yoyogidogrun.net",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b74e3e5f964a52003f72de3",
+    "source": "existing-snapshot",
+    "sourceId": "4b74e3e5f964a52003f72de3",
+    "originalSource": "foursquare",
+    "name": "Meiji Jingu Gaien (明治神宮外苑)",
+    "latitude": 35.67713452844016,
+    "longitude": 139.71837043762207,
+    "countryCode": "JP",
+    "city": "新宿区",
+    "address": "霞ヶ丘町1-1, 新宿区, 東京都, 160-0013",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://www.meijijingugaien.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b55dc56f964a5205bf327e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b55dc56f964a5205bf327e3",
+    "originalSource": "foursquare",
+    "name": "Shinjuku Chuo Park (新宿中央公園)",
+    "latitude": 35.689397,
+    "longitude": 139.6896,
+    "countryCode": "JP",
+    "city": "新宿区",
+    "address": "西新宿2-11, 新宿区, 東京都, 160-0023",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "https://shinjukuchuo-park.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b5af10df964a5205ddb28e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b5af10df964a5205ddb28e3",
+    "originalSource": "foursquare",
+    "name": "Heiwa no Mori Park (平和の森公園)",
+    "latitude": 35.71701613578137,
+    "longitude": 139.66313320836773,
+    "countryCode": "JP",
+    "city": "中野区",
+    "address": "新井3-37-6, 中野区, 東京都, 165-0026",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b58e99ff964a5207e7228e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b58e99ff964a5207e7228e3",
+    "originalSource": "foursquare",
+    "name": "Hanegi Park (羽根木公園)",
+    "latitude": 35.65830745717692,
+    "longitude": 139.65496301651,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "代田4-38-52, 世田谷区, 東京都, 155-0033",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://www.city.setagaya.lg.jp/shisetsu/1217/1271/d00004240.html",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b58ec71f964a520467328e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b58ec71f964a520467328e3",
+    "originalSource": "foursquare",
+    "name": "Kokyo Gaien (皇居外苑)",
+    "latitude": 35.679927721917124,
+    "longitude": 139.75856189668357,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "皇居外苑, 千代田区, 東京都, 100-0002",
+    "categories": [
+      {
+        "name": "Garden"
+      }
+    ],
+    "website": "http://www.fng.or.jp/koukyo/koukyo-index.html",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b566b84f964a5209e0f28e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b566b84f964a5209e0f28e3",
+    "originalSource": "foursquare",
+    "name": "Imperial Palace (皇居)",
+    "latitude": 35.6825,
+    "longitude": 139.7521,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "千代田1-1, 千代田区, 東京都, 100-0001",
+    "categories": [
+      {
+        "name": "Palace"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "https://sankan.kunaicho.go.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4abe4502f964a520558c20e3",
+    "source": "existing-snapshot",
+    "sourceId": "4abe4502f964a520558c20e3",
+    "originalSource": "foursquare",
+    "name": "Buckingham Palace",
+    "latitude": 51.5009557396122,
+    "longitude": -0.14312267303466797,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Buckingham Palace Rd, London, Greater London, SW1A 1AA",
+    "categories": [
+      {
+        "name": "Palace"
+      }
+    ],
+    "website": "https://www.rct.uk/visit/buckingham-palace",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-61509ff6b63ad61cc0632a47",
+    "source": "existing-snapshot",
+    "sourceId": "61509ff6b63ad61cc0632a47",
+    "originalSource": "foursquare",
+    "name": "Buckingham Palace",
+    "latitude": 51.523956,
+    "longitude": -0.15852123,
+    "countryCode": "GB",
+    "city": null,
+    "address": "NW1 6XZ",
+    "categories": [
+      {
+        "name": "Palace"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4bb8fad5cf2fc9b6a819a002",
+    "source": "existing-snapshot",
+    "sourceId": "4bb8fad5cf2fc9b6a819a002",
+    "originalSource": "foursquare",
+    "name": "Buckingham Palace Garden",
+    "latitude": 51.500782092628455,
+    "longitude": -0.14548301696777344,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Buckingham Palace Rd, London, Greater London, SW1A 1AA",
+    "categories": [
+      {
+        "name": "Garden"
+      }
+    ],
+    "website": "http://www.royalcollection.org.uk",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c6a984d8e7c0f47d388e20f",
+    "source": "existing-snapshot",
+    "sourceId": "4c6a984d8e7c0f47d388e20f",
+    "originalSource": "foursquare",
+    "name": "Buckingham Palace Gate",
+    "latitude": 51.50154346295545,
+    "longitude": -0.14128804206848145,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Buckingham Palace Rd, London, Greater London, SW1A 1AA",
+    "categories": [
+      {
+        "name": "Monument"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-504c5761e4b09ab3b3d3a752",
+    "source": "existing-snapshot",
+    "sourceId": "504c5761e4b09ab3b3d3a752",
+    "originalSource": "foursquare",
+    "name": "Buckingham Palace Shop",
+    "latitude": 51.49904478104441,
+    "longitude": -0.14311238569700632,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "7 Buckingham Palace Rd, London, Greater London, SW1W 0PP",
+    "categories": [
+      {
+        "name": "Gift Store"
+      }
+    ],
+    "website": "http://www.royalcollectionshop.co.uk/buckingham-palace-road-shop/",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-49b7ed6df964a52030531fe3",
+    "source": "existing-snapshot",
+    "sourceId": "49b7ed6df964a52030531fe3",
+    "originalSource": "foursquare",
+    "name": "Times Square",
+    "latitude": 40.75734624948815,
+    "longitude": -73.98584961891174,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Broadway & 7th Ave (btwn W 42nd & 47th St), New York, NY 10036",
+    "categories": [
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": "https://www.timessquarenyc.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-438d6b12f964a520322b1fe3",
+    "source": "existing-snapshot",
+    "sourceId": "438d6b12f964a520322b1fe3",
+    "originalSource": "foursquare",
+    "name": "W New York - Times Square",
+    "latitude": 40.75929565924598,
+    "longitude": -73.98557268083096,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "1567 Broadway (W 47th St), New York, NY 10036",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "https://www.marriott.com/hotels/travel/nycwh-w-new-york-times-square",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4a2458a3f964a520127e1fe3",
+    "source": "existing-snapshot",
+    "sourceId": "4a2458a3f964a520127e1fe3",
+    "originalSource": "foursquare",
+    "name": "The Westin New York at Times Square",
+    "latitude": 40.7577137,
+    "longitude": -73.9891186,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "270 W 43rd St (at 8th Ave), New York, NY 10036",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "https://www.marriott.com/hotels/travel/nycsw-the-westin-new-york-at-times-square",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4a328a57f964a520579a1fe3",
+    "source": "existing-snapshot",
+    "sourceId": "4a328a57f964a520579a1fe3",
+    "originalSource": "foursquare",
+    "name": "MUJI",
+    "latitude": 40.75602958734989,
+    "longitude": -73.98962375826834,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "620 8th Ave (at W 40th St), New York, NY 10018",
+    "categories": [
+      {
+        "name": "Furniture and Home Store"
+      },
+      {
+        "name": "Miscellaneous Store"
+      },
+      {
+        "name": "Clothing Store"
+      }
+    ],
+    "website": "http://www.muji.us",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5a7b352bd807ee3ef81d893c",
+    "source": "existing-snapshot",
+    "sourceId": "5a7b352bd807ee3ef81d893c",
+    "originalSource": "foursquare",
+    "name": "Pod Times Square",
+    "latitude": 40.75821446509751,
+    "longitude": -73.99315501347948,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "400 W 42nd St, New York, NY 10036",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "https://www.thepodhotel.com/pod-times-square",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ac518cef964a520f7a520e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ac518cef964a520f7a520e3",
+    "originalSource": "foursquare",
+    "name": "Tower of London",
+    "latitude": 51.508248315482646,
+    "longitude": -0.07626056671142578,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "5 Great Tower St, London, Greater London, EC3N 4AB",
+    "categories": [
+      {
+        "name": "Castle"
+      },
+      {
+        "name": "History Museum"
+      }
+    ],
+    "website": "https://www.hrp.org.uk/tower-of-london/",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-58054fdf38fa86cde7e2ca15",
+    "source": "existing-snapshot",
+    "sourceId": "58054fdf38fa86cde7e2ca15",
+    "originalSource": "foursquare",
+    "name": "cloudM Tower of London",
+    "latitude": 51.510048640718914,
+    "longitude": -0.07661477873625698,
+    "countryCode": "GB",
+    "city": "Tower Hill",
+    "address": "40 Trinity Square (7th Fl.), Tower Hill, Greater London, EC3N 4DJ",
+    "categories": [
+      {
+        "name": "Hotel Bar"
+      }
+    ],
+    "website": "https://www.citizenm.com/rooftop-bars/europe/london/tower-of-london",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-51fcc649498e5634fea52725",
+    "source": "existing-snapshot",
+    "sourceId": "51fcc649498e5634fea52725",
+    "originalSource": "foursquare",
+    "name": "Tower of London Park",
+    "latitude": 51.509383501611595,
+    "longitude": -0.07467269897460938,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Tower Hill, London, Greater London, EC3N 4DR",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5919a4434382ab502a32b26b",
+    "source": "existing-snapshot",
+    "sourceId": "5919a4434382ab502a32b26b",
+    "originalSource": "foursquare",
+    "name": "Tower of London Shop",
+    "latitude": 51.50806370582516,
+    "longitude": -0.07891422169735474,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Tower Hill (St Katherine's Way), London, Greater London, EC3N 4DR",
+    "categories": [
+      {
+        "name": "Souvenir Store"
+      }
+    ],
+    "website": "http://www.hrp.org.uk/tower-of-london/",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-67f39917221d0a4915c2e6c6",
+    "source": "existing-snapshot",
+    "sourceId": "67f39917221d0a4915c2e6c6",
+    "originalSource": "foursquare",
+    "name": "tower of london cafe",
+    "latitude": 51.507671,
+    "longitude": -0.078705,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "London, Greater London, E C3N",
+    "categories": [
+      {
+        "name": "Bar"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5864efb745c3ed1e7d88e96d",
+    "source": "existing-snapshot",
+    "sourceId": "5864efb745c3ed1e7d88e96d",
+    "originalSource": "foursquare",
+    "name": "Venus of Milo (Vénus de Milo)",
+    "latitude": 48.859911665146164,
+    "longitude": 2.3372822999954224,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Musée du Louvre (Aile Sully, niveau 0, salle 345), 75001 Paris",
+    "categories": [
+      {
+        "name": "Exhibit"
+      }
+    ],
+    "website": "https://collections.louvre.fr/en/ark:/53355/cl010277627",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda10f964a520af3521e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda10f964a520af3521e3",
+    "originalSource": "foursquare",
+    "name": "Louvre Museum (Musée du Louvre)",
+    "latitude": 48.86084691113991,
+    "longitude": 2.336440086364746,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Rue de Rivoli (Place du Carrousel), 75001 Paris",
+    "categories": [
+      {
+        "name": "Museum"
+      }
+    ],
+    "website": "https://www.louvre.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-588ba9a9fc5a5f18a36a2a05",
+    "source": "existing-snapshot",
+    "sourceId": "588ba9a9fc5a5f18a36a2a05",
+    "originalSource": "foursquare",
+    "name": "Arts d'Afrique, d'Asie, d'Océanie et des Amériques",
+    "latitude": 48.860724043718605,
+    "longitude": 2.332121414307368,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Musée du Louvre (Aile Denon, Pavillon des Sessions), 75001 Paris",
+    "categories": [
+      {
+        "name": "Art Gallery"
+      }
+    ],
+    "website": "https://www.louvre.fr/en/explore/the-palace/artworks-from-around-the-world",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c387b8018e72d7fef5918f5",
+    "source": "existing-snapshot",
+    "sourceId": "4c387b8018e72d7fef5918f5",
+    "originalSource": "foursquare",
+    "name": "Colosseum Bar",
+    "latitude": 41.889840973576916,
+    "longitude": 12.495338768902355,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Via San Giovanni in Laterano (Via Ostilia), 00184 Roma Lazio",
+    "categories": [
+      {
+        "name": "Café"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-506ab80be4b0ab9925c70de5",
+    "source": "existing-snapshot",
+    "sourceId": "506ab80be4b0ab9925c70de5",
+    "originalSource": "foursquare",
+    "name": "Wow Colosseum",
+    "latitude": 41.89245508549404,
+    "longitude": 12.501180077520283,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Via Poliziano 8, Roma Lazio",
+    "categories": [
+      {
+        "name": "Hostel"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-13987373bef84838caf3ae29",
+    "source": "existing-snapshot",
+    "sourceId": "13987373bef84838caf3ae29",
+    "originalSource": "foursquare",
+    "name": "Colosseum B",
+    "latitude": 41.888168941840185,
+    "longitude": 12.497478375369969,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Via Capo d'Africa 59, 00184 Roma Lazio",
+    "categories": [
+      {
+        "name": "Bed and Breakfast"
+      },
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcdac6f964a520355321e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcdac6f964a520355321e3",
+    "originalSource": "foursquare",
+    "name": "Colosseum (Colosseo)",
+    "latitude": 41.89063339494293,
+    "longitude": 12.492377758026123,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Piazza del Colosseo (Via dei Fori Imperiali), 00184 Roma Lazio",
+    "categories": [
+      {
+        "name": "Historic and Protected Site"
+      },
+      {
+        "name": "Ruin"
+      },
+      {
+        "name": "Landmark Building"
+      }
+    ],
+    "website": "https://www.turismoroma.it/en/places/flavian-amphitheatre-colosseum",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4fbe42a2e4b058a3cbe71a0e",
+    "source": "existing-snapshot",
+    "sourceId": "4fbe42a2e4b058a3cbe71a0e",
+    "originalSource": "foursquare",
+    "name": "Retrome Colosseum Garden",
+    "latitude": 41.887793710730776,
+    "longitude": 12.496965354544626,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Via Marco Aurelio 47, Roma Lazio",
+    "categories": [
+      {
+        "name": "Bed and Breakfast"
+      }
+    ],
+    "website": "http://www.retrome.net",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b058762f964a5201b8f22e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b058762f964a5201b8f22e3",
+    "originalSource": "foursquare",
+    "name": "Sydney Opera House",
+    "latitude": -33.85726,
+    "longitude": 151.21504,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "2 Macquarie St, Sydney NSW 2000",
+    "categories": [
+      {
+        "name": "Opera House"
+      },
+      {
+        "name": "Concert Hall"
+      }
+    ],
+    "website": "http://www.sydneyoperahouse.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-69474f6c578fce3ecd531a9b",
+    "source": "existing-snapshot",
+    "sourceId": "69474f6c578fce3ecd531a9b",
+    "originalSource": "foursquare",
+    "name": "Sydney Opera House",
+    "latitude": -33.858997,
+    "longitude": 151.213363,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "1E Macquarie St, Sydney NSW 2000",
+    "categories": [
+      {
+        "name": "Performing Arts Venue"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-68669c2349d9ad6653d41d09",
+    "source": "existing-snapshot",
+    "sourceId": "68669c2349d9ad6653d41d09",
+    "originalSource": "foursquare",
+    "name": "Sydney Opera House",
+    "latitude": -33.857571,
+    "longitude": 151.215134,
+    "countryCode": "AU",
+    "city": "The Entrance",
+    "address": "Benelong St, The Entrance NSW 2261",
+    "categories": [
+      {
+        "name": "Entertainment Service"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b05876af964a520509122e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b05876af964a520509122e3",
+    "originalSource": "foursquare",
+    "name": "Sydney Opera House - Playhouse",
+    "latitude": -33.85763245114371,
+    "longitude": 151.21495393579477,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "2 Macquarie St, Sydney NSW 2000",
+    "categories": [
+      {
+        "name": "Theater"
+      }
+    ],
+    "website": "https://www.sydneyoperahouse.com/visit-us/performance-space/playhouse.html",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b9de72af964a5202dc236e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b9de72af964a5202dc236e3",
+    "originalSource": "foursquare",
+    "name": "Sydney Opera House Forecourt",
+    "latitude": -33.85818377883027,
+    "longitude": 151.21461868286133,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "1 Macquarie St., Sydney NSW 2000",
+    "categories": [
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda09f964a520e83321e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda09f964a520e83321e3",
+    "originalSource": "foursquare",
+    "name": "Cathedral of Notre-Dame de Paris (Cathédrale Notre-Dame de Paris)",
+    "latitude": 48.85312443201169,
+    "longitude": 2.3495614528656006,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "6 parvis Notre-Dame (Place Jean-Paul II), 75004 Paris",
+    "categories": [
+      {
+        "name": "Church"
+      },
+      {
+        "name": "Monument"
+      }
+    ],
+    "website": "https://www.notredamedeparis.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c00046cc30a2d7fbeda111d",
+    "source": "existing-snapshot",
+    "sourceId": "4c00046cc30a2d7fbeda111d",
+    "originalSource": "foursquare",
+    "name": "Parvis Notre-Dame — Place Jean-Paul II",
+    "latitude": 48.85340681055016,
+    "longitude": 2.348456382751465,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Parvis Notre-Dame (Place Jean-Paul II), 75004 Paris",
+    "categories": [
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": "http://www.paris.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4bf41231e5eba59334341f90",
+    "source": "existing-snapshot",
+    "sourceId": "4bf41231e5eba59334341f90",
+    "originalSource": "foursquare",
+    "name": "Place de l'Hôtel de Ville – Esplanade de la Libération",
+    "latitude": 48.85709466177455,
+    "longitude": 2.3515192506880584,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Place de l'Hôtel de Ville, 75004 Paris",
+    "categories": [
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": "http://www.paris.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcdac6f964a5202b5321e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcdac6f964a5202b5321e3",
+    "originalSource": "foursquare",
+    "name": "Trevi Fountain (Fontana di Trevi)",
+    "latitude": 41.900925,
+    "longitude": 12.48328,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Piazza di Trevi, 00187 Roma Lazio",
+    "categories": [
+      {
+        "name": "Fountain"
+      },
+      {
+        "name": "Monument"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "https://www.turismoroma.it",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4e677734183850162854a4c3",
+    "source": "existing-snapshot",
+    "sourceId": "4e677734183850162854a4c3",
+    "originalSource": "foursquare",
+    "name": "Gelato In Trevi",
+    "latitude": 41.90065272941933,
+    "longitude": 12.483550790417144,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Via Di S. Vincenzo, 23 (Via Di S. Vincenzo, 23), Roma Lazio",
+    "categories": [
+      {
+        "name": "Ice Cream Parlor"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4e620f14e4cdf1e2bf1e97a0",
+    "source": "existing-snapshot",
+    "sourceId": "4e620f14e4cdf1e2bf1e97a0",
+    "originalSource": "foursquare",
+    "name": "Pizza in Trevi",
+    "latitude": 41.900676166842146,
+    "longitude": 12.483653388067092,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Via San Vincenzo, 30/A, 00187 Roma Lazio",
+    "categories": [
+      {
+        "name": "Pizzeria"
+      }
+    ],
+    "website": "http://www.pizzaintrevi.it",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-54848b5a498ef51e69c5601d",
+    "source": "existing-snapshot",
+    "sourceId": "54848b5a498ef51e69c5601d",
+    "originalSource": "foursquare",
+    "name": "don nino fontana di trevi",
+    "latitude": 41.90115447175053,
+    "longitude": 12.48338145499017,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "piazza di trevi 83, 00100 Roma Lazio",
+    "categories": [
+      {
+        "name": "Ice Cream Parlor"
+      }
+    ],
+    "website": "https://www.don-nino.it",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ea9edb56c250fcc73f883ef",
+    "source": "existing-snapshot",
+    "sourceId": "4ea9edb56c250fcc73f883ef",
+    "originalSource": "foursquare",
+    "name": "Piazza di Trevi",
+    "latitude": 41.90086548690147,
+    "longitude": 12.483276302886882,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Piazza di Trevi, 00187 Roma Lazio",
+    "categories": [
+      {
+        "name": "Plaza"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-49ebbf61f964a52020671fe3",
+    "source": "existing-snapshot",
+    "sourceId": "49ebbf61f964a52020671fe3",
+    "originalSource": "foursquare",
+    "name": "Central Park Mall",
+    "latitude": 40.77244937900301,
+    "longitude": -73.97154808044434,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Central Park, New York, NY 10028",
+    "categories": [
+      {
+        "name": "Park"
+      },
+      {
+        "name": "Garden"
+      }
+    ],
+    "website": "http://www.centralparknyc.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4a09f665f964a52077741fe3",
+    "source": "existing-snapshot",
+    "sourceId": "4a09f665f964a52077741fe3",
+    "originalSource": "foursquare",
+    "name": "Central Park Zoo",
+    "latitude": 40.76778543898998,
+    "longitude": -73.97185921669006,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "E 64th St (at 5th Ave), New York, NY 10021",
+    "categories": [
+      {
+        "name": "Zoo"
+      }
+    ],
+    "website": "https://centralparkzoo.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b05562cf964a520cf5722e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b05562cf964a520cf5722e3",
+    "originalSource": "foursquare",
+    "name": "AKA Central Park",
+    "latitude": 40.764389020573425,
+    "longitude": -73.97559049669236,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "42 W 58th St (Btw 5th & 6th), New York, NY 10019",
+    "categories": [
+      {
+        "name": "Hotel"
+      },
+      {
+        "name": "Resort"
+      }
+    ],
+    "website": "https://www.stayaka.com/aka-central-park",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-412d2800f964a520df0c1fe3",
+    "source": "existing-snapshot",
+    "sourceId": "412d2800f964a520df0c1fe3",
+    "originalSource": "foursquare",
+    "name": "Central Park",
+    "latitude": 40.78307608904521,
+    "longitude": -73.96549701690674,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "59th to 110th St (btwn 5th Ave & Central Park W), New York, NY 10028",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://www.centralparknyc.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-52122654bce6fde818ebecdd",
+    "source": "existing-snapshot",
+    "sourceId": "52122654bce6fde818ebecdd",
+    "originalSource": "foursquare",
+    "name": "1 Hotel Central Park",
+    "latitude": 40.76469130864799,
+    "longitude": -73.97638872425051,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "1414 Avenue of the Americas (btwn 57th St. & 58th St.), New York, NY 10019",
+    "categories": [
+      {
+        "name": "Hotel"
+      },
+      {
+        "name": "Restaurant"
+      },
+      {
+        "name": "Spa"
+      }
+    ],
+    "website": "https://www.1hotels.com/central-park",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4cc2c6f97ed8ef3bab7112a0",
+    "source": "existing-snapshot",
+    "sourceId": "4cc2c6f97ed8ef3bab7112a0",
+    "originalSource": "foursquare",
+    "name": "El Moez St (شارع المعز لدين الله)",
+    "latitude": 30.050482085745507,
+    "longitude": 31.261851421837317,
+    "countryCode": "EG",
+    "city": "القاهرة",
+    "address": "Al-Mu'izz ledin Illah St, الجمالية, القاهرة",
+    "categories": [
+      {
+        "name": "Historic and Protected Site"
+      },
+      {
+        "name": "Flea Market"
+      },
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4e04c0632271233b767e45cf",
+    "source": "existing-snapshot",
+    "sourceId": "4e04c0632271233b767e45cf",
+    "originalSource": "foursquare",
+    "name": "Al Haakem Mosque (جامع الحاكم بامر الله)",
+    "latitude": 30.05461224036256,
+    "longitude": 31.2635870007414,
+    "countryCode": "EG",
+    "city": "القاهرة",
+    "address": "Al Moez st. (Al Muizz), القاهرة, القاهرة",
+    "categories": [
+      {
+        "name": "Mosque"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4d0d11ddf393224bf44a1aee",
+    "source": "existing-snapshot",
+    "sourceId": "4d0d11ddf393224bf44a1aee",
+    "originalSource": "foursquare",
+    "name": "Bab Al-Fotouh (باب الفُتوح)",
+    "latitude": 30.0556311844994,
+    "longitude": 31.263533563876106,
+    "countryCode": "EG",
+    "city": "Al Gamaliyah",
+    "address": "Al Moez St., Al Gamaliyah, القاهرة",
+    "categories": [
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-610e55ff18f69e4acfcbf07f",
+    "source": "existing-snapshot",
+    "sourceId": "610e55ff18f69e4acfcbf07f",
+    "originalSource": "foursquare",
+    "name": "Mamsha Ahl Misr (ممشي أهل مصر)",
+    "latitude": 30.062468,
+    "longitude": 31.227015,
+    "countryCode": "EG",
+    "city": "Boulaq",
+    "address": "Nile Corniche, Boulaq, Cairo Governorate",
+    "categories": [
+      {
+        "name": "Pedestrian Plaza"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4d91aadcf5388cfa779bb93d",
+    "source": "existing-snapshot",
+    "sourceId": "4d91aadcf5388cfa779bb93d",
+    "originalSource": "foursquare",
+    "name": "Al Azhar Mosque (الجامع الأزهر)",
+    "latitude": 30.045969886817048,
+    "longitude": 31.262538811699812,
+    "countryCode": "EG",
+    "city": "القاهرة",
+    "address": "Azhar St. (القاهرة الفاطمية), القاهرة الإسلامية, القاهرة",
+    "categories": [
+      {
+        "name": "Mosque"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ddaaff9b0fb8af380d36829",
+    "source": "existing-snapshot",
+    "sourceId": "4ddaaff9b0fb8af380d36829",
+    "originalSource": "foursquare",
+    "name": "Talaat Harb Square (ميدان طلعت حرب)",
+    "latitude": 30.04777028617336,
+    "longitude": 31.238572804752902,
+    "countryCode": "EG",
+    "city": "القاهرة",
+    "address": "Downtown (Kasr El Nile St.), القاهرة, القاهرة",
+    "categories": [
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-52efd182498e6e2ef0c7281e",
+    "source": "existing-snapshot",
+    "sourceId": "52efd182498e6e2ef0c7281e",
+    "originalSource": "foursquare",
+    "name": "Al-Azhar Al-Shareif (مشيخة الأزهر الشريف)",
+    "latitude": 30.046180186384955,
+    "longitude": 31.267736019792032,
+    "countryCode": "EG",
+    "city": "القاهرة",
+    "address": "Al-Khaleden Park, Al-Drrasa (Salah Salem Street), القاهرة, القاهرة, 11561",
+    "categories": [
+      {
+        "name": "Mosque"
+      },
+      {
+        "name": "Monument"
+      }
+    ],
+    "website": "http://www.azhar.eg",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5016d2f9e4b0535571ebaaaa",
+    "source": "existing-snapshot",
+    "sourceId": "5016d2f9e4b0535571ebaaaa",
+    "originalSource": "foursquare",
+    "name": "Mausoleum of Al Ghouri (قبة الغورى)",
+    "latitude": 30.04613860952604,
+    "longitude": 31.26014619494526,
+    "countryCode": "EG",
+    "city": "Al Ghuriya",
+    "address": "111 Al Azhar St., Al Ghuriya, القاهرة",
+    "categories": [
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "http://www.alghouricenter.gov.eg",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4bb1faa0f964a52040af3ce3",
+    "source": "existing-snapshot",
+    "sourceId": "4bb1faa0f964a52040af3ce3",
+    "originalSource": "foursquare",
+    "name": "Muhammad Ali Mosque (مسجد محمد على)",
+    "latitude": 30.028538201429804,
+    "longitude": 31.25984787940979,
+    "countryCode": "EG",
+    "city": "القاهرة",
+    "address": "The Citadel (Salah Salem St), القاهرة, القاهرة",
+    "categories": [
+      {
+        "name": "Historic and Protected Site"
+      },
+      {
+        "name": "Mosque"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4cee65cb3b03f04deec239dc",
+    "source": "existing-snapshot",
+    "sourceId": "4cee65cb3b03f04deec239dc",
+    "originalSource": "foursquare",
+    "name": "The Saladin Citadel of Cairo (قلعة صلاح الدين)",
+    "latitude": 30.029360254297842,
+    "longitude": 31.261730790138245,
+    "countryCode": "EG",
+    "city": "Qesm Al Khalifah",
+    "address": "Salah Salem Rd, Qesm Al Khalifah, القاهرة",
+    "categories": [
+      {
+        "name": "Historic and Protected Site"
+      },
+      {
+        "name": "Scenic Lookout"
+      },
+      {
+        "name": "History Museum"
+      }
+    ],
+    "website": "http://www.sca-egypt.org/eng/site_citadel.htm",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4f979c8ae4b05465dae0714f",
+    "source": "existing-snapshot",
+    "sourceId": "4f979c8ae4b05465dae0714f",
+    "originalSource": "foursquare",
+    "name": "Place du Louvre",
+    "latitude": 48.859841,
+    "longitude": 2.340822,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Place du Louvre, 75001 Paris",
+    "categories": [
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": "http://www.paris.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4f6dabf5003944083fe0002e",
+    "source": "existing-snapshot",
+    "sourceId": "4f6dabf5003944083fe0002e",
+    "originalSource": "foursquare",
+    "name": "Vestige de la Forteresse du Louvre",
+    "latitude": 48.860436640284796,
+    "longitude": 2.338065505027771,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Musée de Louvre (Palais du Louvre), 75001 Paris",
+    "categories": [
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b5b0a4ef964a5204ae028e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b5b0a4ef964a5204ae028e3",
+    "originalSource": "foursquare",
+    "name": "Louvre Pyramid (Pyramide du Louvre)",
+    "latitude": 48.86102337068847,
+    "longitude": 2.3358500003814693,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Cour Napoléon (Musée du Louvre), 75001 Paris",
+    "categories": [
+      {
+        "name": "Monument"
+      }
+    ],
+    "website": "https://www.louvre.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-571fe799498ef36a9fd63f1a",
+    "source": "existing-snapshot",
+    "sourceId": "571fe799498ef36a9fd63f1a",
+    "originalSource": "foursquare",
+    "name": "La Clef Louvre Paris",
+    "latitude": 48.86397721115658,
+    "longitude": 2.336139678955078,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "8 rue de Richelieu, 75001 Paris",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "https://www.discoverasr.com/the-crest-collection/france/la-clef-louvre-paris-by-the-crest-collection",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-55536fca498e1bf662c2ed7d",
+    "source": "existing-snapshot",
+    "sourceId": "55536fca498e1bf662c2ed7d",
+    "originalSource": "foursquare",
+    "name": "Grand Bassin du Jardin du Luxembourg",
+    "latitude": 48.8469042547371,
+    "longitude": 2.3371830582618713,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Jardin du Luxembourg, 75006 Paris",
+    "categories": [
+      {
+        "name": "Fountain"
+      }
+    ],
+    "website": "http://www.senat.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ba8b203f964a520a6e739e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ba8b203f964a520a6e739e3",
+    "originalSource": "foursquare",
+    "name": "Luxembourg Garden (Jardin du Luxembourg)",
+    "latitude": 48.84705290819862,
+    "longitude": 2.3365044593811035,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Place Edmond Rostand (Rue de Médicis), 75006 Paris",
+    "categories": [
+      {
+        "name": "Garden"
+      }
+    ],
+    "website": "https://www.senat.fr/visite/jardin/",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-58d800df9435a979b8a645fa",
+    "source": "existing-snapshot",
+    "sourceId": "58d800df9435a979b8a645fa",
+    "originalSource": "foursquare",
+    "name": "Berges de Seine – Rive droite",
+    "latitude": 48.855130568830376,
+    "longitude": 2.352289446225441,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "De la passerelle Léopold-Sédar-Senghor au port de l'Arsenal, Paris",
+    "categories": [
+      {
+        "name": "Pedestrian Plaza"
+      }
+    ],
+    "website": "http://www.paris.fr/rivesdeseine",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b82c9adf964a520f7e430e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b82c9adf964a520f7e430e3",
+    "originalSource": "foursquare",
+    "name": "Place des Vosges",
+    "latitude": 48.85560224935551,
+    "longitude": 2.3655474185943604,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Place des Vosges, 75004 Paris",
+    "categories": [
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": "http://www.paris.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda09f964a520ea3321e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda09f964a520ea3321e3",
+    "originalSource": "foursquare",
+    "name": "Panthéon",
+    "latitude": 48.846229,
+    "longitude": 2.346084,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Place du Panthéon, 75005 Paris",
+    "categories": [
+      {
+        "name": "Monument"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "http://pantheon.monuments-nationaux.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5096523c498ecb7e553bc676",
+    "source": "existing-snapshot",
+    "sourceId": "5096523c498ecb7e553bc676",
+    "originalSource": "foursquare",
+    "name": "Medici Fountain (Fontaine Médicis)",
+    "latitude": 48.84806252656264,
+    "longitude": 2.3386770486831665,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Jardin du Luxembourg, 75006 Paris",
+    "categories": [
+      {
+        "name": "Fountain"
+      }
+    ],
+    "website": "http://www.paris.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ba8b650f964a520f5e839e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ba8b650f964a520f5e839e3",
+    "originalSource": "foursquare",
+    "name": "Jardin du Palais Royal",
+    "latitude": 48.86494061245833,
+    "longitude": 2.3377275466918945,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Palais Royal, 75001 Paris",
+    "categories": [
+      {
+        "name": "Garden"
+      }
+    ],
+    "website": "",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ac518d2f964a5203da720e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ac518d2f964a5203da720e3",
+    "originalSource": "foursquare",
+    "name": "British Museum",
+    "latitude": 51.51900874337275,
+    "longitude": -0.12643718771869317,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Great Russell St (btwn Montague & Bloomsbury St), London, Greater London, WC1B 3DG",
+    "categories": [
+      {
+        "name": "History Museum"
+      },
+      {
+        "name": "Art Museum"
+      }
+    ],
+    "website": "http://britishmuseum.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4fae6d1fe4b03b8054f2fedb",
+    "source": "existing-snapshot",
+    "sourceId": "4fae6d1fe4b03b8054f2fedb",
+    "originalSource": "foursquare",
+    "name": "British Museum Shop",
+    "latitude": 51.518944652797195,
+    "longitude": -0.1267075538635254,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Great Russell St, London, Greater London, WC1B 3DG",
+    "categories": [
+      {
+        "name": "Gift Store"
+      },
+      {
+        "name": "Souvenir Store"
+      }
+    ],
+    "website": "http://www.britishmuseumshoponline.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ac518cdf964a520eca520e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ac518cdf964a520eca520e3",
+    "originalSource": "foursquare",
+    "name": "London Transport Museum",
+    "latitude": 51.5120008940347,
+    "longitude": -0.12130816793336828,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Covent Garden Piazza, London, Greater London, WC2E 7BB",
+    "categories": [
+      {
+        "name": "Museum"
+      }
+    ],
+    "website": "https://ltmuseum.co.uk",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ac518d3f964a52077a720e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ac518d3f964a52077a720e3",
+    "originalSource": "foursquare",
+    "name": "Churchill War Rooms (Churchill Museum & Cabinet War Rooms)",
+    "latitude": 51.502079,
+    "longitude": -0.129305,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "King Charles St, London, Greater London, SW1A 2AQ",
+    "categories": [
+      {
+        "name": "Historic and Protected Site"
+      },
+      {
+        "name": "History Museum"
+      },
+      {
+        "name": "Government Building"
+      }
+    ],
+    "website": "http://www.iwm.org.uk/visits/churchill-war-rooms",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5366690f498ef8ea0e7f5bc4",
+    "source": "existing-snapshot",
+    "sourceId": "5366690f498ef8ea0e7f5bc4",
+    "originalSource": "foursquare",
+    "name": "London Transport Museum Shop",
+    "latitude": 51.51180827080036,
+    "longitude": -0.12151582676071886,
+    "countryCode": "GB",
+    "city": "Covent Garden",
+    "address": "Covent Garden Piazza, Covent Garden, Greater London, WC2E 7BB",
+    "categories": [
+      {
+        "name": "Gift Store"
+      }
+    ],
+    "website": "https://ltmuseum.co.uk",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4bae535af964a520f5a23be3",
+    "source": "existing-snapshot",
+    "sourceId": "4bae535af964a520f5a23be3",
+    "originalSource": "foursquare",
+    "name": "Maison Européenne de la Photographie",
+    "latitude": 48.85512804426985,
+    "longitude": 2.358947843313217,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "5 rue de Fourcy, 75004 Paris",
+    "categories": [
+      {
+        "name": "Art Museum"
+      }
+    ],
+    "website": "http://www.mep-fr.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda10f964a5208b3521e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda10f964a5208b3521e3",
+    "originalSource": "foursquare",
+    "name": "Orsay Museum (Musée d'Orsay)",
+    "latitude": 48.85999283813253,
+    "longitude": 2.3263871669769287,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "1 rue de la Légion d'Honneur (Quai Anatole France), 75007 Paris",
+    "categories": [
+      {
+        "name": "Art Museum"
+      }
+    ],
+    "website": "https://www.musee-orsay.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b058761f964a520188f22e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b058761f964a520188f22e3",
+    "originalSource": "foursquare",
+    "name": "Royal Botanic Garden",
+    "latitude": -33.86414397991936,
+    "longitude": 151.21599197387695,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Macquarie St (Cahill Express Way), Sydney NSW 2000",
+    "categories": [
+      {
+        "name": "Botanical Garden"
+      }
+    ],
+    "website": "http://www.rbgsyd.nsw.gov.au",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b058762f964a520648f22e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b058762f964a520648f22e3",
+    "originalSource": "foursquare",
+    "name": "The Opera House to the Botanic Gardens Walk",
+    "latitude": -33.86091411150996,
+    "longitude": 151.2132211923114,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Macquarie St, Sydney NSW 2000",
+    "categories": [
+      {
+        "name": "Hiking Trail"
+      }
+    ],
+    "website": "http://www.cityofsydney.nsw.gov.au",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b9af88af964a5200ee835e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b9af88af964a5200ee835e3",
+    "originalSource": "foursquare",
+    "name": "Chinese Garden of Friendship",
+    "latitude": -33.87659981304718,
+    "longitude": 151.20226979255673,
+    "countryCode": "AU",
+    "city": "Darling Harbour",
+    "address": "Pier St (Cnr Harbour St), Darling Harbour NSW 2000",
+    "categories": [
+      {
+        "name": "Garden"
+      }
+    ],
+    "website": "http://www.darlingharbour.com/things-to-do/chinese-garden-of-friendship/",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b29ebacf964a5201ea424e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b29ebacf964a5201ea424e3",
+    "originalSource": "foursquare",
+    "name": "Royal Albert Hotel",
+    "latitude": -33.88133152419853,
+    "longitude": 151.2108539413369,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "140 Commonwealth St, Sydney NSW 2010",
+    "categories": [
+      {
+        "name": "Pub"
+      }
+    ],
+    "website": "http://www.royalalberthotel.com.au",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b7f4a6af964a520492530e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b7f4a6af964a520492530e3",
+    "originalSource": "foursquare",
+    "name": "Wendy Whiteley's Secret Garden",
+    "latitude": -33.843822,
+    "longitude": 151.20813,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "1 Walker St, Lavender Bay NSW 2060",
+    "categories": [
+      {
+        "name": "Garden"
+      }
+    ],
+    "website": "http://wendyssecretgarden.org.au",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ba0e4e3f964a520498537e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ba0e4e3f964a520498537e3",
+    "originalSource": "foursquare",
+    "name": "Pier 25 at Hudson River Park",
+    "latitude": 40.72019260471762,
+    "longitude": -74.01295032920208,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "West Side Highway (at N Moore St), New York, NY 10013",
+    "categories": [
+      {
+        "name": "Park"
+      },
+      {
+        "name": "Pier"
+      }
+    ],
+    "website": "https://hudsonriverpark.org/locations/pier-25/",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b929790f964a5209a0734e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b929790f964a5209a0734e3",
+    "originalSource": "foursquare",
+    "name": "Nelson A. Rockefeller Park",
+    "latitude": 40.717501368742596,
+    "longitude": -74.01648044586182,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "River Ter (btwn Chambers St & Vesey Pl), New York, NY 10280",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://bpcparks.org/whats-here/parks/rockefeller-park/",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ba0e528f964a5205c8537e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ba0e528f964a5205c8537e3",
+    "originalSource": "foursquare",
+    "name": "Pier 26 - Hudson River Park",
+    "latitude": 40.72094711352765,
+    "longitude": -74.0129479765892,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "West St (at Beach St), New York, NY 10013",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://www.hudsonriverpark.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-430d0a00f964a5203e271fe3",
+    "source": "existing-snapshot",
+    "sourceId": "430d0a00f964a5203e271fe3",
+    "originalSource": "foursquare",
+    "name": "Brooklyn Bridge Park",
+    "latitude": 40.70346446874157,
+    "longitude": -73.99435758590698,
+    "countryCode": "US",
+    "city": "Brooklyn",
+    "address": "Furman St (Plymouth St), Brooklyn, NY 11201",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://nyc.gov/parks",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4bd9d7af3f01c9b63c5b53a5",
+    "source": "existing-snapshot",
+    "sourceId": "4bd9d7af3f01c9b63c5b53a5",
+    "originalSource": "foursquare",
+    "name": "Robert F. Wagner, Jr. Park",
+    "latitude": 40.70525489877921,
+    "longitude": -74.01843601642805,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "20 Battery Pl (btw 1st Pl & Little West St), New York, NY 10004",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "https://bpca.ny.gov",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-42daf100f964a52035261fe3",
+    "source": "existing-snapshot",
+    "sourceId": "42daf100f964a52035261fe3",
+    "originalSource": "foursquare",
+    "name": "Battery Park",
+    "latitude": 40.70321688525361,
+    "longitude": -74.01579540994133,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Battery Pl (at State St), New York, NY 10004",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://nyc.gov/parks",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-40abf500f964a52035f31ee3",
+    "source": "existing-snapshot",
+    "sourceId": "40abf500f964a52035f31ee3",
+    "originalSource": "foursquare",
+    "name": "Washington Square Park",
+    "latitude": 40.73081579656163,
+    "longitude": -73.9974582195282,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "W 4th St (btwn MacDougal St & University Pl), New York, NY 10012",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://nycgovparks.org/parks/washingtonsquarepark",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-42377700f964a52024201fe3",
+    "source": "existing-snapshot",
+    "sourceId": "42377700f964a52024201fe3",
+    "originalSource": "foursquare",
+    "name": "Brooklyn Heights Promenade",
+    "latitude": 40.69644155477119,
+    "longitude": -73.99754251009294,
+    "countryCode": "US",
+    "city": "Brooklyn",
+    "address": "Columbia Heights (btwn Remsen & Orange St), Brooklyn, NY 11201",
+    "categories": [
+      {
+        "name": "Scenic Lookout"
+      },
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://nyharborparks.org/visit/brhe.html",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b955a1af964a520f29d34e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b955a1af964a520f29d34e3",
+    "originalSource": "foursquare",
+    "name": "Empire-Fulton Ferry State Park",
+    "latitude": 40.70438354518276,
+    "longitude": -73.99294137954712,
+    "countryCode": "US",
+    "city": "Brooklyn",
+    "address": "Water St (at Dock St), Brooklyn, NY 11201",
+    "categories": [
+      {
+        "name": "State or Provincial Park"
+      },
+      {
+        "name": "Scenic Lookout"
+      }
+    ],
+    "website": "http://www.nycgovparks.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b240a1ff964a520b25f24e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b240a1ff964a520b25f24e3",
+    "originalSource": "foursquare",
+    "name": "Hudson River Park",
+    "latitude": 40.734035472708875,
+    "longitude": -74.01047712789637,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "West St (btwn Battery Pl & W 59th St), New York, NY 10014",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://www.hudsonriverpark.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-50840c40e4b07e40749c87ab",
+    "source": "existing-snapshot",
+    "sourceId": "50840c40e4b07e40749c87ab",
+    "originalSource": "foursquare",
+    "name": "Hole in the corner",
+    "latitude": 40.566405635121555,
+    "longitude": -89.63786279990495,
+    "countryCode": "US",
+    "city": "Pekin",
+    "address": "Pekin, IL 61554",
+    "categories": [
+      {
+        "name": "Convenience Store"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-52f11ecc11d201bccccc442c",
+    "source": "existing-snapshot",
+    "sourceId": "52f11ecc11d201bccccc442c",
+    "originalSource": "foursquare",
+    "name": "The Law Office Of Luke P Taylor PC",
+    "latitude": 40.56891526710766,
+    "longitude": -89.64329341741738,
+    "countryCode": "US",
+    "city": "Pekin",
+    "address": "601 Margaret St, Pekin, IL 61554",
+    "categories": [
+      {
+        "name": "Law Office"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-50a86167e4b02a7dc03c3291",
+    "source": "existing-snapshot",
+    "sourceId": "50a86167e4b02a7dc03c3291",
+    "originalSource": "foursquare",
+    "name": "Mario time with the wii",
+    "latitude": 40.5661750228824,
+    "longitude": -89.64353508509079,
+    "countryCode": "US",
+    "city": "Pekin",
+    "address": "Pekin, IL 61554",
+    "categories": [
+      {
+        "name": "Arcade"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ec0ba92d3e3700a5bf1522d",
+    "source": "existing-snapshot",
+    "sourceId": "4ec0ba92d3e3700a5bf1522d",
+    "originalSource": "foursquare",
+    "name": "The Hide Out!",
+    "latitude": 40.56555565855734,
+    "longitude": -89.63833372740633,
+    "countryCode": "US",
+    "city": "Pekin",
+    "address": "910 Court St, Pekin, IL 61554, Pekin, IL 61554",
+    "categories": [
+      {
+        "name": "Pub"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-50cbe235e4b0d0701f1866aa",
+    "source": "existing-snapshot",
+    "sourceId": "50cbe235e4b0d0701f1866aa",
+    "originalSource": "foursquare",
+    "name": "The Look Out!¡!¡!¡",
+    "latitude": 40.56635718840808,
+    "longitude": -89.63749282832075,
+    "countryCode": "US",
+    "city": "Pekin",
+    "address": "Pekin, IL 61554",
+    "categories": [
+      {
+        "name": "Hunting Supply Store"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c0e1fb37189c92809eed7b6",
+    "source": "existing-snapshot",
+    "sourceId": "4c0e1fb37189c92809eed7b6",
+    "originalSource": "foursquare",
+    "name": "Twin Towers-Cafeteria",
+    "latitude": 33.74972331043127,
+    "longitude": -84.38751518466937,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "1 Martin Luther King Jr Dr SW, Atlanta, GA 30334",
+    "categories": [
+      {
+        "name": "American Restaurant"
+      },
+      {
+        "name": "Government Building"
+      }
+    ],
+    "website": "http://www.gba.georgia.gov",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4f2194efe4b0b7e18a53a168",
+    "source": "existing-snapshot",
+    "sourceId": "4f2194efe4b0b7e18a53a168",
+    "originalSource": "foursquare",
+    "name": "Georgia Governor's Office",
+    "latitude": 33.7505159187342,
+    "longitude": -84.38840676433732,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "Atlanta, GA 30303",
+    "categories": [
+      {
+        "name": "Capitol Building"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4e95f2588b811f0c6611ee98",
+    "source": "existing-snapshot",
+    "sourceId": "4e95f2588b811f0c6611ee98",
+    "originalSource": "foursquare",
+    "name": "Secretary Of State Corporations Division",
+    "latitude": 33.750044002596795,
+    "longitude": -84.38657587618361,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "2 Martin Luther King Jr Dr SE, Atlanta, GA 30334",
+    "categories": [
+      {
+        "name": "Government Building"
+      }
+    ],
+    "website": "http://ecorp.sos.ga.gov",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5058aa2ee4b0b66b95662686",
+    "source": "existing-snapshot",
+    "sourceId": "5058aa2ee4b0b66b95662686",
+    "originalSource": "foursquare",
+    "name": "Administrative Office of the Courts of Georgia",
+    "latitude": 33.74813989600308,
+    "longitude": -84.38972093793609,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "Atlanta, GA 30303",
+    "categories": [
+      {
+        "name": "Government Building"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c5dc5a86ebe2d7f45e0d32e",
+    "source": "existing-snapshot",
+    "sourceId": "4c5dc5a86ebe2d7f45e0d32e",
+    "originalSource": "foursquare",
+    "name": "H3LL!",
+    "latitude": 33.74899135308074,
+    "longitude": -84.38634517862502,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "., Atlanta, GA 30307",
+    "categories": [
+      {
+        "name": "Bar"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4dc7ff25ae608779d17788c9",
+    "source": "existing-snapshot",
+    "sourceId": "4dc7ff25ae608779d17788c9",
+    "originalSource": "foursquare",
+    "name": "State Road & Tollway Authority",
+    "latitude": 33.74784611605415,
+    "longitude": -84.38973715959177,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "47 Trinity Ave SW, Atlanta, GA 30334",
+    "categories": [
+      {
+        "name": "Government Building"
+      }
+    ],
+    "website": "http://www.georgiatolls.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4fa13b22e4b08c9b81db10a3",
+    "source": "existing-snapshot",
+    "sourceId": "4fa13b22e4b08c9b81db10a3",
+    "originalSource": "foursquare",
+    "name": "Capitol Education Center",
+    "latitude": 33.749984035953794,
+    "longitude": -84.39058199895345,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "180 Central Ave SW, Atlanta, GA 30303, Atlanta, GA 30303",
+    "categories": [
+      {
+        "name": "Monument"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b56a5e8f964a5208e1728e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b56a5e8f964a5208e1728e3",
+    "originalSource": "foursquare",
+    "name": "Tokyo Tower (東京タワー)",
+    "latitude": 35.65857854321072,
+    "longitude": 139.74544197320938,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "芝公園4-2-8, 港区, 東京都, 105-0011",
+    "categories": [
+      {
+        "name": "Monument"
+      },
+      {
+        "name": "Scenic Lookout"
+      }
+    ],
+    "website": "https://www.tokyotower.co.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-625521c9f8a2661187d954e9",
+    "source": "existing-snapshot",
+    "sourceId": "625521c9f8a2661187d954e9",
+    "originalSource": "foursquare",
+    "name": "RED° TOKYO TOWER",
+    "latitude": 35.658577,
+    "longitude": 139.745514,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "芝公園4-2-8, 港区, 東京都, 105-0011",
+    "categories": [
+      {
+        "name": "Indoor Play Area"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c6bde979669e21eaad8ab51",
+    "source": "existing-snapshot",
+    "sourceId": "4c6bde979669e21eaad8ab51",
+    "originalSource": "foursquare",
+    "name": "THE TOKYO TOWERS",
+    "latitude": 35.65592836052906,
+    "longitude": 139.77275460661255,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "勝どき6-3-1, 中央区, 東京都, 104-0054",
+    "categories": [
+      {
+        "name": "Apartment or Condo"
+      },
+      {
+        "name": "Structure"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b05879af964a520b69b22e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b05879af964a520b69b22e3",
+    "originalSource": "foursquare",
+    "name": "Park Hyatt Tokyo (パークハイアット東京)",
+    "latitude": 35.68557476,
+    "longitude": 139.6906391,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "西新宿3-7-1-2 (新宿パークタワー), 新宿区, 東京都, 163-1055",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "http://tokyo.park.hyatt.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b058799f964a5208b9b22e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b058799f964a5208b9b22e3",
+    "originalSource": "foursquare",
+    "name": "Hyatt Regency Tokyo (ハイアットリージェンシー東京)",
+    "latitude": 35.69102944533981,
+    "longitude": 139.6916293822847,
+    "countryCode": "JP",
+    "city": "新宿区",
+    "address": "西新宿2-7-2, 新宿区, 東京都, 160-0023",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "https://tokyo.regency.hyatt.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-51a2445e5019c80b56934c75",
+    "source": "existing-snapshot",
+    "sourceId": "51a2445e5019c80b56934c75",
+    "originalSource": "foursquare",
+    "name": "Eiffel Tower (Tour Eiffel)",
+    "latitude": 48.858256,
+    "longitude": 2.294478,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "5 avenue Anatole France, 75007 Paris",
+    "categories": [
+      {
+        "name": "Monument"
+      },
+      {
+        "name": "Scenic Lookout"
+      }
+    ],
+    "website": "https://www.toureiffel.paris",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-64eed259864df31378b44acd",
+    "source": "existing-snapshot",
+    "sourceId": "64eed259864df31378b44acd",
+    "originalSource": "foursquare",
+    "name": "Eiffel Tower View",
+    "latitude": 48.88584,
+    "longitude": 2.3414078,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Rues aminte euthere, 75018 Paris",
+    "categories": [
+      {
+        "name": "Scenic Lookout"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-58c41f2b0e0a1e57d8dc841c",
+    "source": "existing-snapshot",
+    "sourceId": "58c41f2b0e0a1e57d8dc841c",
+    "originalSource": "foursquare",
+    "name": "Top of the Eiffel Tower (Sommet de la Tour Eiffel)",
+    "latitude": 48.85833092066099,
+    "longitude": 2.2945008587019395,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "5 avenue Anatole France (3e étage), 75007 Paris",
+    "categories": [
+      {
+        "name": "Scenic Lookout"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4d28d094dbc160fc50b043b6",
+    "source": "existing-snapshot",
+    "sourceId": "4d28d094dbc160fc50b043b6",
+    "originalSource": "foursquare",
+    "name": "Hôtel Les Jardins Eiffel",
+    "latitude": 48.85917345473579,
+    "longitude": 2.307351772817556,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "8 rue Amélie (Rue Dominique), 75007 Paris",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "http://www.hoteljardinseiffel.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4bbf7aa6abf49521b9b3bd93",
+    "source": "existing-snapshot",
+    "sourceId": "4bbf7aa6abf49521b9b3bd93",
+    "originalSource": "foursquare",
+    "name": "Sofitel Paris Baltimore Tour Eiffel",
+    "latitude": 48.8664218326495,
+    "longitude": 2.289296028241779,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "88 Bis Avenue Kléber (Rue Léo Delibes), 75116 Paris",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "https://all.accor.com/hotel/2789/index.en.shtml",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b55202af964a5200fdc27e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b55202af964a5200fdc27e3",
+    "originalSource": "foursquare",
+    "name": "Starbucks",
+    "latitude": 40.54325002,
+    "longitude": -89.59897554,
+    "countryCode": "US",
+    "city": "Pekin",
+    "address": "3442 Court St, Pekin, IL 61554",
+    "categories": [
+      {
+        "name": "Coffee Shop"
+      }
+    ],
+    "website": "https://www.starbucks.com/store-locator/store/10132",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-508047e4e4b0ee1f0d94f7fa",
+    "source": "existing-snapshot",
+    "sourceId": "508047e4e4b0ee1f0d94f7fa",
+    "originalSource": "foursquare",
+    "name": "Costco",
+    "latitude": 40.66854721807294,
+    "longitude": -89.58599487971786,
+    "countryCode": "US",
+    "city": "East Peoria",
+    "address": "301 W Washington St, East Peoria, IL 61611",
+    "categories": [
+      {
+        "name": "Warehouse or Wholesale Store"
+      }
+    ],
+    "website": "https://www.costco.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-56aff21f498eb78a5c3040da",
+    "source": "existing-snapshot",
+    "sourceId": "56aff21f498eb78a5c3040da",
+    "originalSource": "foursquare",
+    "name": "Chick-fil-A",
+    "latitude": 40.668799072290355,
+    "longitude": -89.58319762221497,
+    "countryCode": "US",
+    "city": "East Peoria",
+    "address": "250 W Washington St, East Peoria, IL 61611",
+    "categories": [
+      {
+        "name": "Fast Food Restaurant"
+      },
+      {
+        "name": "Fried Chicken Joint"
+      }
+    ],
+    "website": "https://www.chick-fil-a.com/eastpeoria",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c2269c2fbe5c9b632d99921",
+    "source": "existing-snapshot",
+    "sourceId": "4c2269c2fbe5c9b632d99921",
+    "originalSource": "foursquare",
+    "name": "PetSmart",
+    "latitude": 40.6817632,
+    "longitude": -89.5867053,
+    "countryCode": "US",
+    "city": "Peoria",
+    "address": "208 River Rd (at Camp St), Peoria, IL 61611",
+    "categories": [
+      {
+        "name": "Pet Supplies Store"
+      },
+      {
+        "name": "Pet Service"
+      }
+    ],
+    "website": "https://www.petsmart.com/stores/us/il/east-peoria-store1882.html",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b15501ef964a520efaf23e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b15501ef964a520efaf23e3",
+    "originalSource": "foursquare",
+    "name": "Dozer Park",
+    "latitude": 40.68756291043744,
+    "longitude": -89.59775051353296,
+    "countryCode": "US",
+    "city": "Peoria",
+    "address": "730 SW Jefferson Ave, Peoria, IL 61605",
+    "categories": [
+      {
+        "name": "Baseball Stadium"
+      }
+    ],
+    "website": "http://www.peoriachiefs.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4cd5555fa5b34688a1248d50",
+    "source": "existing-snapshot",
+    "sourceId": "4cd5555fa5b34688a1248d50",
+    "originalSource": "foursquare",
+    "name": "Musée des Arts Décoratifs",
+    "latitude": 48.863077314067475,
+    "longitude": 2.333393096923828,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "107 rue de Rivoli, 75001 Paris",
+    "categories": [
+      {
+        "name": "Art Museum"
+      }
+    ],
+    "website": "http://www.lesartsdecoratifs.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-600af5ddd49d6e3b5b1abf05",
+    "source": "existing-snapshot",
+    "sourceId": "600af5ddd49d6e3b5b1abf05",
+    "originalSource": "foursquare",
+    "name": "Bourse de Commerce – Pinault Collection",
+    "latitude": 48.862788,
+    "longitude": 2.342809,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "2 Rue de Viarmes, 75001 Paris",
+    "categories": [
+      {
+        "name": "Art Museum"
+      }
+    ],
+    "website": "https://www.boursedecommerce.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda0ef964a520353521e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda0ef964a520353521e3",
+    "originalSource": "foursquare",
+    "name": "Monnaie de Paris",
+    "latitude": 48.856680991955635,
+    "longitude": 2.339157918648655,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "11 quai de Conti, 75006 Paris",
+    "categories": [
+      {
+        "name": "Museum"
+      }
+    ],
+    "website": "http://www.monnaiedeparis.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda0ef964a520533521e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda0ef964a520533521e3",
+    "originalSource": "foursquare",
+    "name": "Musée Carnavalet",
+    "latitude": 48.85726572173727,
+    "longitude": 2.3622672432878775,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "23 rue de Sévigné (Rue des Francs-Bourgeois), 75003 Paris",
+    "categories": [
+      {
+        "name": "History Museum"
+      }
+    ],
+    "website": "https://www.carnavalet.paris.fr/le-musee",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda0ff964a520683521e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda0ff964a520683521e3",
+    "originalSource": "foursquare",
+    "name": "Grande Galerie de l'Évolution (Grande Galerie de l'évolution)",
+    "latitude": 48.84208814028892,
+    "longitude": 2.356242835521698,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "36 rue Geoffroy-Saint-Hilaire, 75005 Paris",
+    "categories": [
+      {
+        "name": "Science Museum"
+      }
+    ],
+    "website": "http://www.jardindesplantesdeparis.fr/fr/programme/galeries-jardins-zoo-bibliotheques/grande-galerie-levolution-2763",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda10f964a520983521e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda10f964a520983521e3",
+    "originalSource": "foursquare",
+    "name": "Musée de l'Orangerie",
+    "latitude": 48.86379017505446,
+    "longitude": 2.322664260864258,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Jardin des Tuileries (Place de la Concorde), 75001 Paris",
+    "categories": [
+      {
+        "name": "Art Museum"
+      }
+    ],
+    "website": "https://www.musee-orangerie.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda10f964a520b13521e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda10f964a520b13521e3",
+    "originalSource": "foursquare",
+    "name": "Rodin Museum (Musée Rodin)",
+    "latitude": 48.85538341572399,
+    "longitude": 2.3158621788024902,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "79 rue de Varenne (Boulevard des Invalides), 75007 Paris",
+    "categories": [
+      {
+        "name": "Art Museum"
+      }
+    ],
+    "website": "http://www.musee-rodin.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-56a761bd498e4801a8e214da",
+    "source": "existing-snapshot",
+    "sourceId": "56a761bd498e4801a8e214da",
+    "originalSource": "foursquare",
+    "name": "L'Avant Comptoir de la Mer",
+    "latitude": 48.85203451872476,
+    "longitude": 2.3388361756680562,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "3 carrefour de l'Odéon, 75006 Paris",
+    "categories": [
+      {
+        "name": "Seafood Restaurant"
+      },
+      {
+        "name": "French Restaurant"
+      }
+    ],
+    "website": "http://www.hotel-paris-relais-saint-germain.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-58f3634235f98340ef64a066",
+    "source": "existing-snapshot",
+    "sourceId": "58f3634235f98340ef64a066",
+    "originalSource": "foursquare",
+    "name": "Maison Sauvage",
+    "latitude": 48.85363949689882,
+    "longitude": 2.3380885759973404,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "5 rue de Buci, 75006 Paris",
+    "categories": [
+      {
+        "name": "French Restaurant"
+      }
+    ],
+    "website": "http://www.maison-sauvage.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b867a97f964a520e48b31e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b867a97f964a520e48b31e3",
+    "originalSource": "foursquare",
+    "name": "L'As du Fallafel",
+    "latitude": 48.85741376683434,
+    "longitude": 2.3590779304504395,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "34 rue des Rosiers (Rue des Écouffes), 75004 Paris",
+    "categories": [
+      {
+        "name": "Falafel Restaurant"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b0587a1f964a5207f9d22e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b0587a1f964a5207f9d22e3",
+    "originalSource": "foursquare",
+    "name": "Senso-ji Temple (浅草寺)",
+    "latitude": 35.71466210373382,
+    "longitude": 139.79676067829132,
+    "countryCode": "JP",
+    "city": "台東区",
+    "address": "浅草2-3-1, 台東区, 東京都, 111-0032",
+    "categories": [
+      {
+        "name": "Buddhist Temple"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "https://www.senso-ji.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b5661b6f964a520050e28e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b5661b6f964a520050e28e3",
+    "originalSource": "foursquare",
+    "name": "Hanazono Shrine (花園神社)",
+    "latitude": 35.693538,
+    "longitude": 139.705307,
+    "countryCode": "JP",
+    "city": "新宿区",
+    "address": "新宿5-17-3, 新宿区, 東京都, 160-0022",
+    "categories": [
+      {
+        "name": "Shrine"
+      }
+    ],
+    "website": "http://www.hanazono-jinja.or.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b5aa689f964a52075cf28e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b5aa689f964a52075cf28e3",
+    "originalSource": "foursquare",
+    "name": "Joen-ji Temple (常圓寺)",
+    "latitude": 35.69375596618068,
+    "longitude": 139.69628153692133,
+    "countryCode": "JP",
+    "city": "新宿区",
+    "address": "西新宿7-12-5, 新宿区, 東京都, 169-0073",
+    "categories": [
+      {
+        "name": "Buddhist Temple"
+      }
+    ],
+    "website": "http://www.joenji.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c1a916a63750f475a7fb367",
+    "source": "existing-snapshot",
+    "sourceId": "4c1a916a63750f475a7fb367",
+    "originalSource": "foursquare",
+    "name": "Meiji Jingu Gyoen (明治神宮御苑)",
+    "latitude": 35.6737823381669,
+    "longitude": 139.70031888276495,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "代々木神園町1-1 (明治神宮), 渋谷区, 東京都, 151-0052",
+    "categories": [
+      {
+        "name": "Garden"
+      }
+    ],
+    "website": "https://www.meijijingu.or.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda1df964a5202e3921e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda1df964a5202e3921e3",
+    "originalSource": "foursquare",
+    "name": "Carrousel du Louvre",
+    "latitude": 48.86267908403809,
+    "longitude": 2.3347530319490595,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "99 rue de Rivoli, 75001 Paris",
+    "categories": [
+      {
+        "name": "Shopping Mall"
+      }
+    ],
+    "website": "https://www.westfield.com/france/carrouseldulouvre",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5666c960498eebab648cbfe3",
+    "source": "existing-snapshot",
+    "sourceId": "5666c960498eebab648cbfe3",
+    "originalSource": "foursquare",
+    "name": "Les Caves du Louvre",
+    "latitude": 48.86089455527934,
+    "longitude": 2.3424455523490906,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "52 rue de l'Arbre Sec, 75001 Paris",
+    "categories": [
+      {
+        "name": "Wine Bar"
+      }
+    ],
+    "website": "http://www.cavesdulouvre.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5d5d299759e2b50008c0127d",
+    "source": "existing-snapshot",
+    "sourceId": "5d5d299759e2b50008c0127d",
+    "originalSource": "foursquare",
+    "name": "Café Kitsuné Louvre",
+    "latitude": 48.863982504620985,
+    "longitude": 2.335793673992157,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "2 place André Malraux (Louvre), 75001 Paris",
+    "categories": [
+      {
+        "name": "Coffee Shop"
+      }
+    ],
+    "website": "https://maisonkitsune.com/fr/cafe-kitsune/online-shop.html",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda04f964a520073221e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda04f964a520073221e3",
+    "originalSource": "foursquare",
+    "name": "Hôtel Du Louvre - In the Unbound Collection by Hyatt",
+    "latitude": 48.8629830120211,
+    "longitude": 2.3356674440641334,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Place André Malraux (Place André Malraux), 75001 Paris",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "https://www.hyatt.com/en-US/hotel/france/hotel-du-louvre/paraz",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4fa81d41e4b0d6f4be98c6bd",
+    "source": "existing-snapshot",
+    "sourceId": "4fa81d41e4b0d6f4be98c6bd",
+    "originalSource": "foursquare",
+    "name": "Reebok CrossFit Louvre",
+    "latitude": 48.86726626129496,
+    "longitude": 2.3334686520958163,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "31 avenue de l'Opéra, 75002 Paris",
+    "categories": [
+      {
+        "name": "Gym"
+      }
+    ],
+    "website": "http://www.reebokcrossfitlouvre.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b058762f964a5201c8f22e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b058762f964a5201c8f22e3",
+    "originalSource": "foursquare",
+    "name": "Sydney Harbour Bridge",
+    "latitude": -33.85228915178913,
+    "longitude": 151.21068120002747,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "Bradfield Hwy, Sydney NSW 2000",
+    "categories": [
+      {
+        "name": "Bridge"
+      },
+      {
+        "name": "Monument"
+      },
+      {
+        "name": "Scenic Lookout"
+      }
+    ],
+    "website": "http://australia.gov.au/about-australia/australian-story/sydney-harbour-bridge",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-6ab362672e5e3f23d81c2c2b",
+    "source": "existing-snapshot",
+    "sourceId": "6ab362672e5e3f23d81c2c2b",
+    "originalSource": "foursquare",
+    "name": "Sydney Harbour Bridge",
+    "latitude": -33.85745621,
+    "longitude": 151.2077163,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "5 Cumberland St, Sydney NSW 2000",
+    "categories": [],
+    "website": "http://thesydneyharbourbridge.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4be371a4d27a20a1ae5a925b",
+    "source": "existing-snapshot",
+    "sourceId": "4be371a4d27a20a1ae5a925b",
+    "originalSource": "foursquare",
+    "name": "BridgeClimb Sydney",
+    "latitude": -33.85751787830972,
+    "longitude": 151.20783158568807,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "3 Cumberland St, Sydney NSW 2000",
+    "categories": [
+      {
+        "name": "Tour Provider"
+      }
+    ],
+    "website": "https://www.bridgeclimb.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ba864dcf964a5204ed939e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ba864dcf964a5204ed939e3",
+    "originalSource": "foursquare",
+    "name": "Sydney Harbour YHA",
+    "latitude": -33.859939253907676,
+    "longitude": 151.20690522090464,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "110 Cumberland St, Sydney NSW 2000",
+    "categories": [
+      {
+        "name": "Hostel"
+      }
+    ],
+    "website": "https://www.yha.com.au/hostels/nsw/sydney-surrounds/sydney-harbour",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b93005df964a520da2d34e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b93005df964a520da2d34e3",
+    "originalSource": "foursquare",
+    "name": "Sydney Harbour Marriott Hotel at Circular Quay",
+    "latitude": -33.86285600201744,
+    "longitude": 151.20938570830353,
+    "countryCode": "AU",
+    "city": "Sydney",
+    "address": "30 Pitt St, Sydney NSW 2000",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "https://www.marriott.com/hotels/travel/sydmc-sydney-harbour-marriott-hotel-at-circular-quay",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4e5b8fead22dfba6f48ec09e",
+    "source": "existing-snapshot",
+    "sourceId": "4e5b8fead22dfba6f48ec09e",
+    "originalSource": "foursquare",
+    "name": "Hotel Vic Eiffel",
+    "latitude": 48.845241766551396,
+    "longitude": 2.309948446116998,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "92 boulevard Garibaldi, 75015 Paris",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "http://www.hotelviceiffel.com/en",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4dfc3ad762846d918b93b27e",
+    "source": "existing-snapshot",
+    "sourceId": "4dfc3ad762846d918b93b27e",
+    "originalSource": "foursquare",
+    "name": "Summer",
+    "latitude": 40.57530430172278,
+    "longitude": -89.63835951606555,
+    "countryCode": "US",
+    "city": "Pekin",
+    "address": "910 Mary St, Pekin, IL 61554",
+    "categories": [
+      {
+        "name": "Business and Professional Services"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4fd1e6a6e4b04e713ca2dbbe",
+    "source": "existing-snapshot",
+    "sourceId": "4fd1e6a6e4b04e713ca2dbbe",
+    "originalSource": "foursquare",
+    "name": "Summer School HQ",
+    "latitude": 40.562296278421854,
+    "longitude": -89.62154340003441,
+    "countryCode": "US",
+    "city": "Pekin",
+    "address": "Pekin, IL",
+    "categories": [
+      {
+        "name": "High School"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-04556a37ef6d4bd6dc139482",
+    "source": "existing-snapshot",
+    "sourceId": "04556a37ef6d4bd6dc139482",
+    "originalSource": "foursquare",
+    "name": "Poochies Palace",
+    "latitude": 40.479490510802016,
+    "longitude": -89.66236239517205,
+    "countryCode": "US",
+    "city": "Pekin",
+    "address": "14065 Townline Rd, Pekin, IL 61554",
+    "categories": [
+      {
+        "name": "Pet Grooming Service"
+      }
+    ],
+    "website": "https://thepoochpalace.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4fce0355e4b0e42eec522305",
+    "source": "existing-snapshot",
+    "sourceId": "4fce0355e4b0e42eec522305",
+    "originalSource": "foursquare",
+    "name": "COCUSA Summer Day Camp",
+    "latitude": 40.58161825557718,
+    "longitude": -89.49763665027918,
+    "countryCode": "US",
+    "city": "Morton",
+    "address": "Unzicker Rd, Morton, IL 61550",
+    "categories": [
+      {
+        "name": "Other Great Outdoors"
+      },
+      {
+        "name": "Arts and Entertainment"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ed68b850e61cbb939e64686",
+    "source": "existing-snapshot",
+    "sourceId": "4ed68b850e61cbb939e64686",
+    "originalSource": "foursquare",
+    "name": "Bridal Palace",
+    "latitude": 40.61008124008945,
+    "longitude": -89.46247548565266,
+    "countryCode": "US",
+    "city": "Morton",
+    "address": "121 S Main St, Morton, IL 61550, Morton, IL 61550",
+    "categories": [
+      {
+        "name": "Bridal Store"
+      }
+    ],
+    "website": "http://www.dejureformals.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-60e1b6ede9ea3506ec20380b",
+    "source": "existing-snapshot",
+    "sourceId": "60e1b6ede9ea3506ec20380b",
+    "originalSource": "foursquare",
+    "name": "Terres de Café",
+    "latitude": 48.861963459750335,
+    "longitude": 2.340381577067303,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "150 rue Saint-Honoré, 75001 Paris",
+    "categories": [
+      {
+        "name": "Coffee Shop"
+      }
+    ],
+    "website": "https://www.terresdecafe.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5ae44cf7dd8442002cc065ca",
+    "source": "existing-snapshot",
+    "sourceId": "5ae44cf7dd8442002cc065ca",
+    "originalSource": "foursquare",
+    "name": "Partisan",
+    "latitude": 48.86465557391021,
+    "longitude": 2.3530262009153176,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "36 rue de Turbigo, 75003 Paris",
+    "categories": [
+      {
+        "name": "Coffee Shop"
+      }
+    ],
+    "website": "https://www.parispartisancafe.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-57b0b2c6498ef62eda148b41",
+    "source": "existing-snapshot",
+    "sourceId": "57b0b2c6498ef62eda148b41",
+    "originalSource": "foursquare",
+    "name": "A. Lacroix Pâtissier",
+    "latitude": 48.851714,
+    "longitude": 2.349406,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "11 quai de Montebello (Rue du Haut Pavé), 75005 Paris",
+    "categories": [
+      {
+        "name": "Pastry Shop"
+      },
+      {
+        "name": "Coffee Shop"
+      },
+      {
+        "name": "Ice Cream Parlor"
+      }
+    ],
+    "website": "http://www.alacroixparis.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-57035c8b498ebcbc85d70c40",
+    "source": "existing-snapshot",
+    "sourceId": "57035c8b498ebcbc85d70c40",
+    "originalSource": "foursquare",
+    "name": "LEGO Store",
+    "latitude": 48.8615930877951,
+    "longitude": 2.347383606494844,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Passage de la Canopée (Forum des Halles), 75001 Paris",
+    "categories": [
+      {
+        "name": "Toy Store"
+      }
+    ],
+    "website": "https://www.lego.com/fr-fr/stores/store/paris-les-halles",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4db72dc9ced7dba4f02ddc41",
+    "source": "existing-snapshot",
+    "sourceId": "4db72dc9ced7dba4f02ddc41",
+    "originalSource": "foursquare",
+    "name": "La Samaritaine",
+    "latitude": 48.8594088,
+    "longitude": 2.3424653,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "9 rue de la Monnaie (Quai du Louvre), 75001 Paris",
+    "categories": [
+      {
+        "name": "Department Store"
+      }
+    ],
+    "website": "http://samaritaine.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ce573dd7785a1cdf4e519b9",
+    "source": "existing-snapshot",
+    "sourceId": "4ce573dd7785a1cdf4e519b9",
+    "originalSource": "foursquare",
+    "name": "Hermès",
+    "latitude": 48.851543082763335,
+    "longitude": 2.3278945684432983,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "17 rue de Sèvres, 75007 Paris",
+    "categories": [
+      {
+        "name": "Fashion Accessories Store"
+      },
+      {
+        "name": "Leather Goods Store"
+      }
+    ],
+    "website": "http://www.hermes.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda09f964a520de3321e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda09f964a520de3321e3",
+    "originalSource": "foursquare",
+    "name": "Arc de Triomphe (Arc de Triomphe de l'Étoile)",
+    "latitude": 48.873783275868725,
+    "longitude": 2.2950589656829834,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Place Charles de Gaulle (Avenue des Champs-Élysées), 75008 Paris",
+    "categories": [
+      {
+        "name": "Monument"
+      }
+    ],
+    "website": "https://www.paris-arc-de-triomphe.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-6815f25fd96fe06ee4debe7c",
+    "source": "existing-snapshot",
+    "sourceId": "6815f25fd96fe06ee4debe7c",
+    "originalSource": "foursquare",
+    "name": "Arc De Triomphe",
+    "latitude": 48.863303,
+    "longitude": 2.310395,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "75007 Paris",
+    "categories": [
+      {
+        "name": "Attraction"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-35907ed6fa6d45b63b4b6f45",
+    "source": "existing-snapshot",
+    "sourceId": "35907ed6fa6d45b63b4b6f45",
+    "originalSource": "foursquare",
+    "name": "Laser Arc de Triomphe",
+    "latitude": 48.85604942565971,
+    "longitude": 2.326301353924927,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "236 boulevard Saint Germain, 75007 Paris",
+    "categories": [
+      {
+        "name": "Bathing Area"
+      }
+    ],
+    "website": "http://www.laserarcdetriomphe.com/adresse-paris.html",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c924b1b1adc37047a4437d1",
+    "source": "existing-snapshot",
+    "sourceId": "4c924b1b1adc37047a4437d1",
+    "originalSource": "foursquare",
+    "name": "Hôtel Arc de Triomphe",
+    "latitude": 48.87669021728779,
+    "longitude": 2.2937148153526263,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "10 rue de l'Arc de Triomphe, 75017 Paris",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "http://www.hotelarcdetriomphe.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b6ace27f964a52028e12be3",
+    "source": "existing-snapshot",
+    "sourceId": "4b6ace27f964a52028e12be3",
+    "originalSource": "foursquare",
+    "name": "Ascott Arc de Triomphe",
+    "latitude": 48.86469358712683,
+    "longitude": 2.289030860864133,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "81 avenue Kléber, 75116 Paris",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "http://www.citadines.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ac518cef964a520f9a520e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ac518cef964a520f9a520e3",
+    "originalSource": "foursquare",
+    "name": "Trafalgar Square",
+    "latitude": 51.507987,
+    "longitude": -0.128048,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Trafalgar Sq, London, Greater London, WC2N 5DX",
+    "categories": [
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": "https://www.london.gov.uk/about-us/our-building-and-squares/trafalgar-square",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ac518cdf964a520f2a520e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ac518cdf964a520f2a520e3",
+    "originalSource": "foursquare",
+    "name": "St James's Park",
+    "latitude": 51.50325316049429,
+    "longitude": -0.1329946517944336,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "The Mall (Horse Guards Rd), London, Greater London, SW1A 2BJ",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "https://www.royalparks.org.uk/visit/parks/st-jamess-park",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ac518cdf964a520f0a520e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ac518cdf964a520f0a520e3",
+    "originalSource": "foursquare",
+    "name": "Horse Guards Parade",
+    "latitude": 51.504847331160235,
+    "longitude": -0.12659034740377378,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "The Household Division (Horse Guards Rd), London, Greater London, SW1A 2AX",
+    "categories": [
+      {
+        "name": "Plaza"
+      },
+      {
+        "name": "Stable"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "http://www.householdcavalrymuseum.co.uk",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4eb1587693adccbac49e282f",
+    "source": "existing-snapshot",
+    "sourceId": "4eb1587693adccbac49e282f",
+    "originalSource": "foursquare",
+    "name": "Palace of Westminster",
+    "latitude": 51.49939600213925,
+    "longitude": -0.12471977974044103,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "St. Margaret St, London, Greater London, SW1A 0AA",
+    "categories": [
+      {
+        "name": "Palace"
+      },
+      {
+        "name": "Capitol Building"
+      }
+    ],
+    "website": "http://www.parliament.uk/about/living-heritage/building/palace/",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c9c6a059c48236a1cb14dee",
+    "source": "existing-snapshot",
+    "sourceId": "4c9c6a059c48236a1cb14dee",
+    "originalSource": "foursquare",
+    "name": "Piccadilly Circus",
+    "latitude": 51.50996110016709,
+    "longitude": -0.1346522569656372,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Piccadilly (Regent St), London, Greater London, W1D 1NN",
+    "categories": [
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": "",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ac518cdf964a520eea520e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ac518cdf964a520eea520e3",
+    "originalSource": "foursquare",
+    "name": "Westminster Abbey",
+    "latitude": 51.49935615871917,
+    "longitude": -0.1273566484451294,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "20 Dean's Yard, London, Greater London, SW1P 3PA",
+    "categories": [
+      {
+        "name": "Church"
+      },
+      {
+        "name": "Monument"
+      }
+    ],
+    "website": "https://www.westminster-abbey.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ac518cef964a520f6a520e3",
+    "source": "existing-snapshot",
+    "sourceId": "4ac518cef964a520f6a520e3",
+    "originalSource": "foursquare",
+    "name": "Big Ben (Elizabeth Tower)",
+    "latitude": 51.50070194764357,
+    "longitude": -0.12458056211471556,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Parliament Sq (Bridge St), London, Greater London, SW1A 0AA",
+    "categories": [
+      {
+        "name": "Landmark Building"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "https://www.parliament.uk/bigben",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c1512aaa9c220a1b77d589d",
+    "source": "existing-snapshot",
+    "sourceId": "4c1512aaa9c220a1b77d589d",
+    "originalSource": "foursquare",
+    "name": "Kingly Court",
+    "latitude": 51.51263165734176,
+    "longitude": -0.13876898482724873,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Kingly Ct (at Beak St), London, Greater London, W1B 5PW",
+    "categories": [
+      {
+        "name": "Food Court"
+      },
+      {
+        "name": "Pedestrian Plaza"
+      }
+    ],
+    "website": "http://www.carnaby.co.uk/kingly-court-info",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b96b2bbf964a520c2de34e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b96b2bbf964a520c2de34e3",
+    "originalSource": "foursquare",
+    "name": "Green Park",
+    "latitude": 51.504335045329995,
+    "longitude": -0.1437664031982422,
+    "countryCode": "GB",
+    "city": "London",
+    "address": "Piccadilly (Constitution Hill), London, Greater London, SW1A 1BW",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "https://www.royalparks.org.uk/visit/parks/green-park",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-427c0500f964a52097211fe3",
+    "source": "existing-snapshot",
+    "sourceId": "427c0500f964a52097211fe3",
+    "originalSource": "foursquare",
+    "name": "Metropolitan Museum of Art",
+    "latitude": 40.77972902126812,
+    "longitude": -73.96341562271118,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "1000 5th Ave (btwn E 80th & E 84th St), New York, NY 10028",
+    "categories": [
+      {
+        "name": "Art Museum"
+      }
+    ],
+    "website": "https://www.metmuseum.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4e3c08e318a83d5b28300149",
+    "source": "existing-snapshot",
+    "sourceId": "4e3c08e318a83d5b28300149",
+    "originalSource": "foursquare",
+    "name": "The Metropolitan Museum of Art Store at Newark Airport",
+    "latitude": 40.69684857995799,
+    "longitude": -74.17849569557247,
+    "countryCode": "US",
+    "city": "Newark",
+    "address": "Terminal C3 (EWR Airport), Newark, NJ 07114",
+    "categories": [
+      {
+        "name": "Gift Store"
+      },
+      {
+        "name": "Souvenir Store"
+      }
+    ],
+    "website": "http://store.metmuseum.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4af5a46af964a520b5fa21e3",
+    "source": "existing-snapshot",
+    "sourceId": "4af5a46af964a520b5fa21e3",
+    "originalSource": "foursquare",
+    "name": "Museum of Modern Art (MoMA)",
+    "latitude": 40.76158530463008,
+    "longitude": -73.9773416519165,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "11 W 53rd St (btwn 5th & 6th Ave), New York, NY 10019",
+    "categories": [
+      {
+        "name": "Art Museum"
+      }
+    ],
+    "website": "https://www.moma.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4c30f3c166e40f477d4fc48b",
+    "source": "existing-snapshot",
+    "sourceId": "4c30f3c166e40f477d4fc48b",
+    "originalSource": "foursquare",
+    "name": "Metropolitan Museum Steps",
+    "latitude": 40.77906283716806,
+    "longitude": -73.96251440048218,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "1000 5th Ave (at E 82nd St), New York, NY 10028",
+    "categories": [
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": "http://store.metmuseum.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b6b5abff964a520fb022ce3",
+    "source": "existing-snapshot",
+    "sourceId": "4b6b5abff964a520fb022ce3",
+    "originalSource": "foursquare",
+    "name": "National September 11 Memorial",
+    "latitude": 40.71167877284775,
+    "longitude": -74.01328325271606,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "180 Greenwich St (btwn Liberty & Fulton St), New York, NY 10007",
+    "categories": [
+      {
+        "name": "Memorial Site"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "http://www.911memorial.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4e0754b21838eb15af00b5c5",
+    "source": "existing-snapshot",
+    "sourceId": "4e0754b21838eb15af00b5c5",
+    "originalSource": "foursquare",
+    "name": "Jardin des Archives Nationales",
+    "latitude": 48.859981,
+    "longitude": 2.35812,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "87 rue Vieille-du-Temple, 75003 Paris",
+    "categories": [
+      {
+        "name": "Garden"
+      },
+      {
+        "name": "Park"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-58e0f18f561ded7abcbbbd01",
+    "source": "existing-snapshot",
+    "sourceId": "58e0f18f561ded7abcbbbd01",
+    "originalSource": "foursquare",
+    "name": "Parc Rives de Seine",
+    "latitude": 48.85551048052973,
+    "longitude": 2.3514188826084137,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Quais de Seine, 75000 Paris",
+    "categories": [
+      {
+        "name": "Park"
+      },
+      {
+        "name": "Pedestrian Plaza"
+      }
+    ],
+    "website": "http://www.paris.fr/rivesdeseine",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4b93cba4f964a520155234e3",
+    "source": "existing-snapshot",
+    "sourceId": "4b93cba4f964a520155234e3",
+    "originalSource": "foursquare",
+    "name": "Square du Temple",
+    "latitude": 48.86448891012796,
+    "longitude": 2.3607194423675537,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Rue du Temple, 75003 Paris",
+    "categories": [
+      {
+        "name": "Park"
+      },
+      {
+        "name": "Playground"
+      },
+      {
+        "name": "Dog Park"
+      }
+    ],
+    "website": "http://www.paris.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4a05d34ef964a52083721fe3",
+    "source": "existing-snapshot",
+    "sourceId": "4a05d34ef964a52083721fe3",
+    "originalSource": "foursquare",
+    "name": "Centennial Olympic Park",
+    "latitude": 33.76035574468761,
+    "longitude": -84.39350724220276,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "285 Andrew Young International Blvd NW (Marietta St), Atlanta, GA 30313",
+    "categories": [
+      {
+        "name": "Park"
+      },
+      {
+        "name": "Plaza"
+      }
+    ],
+    "website": "http://www.centennialpark.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4bba235f3db7b7137ff2229a",
+    "source": "existing-snapshot",
+    "sourceId": "4bba235f3db7b7137ff2229a",
+    "originalSource": "foursquare",
+    "name": "Martin Luther King Jr. National Historical Park",
+    "latitude": 33.756366678604145,
+    "longitude": -84.37321315235009,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "450 Auburn Ave NE, Atlanta, GA 30312",
+    "categories": [
+      {
+        "name": "Historic and Protected Site"
+      },
+      {
+        "name": "History Museum"
+      }
+    ],
+    "website": "https://www.nps.gov/malu",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4a36c20bf964a520de9d1fe3",
+    "source": "existing-snapshot",
+    "sourceId": "4a36c20bf964a520de9d1fe3",
+    "originalSource": "foursquare",
+    "name": "Oakland Cemetery",
+    "latitude": 33.74776407953224,
+    "longitude": -84.37325421682411,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "248 Oakland Ave SE (at Memorial Dr SE), Atlanta, GA 30312",
+    "categories": [
+      {
+        "name": "Cemetery"
+      },
+      {
+        "name": "Monument"
+      }
+    ],
+    "website": "http://oaklandcemetery.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-44bb819ff964a52091351fe3",
+    "source": "existing-snapshot",
+    "sourceId": "44bb819ff964a52091351fe3",
+    "originalSource": "foursquare",
+    "name": "Grant Park",
+    "latitude": 33.73849130458109,
+    "longitude": -84.37256124999318,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "537 Park Ave SE (at Hansell St SE), Atlanta, GA 30312",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://gpna.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-5b7b259bc53093002c5d337b",
+    "source": "existing-snapshot",
+    "sourceId": "5b7b259bc53093002c5d337b",
+    "originalSource": "foursquare",
+    "name": "The Home Depot Backyard",
+    "latitude": 33.756509566848074,
+    "longitude": -84.4011312475244,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "1 Backyard Way, Atlanta, GA 30313",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "https://thehomedepotbackyard.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-538e646d498ec07320c4001d",
+    "source": "existing-snapshot",
+    "sourceId": "538e646d498ec07320c4001d",
+    "originalSource": "foursquare",
+    "name": "Polaris",
+    "latitude": 33.761552270001054,
+    "longitude": -84.38689786622948,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "265 Peachtree St NE, Atlanta, GA 30303",
+    "categories": [
+      {
+        "name": "New American Restaurant"
+      },
+      {
+        "name": "Scenic Lookout"
+      }
+    ],
+    "website": "http://www.polarisatlanta.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4d86380281fdb1f7a24b21c0",
+    "source": "existing-snapshot",
+    "sourceId": "4d86380281fdb1f7a24b21c0",
+    "originalSource": "foursquare",
+    "name": "Atlanta BeltLine - Midtown",
+    "latitude": 33.7752680174787,
+    "longitude": -84.36518963203,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "Atlanta, GA",
+    "categories": [
+      {
+        "name": "Hiking Trail"
+      }
+    ],
+    "website": "http://www.beltline.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-415b4c80f964a520441d1fe3",
+    "source": "existing-snapshot",
+    "sourceId": "415b4c80f964a520441d1fe3",
+    "originalSource": "foursquare",
+    "name": "Piedmont Park",
+    "latitude": 33.78419001319543,
+    "longitude": -84.37265877915084,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "400 Park Dr NE (Piedmont Ave. NE), Atlanta, GA 30306",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": "http://www.piedmontpark.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4ffdbe1ce4b0854b25f70e6e",
+    "source": "existing-snapshot",
+    "sourceId": "4ffdbe1ce4b0854b25f70e6e",
+    "originalSource": "foursquare",
+    "name": "Georgia International Plaza",
+    "latitude": 33.757550588613704,
+    "longitude": -84.39853423261437,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "1 State Farm Dr NW, Atlanta, GA 30313",
+    "categories": [
+      {
+        "name": "Park"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4a31751af964a520d7991fe3",
+    "source": "existing-snapshot",
+    "sourceId": "4a31751af964a520d7991fe3",
+    "originalSource": "foursquare",
+    "name": "Atlanta Botanical Garden",
+    "latitude": 33.78986934741567,
+    "longitude": -84.3730026964717,
+    "countryCode": "US",
+    "city": "Atlanta",
+    "address": "1345 Piedmont Ave NE (at The Prado NE), Atlanta, GA 30309",
+    "categories": [
+      {
+        "name": "Botanical Garden"
+      }
+    ],
+    "website": "http://www.atlantabotanicalgarden.org",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcdac6f964a5202f5321e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcdac6f964a5202f5321e3",
+    "originalSource": "foursquare",
+    "name": "Pantheon",
+    "latitude": 41.898559,
+    "longitude": 12.476854,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Piazza della Rotonda (Via Palombella), 00186 Roma Lazio",
+    "categories": [
+      {
+        "name": "Church"
+      },
+      {
+        "name": "Monument"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "http://www.pantheon-rome.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcdad3f964a520145721e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcdad3f964a520145721e3",
+    "originalSource": "foursquare",
+    "name": "Al Pantheon",
+    "latitude": 41.897647517213684,
+    "longitude": 12.477650923901674,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "9 Via della Minerva, 00186 Roma Lazio",
+    "categories": [
+      {
+        "name": "Miscellaneous Store"
+      }
+    ],
+    "website": "http://elehomepantheon.it",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-c5cf39a7054846f15deee304",
+    "source": "existing-snapshot",
+    "sourceId": "c5cf39a7054846f15deee304",
+    "originalSource": "foursquare",
+    "name": "Pantheon 3E",
+    "latitude": 41.89934328571172,
+    "longitude": 12.477444023424896,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "Via dei Pastini 9, 00187 Roma Lazio",
+    "categories": [
+      {
+        "name": "Hotel"
+      }
+    ],
+    "website": "http://pantheonroma.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-532f2245498ed6fa9cee5135",
+    "source": "existing-snapshot",
+    "sourceId": "532f2245498ed6fa9cee5135",
+    "originalSource": "foursquare",
+    "name": "iRooms Pantheon & Navona",
+    "latitude": 41.89555621388615,
+    "longitude": 12.478783204969213,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "piazza del gesù, 47, 00187 Roma Lazio",
+    "categories": [
+      {
+        "name": "Hotel"
+      },
+      {
+        "name": "Bed and Breakfast"
+      }
+    ],
+    "website": "http://www.iroomsrome.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-514f8820e4b06f82838cc158",
+    "source": "existing-snapshot",
+    "sourceId": "514f8820e4b06f82838cc158",
+    "originalSource": "foursquare",
+    "name": "iRooms Forum & Colosseum",
+    "latitude": 41.89492254687281,
+    "longitude": 12.490053150833205,
+    "countryCode": "IT",
+    "city": "Roma",
+    "address": "via baccina 45 (Via dei Serpenti), 00182 Roma Lazio",
+    "categories": [
+      {
+        "name": "Hotel"
+      },
+      {
+        "name": "Bed and Breakfast"
+      }
+    ],
+    "website": "http://www.iroomsrome.com",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-58801864cc5b6a14dedce689",
+    "source": "existing-snapshot",
+    "sourceId": "58801864cc5b6a14dedce689",
+    "originalSource": "foursquare",
+    "name": "9/11 Memorial North Pool",
+    "latitude": 40.71207726282092,
+    "longitude": -74.01318669319153,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "West St (at Fulton St), New York, NY 10006",
+    "categories": [
+      {
+        "name": "Memorial Site"
+      },
+      {
+        "name": "Fountain"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "https://www.911memorial.org/blog/tags/reflecting-pool",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-587ffcc3ea29b80cdce3468d",
+    "source": "existing-snapshot",
+    "sourceId": "587ffcc3ea29b80cdce3468d",
+    "originalSource": "foursquare",
+    "name": "9/11 Memorial South Pool",
+    "latitude": 40.711039,
+    "longitude": -74.013082,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "West St (at Liberty St), New York, NY 10007",
+    "categories": [
+      {
+        "name": "Memorial Site"
+      },
+      {
+        "name": "Fountain"
+      },
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": null,
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4a43bcb7f964a520bba61fe3",
+    "source": "existing-snapshot",
+    "sourceId": "4a43bcb7f964a520bba61fe3",
+    "originalSource": "foursquare",
+    "name": "Brooklyn Bridge",
+    "latitude": 40.70596749893083,
+    "longitude": -73.99670720100403,
+    "countryCode": "US",
+    "city": "New York",
+    "address": "Brooklyn Bridge, New York, NY 10038",
+    "categories": [
+      {
+        "name": "Bridge"
+      },
+      {
+        "name": "Scenic Lookout"
+      }
+    ],
+    "website": "http://www.nyc.gov/dot",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4fd4ff3ce4b0bd432923a7c7",
+    "source": "existing-snapshot",
+    "sourceId": "4fd4ff3ce4b0bd432923a7c7",
+    "originalSource": "foursquare",
+    "name": "Pebble Beach",
+    "latitude": 40.70432918778119,
+    "longitude": -73.99026520089504,
+    "countryCode": "US",
+    "city": "Brooklyn",
+    "address": "Brooklyn Bridge Park Greenway, Brooklyn, NY 11201",
+    "categories": [
+      {
+        "name": "Beach"
+      }
+    ],
+    "website": "http://www.brooklynbridgepark.org/park/main-street",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4fc5383ae4b0821fe5525e34",
+    "source": "existing-snapshot",
+    "sourceId": "4fc5383ae4b0821fe5525e34",
+    "originalSource": "foursquare",
+    "name": "Honden (Main Shrine) (明治神宮 本殿)",
+    "latitude": 35.67595663884566,
+    "longitude": 139.6994085609913,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "代々木神園町1-1 (明治神宮), 渋谷区, 東京都, 151-8557",
+    "categories": [
+      {
+        "name": "Shrine"
+      }
+    ],
+    "website": "http://www.meijijingu.or.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-50824c94e4b0ac00f55b4028",
+    "source": "existing-snapshot",
+    "sourceId": "50824c94e4b0ac00f55b4028",
+    "originalSource": "foursquare",
+    "name": "Otorii (Grand Shrine Gate) (大鳥居)",
+    "latitude": 35.674098,
+    "longitude": 139.70134,
+    "countryCode": "JP",
+    "city": "東京",
+    "address": "代々木神園町1-1 (明治神宮), 渋谷区, 東京都, 151-0052",
+    "categories": [
+      {
+        "name": "Shrine"
+      }
+    ],
+    "website": "http://www.meijijingu.or.jp",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  },
+  {
+    "id": "existing-4adcda09f964a520ed3321e3",
+    "source": "existing-snapshot",
+    "sourceId": "4adcda09f964a520ed3321e3",
+    "originalSource": "foursquare",
+    "name": "Palais Royal",
+    "latitude": 48.86323576771446,
+    "longitude": 2.3371267318725586,
+    "countryCode": "FR",
+    "city": "Paris",
+    "address": "Place du Palais Royal, 75001 Paris",
+    "categories": [
+      {
+        "name": "Historic and Protected Site"
+      }
+    ],
+    "website": "http://www.monuments-nationaux.fr",
+    "coordinateSystem": "WGS84",
+    "image": null,
+    "snapshotDate": "2026-09-29"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "city": "开罗",
+    "resolveMs": 136,
+    "itineraryMs": 274,
+    "activities": 4,
+    "imageLoaded": 3,
+    "loading": 0,
+    "names": [
+      "Gamal Eddin Youssef Istadar Mosque",
+      "Sabil-Kuttab Abd El Rahman Katkhuda",
+      "Sultan Qaytbay Complex",
+      "ramsees"
+    ],
+    "descriptionChars": 2548,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 39,
+        "status": 200
+      },
+      {
+        "path": "/api/open-places",
+        "ms": 14,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/places",
+        "ms": 28,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 14,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 13,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 1852,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 0,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 5329,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 2,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 2,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 8299,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 3875,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 4238,
+        "status": 200
+      }
+    ]
+  }
+]

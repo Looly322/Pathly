@@ -1,0 +1,65 @@
+<script setup>
+import { t } from "../i18n";
+defineProps({ places: Array, active: String });
+defineEmits(["select", "remove", "lock", "move", "plan"]);
+</script>
+<template>
+  <section class="selected-places-panel">
+    <div class="selected-heading">
+      <h2>{{ t("map.selected") }}</h2>
+      <span class="pill">{{ places.length }}</span>
+    </div>
+    <p class="selected-hint">{{ t("map.lockedHint") }}</p>
+    <div v-if="!places.length" class="empty-state">{{ t("map.empty") }}</div>
+    <ol v-else class="selected-place-list">
+      <li
+        v-for="(place, i) in places"
+        :key="place.id"
+        :id="'selected-' + place.id"
+        :class="{ active: active === place.id }"
+        class="selected-place"
+      >
+        <button class="selected-place-main" @click="$emit('select', place)">
+          <span class="selection-number">{{ i + 1 }}</span
+          ><span
+            ><strong>{{ place.name }}</strong
+            ><small>{{
+              place.source === "custom"
+                ? t("map.customType")
+                : place.type || t("map.poi")
+            }}</small></span
+          ><span v-if="i === 0" class="start-pill">{{
+            t("map.startPoint")
+          }}</span>
+        </button>
+        <div class="selected-place-actions">
+          <button
+            :disabled="i === 0"
+            :aria-label="t('up')"
+            @click="$emit('move', i, -1)"
+          >
+            ↑ {{ t("up") }}</button
+          ><button
+            :disabled="i === places.length - 1"
+            :aria-label="t('down')"
+            @click="$emit('move', i, 1)"
+          >
+            ↓ {{ t("down") }}</button
+          ><button
+            :class="{ selected: place.locked }"
+            :aria-label="t(place.locked ? 'unlock' : 'map.mustVisit')"
+            @click="$emit('lock', place.id)"
+          >
+            {{ place.locked ? "▣" : "□" }}
+            {{ t(place.locked ? "unlock" : "map.mustVisit") }}</button
+          ><button :disabled="place.locked" @click="$emit('remove', place.id)">
+            {{ t("remove") }}
+          </button>
+        </div>
+      </li>
+    </ol>
+    <button class="primary plan-selected" @click="$emit('plan')">
+      {{ t("map.plan") }} <span>↗</span></button
+    ><small class="draft-hint">{{ t("map.draftHint") }}</small>
+  </section>
+</template>

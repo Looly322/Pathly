@@ -1,0 +1,26 @@
+[
+  {
+    "name": "北京",
+    "timezone": "Asia/Shanghai",
+    "zh": "目的地天气\n⛅ 当前 20 °C · 晴间多云 · 风速 6 km/h\n2026-10-15 20:15 · Asia/Shanghai · 目的地当地时间\n2026-10-15\n⛅ 晴间多云\n最高 27° / 最低 12°\n降水概率 0%\n2026-10-16\n☂ 雨 / 阵雨\n最高 18° / 最低 13°\n降水概率 51%\n可能降雨，请携带雨具。\n2026-10-17\n☂ 雨 / 阵雨\n最高 17° / 最低 13°\n降水概率 100%\n可能降雨，请携带雨具。\n2099-01-01\n暂无可靠天气预报\nOpen-Meteo · CC BY 4.0 · 当前天气为气象模型估算；预报可能变化。",
+    "en": "Destination weather\n⛅ Current 20 °C · Partly cloudy · Wind 6 km/h\n2026-10-15 20:15 · Asia/Shanghai · Destination local time\n2026-10-15\n⛅ Partly cloudy\nHigh 27° / Low 12°\nChance of precipitation 0%\n2026-10-16\n☂ Rain / showers\nHigh 18° / Low 13°\nChance of precipitation 51%\nRain is possible. Bring rain gear.\n2026-10-17\n☂ Rain / showers\nHigh 17° / Low 13°\nChance of precipitation 100%\nRain is possible. Bring rain gear.\n2099-01-01\nNo reliable forecast available\nOpen-Meteo · CC BY 4.0 · Current conditions are model estimates; forecasts may change."
+  },
+  {
+    "name": "巴黎",
+    "timezone": "Europe/Paris",
+    "zh": "目的地天气\n⛅ 当前 21 °C · 晴间多云 · 风速 9 km/h\n2026-10-15 14:15 · Europe/Paris · 目的地当地时间\n2026-10-15\n☁ 阴\n最高 23° / 最低 11°\n降水概率 0%\n2026-10-16\n☂ 雨 / 阵雨\n最高 21° / 最低 12°\n降水概率 53%\n可能降雨，请携带雨具。\n2026-10-17\n☁ 阴\n最高 16° / 最低 8°\n降水概率 20%\n2099-01-01\n暂无可靠天气预报\nOpen-Meteo · CC BY 4.0 · 当前天气为气象模型估算；预报可能变化。",
+    "en": "Destination weather\n⛅ Current 21 °C · Partly cloudy · Wind 9 km/h\n2026-10-15 14:15 · Europe/Paris · Destination local time\n2026-10-15\n☁ Overcast\nHigh 23° / Low 11°\nChance of precipitation 0%\n2026-10-16\n☂ Rain / showers\nHigh 21° / Low 12°\nChance of precipitation 53%\nRain is possible. Bring rain gear.\n2026-10-17\n☁ Overcast\nHigh 16° / Low 8°\nChance of precipitation 20%\n2099-01-01\nNo reliable forecast available\nOpen-Meteo · CC BY 4.0 · Current conditions are model estimates; forecasts may change."
+  },
+  {
+    "name": "东京",
+    "timezone": "Asia/Tokyo",
+    "zh": "目的地天气\n⛅ 当前 18 °C · 晴间多云 · 风速 2 km/h\n2026-10-15 21:15 · Asia/Tokyo · 目的地当地时间\n2026-10-15\n⛅ 晴间多云\n最高 22° / 最低 16°\n降水概率 6%\n2026-10-16\n☁ 阴\n最高 26° / 最低 16°\n降水概率 8%\n2026-10-17\n⛅ 晴间多云\n最高 24° / 最低 16°\n降水概率 4%\n2099-01-01\n暂无可靠天气预报\nOpen-Meteo · CC BY 4.0 · 当前天气为气象模型估算；预报可能变化。",
+    "en": "Destination weather\n⛅ Current 18 °C · Partly cloudy · Wind 2 km/h\n2026-10-15 21:15 · Asia/Tokyo · Destination local time\n2026-10-15\n⛅ Partly cloudy\nHigh 22° / Low 16°\nChance of precipitation 6%\n2026-10-16\n☁ Overcast\nHigh 26° / Low 16°\nChance of precipitation 8%\n2026-10-17\n⛅ Partly cloudy\nHigh 24° / Low 16°\nChance of precipitation 4%\n2099-01-01\nNo reliable forecast available\nOpen-Meteo · CC BY 4.0 · Current conditions are model estimates; forecasts may change."
+  },
+  {
+    "name": "开罗",
+    "timezone": "Africa/Cairo",
+    "zh": "目的地天气\n☀ 当前 29 °C · 晴 · 风速 15 km/h\n2026-10-15 15:15 · Africa/Cairo · 目的地当地时间\n2026-10-15\n⛅ 晴间多云\n最高 29° / 最低 19°\n降水概率 0%\n2026-10-16\n☁ 阴\n最高 28° / 最低 19°\n降水概率 3%\n2026-10-17\n⛅ 晴间多云\n最高 29° / 最低 19°\n降水概率 0%\n2099-01-01\n暂无可靠天气预报\nOpen-Meteo · CC BY 4.0 · 当前天气为气象模型估算；预报可能变化。",
+    "en": "Destination weather\n☀ Current 29 °C · Clear · Wind 15 km/h\n2026-10-15 15:15 · Africa/Cairo · Destination local time\n2026-10-15\n⛅ Partly cloudy\nHigh 29° / Low 19°\nChance of precipitation 0%\n2026-10-16\n☁ Overcast\nHigh 28° / Low 19°\nChance of precipitation 3%\n2026-10-17\n⛅ Partly cloudy\nHigh 29° / Low 19°\nChance of precipitation 0%\n2099-01-01\nNo reliable forecast available\nOpen-Meteo · CC BY 4.0 · Current conditions are model estimates; forecasts may change."
+  }
+]

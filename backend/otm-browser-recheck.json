@@ -1,0 +1,34 @@
+[
+  {
+    "city": "北京",
+    "days": [
+      {
+        "names": [
+          "中山公园",
+          "故宫博物院",
+          "景山公园-明思宗殉国处"
+        ],
+        "mainActivities": 3
+      },
+      {
+        "names": [
+          "菖蒲河公园",
+          "东单公园",
+          "北京明城墙遗址公园"
+        ],
+        "mainActivities": 3
+      },
+      {
+        "names": [
+          "天坛公园",
+          "龙潭中湖公园",
+          "金中都水关遗址"
+        ],
+        "mainActivities": 3
+      }
+    ],
+    "status": "passed",
+    "map": 1,
+    "pageErrors": []
+  }
+]

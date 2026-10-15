@@ -1,0 +1,117 @@
+{
+  "result": [
+    {
+      "name": "Paris",
+      "lang": "zh",
+      "loadEvent": "complete",
+      "streetZoom": 16,
+      "version": "2.0",
+      "center": [
+        2.3376,
+        48.8606
+      ],
+      "zoom": 12,
+      "setLanguage": "undefined",
+      "mapCreated": true
+    },
+    {
+      "name": "Paris",
+      "lang": "en",
+      "loadEvent": "complete",
+      "streetZoom": 16,
+      "version": "2.0",
+      "center": [
+        2.3376,
+        48.8606
+      ],
+      "zoom": 12,
+      "setLanguage": "undefined",
+      "mapCreated": true
+    },
+    {
+      "name": "Tokyo",
+      "lang": "zh",
+      "loadEvent": "complete",
+      "streetZoom": 16,
+      "version": "2.0",
+      "center": [
+        139.7454,
+        35.6586
+      ],
+      "zoom": 12,
+      "setLanguage": "undefined",
+      "mapCreated": true
+    },
+    {
+      "name": "Tokyo",
+      "lang": "en",
+      "loadEvent": "complete",
+      "streetZoom": 16,
+      "version": "2.0",
+      "center": [
+        139.7454,
+        35.6586
+      ],
+      "zoom": 12,
+      "setLanguage": "undefined",
+      "mapCreated": true
+    },
+    {
+      "name": "Cairo",
+      "lang": "zh",
+      "loadEvent": "complete",
+      "streetZoom": 16,
+      "version": "2.0",
+      "center": [
+        31.2336,
+        30.0478
+      ],
+      "zoom": 12,
+      "setLanguage": "undefined",
+      "mapCreated": true
+    },
+    {
+      "name": "Cairo",
+      "lang": "en",
+      "loadEvent": "complete",
+      "streetZoom": 16,
+      "version": "2.0",
+      "center": [
+        31.2336,
+        30.0478
+      ],
+      "zoom": 12,
+      "setLanguage": "undefined",
+      "mapCreated": true
+    },
+    {
+      "name": "Beijing",
+      "lang": "zh",
+      "loadEvent": "complete",
+      "streetZoom": 16,
+      "version": "2.0",
+      "center": [
+        116.3972,
+        39.9163
+      ],
+      "zoom": 12,
+      "setLanguage": "undefined",
+      "mapCreated": true
+    },
+    {
+      "name": "Beijing",
+      "lang": "en",
+      "loadEvent": "complete",
+      "streetZoom": 16,
+      "version": "2.0",
+      "center": [
+        116.3972,
+        39.9163
+      ],
+      "zoom": 12,
+      "setLanguage": "undefined",
+      "mapCreated": true
+    }
+  ],
+  "errors": []
+}

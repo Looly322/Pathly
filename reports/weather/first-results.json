@@ -1,0 +1,79 @@
+[
+  {
+    "city": "北京",
+    "status": 502,
+    "error": "{\"error\": \"WEATHER_UNAVAILABLE\"}"
+  },
+  {
+    "city": "巴黎",
+    "status": 200,
+    "ms": 10311,
+    "requested": {
+      "latitude": 48.8566,
+      "longitude": 2.3522
+    },
+    "grid": [
+      48.853382,
+      2.355208
+    ],
+    "timezone": "Europe/Paris",
+    "current": {
+      "time": "2026-10-15T14:15",
+      "interval": 900,
+      "temperature_2m": 20.5,
+      "weather_code": 2,
+      "wind_speed_10m": 8.6
+    },
+    "forecastStart": "2026-10-15",
+    "forecastEnd": "2026-10-30",
+    "days": 16
+  },
+  {
+    "city": "东京",
+    "status": 200,
+    "ms": 6381,
+    "requested": {
+      "latitude": 35.6762,
+      "longitude": 139.6503
+    },
+    "grid": [
+      35.7,
+      139.625
+    ],
+    "timezone": "Asia/Tokyo",
+    "current": {
+      "time": "2026-10-15T21:15",
+      "interval": 900,
+      "temperature_2m": 17.8,
+      "weather_code": 1,
+      "wind_speed_10m": 2.3
+    },
+    "forecastStart": "2026-10-15",
+    "forecastEnd": "2026-10-30",
+    "days": 16
+  },
+  {
+    "city": "开罗",
+    "status": 200,
+    "ms": 6852,
+    "requested": {
+      "latitude": 30.0444,
+      "longitude": 31.2357
+    },
+    "grid": [
+      30.02866,
+      31.219194
+    ],
+    "timezone": "Africa/Cairo",
+    "current": {
+      "time": "2026-10-15T15:15",
+      "interval": 900,
+      "temperature_2m": 28.7,
+      "weather_code": 0,
+      "wind_speed_10m": 14.6
+    },
+    "forecastStart": "2026-10-15",
+    "forecastEnd": "2026-10-30",
+    "days": 16
+  }
+]

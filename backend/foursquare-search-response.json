@@ -1,0 +1,1897 @@
+{
+  "endpoint": "https://places-api.foursquare.com/places/search?ll=39.9163%2C116.3972&radius=3000&query=%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2&limit=5",
+  "http_status": 200,
+  "response_body": {
+    "results": [
+      {
+        "fsq_place_id": "20fd0a7fb3924e5eb889ffe2",
+        "latitude": 39.91559,
+        "longitude": 116.39698,
+        "categories": [
+          {
+            "fsq_category_id": "4bf58dd8d48988d181941735",
+            "name": "Museum",
+            "short_name": "Museum",
+            "plural_name": "Museums",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "date_created": "2011-05-30",
+        "date_refreshed": "2026-09-22",
+        "distance": 81,
+        "email": "gugong@dpm.org.cn",
+        "extended_location": {},
+        "link": "/places/20fd0a7fb3924e5eb889ffe2",
+        "location": {
+          "address": "景山前街4号",
+          "locality": "北京市",
+          "region": "北京市",
+          "postcode": "100000",
+          "country": "CN",
+          "formatted_address": "景山前街4号, 北京市, 北京市, 100000"
+        },
+        "name": "故宫博物院",
+        "placemaker_url": "https://foursquare.com/placemakers/review-place/20fd0a7fb3924e5eb889ffe2",
+        "related_places": {},
+        "social_media": {},
+        "tel": "010 6513 2255",
+        "website": "http://www.dpm.org.cn/index1024768.html"
+      },
+      {
+        "fsq_place_id": "4bd877965cf276b0ac539d00",
+        "latitude": 39.91770204306014,
+        "longitude": 116.39066219329834,
+        "categories": [
+          {
+            "fsq_category_id": "4deefb944765f83613cdba6e",
+            "name": "Historic and Protected Site",
+            "short_name": "Historic and Protected Site",
+            "plural_name": "Historic and Protected Sites",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+              "suffix": ".png"
+            }
+          },
+          {
+            "fsq_category_id": "4bf58dd8d48988d190941735",
+            "name": "History Museum",
+            "short_name": "History Museum",
+            "plural_name": "History Museums",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+              "suffix": ".png"
+            }
+          },
+          {
+            "fsq_category_id": "52e81612bcbc57f1066b7a14",
+            "name": "Palace",
+            "short_name": "Palace",
+            "plural_name": "Palaces",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "date_created": "2010-04-28",
+        "date_refreshed": "2026-09-27",
+        "distance": 578,
+        "extended_location": {},
+        "link": "/places/4bd877965cf276b0ac539d00",
+        "location": {
+          "address": "4 Jingshan Front St",
+          "locality": "北京市",
+          "region": "北京市",
+          "postcode": "100009",
+          "country": "CN",
+          "formatted_address": "4 Jingshan Front St, Dōngchéng qū, 北京市, 北京市, 100009"
+        },
+        "name": "Forbidden City (Palace Museum) (故宫（博物院）)",
+        "placemaker_url": "https://foursquare.com/placemakers/review-place/4bd877965cf276b0ac539d00",
+        "related_places": {
+          "children": [
+            {
+              "fsq_place_id": "5701cf02498e03ded0374df6",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "昭徳门"
+            },
+            {
+              "fsq_place_id": "690bfe784ee49a79e2d26e3b",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "遂初堂"
+            },
+            {
+              "fsq_place_id": "6663c36eee7bc13f68fbe44f",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d190941735",
+                  "name": "History Museum",
+                  "short_name": "History Museum",
+                  "plural_name": "History Museums",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "Gallery Of Timepieces"
+            },
+            {
+              "fsq_place_id": "4c0263f4cbd876b0be31f143",
+              "categories": [
+                {
+                  "fsq_category_id": "4eb1d4dd4b900d56c88a45fd",
+                  "name": "River",
+                  "short_name": "River",
+                  "plural_name": "Rivers",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/river_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "东华门护城河"
+            },
+            {
+              "fsq_place_id": "677f21fee443de69fe2b4083",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "文渊阁"
+            },
+            {
+              "fsq_place_id": "5944bcf52be4250e3197639c",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d16e941735",
+                  "name": "Fast Food Restaurant",
+                  "short_name": "Fast Food",
+                  "plural_name": "Fast Food Restaurants",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "故宫快餐"
+            },
+            {
+              "fsq_place_id": "4e728b5dfa767a2b30f75163",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "大高玄殿"
+            },
+            {
+              "fsq_place_id": "5281d346498ec02460e066e9",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "建福宫"
+            },
+            {
+              "fsq_place_id": "59f1f893d48ec11da6160928",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d12d941735",
+                  "name": "Monument",
+                  "short_name": "Monument",
+                  "plural_name": "Monuments",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/government_monument_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "Meridian Gate"
+            },
+            {
+              "fsq_place_id": "50012563e4b0ee6fde43f708",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d13a941735",
+                  "name": "Temple",
+                  "short_name": "Temple",
+                  "plural_name": "Temples",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/religious_temple_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "斋宫"
+            },
+            {
+              "fsq_place_id": "52ecef4111d245bd4fa9bfca",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "Corner Tower (NW)"
+            },
+            {
+              "fsq_place_id": "4daf8a3643a1e3d9e6497130",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "神武门"
+            },
+            {
+              "fsq_place_id": "4dbe3c20fa8cee72737b000c",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "武英殿"
+            },
+            {
+              "fsq_place_id": "52ef2ed2498ece5f57dcdcf7",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "长春宫 Palace of Eternal Spring"
+            },
+            {
+              "fsq_place_id": "4d2bd48b849f370404679541",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4bf58dd8d48988d12d941735",
+                  "name": "Monument",
+                  "short_name": "Monument",
+                  "plural_name": "Monuments",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/government_monument_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "午门"
+            },
+            {
+              "fsq_place_id": "6247fdd7d05967199dd43339",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "故宫角楼"
+            },
+            {
+              "fsq_place_id": "66fe4d1c8d48ca74058eb797",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d12d941735",
+                  "name": "Monument",
+                  "short_name": "Monument",
+                  "plural_name": "Monuments",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/government_monument_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "Belvedere of Pleasant Sounds"
+            },
+            {
+              "fsq_place_id": "4e7a933e8877bfe04ccf1adc",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "军机处 Grand Council"
+            },
+            {
+              "fsq_place_id": "5610a0df498e6d181d92f604",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4fbc1be21983fc883593e321",
+                  "name": "Well",
+                  "short_name": "Well",
+                  "plural_name": "Wells",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/well_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "珍妃井"
+            },
+            {
+              "fsq_place_id": "4dbe42865da3ff58ec767496",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "中和殿"
+            },
+            {
+              "fsq_place_id": "591687c910345b1353a69e2e",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d145941735",
+                  "name": "Chinese Restaurant",
+                  "short_name": "Chinese",
+                  "plural_name": "Chinese Restaurants",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/asian_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "故宫冰窖"
+            },
+            {
+              "fsq_place_id": "59bc9fbca0215b132c55fe16",
+              "categories": [
+                {
+                  "fsq_category_id": "56aa371be4b08b9a8d573532",
+                  "name": "Exhibit",
+                  "short_name": "Exhibit",
+                  "plural_name": "Exhibits",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "A Panorama of Rivers and Mountains"
+            },
+            {
+              "fsq_place_id": "506ba1c6e4b04f6e0529ab10",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4bf58dd8d48988d164941735",
+                  "name": "Plaza",
+                  "short_name": "Plaza",
+                  "plural_name": "Plazas",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "太和殿广场"
+            },
+            {
+              "fsq_place_id": "506b9c15e4b089934d32566c",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "文华殿 Hall of Literary Brilliance"
+            },
+            {
+              "fsq_place_id": "52ef4113498ece5f57e01526",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "永和宫 Palace of Eternal Harmony"
+            },
+            {
+              "fsq_place_id": "4eb7914582313162702615e2",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "交泰殿"
+            },
+            {
+              "fsq_place_id": "607282f129b1960028be89aa",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "寿康宫"
+            },
+            {
+              "fsq_place_id": "50a323b2e4b0e3131d5aa7f6",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "九龙壁 Nine Dragon Screen"
+            },
+            {
+              "fsq_place_id": "52ef2cce498ece5f57dc97cf",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "咸福宫 Palace of Universal Happiness"
+            },
+            {
+              "fsq_place_id": "52ec86d2498e1c9378e761e2",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "太极殿 Hall of Supreme Principle"
+            },
+            {
+              "fsq_place_id": "52ef30bb498ece5f57dd19da",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "Palace of Great Brilliance"
+            },
+            {
+              "fsq_place_id": "52ec7ebe498e90ae94358611",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "延禧宫 Palace of Prolonging Happiness"
+            },
+            {
+              "fsq_place_id": "67d92f37e3d1eb34fbdc2bb1",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d172941735",
+                  "name": "Post Office",
+                  "short_name": "Post Office",
+                  "plural_name": "Post Offices",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/postoffice_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "故宫邮局"
+            },
+            {
+              "fsq_place_id": "52ef4251498ece5f57e05dc3",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "奉先殿"
+            },
+            {
+              "fsq_place_id": "4dbe3f49cda109aa6cc61921",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "太和门"
+            },
+            {
+              "fsq_place_id": "4eacd2d22c5bb67b23632290",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "丽景轩 Lijing Xuan"
+            },
+            {
+              "fsq_place_id": "506ba0ece4b068c765c50d83",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4bf58dd8d48988d164941735",
+                  "name": "Plaza",
+                  "short_name": "Plaza",
+                  "plural_name": "Plazas",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "52e81612bcbc57f1066b7a14",
+                  "name": "Palace",
+                  "short_name": "Palace",
+                  "plural_name": "Palaces",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "太和门广场"
+            },
+            {
+              "fsq_place_id": "4e336cfc52b11c7462230039",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "养心殿"
+            },
+            {
+              "fsq_place_id": "5a28d38fc824ae17e9ccc75b",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "Hall Of Clocks And Watches"
+            },
+            {
+              "fsq_place_id": "5bbc1657d807ee002c58ad65",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d145941735",
+                  "name": "Chinese Restaurant",
+                  "short_name": "Chinese",
+                  "plural_name": "Chinese Restaurants",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/asian_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "故宫餐厅"
+            },
+            {
+              "fsq_place_id": "6663ce5cc8ff47120fbccd17",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d1e2931735",
+                  "name": "Art Gallery",
+                  "short_name": "Art Gallery",
+                  "plural_name": "Art Galleries",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/artgallery_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "The Treasury Gallery"
+            },
+            {
+              "fsq_place_id": "599a6858c666662a7e50f530",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4bf58dd8d48988d12d941735",
+                  "name": "Monument",
+                  "short_name": "Monument",
+                  "plural_name": "Monuments",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/government_monument_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "隆宗门"
+            },
+            {
+              "fsq_place_id": "5d315776ec65e00007b965f7",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "short_name": "Café",
+                  "plural_name": "Cafés",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "冰窖咖啡"
+            },
+            {
+              "fsq_place_id": "51357294e4b0e88a17f463aa",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "漱芳斋"
+            },
+            {
+              "fsq_place_id": "5c8267edb9b37b002ca0c48d",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "西华门"
+            },
+            {
+              "fsq_place_id": "4eacd0f777c8cdc66d158afc",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "延晖阁 Yan Hui Ge"
+            },
+            {
+              "fsq_place_id": "575a526e498e1df6203f75d0",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "順貞门"
+            },
+            {
+              "fsq_place_id": "66fe4d685d982041a021a592",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d12d941735",
+                  "name": "Monument",
+                  "short_name": "Monument",
+                  "plural_name": "Monuments",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/government_monument_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "Hall for Viewing Opera"
+            },
+            {
+              "fsq_place_id": "5bbc634be96d0c002cebbad3",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d1e2931735",
+                  "name": "Art Gallery",
+                  "short_name": "Art Gallery",
+                  "plural_name": "Art Galleries",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/artgallery_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "家具馆"
+            },
+            {
+              "fsq_place_id": "4e7d5dd5e5fabacde0d16886",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d15a941735",
+                  "name": "Garden",
+                  "short_name": "Garden",
+                  "plural_name": "Gardens",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/garden_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "御花园 Imperial Garden"
+            },
+            {
+              "fsq_place_id": "52ef31a7498ece5f57dd3570",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "承乾宫 Palace of Celestial Favour"
+            },
+            {
+              "fsq_place_id": "59966dc2e96d0c172962a27a",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d145941735",
+                  "name": "Chinese Restaurant",
+                  "short_name": "Chinese",
+                  "plural_name": "Chinese Restaurants",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/asian_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "short_name": "Café",
+                  "plural_name": "Cafés",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "冰窖 Bingjiao"
+            },
+            {
+              "fsq_place_id": "50c59018e4b0309a65b33403",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4bf58dd8d48988d165941735",
+                  "name": "Scenic Lookout",
+                  "short_name": "Scenic Lookout",
+                  "plural_name": "Scenic Lookouts",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "翊坤宫 Hall of Earthly Honor"
+            },
+            {
+              "fsq_place_id": "5604d047498e9b7271e41bb7",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d15a941735",
+                  "name": "Garden",
+                  "short_name": "Garden",
+                  "plural_name": "Gardens",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/garden_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "慈宁宫花园"
+            },
+            {
+              "fsq_place_id": "4f1fab54e4b035766b07097f",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "皇极殿 Hall of Imperial Supremacy"
+            },
+            {
+              "fsq_place_id": "4f6ea9eee4b0541c629d920b",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4bf58dd8d48988d12d941735",
+                  "name": "Monument",
+                  "short_name": "Monument",
+                  "plural_name": "Monuments",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/government_monument_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4bf58dd8d48988d190941735",
+                  "name": "History Museum",
+                  "short_name": "History Museum",
+                  "plural_name": "History Museums",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "保和殿"
+            },
+            {
+              "fsq_place_id": "658bca6e8e309f1cc3b2858d",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "贞度门 / Gate of Correct Conduct"
+            },
+            {
+              "fsq_place_id": "4f9b92bce4b0e868c218b439",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "金銮殿 Hall of Golden Chimes"
+            },
+            {
+              "fsq_place_id": "5110ac4ee4b05b23712aac98",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4bf58dd8d48988d165941735",
+                  "name": "Scenic Lookout",
+                  "short_name": "Scenic Lookout",
+                  "plural_name": "Scenic Lookouts",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "角楼 (东北)"
+            },
+            {
+              "fsq_place_id": "66fe4e3f37dda1319087ebd4",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d12d941735",
+                  "name": "Monument",
+                  "short_name": "Monument",
+                  "plural_name": "Monuments",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/government_monument_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "Hall of Joyful Longevity"
+            },
+            {
+              "fsq_place_id": "68e36e3a42ca043929b9a903",
+              "categories": [
+                {
+                  "fsq_category_id": "52e81612bcbc57f1066b7a14",
+                  "name": "Palace",
+                  "short_name": "Palace",
+                  "plural_name": "Palaces",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "乐寿堂"
+            },
+            {
+              "fsq_place_id": "52ef4194498ece5f57e03480",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "诚肃殿 Hall of Sincere Solemnity"
+            },
+            {
+              "fsq_place_id": "5701d1d3498e20fab9c0e09b",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "中左门"
+            },
+            {
+              "fsq_place_id": "593250aea4b51b0812b62787",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "角楼 (东南)"
+            },
+            {
+              "fsq_place_id": "52ec6a1911d2cd1bb7ca2e0a",
+              "categories": [
+                {
+                  "fsq_category_id": "63be6904847c3692a84b9b25",
+                  "name": "Ticket Seller",
+                  "short_name": "Ticket Seller",
+                  "plural_name": "Ticket Sellers",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "故宫博物院售票处"
+            },
+            {
+              "fsq_place_id": "52ec6dc6498eb2e6a92c8d92",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d1df941735",
+                  "name": "Bridge",
+                  "short_name": "Bridge",
+                  "plural_name": "Bridges",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "内金水桥 Inner Golden Water Bridge"
+            },
+            {
+              "fsq_place_id": "6543051f616b86252e58aecc",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "造办处"
+            },
+            {
+              "fsq_place_id": "4e336b2918a8efdb175998d5",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "坤宁宫 Palace of Earthly Tranquility"
+            },
+            {
+              "fsq_place_id": "52ef44aa498ece5f57e0edb5",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "慈宁宫"
+            },
+            {
+              "fsq_place_id": "68e36bad42ca043929b8338f",
+              "categories": [
+                {
+                  "fsq_category_id": "52e81612bcbc57f1066b7a14",
+                  "name": "Palace",
+                  "short_name": "Palace",
+                  "plural_name": "Palaces",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "乾隆花园"
+            },
+            {
+              "fsq_place_id": "4da949274df01c19b16d9221",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "太和殿"
+            },
+            {
+              "fsq_place_id": "5e103ef2ee43610007cc796e",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "熙和门"
+            },
+            {
+              "fsq_place_id": "4f055c17be7bf2206eb761f3",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "天一门"
+            },
+            {
+              "fsq_place_id": "68b956d7f74e2448266ddd94",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "中右门"
+            },
+            {
+              "fsq_place_id": "612fb372973fda04fdad3374",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d130941735",
+                  "name": "Structure",
+                  "short_name": "Structure",
+                  "plural_name": "Structures",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/default_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "Forbidden City"
+            },
+            {
+              "fsq_place_id": "52ef42cd498ece5f57e07b3d",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "养性殿 Hall of Spiritual Cultivation"
+            },
+            {
+              "fsq_place_id": "52ef2d62498ece5f57dcaca4",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "储秀宫"
+            },
+            {
+              "fsq_place_id": "52ec7618498e41243115d1f7",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "乾清门"
+            },
+            {
+              "fsq_place_id": "4fbb4f86e4b04df08f14c0b4",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "东华门"
+            },
+            {
+              "fsq_place_id": "5cc2a8c6135b39002cd65414",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d145941735",
+                  "name": "Chinese Restaurant",
+                  "short_name": "Chinese",
+                  "plural_name": "Chinese Restaurants",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/food/asian_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "故宫角楼餐厅 Turret Restaurant"
+            },
+            {
+              "fsq_place_id": "5c5fd555345cbe002c2cc199",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d181941735",
+                  "name": "Museum",
+                  "short_name": "Museum",
+                  "plural_name": "Museums",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "钟表馆"
+            },
+            {
+              "fsq_place_id": "52ec6e3d498e045e5e60c7e3",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "协和门"
+            },
+            {
+              "fsq_place_id": "5701d63e498e6766a6883cfb",
+              "categories": [
+                {
+                  "fsq_category_id": "52f2ab2ebcbc57f1066b8b1b",
+                  "name": "Souvenir Store",
+                  "short_name": "Souvenir Store",
+                  "plural_name": "Souvenir Stores",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/default_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "故宫文化产品专卖店"
+            },
+            {
+              "fsq_place_id": "52ef47e3498ece5f57e1964c",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "景仁宫 Palace of Great Benevolence"
+            },
+            {
+              "fsq_place_id": "52ef4364498ece5f57e0a151",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "宁寿宫 Palace of Tranquil Longevity"
+            },
+            {
+              "fsq_place_id": "4dec7a9945dd3993a8bf7a74",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "端门"
+            },
+            {
+              "fsq_place_id": "58a9351f37da1d7cb5bc10b7",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "東華門"
+            },
+            {
+              "fsq_place_id": "4da94f4e4b22f071ea9bdc4e",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4bf58dd8d48988d165941735",
+                  "name": "Scenic Lookout",
+                  "short_name": "Scenic Lookout",
+                  "plural_name": "Scenic Lookouts",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "乾清宫"
+            },
+            {
+              "fsq_place_id": "5c79f02c5d891b002c69be58",
+              "categories": [
+                {
+                  "fsq_category_id": "4bf58dd8d48988d190941735",
+                  "name": "History Museum",
+                  "short_name": "History Museum",
+                  "plural_name": "History Museums",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                },
+                {
+                  "fsq_category_id": "56aa371be4b08b9a8d573532",
+                  "name": "Exhibit",
+                  "short_name": "Exhibit",
+                  "plural_name": "Exhibits",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "Archery Pavilion & Tools of War exhibition"
+            },
+            {
+              "fsq_place_id": "52ef313f498ece5f57dd280c",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "钟粹宫 Palace of Accumulated Purity"
+            },
+            {
+              "fsq_place_id": "52ef2fc8498ece5f57dcfd7d",
+              "categories": [
+                {
+                  "fsq_category_id": "4deefb944765f83613cdba6e",
+                  "name": "Historic and Protected Site",
+                  "short_name": "Historic and Protected Site",
+                  "plural_name": "Historic and Protected Sites",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                    "suffix": ".png"
+                  }
+                }
+              ],
+              "name": "永寿宫"
+            }
+          ]
+        },
+        "social_media": {},
+        "tel": "010 6513 1892",
+        "website": "http://www.dpm.org.cn"
+      },
+      {
+        "fsq_place_id": "52ec6a1911d2cd1bb7ca2e0a",
+        "latitude": 39.911117,
+        "longitude": 116.39039,
+        "categories": [
+          {
+            "fsq_category_id": "63be6904847c3692a84b9b25",
+            "name": "Ticket Seller",
+            "short_name": "Ticket Seller",
+            "plural_name": "Ticket Sellers",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "date_created": "2014-02-01",
+        "date_refreshed": "2026-09-24",
+        "distance": 817,
+        "extended_location": {},
+        "link": "/places/52ec6a1911d2cd1bb7ca2e0a",
+        "location": {
+          "address": "故宫",
+          "locality": "北京市",
+          "region": "北京市",
+          "postcode": "100000",
+          "country": "CN",
+          "formatted_address": "故宫, Dōngchéng qū, 北京市, 北京市, 100000"
+        },
+        "name": "Palace Museum Ticket Office (故宫博物院售票处)",
+        "placemaker_url": "https://foursquare.com/placemakers/review-place/52ec6a1911d2cd1bb7ca2e0a",
+        "related_places": {
+          "parent": {
+            "fsq_place_id": "4bd877965cf276b0ac539d00",
+            "categories": [
+              {
+                "fsq_category_id": "4deefb944765f83613cdba6e",
+                "name": "Historic and Protected Site",
+                "short_name": "Historic and Protected Site",
+                "plural_name": "Historic and Protected Sites",
+                "icon": {
+                  "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+                  "suffix": ".png"
+                }
+              },
+              {
+                "fsq_category_id": "4bf58dd8d48988d190941735",
+                "name": "History Museum",
+                "short_name": "History Museum",
+                "plural_name": "History Museums",
+                "icon": {
+                  "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+                  "suffix": ".png"
+                }
+              },
+              {
+                "fsq_category_id": "52e81612bcbc57f1066b7a14",
+                "name": "Palace",
+                "short_name": "Palace",
+                "plural_name": "Palaces",
+                "icon": {
+                  "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
+                  "suffix": ".png"
+                }
+              }
+            ],
+            "name": "故宫博物院 Forbidden City"
+          }
+        },
+        "social_media": {
+          "twitter": ""
+        }
+      },
+      {
+        "fsq_place_id": "675e6c8f12719a6d7ec3d60b",
+        "latitude": 39.916359,
+        "longitude": 116.397725,
+        "categories": [
+          {
+            "fsq_category_id": "4bf58dd8d48988d145941735",
+            "name": "Chinese Restaurant",
+            "short_name": "Chinese",
+            "plural_name": "Chinese Restaurants",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/asian_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "date_created": "2024-12-15",
+        "date_refreshed": "2026-09-18",
+        "distance": 45,
+        "extended_location": {},
+        "link": "/places/675e6c8f12719a6d7ec3d60b",
+        "location": {
+          "address": "东城区东华门大街11号(金鱼胡同地铁站C西南口步行390米)",
+          "locality": "景山",
+          "region": "北京市",
+          "postcode": "",
+          "country": "CN",
+          "formatted_address": "东城区东华门大街11号(金鱼胡同地铁站C西南口步行390米) (故宫店), 景山, 北京市"
+        },
+        "name": "京城九门轩烤鸭店（故宫店）",
+        "placemaker_url": "https://foursquare.com/placemakers/review-place/675e6c8f12719a6d7ec3d60b",
+        "related_places": {},
+        "social_media": {
+          "twitter": ""
+        }
+      },
+      {
+        "fsq_place_id": "69e619b64ccce451e5511c23",
+        "latitude": 39.913659,
+        "longitude": 116.397962,
+        "categories": [
+          {
+            "fsq_category_id": "512e7cae91d4cbb4e5efe0af",
+            "name": "Frozen Yogurt Shop",
+            "short_name": "Yogurt",
+            "plural_name": "Frozen Yogurt Shops",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/frozenyogurt_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "date_created": "2026-04-20",
+        "date_refreshed": "2026-06-28",
+        "distance": 300,
+        "extended_location": {},
+        "link": "/places/69e619b64ccce451e5511c23",
+        "location": {
+          "address": "Donghuamen Street and South Chizi Street Intersection East 100 Meters",
+          "locality": "北京市",
+          "region": "北京市",
+          "postcode": "",
+          "country": "CN",
+          "formatted_address": "Donghuamen Street and South Chizi Street Intersection East 100 Meters, 北京市, 北京市"
+        },
+        "name": "紫光园 奶皮子酸奶站 （故宫）",
+        "placemaker_url": "https://foursquare.com/placemakers/review-place/69e619b64ccce451e5511c23",
+        "related_places": {},
+        "social_media": {
+          "twitter": ""
+        }
+      }
+    ],
+    "context": {
+      "geo_bounds": {
+        "circle": {
+          "center": {
+            "latitude": 39.9163,
+            "longitude": 116.3972
+          },
+          "radius": 3000
+        }
+      }
+    }
+  },
+  "raw_response": "{\"results\":[{\"fsq_place_id\":\"20fd0a7fb3924e5eb889ffe2\",\"latitude\":39.91559,\"longitude\":116.39698,\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d181941735\",\"name\":\"Museum\",\"short_name\":\"Museum\",\"plural_name\":\"Museums\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_\",\"suffix\":\".png\"}}],\"date_created\":\"2011-05-30\",\"date_refreshed\":\"2026-09-22\",\"distance\":81,\"email\":\"gugong@dpm.org.cn\",\"extended_location\":{},\"link\":\"/places/20fd0a7fb3924e5eb889ffe2\",\"location\":{\"address\":\"景山前街4号\",\"locality\":\"北京市\",\"region\":\"北京市\",\"postcode\":\"100000\",\"country\":\"CN\",\"formatted_address\":\"景山前街4号, 北京市, 北京市, 100000\"},\"name\":\"故宫博物院\",\"placemaker_url\":\"https://foursquare.com/placemakers/review-place/20fd0a7fb3924e5eb889ffe2\",\"related_places\":{},\"social_media\":{},\"tel\":\"010 6513 2255\",\"website\":\"http://www.dpm.org.cn/index1024768.html\"},{\"fsq_place_id\":\"4bd877965cf276b0ac539d00\",\"latitude\":39.91770204306014,\"longitude\":116.39066219329834,\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d190941735\",\"name\":\"History Museum\",\"short_name\":\"History Museum\",\"plural_name\":\"History Museums\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"52e81612bcbc57f1066b7a14\",\"name\":\"Palace\",\"short_name\":\"Palace\",\"plural_name\":\"Palaces\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_\",\"suffix\":\".png\"}}],\"date_created\":\"2010-04-28\",\"date_refreshed\":\"2026-09-27\",\"distance\":578,\"extended_location\":{},\"link\":\"/places/4bd877965cf276b0ac539d00\",\"location\":{\"address\":\"4 Jingshan Front St\",\"locality\":\"北京市\",\"region\":\"北京市\",\"postcode\":\"100009\",\"country\":\"CN\",\"formatted_address\":\"4 Jingshan Front St, Dōngchéng qū, 北京市, 北京市, 100009\"},\"name\":\"Forbidden City (Palace Museum) (故宫（博物院）)\",\"placemaker_url\":\"https://foursquare.com/placemakers/review-place/4bd877965cf276b0ac539d00\",\"related_places\":{\"children\":[{\"fsq_place_id\":\"5701cf02498e03ded0374df6\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"昭徳门\"},{\"fsq_place_id\":\"690bfe784ee49a79e2d26e3b\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"遂初堂\"},{\"fsq_place_id\":\"6663c36eee7bc13f68fbe44f\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d190941735\",\"name\":\"History Museum\",\"short_name\":\"History Museum\",\"plural_name\":\"History Museums\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_\",\"suffix\":\".png\"}}],\"name\":\"Gallery Of Timepieces\"},{\"fsq_place_id\":\"4c0263f4cbd876b0be31f143\",\"categories\":[{\"fsq_category_id\":\"4eb1d4dd4b900d56c88a45fd\",\"name\":\"River\",\"short_name\":\"River\",\"plural_name\":\"Rivers\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/river_\",\"suffix\":\".png\"}}],\"name\":\"东华门护城河\"},{\"fsq_place_id\":\"677f21fee443de69fe2b4083\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"文渊阁\"},{\"fsq_place_id\":\"5944bcf52be4250e3197639c\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d16e941735\",\"name\":\"Fast Food Restaurant\",\"short_name\":\"Fast Food\",\"plural_name\":\"Fast Food Restaurants\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/food/fastfood_\",\"suffix\":\".png\"}}],\"name\":\"故宫快餐\"},{\"fsq_place_id\":\"4e728b5dfa767a2b30f75163\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"大高玄殿\"},{\"fsq_place_id\":\"5281d346498ec02460e066e9\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"建福宫\"},{\"fsq_place_id\":\"59f1f893d48ec11da6160928\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d12d941735\",\"name\":\"Monument\",\"short_name\":\"Monument\",\"plural_name\":\"Monuments\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/building/government_monument_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"Meridian Gate\"},{\"fsq_place_id\":\"50012563e4b0ee6fde43f708\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d13a941735\",\"name\":\"Temple\",\"short_name\":\"Temple\",\"plural_name\":\"Temples\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/building/religious_temple_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"斋宫\"},{\"fsq_place_id\":\"52ecef4111d245bd4fa9bfca\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"Corner Tower (NW)\"},{\"fsq_place_id\":\"4daf8a3643a1e3d9e6497130\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"神武门\"},{\"fsq_place_id\":\"4dbe3c20fa8cee72737b000c\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"武英殿\"},{\"fsq_place_id\":\"52ef2ed2498ece5f57dcdcf7\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"长春宫 Palace of Eternal Spring\"},{\"fsq_place_id\":\"4d2bd48b849f370404679541\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d12d941735\",\"name\":\"Monument\",\"short_name\":\"Monument\",\"plural_name\":\"Monuments\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/building/government_monument_\",\"suffix\":\".png\"}}],\"name\":\"午门\"},{\"fsq_place_id\":\"6247fdd7d05967199dd43339\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"故宫角楼\"},{\"fsq_place_id\":\"66fe4d1c8d48ca74058eb797\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d12d941735\",\"name\":\"Monument\",\"short_name\":\"Monument\",\"plural_name\":\"Monuments\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/building/government_monument_\",\"suffix\":\".png\"}}],\"name\":\"Belvedere of Pleasant Sounds\"},{\"fsq_place_id\":\"4e7a933e8877bfe04ccf1adc\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"军机处 Grand Council\"},{\"fsq_place_id\":\"5610a0df498e6d181d92f604\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4fbc1be21983fc883593e321\",\"name\":\"Well\",\"short_name\":\"Well\",\"plural_name\":\"Wells\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/well_\",\"suffix\":\".png\"}}],\"name\":\"珍妃井\"},{\"fsq_place_id\":\"4dbe42865da3ff58ec767496\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"中和殿\"},{\"fsq_place_id\":\"591687c910345b1353a69e2e\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d145941735\",\"name\":\"Chinese Restaurant\",\"short_name\":\"Chinese\",\"plural_name\":\"Chinese Restaurants\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/food/asian_\",\"suffix\":\".png\"}}],\"name\":\"故宫冰窖\"},{\"fsq_place_id\":\"59bc9fbca0215b132c55fe16\",\"categories\":[{\"fsq_category_id\":\"56aa371be4b08b9a8d573532\",\"name\":\"Exhibit\",\"short_name\":\"Exhibit\",\"plural_name\":\"Exhibits\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_\",\"suffix\":\".png\"}}],\"name\":\"A Panorama of Rivers and Mountains\"},{\"fsq_place_id\":\"506ba1c6e4b04f6e0529ab10\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d164941735\",\"name\":\"Plaza\",\"short_name\":\"Plaza\",\"plural_name\":\"Plazas\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_\",\"suffix\":\".png\"}}],\"name\":\"太和殿广场\"},{\"fsq_place_id\":\"506b9c15e4b089934d32566c\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"文华殿 Hall of Literary Brilliance\"},{\"fsq_place_id\":\"52ef4113498ece5f57e01526\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"永和宫 Palace of Eternal Harmony\"},{\"fsq_place_id\":\"4eb7914582313162702615e2\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"交泰殿\"},{\"fsq_place_id\":\"607282f129b1960028be89aa\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"寿康宫\"},{\"fsq_place_id\":\"50a323b2e4b0e3131d5aa7f6\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"九龙壁 Nine Dragon Screen\"},{\"fsq_place_id\":\"52ef2cce498ece5f57dc97cf\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"咸福宫 Palace of Universal Happiness\"},{\"fsq_place_id\":\"52ec86d2498e1c9378e761e2\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"太极殿 Hall of Supreme Principle\"},{\"fsq_place_id\":\"52ef30bb498ece5f57dd19da\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"Palace of Great Brilliance\"},{\"fsq_place_id\":\"52ec7ebe498e90ae94358611\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"延禧宫 Palace of Prolonging Happiness\"},{\"fsq_place_id\":\"67d92f37e3d1eb34fbdc2bb1\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d172941735\",\"name\":\"Post Office\",\"short_name\":\"Post Office\",\"plural_name\":\"Post Offices\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/building/postoffice_\",\"suffix\":\".png\"}}],\"name\":\"故宫邮局\"},{\"fsq_place_id\":\"52ef4251498ece5f57e05dc3\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"奉先殿\"},{\"fsq_place_id\":\"4dbe3f49cda109aa6cc61921\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"太和门\"},{\"fsq_place_id\":\"4eacd2d22c5bb67b23632290\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"丽景轩 Lijing Xuan\"},{\"fsq_place_id\":\"506ba0ece4b068c765c50d83\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d164941735\",\"name\":\"Plaza\",\"short_name\":\"Plaza\",\"plural_name\":\"Plazas\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"52e81612bcbc57f1066b7a14\",\"name\":\"Palace\",\"short_name\":\"Palace\",\"plural_name\":\"Palaces\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_\",\"suffix\":\".png\"}}],\"name\":\"太和门广场\"},{\"fsq_place_id\":\"4e336cfc52b11c7462230039\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"养心殿\"},{\"fsq_place_id\":\"5a28d38fc824ae17e9ccc75b\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"Hall Of Clocks And Watches\"},{\"fsq_place_id\":\"5bbc1657d807ee002c58ad65\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d145941735\",\"name\":\"Chinese Restaurant\",\"short_name\":\"Chinese\",\"plural_name\":\"Chinese Restaurants\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/food/asian_\",\"suffix\":\".png\"}}],\"name\":\"故宫餐厅\"},{\"fsq_place_id\":\"6663ce5cc8ff47120fbccd17\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d1e2931735\",\"name\":\"Art Gallery\",\"short_name\":\"Art Gallery\",\"plural_name\":\"Art Galleries\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/artgallery_\",\"suffix\":\".png\"}}],\"name\":\"The Treasury Gallery\"},{\"fsq_place_id\":\"599a6858c666662a7e50f530\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d12d941735\",\"name\":\"Monument\",\"short_name\":\"Monument\",\"plural_name\":\"Monuments\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/building/government_monument_\",\"suffix\":\".png\"}}],\"name\":\"隆宗门\"},{\"fsq_place_id\":\"5d315776ec65e00007b965f7\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d16d941735\",\"name\":\"Café\",\"short_name\":\"Café\",\"plural_name\":\"Cafés\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/food/cafe_\",\"suffix\":\".png\"}}],\"name\":\"冰窖咖啡\"},{\"fsq_place_id\":\"51357294e4b0e88a17f463aa\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"漱芳斋\"},{\"fsq_place_id\":\"5c8267edb9b37b002ca0c48d\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"西华门\"},{\"fsq_place_id\":\"4eacd0f777c8cdc66d158afc\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"延晖阁 Yan Hui Ge\"},{\"fsq_place_id\":\"575a526e498e1df6203f75d0\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"順貞门\"},{\"fsq_place_id\":\"66fe4d685d982041a021a592\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d12d941735\",\"name\":\"Monument\",\"short_name\":\"Monument\",\"plural_name\":\"Monuments\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/building/government_monument_\",\"suffix\":\".png\"}}],\"name\":\"Hall for Viewing Opera\"},{\"fsq_place_id\":\"5bbc634be96d0c002cebbad3\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d1e2931735\",\"name\":\"Art Gallery\",\"short_name\":\"Art Gallery\",\"plural_name\":\"Art Galleries\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/artgallery_\",\"suffix\":\".png\"}}],\"name\":\"家具馆\"},{\"fsq_place_id\":\"4e7d5dd5e5fabacde0d16886\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d15a941735\",\"name\":\"Garden\",\"short_name\":\"Garden\",\"plural_name\":\"Gardens\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/garden_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"御花园 Imperial Garden\"},{\"fsq_place_id\":\"52ef31a7498ece5f57dd3570\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"承乾宫 Palace of Celestial Favour\"},{\"fsq_place_id\":\"59966dc2e96d0c172962a27a\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d145941735\",\"name\":\"Chinese Restaurant\",\"short_name\":\"Chinese\",\"plural_name\":\"Chinese Restaurants\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/food/asian_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d16d941735\",\"name\":\"Café\",\"short_name\":\"Café\",\"plural_name\":\"Cafés\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/food/cafe_\",\"suffix\":\".png\"}}],\"name\":\"冰窖 Bingjiao\"},{\"fsq_place_id\":\"50c59018e4b0309a65b33403\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d165941735\",\"name\":\"Scenic Lookout\",\"short_name\":\"Scenic Lookout\",\"plural_name\":\"Scenic Lookouts\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_\",\"suffix\":\".png\"}}],\"name\":\"翊坤宫 Hall of Earthly Honor\"},{\"fsq_place_id\":\"5604d047498e9b7271e41bb7\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d15a941735\",\"name\":\"Garden\",\"short_name\":\"Garden\",\"plural_name\":\"Gardens\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/garden_\",\"suffix\":\".png\"}}],\"name\":\"慈宁宫花园\"},{\"fsq_place_id\":\"4f1fab54e4b035766b07097f\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"皇极殿 Hall of Imperial Supremacy\"},{\"fsq_place_id\":\"4f6ea9eee4b0541c629d920b\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d12d941735\",\"name\":\"Monument\",\"short_name\":\"Monument\",\"plural_name\":\"Monuments\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/building/government_monument_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d190941735\",\"name\":\"History Museum\",\"short_name\":\"History Museum\",\"plural_name\":\"History Museums\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_\",\"suffix\":\".png\"}}],\"name\":\"保和殿\"},{\"fsq_place_id\":\"658bca6e8e309f1cc3b2858d\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"贞度门 / Gate of Correct Conduct\"},{\"fsq_place_id\":\"4f9b92bce4b0e868c218b439\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"金銮殿 Hall of Golden Chimes\"},{\"fsq_place_id\":\"5110ac4ee4b05b23712aac98\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d165941735\",\"name\":\"Scenic Lookout\",\"short_name\":\"Scenic Lookout\",\"plural_name\":\"Scenic Lookouts\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_\",\"suffix\":\".png\"}}],\"name\":\"角楼 (东北)\"},{\"fsq_place_id\":\"66fe4e3f37dda1319087ebd4\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d12d941735\",\"name\":\"Monument\",\"short_name\":\"Monument\",\"plural_name\":\"Monuments\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/building/government_monument_\",\"suffix\":\".png\"}}],\"name\":\"Hall of Joyful Longevity\"},{\"fsq_place_id\":\"68e36e3a42ca043929b9a903\",\"categories\":[{\"fsq_category_id\":\"52e81612bcbc57f1066b7a14\",\"name\":\"Palace\",\"short_name\":\"Palace\",\"plural_name\":\"Palaces\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_\",\"suffix\":\".png\"}}],\"name\":\"乐寿堂\"},{\"fsq_place_id\":\"52ef4194498ece5f57e03480\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"诚肃殿 Hall of Sincere Solemnity\"},{\"fsq_place_id\":\"5701d1d3498e20fab9c0e09b\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"中左门\"},{\"fsq_place_id\":\"593250aea4b51b0812b62787\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"角楼 (东南)\"},{\"fsq_place_id\":\"52ec6a1911d2cd1bb7ca2e0a\",\"categories\":[{\"fsq_category_id\":\"63be6904847c3692a84b9b25\",\"name\":\"Ticket Seller\",\"short_name\":\"Ticket Seller\",\"plural_name\":\"Ticket Sellers\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_\",\"suffix\":\".png\"}}],\"name\":\"故宫博物院售票处\"},{\"fsq_place_id\":\"52ec6dc6498eb2e6a92c8d92\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d1df941735\",\"name\":\"Bridge\",\"short_name\":\"Bridge\",\"plural_name\":\"Bridges\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/bridge_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"内金水桥 Inner Golden Water Bridge\"},{\"fsq_place_id\":\"6543051f616b86252e58aecc\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"造办处\"},{\"fsq_place_id\":\"4e336b2918a8efdb175998d5\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"坤宁宫 Palace of Earthly Tranquility\"},{\"fsq_place_id\":\"52ef44aa498ece5f57e0edb5\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"慈宁宫\"},{\"fsq_place_id\":\"68e36bad42ca043929b8338f\",\"categories\":[{\"fsq_category_id\":\"52e81612bcbc57f1066b7a14\",\"name\":\"Palace\",\"short_name\":\"Palace\",\"plural_name\":\"Palaces\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_\",\"suffix\":\".png\"}}],\"name\":\"乾隆花园\"},{\"fsq_place_id\":\"4da949274df01c19b16d9221\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"太和殿\"},{\"fsq_place_id\":\"5e103ef2ee43610007cc796e\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"熙和门\"},{\"fsq_place_id\":\"4f055c17be7bf2206eb761f3\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"天一门\"},{\"fsq_place_id\":\"68b956d7f74e2448266ddd94\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"中右门\"},{\"fsq_place_id\":\"612fb372973fda04fdad3374\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d130941735\",\"name\":\"Structure\",\"short_name\":\"Structure\",\"plural_name\":\"Structures\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/building/default_\",\"suffix\":\".png\"}}],\"name\":\"Forbidden City\"},{\"fsq_place_id\":\"52ef42cd498ece5f57e07b3d\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"养性殿 Hall of Spiritual Cultivation\"},{\"fsq_place_id\":\"52ef2d62498ece5f57dcaca4\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"储秀宫\"},{\"fsq_place_id\":\"52ec7618498e41243115d1f7\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"乾清门\"},{\"fsq_place_id\":\"4fbb4f86e4b04df08f14c0b4\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"东华门\"},{\"fsq_place_id\":\"5cc2a8c6135b39002cd65414\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d145941735\",\"name\":\"Chinese Restaurant\",\"short_name\":\"Chinese\",\"plural_name\":\"Chinese Restaurants\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/food/asian_\",\"suffix\":\".png\"}}],\"name\":\"故宫角楼餐厅 Turret Restaurant\"},{\"fsq_place_id\":\"5c5fd555345cbe002c2cc199\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d181941735\",\"name\":\"Museum\",\"short_name\":\"Museum\",\"plural_name\":\"Museums\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_\",\"suffix\":\".png\"}}],\"name\":\"钟表馆\"},{\"fsq_place_id\":\"52ec6e3d498e045e5e60c7e3\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"协和门\"},{\"fsq_place_id\":\"5701d63e498e6766a6883cfb\",\"categories\":[{\"fsq_category_id\":\"52f2ab2ebcbc57f1066b8b1b\",\"name\":\"Souvenir Store\",\"short_name\":\"Souvenir Store\",\"plural_name\":\"Souvenir Stores\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/shops/default_\",\"suffix\":\".png\"}}],\"name\":\"故宫文化产品专卖店\"},{\"fsq_place_id\":\"52ef47e3498ece5f57e1964c\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"景仁宫 Palace of Great Benevolence\"},{\"fsq_place_id\":\"52ef4364498ece5f57e0a151\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"宁寿宫 Palace of Tranquil Longevity\"},{\"fsq_place_id\":\"4dec7a9945dd3993a8bf7a74\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"端门\"},{\"fsq_place_id\":\"58a9351f37da1d7cb5bc10b7\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"東華門\"},{\"fsq_place_id\":\"4da94f4e4b22f071ea9bdc4e\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d165941735\",\"name\":\"Scenic Lookout\",\"short_name\":\"Scenic Lookout\",\"plural_name\":\"Scenic Lookouts\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/sceniclookout_\",\"suffix\":\".png\"}}],\"name\":\"乾清宫\"},{\"fsq_place_id\":\"5c79f02c5d891b002c69be58\",\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d190941735\",\"name\":\"History Museum\",\"short_name\":\"History Museum\",\"plural_name\":\"History Museums\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"56aa371be4b08b9a8d573532\",\"name\":\"Exhibit\",\"short_name\":\"Exhibit\",\"plural_name\":\"Exhibits\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_\",\"suffix\":\".png\"}}],\"name\":\"Archery Pavilion & Tools of War exhibition\"},{\"fsq_place_id\":\"52ef313f498ece5f57dd280c\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"钟粹宫 Palace of Accumulated Purity\"},{\"fsq_place_id\":\"52ef2fc8498ece5f57dcfd7d\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}}],\"name\":\"永寿宫\"}]},\"social_media\":{},\"tel\":\"010 6513 1892\",\"website\":\"http://www.dpm.org.cn\"},{\"fsq_place_id\":\"52ec6a1911d2cd1bb7ca2e0a\",\"latitude\":39.911117,\"longitude\":116.39039,\"categories\":[{\"fsq_category_id\":\"63be6904847c3692a84b9b25\",\"name\":\"Ticket Seller\",\"short_name\":\"Ticket Seller\",\"plural_name\":\"Ticket Sellers\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/default_\",\"suffix\":\".png\"}}],\"date_created\":\"2014-02-01\",\"date_refreshed\":\"2026-09-24\",\"distance\":817,\"extended_location\":{},\"link\":\"/places/52ec6a1911d2cd1bb7ca2e0a\",\"location\":{\"address\":\"故宫\",\"locality\":\"北京市\",\"region\":\"北京市\",\"postcode\":\"100000\",\"country\":\"CN\",\"formatted_address\":\"故宫, Dōngchéng qū, 北京市, 北京市, 100000\"},\"name\":\"Palace Museum Ticket Office (故宫博物院售票处)\",\"placemaker_url\":\"https://foursquare.com/placemakers/review-place/52ec6a1911d2cd1bb7ca2e0a\",\"related_places\":{\"parent\":{\"fsq_place_id\":\"4bd877965cf276b0ac539d00\",\"categories\":[{\"fsq_category_id\":\"4deefb944765f83613cdba6e\",\"name\":\"Historic and Protected Site\",\"short_name\":\"Historic and Protected Site\",\"plural_name\":\"Historic and Protected Sites\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/historicsite_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"4bf58dd8d48988d190941735\",\"name\":\"History Museum\",\"short_name\":\"History Museum\",\"plural_name\":\"History Museums\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/arts_entertainment/museum_history_\",\"suffix\":\".png\"}},{\"fsq_category_id\":\"52e81612bcbc57f1066b7a14\",\"name\":\"Palace\",\"short_name\":\"Palace\",\"plural_name\":\"Palaces\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_\",\"suffix\":\".png\"}}],\"name\":\"故宫博物院 Forbidden City\"}},\"social_media\":{\"twitter\":\"\"}},{\"fsq_place_id\":\"675e6c8f12719a6d7ec3d60b\",\"latitude\":39.916359,\"longitude\":116.397725,\"categories\":[{\"fsq_category_id\":\"4bf58dd8d48988d145941735\",\"name\":\"Chinese Restaurant\",\"short_name\":\"Chinese\",\"plural_name\":\"Chinese Restaurants\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/food/asian_\",\"suffix\":\".png\"}}],\"date_created\":\"2024-12-15\",\"date_refreshed\":\"2026-09-18\",\"distance\":45,\"extended_location\":{},\"link\":\"/places/675e6c8f12719a6d7ec3d60b\",\"location\":{\"address\":\"东城区东华门大街11号(金鱼胡同地铁站C西南口步行390米)\",\"locality\":\"景山\",\"region\":\"北京市\",\"postcode\":\"\",\"country\":\"CN\",\"formatted_address\":\"东城区东华门大街11号(金鱼胡同地铁站C西南口步行390米) (故宫店), 景山, 北京市\"},\"name\":\"京城九门轩烤鸭店（故宫店）\",\"placemaker_url\":\"https://foursquare.com/placemakers/review-place/675e6c8f12719a6d7ec3d60b\",\"related_places\":{},\"social_media\":{\"twitter\":\"\"}},{\"fsq_place_id\":\"69e619b64ccce451e5511c23\",\"latitude\":39.913659,\"longitude\":116.397962,\"categories\":[{\"fsq_category_id\":\"512e7cae91d4cbb4e5efe0af\",\"name\":\"Frozen Yogurt Shop\",\"short_name\":\"Yogurt\",\"plural_name\":\"Frozen Yogurt Shops\",\"icon\":{\"prefix\":\"https://ss3.4sqi.net/img/categories_v2/food/frozenyogurt_\",\"suffix\":\".png\"}}],\"date_created\":\"2026-04-20\",\"date_refreshed\":\"2026-06-28\",\"distance\":300,\"extended_location\":{},\"link\":\"/places/69e619b64ccce451e5511c23\",\"location\":{\"address\":\"Donghuamen Street and South Chizi Street Intersection East 100 Meters\",\"locality\":\"北京市\",\"region\":\"北京市\",\"postcode\":\"\",\"country\":\"CN\",\"formatted_address\":\"Donghuamen Street and South Chizi Street Intersection East 100 Meters, 北京市, 北京市\"},\"name\":\"紫光园 奶皮子酸奶站 （故宫）\",\"placemaker_url\":\"https://foursquare.com/placemakers/review-place/69e619b64ccce451e5511c23\",\"related_places\":{},\"social_media\":{\"twitter\":\"\"}}],\"context\":{\"geo_bounds\":{\"circle\":{\"center\":{\"latitude\":39.9163,\"longitude\":116.3972},\"radius\":3000}}}}"
+}

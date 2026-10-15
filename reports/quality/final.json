@@ -1,0 +1,294 @@
+[
+  {
+    "city": "巴黎",
+    "resolveMs": 129,
+    "itineraryMs": 269,
+    "activities": 0,
+    "imageLoaded": 0,
+    "loading": 0,
+    "names": [],
+    "descriptionChars": 0,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 37,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/places",
+        "ms": 22,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 20,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 20,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 20,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 20,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 10,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 13,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 309,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 315,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 333,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 332,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 27,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 25,
+        "status": 200
+      },
+      {
+        "path": "/api/open-places",
+        "ms": 5632,
+        "failed": true
+      }
+    ]
+  },
+  {
+    "city": "东京",
+    "resolveMs": 131,
+    "itineraryMs": 263,
+    "activities": 4,
+    "imageLoaded": 3,
+    "loading": 0,
+    "names": [
+      "Tokyo City Hall Tower II",
+      "新宿尼亚加拉瀑布",
+      "Ryo",
+      "Juniso Kumano Shrine"
+    ],
+    "descriptionChars": 1600,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 44,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/places",
+        "ms": 22,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 12,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 12,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 12,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 12,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 10,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 7,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 9,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 5,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 13,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 15,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 15,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 12,
+        "status": 200
+      },
+      {
+        "path": "/api/open-places",
+        "ms": 12001,
+        "failed": true
+      }
+    ]
+  },
+  {
+    "city": "开罗",
+    "resolveMs": 127,
+    "itineraryMs": 269,
+    "activities": 4,
+    "imageLoaded": 4,
+    "loading": 0,
+    "names": [
+      "Gamal Eddin Youssef Istadar Mosque",
+      "Sabil-Kuttab Abd El Rahman Katkhuda",
+      "Sultan Qaytbay Complex",
+      "ramsees"
+    ],
+    "descriptionChars": 2548,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 40,
+        "status": 200
+      },
+      {
+        "path": "/api/open-places",
+        "ms": 13,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/places",
+        "ms": 28,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 12,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 13,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 15,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 16,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 6,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 3,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 5,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 7,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 11,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 10,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 6,
+        "status": 200
+      },
+      {
+        "path": "/api/otm/details",
+        "ms": 17,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "city": "北京",
+    "itineraryMs": 1386,
+    "activities": 4,
+    "imageLoaded": 4,
+    "loading": 0,
+    "names": [
+      "故宫博物院",
+      "天安门",
+      "天安门广场",
+      "南锣鼓巷"
+    ],
+    "descriptionChars": 497,
+    "requests": [
+      {
+        "path": "/api/destinations/search",
+        "ms": 39,
+        "status": 200
+      }
+    ]
+  }
+]
