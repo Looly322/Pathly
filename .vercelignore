@@ -1,0 +1,10 @@
+.env
+.env.*
+backend/.env
+backend/.env.*
+backend/.cache
+backend/__pycache__
+.tools
+reports
+test-results
+.DS_Store

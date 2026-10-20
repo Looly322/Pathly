@@ -16,8 +16,9 @@ from urllib.error import HTTPError
 
 ROOT = Path(__file__).resolve().parent
 CONTEXT = ssl.create_default_context(cafile='/etc/ssl/cert.pem' if Path('/etc/ssl/cert.pem').exists() else None)
-CACHE = ROOT / '.cache'
-CACHE.mkdir(exist_ok=True)
+# Vercel's application bundle is read-only; only /tmp is writable.
+CACHE = Path('/tmp/pathly-cache') if os.environ.get('VERCEL') else ROOT / '.cache'
+CACHE.mkdir(parents=True, exist_ok=True)
 REQUEST_DEADLINE = threading.local()
 LOCKS = {}
 LOCK_GUARD = threading.Lock()

@@ -1,5 +1,6 @@
 <script setup>
 import {ref,computed} from 'vue';
+import {searchErrorKey} from './services/apiClient';
 import {t,language} from './i18n';
 import BrandLogo from './components/BrandLogo.vue';
 import LanguageSelector from './components/LanguageSelector.vue';
@@ -24,7 +25,7 @@ async function begin(form,intent='generate'){
   const found=await resolveDestinations(form.selectedCity);
   if(token!==version)return;
   if(found.length===1)await choose(found[0],token);else candidates.value=found;
- }catch{if(token===version)error.value='planner.resolveFailed';}
+ }catch(e){if(token===version)error.value=searchErrorKey(e,'planner.resolveFailed');}
  finally{if(token===version)busy.value=false;}
 }
 async function choose(city,token=version){
@@ -43,7 +44,7 @@ async function choose(city,token=version){
   settings.value={...settings.value,origin:{latitude:city.latitude,longitude:city.longitude},mustIds:must.value.map(p=>p.id),mustPlaces:must.value};
   page.value=action==='map'?'must':'result';window.scrollTo(0,0);
   data.supplement?.then(extra=>{if(token===version&&destination.value.id===city.id&&extra.length)places.value=[...new Map([...places.value,...extra].map(p=>[p.id,p])).values()];});
- }catch(e){if(token===version)error.value=e.message?.startsWith('OTM_AUTH')?'planner.otmAuth':e.message?.includes('RATE')||e.message?.includes('BUDGET')?'planner.otmLimit':'planner.loadFailed';}
+ }catch(e){if(token===version)error.value=searchErrorKey(e);}
  finally{if(token===version)busy.value=false;}
 }
 function addMust(raw){const p=normalizePlace(raw,destination.value);if(!places.value.some(v=>v.id===p.id))places.value.push(p);if(!must.value.some(v=>v.id===p.id))must.value.push(p);active.value=p.id;}

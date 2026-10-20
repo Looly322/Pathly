@@ -1,3 +1,4 @@
+import {apiJson} from '../services/apiClient.js';
 import { normalizePlace, validPlace } from '../planner/place.js';
 import { searchPlaces } from '../services/placeService.js';
 import { resolveMapCity } from '../services/cityService.js';
@@ -48,9 +49,9 @@ export const OpenTripMapPlaceProvider={
   // 餐饮查询与景点并行，不让慢餐饮接口阻塞首屏行程。
   const supplement=interests.includes('FOOD')?fetch('/api/open-places?'+params,{signal:AbortSignal.timeout(12000)})
     .then(async r=>r.ok?(await r.json()).places.map(p=>normalizePlace(p,destination)).filter(p=>['FOOD','CAFE'].includes(p.category)):[]).catch(()=>[]):Promise.resolve([]);
-  const response=await fetch('/api/otm/places?'+params,{signal:AbortSignal.timeout(45000)});
-  if(!response.ok){const data=await response.json();throw new Error(data.error||'OTM_UNAVAILABLE');}
-  const data=await response.json();const places=data.places.map(p=>normalizePlace(p,destination));
+  const data=await apiJson('/api/otm/places?'+params,{timeout:45000});
+  if(!Array.isArray(data.places))throw new Error('API_INVALID_RESPONSE');
+  const places=data.places.map(p=>normalizePlace(p,destination));
   return {places:places.filter(validPlace),supplement,warnings:[],limited:true};
  }
 };

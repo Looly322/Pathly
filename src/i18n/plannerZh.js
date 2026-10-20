@@ -1,4 +1,5 @@
 export default {
+apiNotDeployed:'网站搜索接口未部署或返回了网页。请部署项目中的 Python API 后重试。',otmKeyMissing:'景点服务尚未配置：请在部署平台设置 OPEN_TRIP_MAP_API_KEY 后重新部署。',apiTimeout:'搜索服务响应超时，请稍后重试。',apiUnavailable:'暂时无法连接搜索服务，请检查网络或稍后重试。',
 viewReviews:'查看游客评价',noReviewRating:'暂无评分数据',reviewDirect:'打开对应景点页面',reviewSearch:'搜索景点，请核对城市与国家',
 otmAuth:'OpenTripMap 认证失败，请核对后端密钥配置。',otmLimit:'景点服务已达到请求限制，请稍后再试。',outskirts:'周边地点（距城市中心超过 8 km），仅在设为必去后纳入规划。',
  estimatedWalking:'估算步行负担 {n} km（非道路距离）',

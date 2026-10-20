@@ -1,4 +1,5 @@
 export default {
+apiNotDeployed:'The search API is missing or returned a web page. Deploy the Python API and retry.',otmKeyMissing:'Set OPEN_TRIP_MAP_API_KEY in the deployment environment and redeploy.',apiTimeout:'Search timed out. Please retry shortly.',apiUnavailable:'Cannot reach the search service. Check your connection or retry shortly.',
 viewReviews:'View traveler reviews',noReviewRating:'No rating data available',reviewDirect:'Open attraction page',reviewSearch:'Search attractions; check city and country',
 otmAuth:'OpenTripMap authentication failed. Check the backend key.',otmLimit:'The place service has reached its request limit. Please retry later.',outskirts:'Outskirts (over 8 km from the center); included only when marked must-visit.',
  estimatedWalking:'Estimated walking load {n} km (not road distance)',
