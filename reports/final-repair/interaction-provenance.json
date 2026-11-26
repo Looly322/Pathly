@@ -1,0 +1,22 @@
+{
+  "originalComponentEdits": [
+    {
+      "at": "2026-10-27T08:05:03.308Z",
+      "source": "src/components/SearchCalligraphy.vue"
+    },
+    {
+      "at": "2026-10-27T08:11:57.326Z",
+      "source": "src/components/SearchCalligraphy.vue"
+    },
+    {
+      "at": "2026-10-27T08:18:15.434Z",
+      "source": "src/components/SearchCalligraphy.vue"
+    },
+    {
+      "at": "2026-10-27T08:19:49.023Z",
+      "source": "src/components/SearchCalligraphy.vue"
+    }
+  ],
+  "effect": "fixed original ink image revealed by pointer-driven radial mask; native cursor retained",
+  "independentCustomCursorImplementationFound": false
+}

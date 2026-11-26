@@ -7,7 +7,16 @@ const props=defineProps({place:Object});
 const frame=ref(null),imageElement=ref(null);const loadedUrls=new Set();let timer,observer;const visible=ref(false);
 const index=ref(0),images=computed(()=>imageCandidates(props.place));
 watch(()=>[props.place.id,props.place.photoRevision,...images.value].join('|'),()=>index.value=0);
-function failed(){clearTimeout(timer);index.value++;if(!images.value[index.value])emit('unavailable');}
+let retriedId=null;
+function failed(event){
+ // Ignore an error dispatched by a previous day's detached image.
+ if(event?.target&&event.target!==imageElement.value)return;
+ clearTimeout(timer);index.value++;
+ if(!images.value[index.value]){
+  emit('unavailable');
+  if(retriedId!==props.place.id&&props.place.photo?.url?.startsWith('/api/place-image?')){retriedId=props.place.id;emit('retry');}
+ }
+}
 function loaded(){clearTimeout(timer);if(imageElement.value?.currentSrc)loadedUrls.add(imageElement.value.currentSrc);}
 watch([()=>images.value[index.value],visible],()=>{clearTimeout(timer);if(visible.value&&images.value[index.value]&&!loadedUrls.has(images.value[index.value]))timer=setTimeout(()=>{if(imageElement.value?.complete&&imageElement.value.naturalWidth>0)loaded();else failed();},12000);},{immediate:true});
 onMounted(()=>{observer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){visible.value=true;observer.disconnect();}},{rootMargin:'200px'});observer.observe(frame.value);});

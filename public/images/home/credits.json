@@ -150,7 +150,7 @@
     "license": "Pexels License",
     "licenseUrl": "https://www.pexels.com/license/",
     "asset": "/images/home/wall-lychee.webp",
-    "download": "https://images.pexels.com/photos/46518/pexels-photo-46518.jpeg?auto=compress&fm=webp&w=1200&q=80"
+    "download": "https://images.pexels.com/photos/46518/lychee-fruits-pink-food-46518.jpeg?auto=compress&fm=webp&w=1200&q=80"
   },
   {
     "id": "wall-fruit",
@@ -394,5 +394,68 @@
     "licenseUrl": "https://www.pexels.com/license/",
     "asset": "/images/home/postcards/bali.webp",
     "download": "https://images.pexels.com/photos/36133242/pexels-photo-36133242.jpeg?auto=compress&fm=webp&w=1000&q=85"
+  },
+  {
+    "id": "bright-alpine",
+    "author": "Alexandre Moreira",
+    "source": "https://www.pexels.com/photo/scenic-alpine-meadow-with-mountain-view-32699384/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "asset": "/images/home/bright-alpine.webp",
+    "download": "https://images.pexels.com/photos/32699384/pexels-photo-32699384.jpeg?auto=compress&fm=webp&w=1200&q=80"
+  },
+  {
+    "id": "bright-austria",
+    "author": "Lipot Repaszky",
+    "source": "https://www.pexels.com/photo/scenic-alpine-meadow-in-austria-s-summer-landscape-33857023/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "asset": "/images/home/bright-austria.webp",
+    "download": "https://images.pexels.com/photos/33857023/pexels-photo-33857023.jpeg?auto=compress&fm=webp&w=1200&q=80"
+  },
+  {
+    "id": "bright-waterfall",
+    "author": "Vitor Testoni",
+    "source": "https://www.pexels.com/photo/waterfall-in-a-forest-19479688/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "asset": "/images/home/bright-waterfall.webp",
+    "download": "https://images.pexels.com/photos/19479688/pexels-photo-19479688.jpeg?auto=compress&fm=webp&w=1200&q=80"
+  },
+  {
+    "id": "bright-forum",
+    "author": "Anna Holodna",
+    "source": "https://www.pexels.com/photo/ancient-roman-forum-in-rome-sunny-day-view-29498936/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "asset": "/images/home/bright-forum.webp",
+    "download": "https://images.pexels.com/photos/29498936/pexels-photo-29498936.jpeg?auto=compress&fm=webp&w=1200&q=80"
+  },
+  {
+    "id": "bright-mini-torii",
+    "author": "Caroline Schenato",
+    "source": "https://www.pexels.com/photo/vibrant-red-torii-gate-structure-in-kyoto-japan-31039202/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "asset": "/images/home/bright-mini-torii.webp",
+    "download": "https://images.pexels.com/photos/31039202/pexels-photo-31039202.jpeg?auto=compress&fm=webp&w=1200&q=80"
+  },
+  {
+    "id": "bright-bund",
+    "author": "鱼 木",
+    "source": "https://www.pexels.com/photo/shanghai-skyline-at-night-23507181/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "asset": "/images/home/bright-bund.webp",
+    "download": "https://images.pexels.com/photos/23507181/pexels-photo-23507181.jpeg?auto=compress&fm=webp&w=1200&q=80"
+  },
+  {
+    "id": "bright-market",
+    "author": "Richard L",
+    "source": "https://www.pexels.com/photo/authentic-chinese-street-market-stall-33743232/",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "asset": "/images/home/bright-market.webp",
+    "download": "https://images.pexels.com/photos/33743232/pexels-photo-33743232.jpeg?auto=compress&fm=webp&w=1200&q=80"
   }
 ]

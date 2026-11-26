@@ -1,0 +1,3 @@
+import {chromium} from '@playwright/test';import fs from 'node:fs';
+const b=await chromium.launch({channel:'chrome',headless:true});const p=await b.newPage();await p.goto('http://localhost:5173');
+const result=await p.evaluate(async()=>{const {loadAmap}=await import('/src/services/amapService.js');const out={};try{const a=await loadAmap();out.sdk=Boolean(a.Map);out.securityClientFields=Object.keys(window._AMapSecurityConfig||{});out.city=await new Promise(r=>new a.DistrictSearch({subdistrict:0}).search('北京',(status,data)=>r({status,info:data.info,count:data.districtList?.length})));}catch(e){out.error=e.message;}return out;});fs.writeFileSync('reports/final-repair/amap.json',JSON.stringify(result,null,2));console.log(result);await b.close();

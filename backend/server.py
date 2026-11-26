@@ -20,7 +20,17 @@ class Handler(BaseHTTPRequestHandler):
         url = urlparse(self.path)
         params = {k: v[0] for k, v in parse_qs(url.query).items()}
         try:
-            if url.path == '/api/place-image':
+            if url.path.startswith('/_AMapService/'):
+                from amap_proxy import fetch
+                body,content_type=fetch(self.path)
+                self.send_response(200)
+                self.send_header('Content-Type',content_type)
+                self.send_header('Cache-Control','no-store')
+                self.send_header('Content-Length',str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+                return
+            elif url.path == '/api/place-image':
                 body=media_image(params.get('id',''))
                 self.send_response(200)
                 self.send_header('Content-Type','image/png' if body.startswith(b'\x89PNG') else 'image/webp' if body.startswith(b'RIFF') else 'image/jpeg')

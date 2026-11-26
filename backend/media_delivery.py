@@ -25,10 +25,11 @@ def normalize(data,params):
  return data
 def image(key):
  if len(key)!=64 or any(c not in '0123456789abcdef' for c in key):raise ApiError('INVALID_IMAGE',400)
- urls=cache.get('media:'+key)
- if not urls:raise ApiError('IMAGE_REFERENCE_EXPIRED',404)
+ # A verified local byte cache is independent of the shorter-lived URL index.
  path=ROOT/key
  if path.exists() and time.time()-path.stat().st_mtime<604800:return path.read_bytes()
+ urls=cache.get('media:'+key)
+ if not urls:raise ApiError('IMAGE_REFERENCE_EXPIRED',404)
  key_lock=KEY_LOCKS[int(key[:2],16)%64]
  if not key_lock.acquire(timeout=11):raise ApiError('IMAGE_BUSY',503)
  if not LOCK.acquire(timeout=1):

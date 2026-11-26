@@ -1,10 +1,10 @@
 // SDK 仅在用户进入地图选点或行程结果页时加载。密钥不进入日志、错误信息或仓库。
 export const amapConfig = {
   key: (import.meta.env?.VITE_AMAP_KEY || "").trim(),
-  securityCode: (import.meta.env?.VITE_AMAP_SECURITY_CODE || "").trim(),
+  serviceHost: (import.meta.env?.VITE_AMAP_SERVICE_HOST || "/_AMapService").trim(),
 };
 export function isAmapConfigured() {
-  return Boolean(amapConfig.key && amapConfig.securityCode);
+  return Boolean(amapConfig.key && amapConfig.serviceHost);
 }
 let loadPromise = null;
 let loader = null;
@@ -29,7 +29,7 @@ export function loadAmap() {
         needsReset = false;
       }
       // 必须在 JS API 脚本注入之前设置。
-      window._AMapSecurityConfig = { securityJsCode: amapConfig.securityCode };
+      window._AMapSecurityConfig = { serviceHost: new URL(amapConfig.serviceHost, window.location.origin).href };
       return withTimeout(
         loader.load({
           key: amapConfig.key,

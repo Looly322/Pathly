@@ -1,0 +1,59 @@
+[
+  {
+    city: '北京',
+    query: undefined,
+    count: undefined,
+    error: undefined,
+    latitude: 39.904179
+  },
+  {
+    city: '上海',
+    query: undefined,
+    count: undefined,
+    error: undefined,
+    latitude: 31.230525
+  },
+  {
+    city: '广州',
+    query: undefined,
+    count: undefined,
+    error: undefined,
+    latitude: 23.130061
+  },
+  {
+    city: '北京',
+    query: '故宫博物院',
+    count: 10,
+    error: undefined,
+    latitude: undefined
+  },
+  {
+    city: '上海',
+    query: '上海迪士尼乐园',
+    count: 10,
+    error: undefined,
+    latitude: undefined
+  },
+  {
+    city: '北京',
+    query: '北京饭店',
+    count: 10,
+    error: undefined,
+    latitude: undefined
+  },
+  {
+    city: '上海',
+    query: '和平饭店',
+    count: 6,
+    error: undefined,
+    latitude: undefined
+  },
+  {
+    city: '广州',
+    query: '广州酒家',
+    count: 10,
+    error: undefined,
+    latitude: undefined
+  }
+]
+map canvas 1

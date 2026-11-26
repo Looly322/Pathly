@@ -15,3 +15,9 @@ class MediaDeliveryTests(unittest.TestCase):
   self.assertEqual(m.normalize({'photo':photo},{})['photo']['url'],photo['url'])
  def test_bad_reference_rejected(self):
   with self.assertRaises(ApiError):m.image('../../secret')
+ def test_verified_bytes_survive_expired_url_index(self):
+  import tempfile
+  from pathlib import Path
+  with tempfile.TemporaryDirectory() as folder,patch.object(m,'ROOT',Path(folder)),patch.object(m.cache,'get',return_value=None):
+   key='a'*64;(Path(folder)/key).write_bytes(b'\xff\xd8cached')
+   self.assertEqual(m.image(key),b'\xff\xd8cached')

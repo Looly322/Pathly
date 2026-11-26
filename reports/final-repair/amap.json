@@ -1,0 +1,11 @@
+{
+  "sdk": true,
+  "securityClientFields": [
+    "serviceHost"
+  ],
+  "city": {
+    "status": "complete",
+    "info": "OK",
+    "count": 2
+  }
+}

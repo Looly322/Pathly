@@ -1,0 +1,32 @@
+EVENT click BUTTON 历史记录
+EVENT click BUTTON 退出旅行，返回首页
+EVENT click BUTTON 历史记录
+EVENT click BUTTON 退出旅行，返回首页
+EVENT click BUTTON 历史记录
+EVENT click BUTTON 退出旅行，返回首页
+{
+  errors: [],
+  cities: [
+    {
+      query: 'Paris',
+      count: 8,
+      first: '巴黎',
+      latitude: 48.85341,
+      longitude: 2.3488
+    },
+    {
+      query: 'London',
+      count: 8,
+      first: '倫敦',
+      latitude: 51.50853,
+      longitude: -0.12574
+    },
+    {
+      query: 'Tokyo',
+      count: 4,
+      first: '東京',
+      latitude: 35.6895,
+      longitude: 139.69171
+    }
+  ]
+}
