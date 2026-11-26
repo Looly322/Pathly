@@ -31,6 +31,13 @@ recovery/*.css
 recovery/*.log
 recovery/hotel-search.json
 recovery/paris-search.json
-# User-supplied video stays local; no publication authorization assumed.
-public/videos/pathly-journey-nov17.mp4
-public/videos/pathly-journey-nov17-poster.webp
+
+# Regenerable local runtime and private storage
+.venv/
+venv/
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.log
