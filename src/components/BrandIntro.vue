@@ -13,7 +13,7 @@ const strokes=[
  'M286 150 C305 127 329 63 317 53 C306 44 285 119 290 149 C293 169 309 157 322 145',
  'M324 124 C316 141 311 158 325 159 C337 158 346 137 353 121 C344 149 340 182 325 203 C309 226 288 217 303 200 C316 186 346 174 369 148'
 ];
-function complete(){if(done)return;done=true;clearTimeout(leaveTimer);clearTimeout(endTimer);active.value=false;emit('state',false);emit('complete');if(document.activeElement===skip.value)previousFocus?.focus?.({preventScroll:true});}
+function complete(){if(done)return;done=true;window.removeEventListener('keydown',keyboard,true);clearTimeout(leaveTimer);clearTimeout(endTimer);active.value=false;emit('state',false);emit('complete');if(document.activeElement===skip.value)previousFocus?.focus?.({preventScroll:true});}
 function exit(){leaving.value=true;clearTimeout(leaveTimer);clearTimeout(endTimer);endTimer=setTimeout(complete,550);}
 function keyboard(e){if(!active.value)return;if(e.key==='Escape'){e.preventDefault();complete();}else if(e.key==='Tab'){e.preventDefault();skip.value?.focus();}}
 function preference(){if(media.matches)complete();}

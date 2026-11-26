@@ -1,6 +1,6 @@
-import { cityData, createDemoPlaces } from "../data/mockPlaces/index.js";
-import { resolveCity } from "./cityService.js";
-import { USE_MOCK_DATA } from "../config/appConfig.js";
+import {cityData,createDemoPlaces} from "../data/mockPlaces/index.js";
+import {resolveCity} from "./cityService.js";
+import {USE_MOCK_DATA} from "../config/appConfig.js";
 export function searchPlaces(city, interests = []) {
   if (!USE_MOCK_DATA) throw new Error("Real POI service is not implemented");
   const resolved = resolveCity(city);

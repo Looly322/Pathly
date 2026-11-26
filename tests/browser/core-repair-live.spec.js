@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';import fs from 'node:fs';
 const cases=[{city:'Beijing',label:'北京',pace:'relaxed',interests:['历史文化','美食']},{city:'东京',label:'东京',pace:'balanced',interests:['历史文化','城市漫步']},{city:'巴黎',label:'巴黎',pace:'balanced',interests:['艺术与博物馆','美食']}];
 for(const c of cases)test('real providers '+c.city,async({page})=>{
- test.setTimeout(240000);await page.setViewportSize({width:1440,height:1000});await page.emulateMedia({reducedMotion:'reduce'});
+ test.setTimeout(360000);await page.setViewportSize({width:1440,height:1000});await page.emulateMedia({reducedMotion:'reduce'});
  const calls=[],errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{const u=new URL(r.url());if(u.pathname.startsWith('/api/'))calls.push({path:u.pathname,status:r.status()});});
  await page.goto('/');const form=page.locator('#trip-planner');await form.locator('.destination input').fill(c.city);await form.locator('input[type=date]').fill('2026-11-13');await form.locator('.pace-options button').nth(c.pace==='relaxed'?0:1).click();
  // Use actual exposed Vue form values to set exact existing enum preferences, without mocking any API.
@@ -16,10 +16,18 @@ for(const c of cases)test('real providers '+c.city,async({page})=>{
   await page.locator('.trip-days button').nth(d).click();await page.locator('.journal-places').evaluate(el=>el.scrollIntoView({block:'start'}));
   await expect.poll(async()=>!(await read()).transportLoading,{timeout:45000}).toBe(true);
   await page.waitForTimeout(4000);
+  await page.waitForFunction(()=>{const el=document.querySelector('.trip-result');let v=el?.__vueParentComponent;while(v&&!v.setupState.current)v=v.parent;return v&&!Object.values(v.setupState.presentation).some(p=>p.photoStatus==='loading');},{},{timeout:60000}).catch(()=>{});
+  for(const figure of await page.locator('.journal-places .activity-image').all()){await figure.scrollIntoViewIfNeeded();await expect.poll(()=>figure.evaluate(el=>{const img=el.querySelector('img');return !img||img.complete;}),{timeout:15000}).toBe(true);}
+
   const state=await read();const photos=await page.locator('.journal-places .activity-image').evaluateAll(els=>els.map(e=>({name:e.querySelector('img')?.alt||'',loaded:!!e.querySelector('img')?.naturalWidth,placeholder:!!e.querySelector('.category-art')})));
   days.push({date:state.plan.days[d].date,events:state.plan.days[d].events.map(e=>({id:e.id,name:e.place?.name,start:e.start,end:e.end,travel:e.travel,category:e.place?.category,latitude:e.place?.latitude,longitude:e.place?.longitude})),conflicts:state.plan.days[d].conflicts,warnings:state.plan.days[d].warnings,photos});
  }
- const state=await read();await page.locator('.trip-days button').first().click();await page.locator('.journey-timeline').evaluate(el=>el.scrollIntoView({block:'start'}));await page.screenshot({path:`reports/core-repair/${c.city}.png`});
- const report={city:c.city,ready,errors,calls,destination:state.destination,settings:state.settings,days};fs.writeFileSync(`reports/core-repair/${c.city}.json`,JSON.stringify(report,null,2));
+ const state=await read();await page.locator('.trip-days button').first().click();await page.locator('.journey-timeline').evaluate(el=>el.scrollIntoView({block:'start'}));
+ await page.waitForTimeout(5000);
+ if(c.city==='Beijing')await expect(page.locator('.map-city-status')).toHaveCount(0,{timeout:30000});
+ await page.getByRole('button',{name:'查看全部地点',exact:true}).click();await page.waitForTimeout(2000);
+ await page.screenshot({path:`reports/core-repair/${c.city}.png`});
+ const mapState=await page.locator(c.city==='Beijing'?'.amap-container':'.world-map').evaluate(el=>{let v=el.__vueParentComponent;while(v&&!v.setupState.map)v=v.parent;const m=v?.setupState.map;return m?{center:m.getCenter?.(),zoom:m.getZoom?.(),styleLoaded:m.isStyleLoaded?.(),tilesLoaded:m.areTilesLoaded?.()}:null;});
+ const report={mapState,city:c.city,ready,errors,calls,destination:state.destination,settings:state.settings,days};fs.writeFileSync(`reports/core-repair/${c.city}.json`,JSON.stringify(report,null,2));
  expect(errors).toEqual([]);expect(days).toHaveLength(3);expect(days.flatMap(d=>d.events).some(e=>e.name)).toBe(true);expect(state.destination.countryCode).toBe(c.city==='Beijing'?'CN':c.city==='东京'?'JP':'FR');
 });

@@ -1,11 +1,12 @@
+import planner from "./plannerZh.js";
 import weatherAdvice from "./weatherAdviceZh.js";
 import weather from "./weatherZh.js";
-import planner from "./plannerZh.js";
 export default {
+  planner,
   weatherAdvice,
   weather,
   planner,
-  global: {"routeSchematic":"路线示意 · 虚线为景点间直线连接，不是实际道路或导航路线","noNearby":"附近没有找到可确认的地点。请放大地图后重新点击，或搜索地点名称。","pickFailed":"附近地点查询失败，请重试。","nearbyNote":"以下是点击位置附近 250 米内的地点，请核对名称和地址后加入路线。","nearbyTitle":"选择这里的真实地点","streetView":"放大看街道","transitOpen":"查询公交 / 地铁（外部页面）","transitEmpty":"加入至少两个地点，即可查询两地之间的公共交通。","transitNote":"按每段起终点打开 Google 地图，查看当地公交、地铁、换乘和预计时间。第三方页面提供结果，覆盖和网络可用性因地区而异。","transitTitle":"公交 · 地铁查询","photoError":"照片加载失败","photoLoading":"正在查找真实照片…","localLanguage":"当地语言","mapLanguage":"地图语言",
+  global: {"routeSchematic":"路线示意 · 虚线为景点间直线连接，不是实际道路或导航路线","routeSchematic":"路线示意 · 虚线为景点间直线连接，不是实际道路或导航路线","noNearby":"附近没有找到可确认的地点。请放大地图后重新点击，或搜索地点名称。","pickFailed":"附近地点查询失败，请重试。","nearbyNote":"以下是点击位置附近 250 米内的地点，请核对名称和地址后加入路线。","nearbyTitle":"选择这里的真实地点","streetView":"放大看街道","transitOpen":"查询公交 / 地铁（外部页面）","transitEmpty":"加入至少两个地点，即可查询两地之间的公共交通。","transitNote":"按每段起终点打开 Google 地图，查看当地公交、地铁、换乘和预计时间。第三方页面提供结果，覆盖和网络可用性因地区而异。","transitTitle":"公交 · 地铁查询","photoError":"照片加载失败","photoLoading":"正在查找真实照片…","localLanguage":"当地语言","mapLanguage":"地图语言",
 "workspaceIntro":"地图上选地点，把想去的地方排成自己的路线。","changeCity":"更换城市","routeOrder":"路线顺序示意","stops":"个地点","routeDisclaimer":"虚线是访问顺序与直线距离，不是道路导航。实际交通请查询下方各路段。","discover":"发现景点","myRoute":"我的路线","added":"已加入","addRoute":"加入路线","customPoint":"自定义标记","pointName":"给这个地点起个名字","cancelPoint":"取消","emptyRoute":"点击地图查询附近真实地点，或把推荐景点加入路线。","moveUp":"上移","moveDown":"下移","remove":"删除","sessionNote":"地点按城市分别保留，刷新页面会清除。","noPhoto":"暂未找到可验证的照片",
 "eyebrow":"世界很大，一起出发","mapTitle":"景点地图","showAll":"查看全部地点","mapFailed":"底图暂时加载失败，地点列表仍可使用。","retry":"重试","mapNote":"滚轮、双指或 + / − 可缩放；点击编号查看景点名称。地名优先跟随界面语言，缺少译名时保留当地名称。","localPlace":"当地地点","originalName":"暂无可靠中文名，以下保留原名","onMap":"在地图上查看",
   "title": "探索全球目的地",

@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 import fs from 'node:fs';
 test('eight-second local video loops natively and content enters in the specified order',async({page})=>{
- await page.setViewportSize({width:1440,height:950});await page.addInitScript(()=>{window.heroStarts=[];document.addEventListener('animationstart',e=>{if(['home-nav-enter','hero-content-enter'].includes(e.animationName))window.heroStarts.push({className:e.target.className,time:performance.now()});});});
+ await page.setViewportSize({width:1440,height:950});await page.addInitScript(()=>{window.heroStarts=[];document.addEventListener('animationstart',e=>{if(['home-nav-enter','hero-content-enter'].some(n=>e.animationName.startsWith(n)))window.heroStarts.push({className:e.target.className,time:performance.now()});});});
  await page.goto('/',{waitUntil:'domcontentloaded'});await expect(page.locator('.brand-intro')).toHaveCount(0);
  const v=page.locator('.travel-video video');await expect(v).toHaveAttribute('src','/videos/pathly-hero.mp4');await expect.poll(()=>v.evaluate(v=>v.currentTime)).toBeGreaterThan(.1);
  await page.waitForTimeout(3600);const starts=await page.evaluate(()=>window.heroStarts);expect(starts).toHaveLength(6);

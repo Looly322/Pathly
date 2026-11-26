@@ -1,5 +1,5 @@
-import { searchPlaces as searchAmapPlaces } from './placeService.js';
-import { resolveMapCity } from './cityService.js';
+import {searchPlaces as searchAmapPlaces} from './placeService.js';
+import {resolveMapCity} from './cityService.js';
 
 async function api(path, params, signal) {
   const response = await fetch(`/api/${path}?${new URLSearchParams(params)}`, { signal: signal || AbortSignal.timeout(45000) });
@@ -20,7 +20,7 @@ export async function searchGlobalPlaces({ destination, query = '', category = '
     const places = await searchAmapPlaces(city.name, query, { cityCode: city.adcode, type: amapTypes[category] || '风景名胜' });
     return { places, source: 'amap', queryUsed: query };
   }
-  return api('places/search', {
+  return api('current-places', {
     query, category, city: destination.city, countryCode: destination.countryCode,
     latitude: destination.latitude, longitude: destination.longitude, radius, limit,
   }, signal);

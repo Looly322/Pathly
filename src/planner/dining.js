@@ -1,12 +1,14 @@
+import {preservesLocks} from './feasibility.js';
 // Place requested meals into the same scheduler; never invent opening hours.
 export function assignRestaurants(days,restaurants,settings,pace,scheduleDay){
  const missing=[];
- for(const restaurant of restaurants||[]){let best=null;
+ for(const restaurant of restaurants||[]){if(days.some(d=>d.events.some(e=>e.kind==='MEAL'&&e.place?.id===restaurant.id)))continue;let best=null;
   for(let d=0;d<days.length;d++)for(const slot of ['LUNCH','DINNER']){
+   if(settings.preservedDays?.[days[d].date])continue;
    if(restaurant.mealPreference&&restaurant.mealPreference!==slot||days[d].mealAssignments?.[slot])continue;
    const assignments={...days[d].mealAssignments,[slot]:restaurant};let items=[...days[d].items],removed=[];
    for(;;){const trial=scheduleDay(items,{...settings,planningDate:days[d].date,assignedMeals:assignments},pace,[]);
-    if(!trial.conflicts.length&&trial.events.some(e=>e.slot===slot&&e.place?.id===restaurant.id)){
+    if(!trial.conflicts.length&&preservesLocks(days[d],trial,settings)&&trial.events.some(e=>e.slot===slot&&e.place?.id===restaurant.id)){
      const cost=removed.length*10000+trial.fatigue.travel-days[d].fatigue.travel;
      if(!best||cost<best.cost)best={d,trial,cost,removed};break;
     }

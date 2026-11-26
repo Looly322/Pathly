@@ -18,3 +18,19 @@ backend/__pycache__/
 .vercel/
 
 __pycache__/
+
+# Local recovery evidence; raw tool history is intentionally not committed.
+recovery/commands.json
+recovery/template-commands.json
+recovery/source-edits.json
+recovery/stage*/
+recovery/media-tools/
+recovery/lint/
+recovery/*.otf
+recovery/*.css
+recovery/*.log
+recovery/hotel-search.json
+recovery/paris-search.json
+# User-supplied video stays local; no publication authorization assumed.
+public/videos/pathly-journey-nov17.mp4
+public/videos/pathly-journey-nov17-poster.webp

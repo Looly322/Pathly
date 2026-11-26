@@ -15,7 +15,7 @@ test('skip and reduced motion release controls immediately',async({page})=>{
  await page.setViewportSize({width:390,height:844});await page.locator('.poetic-theme').first().scrollIntoViewIfNeeded();await expect(page.locator('.poem-character').first()).toHaveCSS('opacity','1');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
 test('all four walls animate characters, remember early input and move in two dimensions',async({page})=>{
- await page.addInitScript(()=>sessionStorage.setItem('pathly:intro:v1','seen'));await page.setViewportSize({width:1440,height:950});const requests=[];page.on('response',r=>{if(r.url().includes('pathly-wenkai'))requests.push(r.status());});await page.goto('/');const results=[];
+ await page.addInitScript(()=>sessionStorage.setItem('pathly:intro:v1','seen'));await page.setViewportSize({width:1440,height:950});const requests=[];page.on('response',r=>{if(r.url().includes('pathly-source-han-serif'))requests.push(r.status());});await page.goto('/');const results=[];
  for(let i=0;i<4;i++){
   const t=page.locator('.poetic-theme').nth(i);await t.evaluate(el=>{el.dataset.charStarts='0';el.addEventListener('animationstart',e=>{if(e.target.classList.contains('poem-character'))el.dataset.charStarts=String(+el.dataset.charStarts+1);});el.scrollIntoView({block:'start',behavior:'instant'});});
   await expect(t).toHaveClass(/entered/);let box=await t.boundingBox();await page.mouse.move(box.x+box.width*.1,box.y+box.height*.1);
@@ -30,6 +30,6 @@ test('all four walls animate characters, remember early input and move in two di
   const count=await t.getAttribute('data-char-starts');await page.locator('#hero-title').scrollIntoViewIfNeeded();await t.evaluate(el=>el.scrollIntoView({block:'start'}));expect(await t.getAttribute('data-char-starts')).toBe(count);
  }
  await page.evaluate(()=>document.fonts.ready);expect(requests).toContain(200);
- const cdp=await page.context().newCDPSession(page);const {root}=await cdp.send('DOM.getDocument');const {nodeId}=await cdp.send('DOM.querySelector',{nodeId:root.nodeId,selector:'.poem-character'});const {fonts}=await cdp.send('CSS.getPlatformFontsForNode',{nodeId});expect(fonts.some(f=>f.isCustomFont)).toBe(true);
+ const cdp=await page.context().newCDPSession(page);await cdp.send('DOM.enable');await cdp.send('CSS.enable');const {root}=await cdp.send('DOM.getDocument');const {nodeId}=await cdp.send('DOM.querySelector',{nodeId:root.nodeId,selector:'.poem-character'});const {fonts}=await cdp.send('CSS.getPlatformFontsForNode',{nodeId});expect(fonts.some(f=>f.isCustomFont)).toBe(true);
  fs.writeFileSync(`${dir}/measurements.json`,JSON.stringify({fontResponses:requests,renderedFonts:fonts,walls:results},null,2));
 });

@@ -14,13 +14,13 @@ function optimize(){
  const result=optimizeWeather(props.plan,props.settings,props.weather.data);ack.value=false;proposal.value=result.plan?result:null;message.value=result.reason||'';proposedAgainst=signature.value;
 }
 function keep(){proposal.value=null;message.value='kept';}
-function apply(){if(!proposal.value||proposedAgainst!==signature.value||proposal.value.unknownHours.length&&!ack.value)return;emit('apply',proposal.value.plan);proposal.value=null;}
+function apply(){if(!proposal.value||proposedAgainst!==signature.value||proposal.value.unknownHours.length&&!ack.value)return;const fresh=optimizeWeather(props.plan,props.settings,props.weather.data);if(!fresh.plan||JSON.stringify(fresh.plan)!==JSON.stringify(proposal.value.plan)){proposal.value=null;message.value=fresh.reason||'changed';return;}emit('apply',proposal.value.plan);proposal.value=null;}
 const missingNames=computed(()=>proposal.value?.unknownHours.map(id=>{const p=props.plan.days.flatMap(d=>d.events).find(e=>e.place?.id===id)?.place;return p?placeName(p):id;}).join(' / '));
 const supportChanges=computed(()=>proposal.value?props.plan.days.flatMap((d,i)=>d.events.filter(e=>e.kind!=='ACTIVITY').flatMap(e=>{const next=proposal.value.plan.days[i].events.find(n=>n.id===e.id);return next&&(next.start!==e.start||next.end!==e.end)?[{date:d.date,kind:e.kind,before:e,after:next}]:[]})):[]);
 </script>
 <template><section class="weather-advice" :aria-label="t('weatherAdvice.title')"><strong>{{t('weatherAdvice.title')}}</strong>
 <p role="status">{{t('weatherAdvice.'+(!assessment.complete?'missing':assessment.affected.length?'risk':'calm'))}}</p>
-<div class="weather-advice-actions"><button class="outline" @click="keep">{{t('weatherAdvice.keep')}}</button><button class="primary" :disabled="!assessment.complete||!assessment.affected.length" @click="optimize">{{t('weatherAdvice.optimize')}}</button></div>
+<div class="weather-advice-actions"><button class="outline" @click="keep">{{t('weatherAdvice.keep')}}</button><button class="primary" :disabled="!assessment.affected.length" @click="optimize">{{t('weatherAdvice.optimize')}}</button></div>
 <p v-if="message" role="status">{{t('weatherAdvice.'+message)}}</p>
 <div v-if="proposal" class="weather-preview"><h3>{{t('weatherAdvice.preview')}}</h3><ul><li v-for="change in proposal.changes" :key="change.id"><strong>{{placeName(change.place)}}</strong><div>{{t('weatherAdvice.before')}}：{{change.before.date}} · {{change.before.index+1}} · {{clock(change.before.event.start)}}–{{clock(change.before.event.end)}}</div><div>{{t('weatherAdvice.after')}}：{{change.after.date}} · {{change.after.index+1}} · {{clock(change.after.event.start)}}–{{clock(change.after.event.end)}}</div></li></ul>
 <details v-if="supportChanges.length"><summary>{{t('weatherAdvice.support')}}</summary><p v-for="(change,i) in supportChanges" :key="i">{{change.date}} · {{t('weatherAdvice.'+(change.kind==='MEAL'?'meal':'rest'))}}：{{clock(change.before.start)}}–{{clock(change.before.end)}} → {{clock(change.after.start)}}–{{clock(change.after.end)}}</p></details>

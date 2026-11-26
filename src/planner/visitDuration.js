@@ -1,4 +1,4 @@
-import {profiles,VISIT_PROFILE_VERSION} from './visitProfiles.js';
+import {profiles,VISIT_PROFILE_VERSION,SITE_COMPONENTS} from './visitProfiles.js';
 import {haversineDistance} from '../utils/geo.js';
 const clean=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[\s·•（）()\-—]/g,'');
 const names=p=>[p.name,p.nameZh,p.nameEnglish,p.nameLocal,...(p.aliases||[])].filter(Boolean);
@@ -28,12 +28,12 @@ export function visitProfile(p){
  let type=verified?.type;
  if(!type){
   if(/hotel|酒店|宾馆|商店|gift shop|parking|停车场/i.test(types))type='unknown';
-  else if(/theme_park|theme park|主题[公乐]园|游乐园|迪士尼乐园$|disneyland$|universal studios$|环球影城$/i.test(text))type='themePark';
+  else if(/theme_park|theme park|主题[公乐]园|游乐园|游乐场|迪士尼乐园$|disneyland$|universal studios$|环球影城$/i.test(text))type='themePark';
   else if(/national.?park|国家公园|国家森林公园/i.test(text))type='nationalPark';
   else if(/nature_reserve|scenic.?area|风景名胜区|自然保护区|风景区|国家级.*景区/i.test(text))type='scenicArea';
-  else if(/national.?museum|国家博物馆|大型博物馆/i.test(text))type='majorMuseum';
+  else if(/major.?museum|大型博物馆/i.test(text))type='majorMuseum';
   else if(/museum|gallery|博物馆|美术馆|画廊/i.test(text))type='museum';
-  else if(/archaeological|historic.?complex|遗址群|建筑群|古城|宫殿群/i.test(text))type='historicComplex';
+  else if(/archaeological|historic.?complex|遗址群|建筑群|古镇|古城|宫殿群/i.test(text))type='historicComplex';
   else if(/temple|shrine|church|cathedral|mosque|寺|教堂|神社|清真/i.test(text))type='religious';
   else if(/observation|viewpoint|观景台|展望台/i.test(text))type='viewpoint';
   else if(/cafe|café|coffee|咖啡/i.test(text))type='cafe';
@@ -47,9 +47,10 @@ export function visitProfile(p){
  const base=VISIT_TYPES[type];
  return {...base,type,range:verified?.range||base.range,profileId:verified?.key||null,version:VISIT_PROFILE_VERSION,basis:verified?'reviewed-profile':type==='unknown'?'fallback':'type-rule',confidence:verified?'medium':'low',sources:verified?[verified.source]:[p.sourceUrl,p.website].filter(v=>/^https:\/\//.test(v||'')),reviewedAt:verified?'2026-11-10':null,estimated:true};
 }
-export function withVisitProfile(p){const visit=visitProfile(p);return {...p,visit,estimatedDuration:visit.range[1],minimumDuration:visit.range[0],durationEstimated:true,large:visit.range[1]>=180};}
+export function withVisitProfile(p){const visit=visitProfile(p);const verified=verifiedProfile(p);return {...p,aliases:[...new Set([...(p.aliases||[]),...(verified?.names||[])])],visit,estimatedDuration:visit.range[1],minimumDuration:visit.range[0],durationEstimated:true,large:visit.range[1]>=180};}
 export function visitDuration(p,settings,pace='balanced',item={}){
  const pref=settings.visitPreferences?.[p.id],profile=p.visit||visitProfile(p);
+ if(!p.visit&&!pref)return item.duration||Math.max(p.minimumDuration||15,Math.round((p.estimatedDuration||90)*({relaxed:1.15,balanced:1,efficient:.9}[pace]||1)/5)*5);
  if(Number.isFinite(pref?.minutes))return Math.max(15,pref.minutes);
  if(Number.isFinite(item.duration))return item.duration;
  if(pref?.depth)return profile.range[{quick:0,standard:1,deep:2}[pref.depth]??1];
@@ -59,5 +60,9 @@ export function visitDuration(p,settings,pace='balanced',item={}){
 }
 // Containment is NOT identity deduplication. Never infer containment from distance alone.
 export function parentProfile(p){return profiles.find(v=>(!p.countryCode||p.countryCode===v.country)&&haversineDistance(p,{latitude:v.lat,longitude:v.lng})<2&&names(p).some(n=>v.names.some(a=>clean(n)!==clean(a)&&clean(n).startsWith(clean(a))&&clean(a).length>3)));}
-export function containedBy(child,parent){if(child.id===parent.id)return false;if(child.parentId===parent.id||child.partOf===parent.wikidata&&parent.wikidata)return true;const profile=parent.visit?.profileId||verifiedProfile(parent)?.key;return !!profile&&parentProfile(child)?.key===profile;}
-export function collapseContained(places,required=[]){const covered=[];const kept=places.filter(child=>{const parent=places.find(p=>p!==child&&containedBy(child,p)&&(required.includes(p.id)||!required.includes(child.id)));if(!parent)return true;covered.push({id:child.id,name:child.name,parentId:parent.id,parentName:parent.name});return false;});return {places:kept,covered};}
+export function containedBy(child,parent){if(child.id===parent.id)return false;
+ // Provider-qualified subsite names are evidence only within the parent grounds.
+ if(!['FOOD','CAFE','HOTEL'].includes(parent.category)&&haversineDistance(child,parent)<.5&&names(child).some(n=>names(parent).some(a=>a.length>=3&&n.startsWith(a+'-'))))return true;if(child.parentId===parent.id||child.partOf===parent.wikidata&&parent.wikidata)return true;const profile=parent.visit?.profileId||verifiedProfile(parent)?.key;const component=SITE_COMPONENTS[profile];
+ if(component&&haversineDistance(child,parent)<component.radius&&names(child).some(n=>component.names.some(a=>clean(n)===clean(a))))return true;
+ return !!profile&&parentProfile(child)?.key===profile;}
+export function collapseContained(places,required=[]){const covered=[];const kept=places.filter(child=>{const parent=places.find(p=>p!==child&&containedBy(child,p));if(!parent)return true;covered.push({id:child.id,name:child.name,parentId:parent.id,parentName:parent.name});return false;});return {places:kept,covered};}

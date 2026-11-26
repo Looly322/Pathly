@@ -20,7 +20,7 @@ def search_images(p):
  except (KeyError,ValueError,TypeError):raise ApiError('INVALID_COORDINATES',400)
  name=p.get('name','').strip()[:180];kind='city' if p.get('kind')=='city' else 'place'
  if not name:raise ApiError('INVALID_NAME',400)
- key='commons-search-v1:'+hashlib.sha256(json.dumps([name,lat,lon,kind,p.get('wikidata'),p.get('city'),p.get('country')]).encode()).hexdigest()
+ key='commons-search-v3:'+hashlib.sha256(json.dumps([name,lat,lon,kind,p.get('wikidata'),p.get('city'),p.get('country')]).encode()).hexdigest()
  saved=cache.get(key)
  if saved and p.get('refresh')!='1':return saved
  lock=LOCKS[int(key[-2:],16)%32]
@@ -45,15 +45,33 @@ def _resolve(p,name,lat,lon,kind):
  norm=lambda v:re.sub(r'[^\w]','',v.casefold())
  for qid,e in entities.items():
   names=[x.get('value','') for x in e.get('labels',{}).values()]+[x.get('value','') for a in e.get('aliases',{}).values() for x in a]
-  if norm(name) not in {norm(n) for n in names}:continue
+  if not re.fullmatch('Q[0-9]+',p.get('wikidata','')) and norm(name) not in {norm(n) for n in names}:continue
   claims=e.get('claims',{});points=[c.get('mainsnak',{}).get('datavalue',{}).get('value',{}) for c in claims.get('P625',[]) if c.get('rank')!='deprecated']
-  if not any('latitude' in c and distance_m((lat,lon),(c['latitude'],c['longitude']))< (30000 if kind=='city' else 500) for c in points):continue
+  if not any('latitude' in c and distance_m((lat,lon),(c['latitude'],c['longitude']))< (30000 if kind=='city' else 1000) for c in points):continue
+  # A verified entity's P18 is cheaper and more exact than a broad media search.
+  if kind=='place':
+   for claim in claims.get('P18',[])[:2]:
+    if claim.get('rank')=='deprecated':continue
+    filename=claim.get('mainsnak',{}).get('datavalue',{}).get('value')
+    if isinstance(filename,str):
+     try:photo=commons_photo(filename)
+     except ApiError:photo=None
+     if photo:return {'photo':{**photo,'wikidata':qid,'matchStatus':'verified-P18'},'photoStatus':'ready','matchStatus':'verified-P18'}
   english=e.get('labels',{}).get('en',{}).get('value',name)
   # Structured depicts constraint is compulsory: text relevance alone is insufficient.
   query=f'haswbstatement:P180={qid} "{english.replace(chr(34), "")}"'
   extras=' '.join(str(p.get(k,''))[:80].replace('"','') for k in ('city','country')).strip()
   if extras:query+=' '+extras
-  data=get_json(API+urlencode(dict(action='query',generator='search',gsrsearch=query,gsrnamespace=6,gsrlimit=8,prop='imageinfo',iiprop='url|size|extmetadata',iiurlwidth=1600,format='json',maxlag=5)),refresh=p.get('refresh')=='1')
+  def fetch_search():
+   return get_json(API+urlencode(dict(action='query',generator='search',gsrsearch=query,gsrnamespace=6,gsrlimit=8,prop='imageinfo',iiprop='url|size|extmetadata',iiurlwidth=1280 if kind=='city' else 640,format='json',maxlag=5)),refresh=p.get('refresh')=='1')
+  try:data=fetch_search()
+  except ApiError as error:
+   if error.status in (502,503,504):
+    time.sleep(.5)
+    try:data=fetch_search()
+    except ApiError:data={}
+   else:data={}
+
   candidates=[]
   for page in data.get('query',{}).get('pages',{}).values():
    if re.search('watermark|map|logo|drawing',page.get('title',''),re.I):continue
@@ -68,7 +86,7 @@ def _resolve(p,name,lat,lon,kind):
    if claim.get('rank')=='deprecated':continue
    filename=claim.get('mainsnak',{}).get('datavalue',{}).get('value')
    if isinstance(filename,str):
-    photo=commons_photo(filename)
+    photo=commons_photo(filename,1280 if kind=='city' else 640)
     if photo:return {'photo':{**photo,'wikidata':qid,'matchStatus':'verified-P18'},'photoStatus':'ready','matchStatus':'verified-P18'}
   return {'photoStatus':'missing','matchStatus':'verified-no-photo'}
  return {'photoStatus':'missing','matchStatus':'unverified'}

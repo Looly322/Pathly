@@ -1,4 +1,4 @@
-import { placePlanningProfiles } from "../placePlanningProfiles.js";
+import {placePlanningProfiles} from "../placePlanningProfiles.js";
 import hangzhou from "./hangzhou.js";
 import beijing from "./beijing.js";
 import shanghai from "./shanghai.js";

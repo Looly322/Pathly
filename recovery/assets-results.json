@@ -1,0 +1,214 @@
+[
+  {
+    "id": "dolomites",
+    "ok": true
+  },
+  {
+    "id": "tokyo",
+    "ok": true
+  },
+  {
+    "id": "rome",
+    "ok": true
+  },
+  {
+    "id": "kyoto",
+    "ok": true
+  },
+  {
+    "id": "london",
+    "ok": true
+  },
+  {
+    "id": "food",
+    "ok": true
+  },
+  {
+    "id": "paris",
+    "ok": true
+  },
+  {
+    "id": "beijing",
+    "ok": true
+  },
+  {
+    "id": "wall-lake",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "wall-reflection",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "wall-coast",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "wall-cliff",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "wall-ruins",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "wall-noodles",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "wall-seoul",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "wall-dumplings",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "wall-lychee",
+    "ok": false,
+    "error": "curl: (56) The requested URL returned error: 404\n"
+  },
+  {
+    "id": "wall-fruit",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-banff",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-moraine",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-hills",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-forest",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-palace",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-roofs",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-torii",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-torii-path",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-colosseum",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-shanghai",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-tokyo",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-paris",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-dimsum",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "bright-nightmarket",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "dest-paris",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "dest-rome",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "dest-london",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "dest-bali",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "postcards/beijing",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "postcards/tokyo",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "postcards/paris",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "postcards/rome",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "postcards/kyoto",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "postcards/london",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "postcards/shanghai",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "id": "postcards/bali",
+    "ok": true,
+    "error": ""
+  }
+]

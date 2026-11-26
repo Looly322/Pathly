@@ -9,14 +9,14 @@ test('four exact poems overlay six distinct real images per theme',async({page})
   await expect.poll(()=>theme.locator('img').evaluateAll(imgs=>imgs.every(i=>i.complete&&i.naturalWidth>0))).toBe(true);
   const rects=await theme.evaluate(el=>({wall:el.querySelector('.photo-wall').getBoundingClientRect().width,viewport:el.getBoundingClientRect().width}));expect(rects.wall).toBeGreaterThan(rects.viewport);
  }
- await page.evaluate(()=>document.fonts.ready);expect(await page.evaluate(()=>document.fonts.check('64px PathlyPoetry','行到水穷处'))).toBe(true);
+ await page.evaluate(()=>document.fonts.ready);expect(await page.evaluate(()=>document.fonts.check('64px PathlySourceHanSerifSC','行到水穷处'))).toBe(true);
 });
 test('60ms character stagger follows photos, runs once; pointer changes depths but not text',async({page})=>{
  await page.setViewportSize({width:1440,height:1000});await page.goto('/');const theme=page.locator('.poetic-theme').first();
  await theme.evaluate(el=>{el.dataset.starts='0';el.addEventListener('animationstart',e=>{if(e.target.classList.contains('poem-character'))el.dataset.starts=String(Number(el.dataset.starts)+1);});});
  await theme.scrollIntoViewIfNeeded();await expect(theme).toHaveClass(/exploring/);
  const chars=theme.locator('.poem-character');const delays=await chars.evaluateAll(nodes=>nodes.map(n=>parseFloat(getComputedStyle(n).animationDelay)));
- expect(delays[0]).toBe(1.25);expect(delays[1]-delays[0]).toBeCloseTo(.06);
+ expect(delays[0]).toBe(1);expect(delays[1]-delays[0]).toBeCloseTo(.06);
  const authorDelay=await theme.locator('.poem-author').evaluate(el=>parseFloat(getComputedStyle(el).animationDelay));expect(authorDelay).toBeGreaterThan(delays.at(-1)+.74);
  const textBefore=await theme.locator('blockquote').boundingBox(),box=await theme.boundingBox();await page.mouse.move(box.x+box.width*.85,box.y+box.height*.3);
  await expect.poll(()=>theme.locator('.photo-wall').evaluate(el=>parseFloat(el.style.getPropertyValue('--pan-x'))||0)).toBeGreaterThan(5);

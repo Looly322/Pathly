@@ -1,0 +1,34 @@
+{
+  "beijing": {
+    "backgroundImage": "bright-palace",
+    "postcardImage": "postcards/beijing"
+  },
+  "tokyo": {
+    "backgroundImage": "tokyo",
+    "postcardImage": "postcards/tokyo"
+  },
+  "paris": {
+    "backgroundImage": "dest-paris",
+    "postcardImage": "postcards/paris"
+  },
+  "rome": {
+    "backgroundImage": "dest-rome",
+    "postcardImage": "postcards/rome"
+  },
+  "kyoto": {
+    "backgroundImage": "kyoto",
+    "postcardImage": "postcards/kyoto"
+  },
+  "london": {
+    "backgroundImage": "dest-london",
+    "postcardImage": "postcards/london"
+  },
+  "shanghai": {
+    "backgroundImage": "bright-shanghai",
+    "postcardImage": "postcards/shanghai"
+  },
+  "bali": {
+    "backgroundImage": "dest-bali",
+    "postcardImage": "postcards/bali"
+  }
+}

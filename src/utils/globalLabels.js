@@ -1,4 +1,5 @@
-import { language, t } from '../i18n';
+import {mapPlaceName} from './mapStyle';
+import {language,t} from '../i18n';
 export function countryName(city) {
   try { return new Intl.DisplayNames([language.value === 'zh' ? 'zh-Hans' : 'en'], {type:'region'}).of(city.countryCode); }
   catch { return city.country || city.countryCode; }
@@ -10,4 +11,4 @@ export function categoryLabel(place) {
   if (language.value !== 'zh') return place.categories?.map(c=>c.name).join(' / ') || t('global.unknown');
   return [...new Set((place.categories || []).map(c=>translations[c.name] || (/[^\x00-\x7F]/.test(c.name) && /[\u3400-\u9fff]/.test(c.name) ? c.name : t('global.localPlace'))))].join(' / ') || t('global.localPlace');
 }
-export function placeName(place) { return language.value === 'zh' ? place.nameZh || (/[\u3400-\u9fff]/.test(place.name) ? place.name : categoryLabel(place)) : place.name; }
+export function placeName(place) { return mapPlaceName(place,language.value); }

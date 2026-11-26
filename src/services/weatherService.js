@@ -17,7 +17,7 @@ export function weatherCoordinates(destination){
  return {latitude:+latitude.toFixed(4),longitude:+longitude.toFixed(4)};
 }
 export async function getWeather(destination){
- const point=weatherCoordinates(destination),key=JSON.stringify(point),saved=cache.get(key);
+ const point=weatherCoordinates(destination),key='hourly-v1:'+JSON.stringify(point),saved=cache.get(key);
  if(saved&&Date.now()-saved.fetchedAt*1000<600000)return saved;
  if(!pending.has(key)){
   const task=fetch('/api/weather?'+new URLSearchParams(point),{signal:AbortSignal.timeout(11000)}).then(async r=>{
@@ -35,11 +35,22 @@ export function localDate(timezone,now=new Date()){
 export function forecastForDate(data,date,now=new Date()){
  if(!data||date<localDate(data.timezone,now))return null;
  const i=data.daily.time.indexOf(date);if(i<0)return null;
- return {date,code:data.daily.weather_code?.[i],high:data.daily.temperature_2m_max?.[i],low:data.daily.temperature_2m_min?.[i],rain:data.daily.precipitation_probability_max?.[i]};
+ const result={date,code:data.daily.weather_code?.[i],high:data.daily.temperature_2m_max?.[i],low:data.daily.temperature_2m_min?.[i],rain:data.daily.precipitation_probability_max?.[i]};
+ return [result.code,result.high,result.low,result.rain].every(v=>v==null)?null:result;
 }
 export function weatherKind(code){
  if(code===0)return 'clear';if([1,2].includes(code))return 'partly';if(code===3)return 'cloudy';if([45,48].includes(code))return 'fog';
  if([51,53,55,56,57].includes(code))return 'drizzle';if([61,63,65,66,67,80,81,82].includes(code))return 'rain';
  if([71,73,75,77,85,86].includes(code))return 'snow';if([95,96,99].includes(code))return 'storm';return 'unknown';
 }
-export function weatherWarnings(day){return [...(day?.rain>=60?['rainWarning']:[]),...(day?.high>=35?['heatWarning']:[])];}
+export function weatherWarnings(day){return [...(day&&(day.rain>=60||['rain','storm','drizzle'].includes(weatherKind(day.code)))?['rainWarning']:[]),...(day?.high>=35?['heatWarning']:[])];}
+
+const climatePending=new Map();
+export async function getClimate(destination,dates){
+ const q=new URLSearchParams({...weatherCoordinates(destination),dates:dates.join(',')}).toString();
+ if(!climatePending.has(q)){
+  const work=fetch('/api/climate?'+q,{signal:AbortSignal.timeout(15000)}).then(async r=>{if(!r.ok)throw Error('CLIMATE_UNAVAILABLE');return r.json();});
+  climatePending.set(q,work);work.finally(()=>climatePending.delete(q)).catch(()=>{});
+ }
+ return climatePending.get(q);
+}

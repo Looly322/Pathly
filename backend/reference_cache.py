@@ -11,3 +11,6 @@ def get(key):
  return json.loads(r[0]) if r else None
 def put(key,data,ttl):
  with connection() as c:c.execute('INSERT OR REPLACE INTO cache VALUES (?,?,?)',(key,time.time()+ttl,json.dumps(data,ensure_ascii=False)))
+
+def delete(key):
+ with connection() as c:c.execute('DELETE FROM cache WHERE key=?',(key,))

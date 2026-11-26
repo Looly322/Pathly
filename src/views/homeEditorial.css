@@ -3,3 +3,23 @@
 @media(max-width:1000px){.interest-stories{gap:16px}.story-picture{height:260px}.story-1 .story-picture{height:230px}.story-2 .story-picture{height:280px}.story-3 .story-picture{height:220px}.destination-story{height:340px}.planning-section{gap:5vw;grid-template-columns:.7fr 1.3fr}.hero-content h1{font-size:64px}}
 @media(max-width:700px){.travel-hero{min-height:710px;height:100svh}.hero-content{padding:175px 6vw 120px}.hero-content h1{font-size:clamp(39px,10.5vw,56px)}.hero-eyebrow{font-size:10px;margin-bottom:24px;letter-spacing:.14em}.hero-subtitle{font-size:13px;margin:24px 0 30px}.hero-search{flex-wrap:wrap;padding:6px}.hero-search :deep(.destination){width:100%;flex-basis:100%;padding:8px 12px}.hero-start{width:100%;padding:13px 17px}.hero-bottom{left:6vw;right:6vw;bottom:25px;gap:12px}.scene-caption{padding-right:12px}.scene-caption small{display:none}.hero-bottom>a{gap:7px}.hero-bottom>a span{font-size:10px}.editorial-section{padding:65px 6vw}.section-top{display:block;margin-bottom:30px}.section-top>p{margin-top:15px;max-width:none}.interest-stories{grid-template-columns:1fr 1fr;gap:30px 16px}.story-1,.story-3{margin-top:30px}.story-2{margin-top:0}.story-picture,.story-1 .story-picture,.story-2 .story-picture,.story-3 .story-picture{height:230px}.story-caption h3{font-size:17px}.story-caption>span{font-size:19px}.interest-story>p{font-size:11px}.destination-stories{grid-template-columns:1fr 1fr;gap:14px}.destination-story{height:300px}.destination-top{left:15px;right:15px;top:16px;font-size:10px;letter-spacing:0}.destination-caption{left:15px;right:15px;bottom:20px}.destination-caption h3{font-size:25px}.destination-caption small{display:block;font-size:10px;line-height:1.8}.planning-section{display:block;padding:65px 6vw}.planning-intro{position:static;margin-bottom:35px}.planning-intro>p:not(.editorial-kicker){max-width:none}.planning-compass{display:none}.home-end{padding:30px 6vw}.hero-search :deep(input::placeholder){font-size:12px}}
 @media(prefers-reduced-motion:reduce){.hero-image{animation:none;transform:none}.hero-parallax{transform:none!important;will-change:auto}.interest-story :deep(img),.destination-story :deep(img){transition:none}.interest-story:hover :deep(img),.destination-story:hover :deep(img){transform:none}}
+
+/* The poster stays static; only the licensed video moves. */
+.hero-image{animation:none;transform:none}.hero-parallax{transform:none;inset:0;will-change:auto}.hero-shade{background:linear-gradient(90deg,rgba(6,27,24,.65),rgba(10,28,28,.04) 85%),linear-gradient(0deg,rgba(7,26,23,.65),transparent 38%,rgba(9,28,27,.28))}.poetic-stories{display:block}
+
+/* Opening sequence: start with the film; do not block the form with a curtain. */
+.hero-image{width:100%;height:100%}.hero-image>.editorial-fallback{display:grid;place-items:center;height:100%;color:#fff}.hero-image img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-shade{background:radial-gradient(ellipse 560px 270px at 24% 44%,#10271f30,transparent),linear-gradient(0deg,#10271f24,transparent 15%)}
+.hero-intro .hero-eyebrow,.hero-intro .hero-line,.hero-intro .hero-subtitle,.hero-intro .hero-search{animation:hero-content-enter .7s cubic-bezier(.22,1,.36,1) both}
+.hero-line{display:inline-block}.hero-content h1>.hero-line-first{font-weight:500}
+.hero-intro .hero-eyebrow{animation-delay:1.2s}.hero-intro .hero-line-first{animation-delay:1.6s}.hero-intro .hero-line-second{animation-delay:1.9s}.hero-intro .hero-subtitle{animation-delay:2.3s}.hero-intro .hero-search{animation-delay:2.7s}
+.hero-intro .hero-search:focus-within{animation:none}
+@keyframes hero-content-enter{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.hero-intro .hero-eyebrow,.hero-intro .hero-line,.hero-intro .hero-subtitle,.hero-intro .hero-search{animation:none}}
+
+/* Homepage editorial palette; keep theme walls and planner component tokens intact. */
+.immersive-home{--paper:#FAF9F6;--ink:#203D35}
+.dest-section{background:#FAF9F6;padding-bottom:110px}.dest-section .editorial-kicker{color:#245A46}.dest-section .editorial-kicker::before{content:'';display:inline-block;width:22px;height:2px;margin-right:12px;vertical-align:middle;background:#F28C68}
+.hero-start{background:#245A46}.hero-start:hover:not(:disabled){background:#203D35}
+.hero-shade{background:none}.hero-eyebrow,.hero-content h1,.hero-subtitle,.hero-bottom{text-shadow:0 1px 5px #203D3566}
+@media(max-width:700px){.dest-section{padding-bottom:70px}}

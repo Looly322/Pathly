@@ -24,7 +24,7 @@ test('failed transit never silently becomes a five-hour walk; overseas/cancelled
  await collectRoutePairs(pairs,{countryCode:'JP'},settings,()=>true,{query});await collectRoutePairs(pairs,{countryCode:'CN'},settings,()=>false,{query});assert.equal(count,1);
 });
 test('shortlisted real traffic unlocks a feasible second stop without shortening visits',async()=>{
- const hotel=p('hotel',121.05),museum=p('museum',121.46,135),temple=p('temple',121.445,75,'religious');
+ const hotel=p('hotel',121.05),museum=p('museum',121.46,120),temple=p('temple',121.445,60,'religious');
  const s={...settings,hotel,routes:{[routeKey(hotel,museum)]:{...route(6360),fetchedAt:Date.now()},[routeKey(museum,hotel)]:{...route(6420),fetchedAt:Date.now()}}};
  const day={...scheduleDay([museum],s,'relaxed'),date:s.date};
  const extra=await collectRoutePairs(candidateRoutePairs(day,[temple],s),{countryCode:'CN'},s,()=>true,{query:async(a,b)=>({options:[route(a===hotel||b===hotel?6120:1620)]})});
@@ -32,4 +32,12 @@ test('shortlisted real traffic unlocks a feasible second stop without shortening
 });
 test('generic meals preserve actual journey minutes and an honest nearby-location hint',()=>{
  const s={...settings,hotel:p('hotel',121.05)},museum=p('museum',121.46,135);const day=scheduleDay([museum],s,'relaxed');const meal=day.events.find(e=>e.slot==='LUNCH');assert.ok(meal.travel.minutes>0);assert.equal(meal.place,null);assert.equal(meal.foodCandidate.near.name,museum.name);
+});
+test('route timeout and provider failure finish with labelled-estimate fallback data, not a stuck promise',async()=>{
+ const pairs=[[p('a'),p('b',121.48)]];
+ const before=Date.now();assert.deepEqual(await collectRoutePairs(pairs,{countryCode:'CN'},settings,()=>true,{budget:25,query:()=>new Promise(()=>{})}),{});assert.ok(Date.now()-before<500);
+ assert.deepEqual(await collectRoutePairs(pairs,{countryCode:'CN'},settings,()=>true,{query:async()=>{throw Error('unavailable');}}),{});
+});
+test('results from a cancelled selection are discarded even if the API subsequently succeeds',async()=>{
+ let current=true;const result=await collectRoutePairs([[p('a'),p('b',121.48)]],{countryCode:'CN'},settings,()=>current,{query:async()=>{current=false;return {options:[route()]};}});assert.deepEqual(result,{});
 });

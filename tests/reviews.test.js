@@ -8,7 +8,7 @@ for(const [city,country,names] of [['Beijing','China',['故宫博物院','天坛
   assert.equal('rating' in link,false);
  });
 }
-const detail='https://www.tripadvisor.com/Attraction_Review-g298184-d320047-Reviews-Tokyo_Tower-Minato_Tokyo_Tokyo_Prefecture_Kanto.html';
+const detail='https://www.tripadvisor.com/Attraction_Review-g14129730-d320047-Reviews-Tokyo_Tower-Shibakoen_Minato_Tokyo_Tokyo_Prefecture_Kanto.html';
 test('provider-supplied detail URL is retained, tracking stripped',()=>{
  assert.equal(touristReviewLink({name:'Tokyo Tower',source:'opentripmap',website:detail+'?tracking=1'}).url,detail);
  assert.equal(touristReviewLink({name:'Tokyo Tower',source:'mock',website:detail}).direct,false);

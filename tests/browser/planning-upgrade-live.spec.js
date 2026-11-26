@@ -16,7 +16,7 @@ for(const c of cases)test('real itinerary '+c.key,async({page})=>{
  const initialMs=Date.now()-started;let data;try{
  for(let i=0;i<3;i++){await page.locator('.trip-days button').nth(i).click();await expect.poll(async()=>!(await state()).loading,{timeout:70000}).toBe(true);}
  data=await state();
- }finally{data=await state();fs.writeFileSync(`reports/planning-upgrade/${c.key}.json`,JSON.stringify({...data,initialMs,totalMs:Date.now()-started},null,2));await page.locator('#journey-route').scrollIntoViewIfNeeded();await page.screenshot({path:`reports/planning-upgrade/${c.key}.png`});}
+ }finally{data=await state();fs.writeFileSync(`reports/planning-upgrade/${c.key}.json`,JSON.stringify({...data,initialMs,totalMs:Date.now()-started},null,2));await page.locator('#journey-route').scrollIntoViewIfNeeded();await page.waitForTimeout(8000);await page.screenshot({path:`reports/planning-upgrade/${c.key}.png`});}
  expect(data.snapshot.plan.days).toHaveLength(3);expect(data.snapshot.plan.days.every(d=>!d.conflicts.length)).toBe(true);
  expect(data.snapshot.plan.days.every(d=>d.items.length>0)).toBe(true);
  if(c.key==='disney'){const d=data.snapshot.plan.days.find(d=>d.items.some(i=>i.place.visit?.profileId==='shanghai-disney'));expect(d).toBeTruthy();expect(d.items).toHaveLength(1);expect(d.items[0].duration).toBe(480);}

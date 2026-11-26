@@ -35,3 +35,28 @@ test('known closed dates and too-short windows remain explicit unsatisfied requi
  const park={...p('park','上海迪士尼乐园',31.144,121.657,'主题乐园')};const plan=generateItineraries([park],{...settings,mustIds:['park'],end:'12:00'})[1];assert.deepEqual(plan.unplacedMust,['park']);assert.ok(plan.quality.issues.some(i=>i.code==='missingMust'));
  const closed={...p('c','博物馆'),openingHoursByDate:Object.fromEntries(['2026-11-20','2026-11-21','2026-11-22'].map(d=>[d,[]]))};assert.deepEqual(generateItineraries([closed],{...settings,mustIds:['c']})[1].unplacedMust,['c']);
 });
+test('transport stations, motorway exits and hotels are not automatic sightseeing candidates',()=>{
+ for(const [name,type] of [['寒山寺南','交通设施服务;公交车站'],['寒山寺出口(西环快速路南向)','道路附属设施;高速出口'],['酒店','住宿服务']])assert.equal(p(name,name,39,116,type).planningEligible,false);
+ assert.equal(p('gate','午门',39.914,116.397,'风景名胜').planningEligible,true);
+});
+test('nearby real restaurant fits a 45-minute remaining lunch window',()=>{
+ const a=p('a','历史建筑'),food=p('f','餐厅',39.9171,116.397,'餐厅');const s={...settings,start:'11:15',end:'16:00'};
+ const d=scheduleDay([{place:a,duration:75}],s,'balanced',[food]);const lunch=d.events.find(e=>e.slot==='LUNCH');assert.equal(lunch.place?.id,'f');assert.ok(lunch.duration>=30&&lunch.duration<=45);assert.ok(lunch.end<=810);
+});
+test('official dated closures survive normalization and block even must-visit scheduling',()=>{
+ const site=normalizePlace({id:'closed',name:'Centre Pompidou',wikidata:'Q178065',latitude:48.86,longitude:2.3523,source:'opentripmap',category:'CULTURE',subcategories:['CULTURE'],countryCode:'FR'});
+ const plan=generateItineraries([site],{...settings,mustIds:['closed']})[1];assert.deepEqual(plan.unplacedMust,['closed']);assert.ok(plan.unplacedDetails[0].attempts.every(a=>a.conflicts.includes('openingHours')));
+});
+test('administrative national-museum tag alone is not evidence of large visit scope',()=>{
+ const museum=normalizePlace({id:'m',name:'Small collection',type:'national museums,museums',latitude:48.8,longitude:2.3,source:'opentripmap',category:'CULTURE',subcategories:['ART']});assert.equal(museum.visit.type,'museum');assert.equal(museum.estimatedDuration,120);
+});
+test('closed submuseum identities cannot bypass the parent building closure',()=>{
+ for(const [qid,lat,lon] of [['Q1895953',48.8603,2.3523],['Q1579504',48.87149,2.28143]]){
+ const p=normalizePlace({id:qid,name:'Museum',wikidata:qid,latitude:lat,longitude:lon,source:'opentripmap',category:'CULTURE',subcategories:['ART']});assert.ok(scheduleDay([p],settings,'balanced').conflicts.includes('openingHours'));
+ }
+});
+import {assignRestaurants} from '../src/planner/dining.js';
+test('specified meals cannot rewrite an explicitly retained day',()=>{
+ const attraction=p('a','历史建筑'),restaurant=p('r','餐厅',39.918,116.397,'餐厅');const d={...scheduleDay([attraction],settings,'balanced'),date:settings.date};const before=structuredClone(d),days=[d];
+ const missing=assignRestaurants(days,[restaurant],{...settings,preservedDays:{[d.date]:d}},'balanced',scheduleDay);assert.deepEqual(days,[before]);assert.equal(missing[0].id,'r');
+});

@@ -4,10 +4,10 @@ test('real Lanting scan reveals fixed ink, fades and keeps form interactive',asy
  await page.evaluate(()=>scrollTo(0,document.querySelector('#trip-planner').getBoundingClientRect().top+scrollY));
  const layer=page.locator('.search-calligraphy'),ink=layer.locator('.calligraphy-reveal');
  await expect(layer).toHaveClass(/art-ready/);
- await page.mouse.move(5,5);await page.screenshot({path:'reports/search-calligraphy/default.png'});
+ await page.mouse.move(-10,-10);await expect.poll(()=>ink.evaluate(e=>Number(getComputedStyle(e).opacity))).toBe(0);await page.screenshot({path:'reports/search-calligraphy/default.png'});
  const position=await ink.evaluate(e=>getComputedStyle(e).backgroundPosition);
  await page.mouse.move(310,650);await expect.poll(()=>ink.evaluate(e=>Number(getComputedStyle(e).opacity))).toBeGreaterThan(.34);
- await page.screenshot({path:'reports/search-calligraphy/revealed.png'});
+ await expect.poll(()=>layer.evaluate(e=>parseFloat(e.style.getPropertyValue('--ink-y')))).toBeGreaterThan(640);await page.screenshot({path:'reports/search-calligraphy/revealed.png'});
  await page.mouse.move(480,760);await expect.poll(()=>layer.evaluate(e=>parseFloat(e.style.getPropertyValue('--ink-x')))).toBeGreaterThan(460);
  expect(await ink.evaluate(e=>getComputedStyle(e).backgroundPosition)).toBe(position);
  await page.locator('#trip-planner .destination input').fill('东京');await expect(page.locator('#trip-planner .destination input')).toHaveValue('东京');

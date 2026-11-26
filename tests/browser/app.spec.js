@@ -27,7 +27,7 @@ test('complete itinerary workflow, persisted appearance, language and arbitrary 
   const old=await second.locator('.place-summary>strong').innerText()
   await second.getByRole('button',{name:/换一个/}).click()
   expect(await page.locator('.timeline-item').nth(1).locator('.place-summary>strong').innerText()).not.toBe(old)
-  await page.locator('.map-marker').first().click()
+  await page.locator('.pathly-map-marker').first().click()
   await expect(page.locator('.timeline-item').first()).toHaveClass(/highlighted/)
   await page.locator('.place-main').first().click()
   await expect(page.getByRole('dialog')).toBeVisible()
@@ -35,7 +35,6 @@ test('complete itinerary workflow, persisted appearance, language and arbitrary 
   await expect(page.getByRole('dialog')).toHaveCount(0)
   await page.getByRole('button',{name:/比较方案/}).click()
   await expect(page.locator('tbody tr')).toHaveCount(6)
-  await page.getByRole('button',{name:'EN',exact:true}).click({force:true}).catch(()=>{})
   await page.keyboard.press('Escape')
   await page.getByRole('button',{name:'EN',exact:true}).click()
   await expect(page.getByRole('tab',{name:/Slow & Easy/})).toBeVisible()
@@ -82,3 +81,62 @@ test('overflow, undo, compression, ordering and responsive image fallback',async
   for(const width of [320,768,1024]){await page.setViewportSize({width,height:900});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true)}
   expect(errors).toEqual([])
 })
+test('generated result uses real map, excludes demo coordinates and keeps timeline numbering',async({page})=>{
+ await page.goto('/',{waitUntil:'domcontentloaded'});
+ await generate(page,'北京');
+ await expect(page.locator('.result-map-status')).toContainText('已匹配');
+ await expect(page.locator('svg.mock-map')).toHaveCount(0);
+ await expect(page.locator('.result-map-status')).toContainText('演示地点，不在真实地图上标记');
+ const rows=await page.locator('.timeline-item .place-summary>strong').allTextContents();
+ const markerNames=await page.locator('.pathly-map-marker').evaluateAll(els=>els.map(el=>el.getAttribute('aria-label')));
+ expect(markerNames.length).toBeGreaterThan(0);
+ for(const [i,name] of rows.entries()){
+   if(name.includes('演示'))expect(markerNames.some(label=>label===`${i+1}. ${name}`)).toBe(false);
+   else expect(markerNames).toContain(`${i+1}. ${name}`);
+ }
+ const count=await page.evaluate(()=>window.__amapFixture.queries.length);
+ await page.locator('.timeline-item').first().getByRole('button',{name:'停留 +15',exact:true}).click();
+ await page.waitForTimeout(250);
+ expect(await page.evaluate(()=>window.__amapFixture.queries.length)).toBe(count);
+ await page.getByRole('tab',{name:/松弛型/}).click();
+ await expect(page.locator('.result-map-status')).toContainText('已匹配');
+ await page.setViewportSize({width:390,height:844});
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});
+
+test('ambiguous result POI requires explicit candidate selection',async({page})=>{
+ await page.goto('/',{waitUntil:'domcontentloaded'});
+ await expect(page.getByRole('heading',{name:'下一站，想去哪？'})).toBeVisible();
+ await page.evaluate(()=>{window.__amapFixture.ambiguous=true;});
+ await generate(page,'北京');
+ await expect(page.locator('.match-candidates').first()).toBeVisible();
+ await page.locator('.match-candidates').first().locator('summary').click();
+ await page.locator('.match-candidates').first().getByRole('button',{name:/南锣鼓巷景区/}).click();
+ await expect(page.locator('.marker-place-name').filter({hasText:'南锣鼓巷景区'})).toHaveCount(1);
+ await expect(page.locator('.match-candidates')).toHaveCount(0);
+});
+test('style tabs show actual attraction differences and switching updates the itinerary',async({page})=>{
+ await page.goto('/',{waitUntil:'domcontentloaded'});await generate(page,'北京');
+ await expect(page.locator('.tab-metrics')).toHaveCount(3);
+ const metrics=await page.locator('.tab-metrics b').allTextContents();
+ const explorerAttractions=Number(metrics[0].match(/\d+/)[0]);
+ const slowAttractions=Number(metrics[1].match(/\d+/)[0]);
+ expect(explorerAttractions).toBeGreaterThan(slowAttractions);
+ const explorerCount=await page.locator('.timeline-item').count();
+ await page.getByRole('tab',{name:/松弛型/}).click();
+ expect(await page.locator('.timeline-item').count()).toBeLessThan(explorerCount);
+ await expect(page.locator('.style-explanation')).toContainText('减少景点');
+ await page.getByRole('tab',{name:/避峰型/}).click();
+ await expect(page.locator('.style-explanation')).toContainText('预计拥挤度');
+ await page.getByRole('button',{name:/比较方案/}).click();
+ await expect(page.getByRole('dialog')).toContainText('景点数量');
+ await page.keyboard.press('Escape');
+ await page.setViewportSize({width:390,height:844});
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ await page.screenshot({path:'test-results/styles-mobile.png',fullPage:true});
+ await page.setViewportSize({width:1280,height:900});
+ await page.screenshot({path:'test-results/styles-desktop.png',fullPage:true});
+ await page.getByRole('button',{name:'EN',exact:true}).click();
+ await expect(page.locator('.tab-metrics').first()).toContainText('attractions');
+ await expect(page.locator('.style-explanation')).toContainText('Crowd Smart');
+});

@@ -48,3 +48,9 @@ test('cross-day swap is fallback, needs known opening times and preserves place 
  const result=optimizeWeather(original,settings,data,now);assert.ok(result.plan);assert.equal(result.plan.days[1].events[0].id,'park');
  delete a.openingHours;assert.equal(optimizeWeather(original,settings,data,now).reason,'noBetter');
 });
+test('Paris DST converts fixed API offset to destination local visit hour',()=>{
+ const data={timezone:'Europe/Paris',utc_offset_seconds:7200,fetchedAt:Date.parse('2026-10-25T00:00:00Z')/1000,hourly:{time:['2026-10-25T10:00','2026-10-25T11:00'],temperature_2m:[36,20],wind_speed_10m:[10,10],precipitation_probability:[0,90]}};
+ const event={place:{environment:'outdoor'},start:9*60,end:10*60};
+ const risk=eventWeather(event,'2026-10-25',data,new Date('2026-10-25T00:00:00Z'));
+ assert.equal(risk.complete,true);assert.deepEqual(risk.reasons,['rain','heat']);
+});

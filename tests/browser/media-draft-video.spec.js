@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 import fs from 'node:fs';
 const dir='reports/media-draft-video';
-const cases=[{id:'Q183112',wikidata:'Q183112',name:'Tokyo Tower',city:'Tokyo',latitude:35.65858,longitude:139.74543},{id:'Q243',wikidata:'Q243',name:'Eiffel Tower',city:'Paris',latitude:48.85826,longitude:2.2945},{id:'Q83125',wikidata:'Q83125',name:'Tower Bridge',city:'London',latitude:51.50555,longitude:-.0754}];
+const cases=[{id:'Q183536',wikidata:'Q183536',name:'Tokyo Tower',city:'Tokyo',latitude:35.65858,longitude:139.74543},{id:'Q243',wikidata:'Q243',name:'Eiffel Tower',city:'Paris',latitude:48.85826,longitude:2.2945},{id:'Q83125',wikidata:'Q83125',name:'Tower Bridge',city:'London',latitude:51.50555,longitude:-.0754}];
 test('live verified names and photos; cached requests; visible image recovery',async({page})=>{
  test.setTimeout(120000);await page.goto('/');
  const rows=await page.evaluate(async places=>{const {loadPlacePresentation}=await import('/src/services/placePresentation.js');const rows=[];for(const p of places){const start=performance.now();const [text,photo]=await Promise.all(['text','photo'].map(part=>loadPlacePresentation(p,p.city,null,false,{part})));rows.push({place:p,data:{...text,...photo},ms:Math.round(performance.now()-start)});}return rows;},cases);
@@ -21,7 +21,7 @@ test('new video desktop and mobile playback retains native looping and cover',as
  await page.emulateMedia({reducedMotion:'reduce'});await expect(video).toHaveCount(0);await expect(page.locator('.hero-image img')).toHaveAttribute('src','/videos/pathly-journey-nov17-poster.webp');
 });
 test('explicit exit clears draft only; archived route restores and dates load',async({page})=>{
- test.setTimeout(120000);const snapshot=JSON.parse(fs.readFileSync('reports/planning-upgrade/beijing.json','utf8'));console.log('archive keys',Object.keys(snapshot));
+ test.setTimeout(120000);const snapshot=JSON.parse(fs.readFileSync('reports/planning-upgrade/beijing.json','utf8'));
  await page.emulateMedia({reducedMotion:'reduce'});await page.goto('/');
  await page.evaluate(async raw=>{const snap=raw.snapshot||raw;const {saveHistory,toggleFavorite}=await import('/src/services/travelLibrary.js');saveHistory(snap);toggleFavorite('route',{id:snap.routeId,name:'北京测试历史',city:'北京'},snap);const {updateDraft}=await import('/src/state/tripDraft.js');updateDraft({...snap.settings,selectedCity:'北京'});},snapshot);
  const saved=await page.evaluate(()=>({history:localStorage.getItem('pathly.history.v1'),favorites:localStorage.getItem('pathly.favorites.v1')}));await page.reload();
@@ -29,6 +29,20 @@ test('explicit exit clears draft only; archived route restores and dates load',a
  expect(await page.evaluate(()=>({history:localStorage.getItem('pathly.history.v1'),favorites:localStorage.getItem('pathly.favorites.v1')}))).toEqual(saved);
  await page.locator('#trip-planner .destination input').fill('巴黎');await page.reload();expect(await page.locator('#trip-planner .destination input').inputValue()).toBe('巴黎');expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('pathly.draft.v1')).form.hotel)).toBeNull();
  await page.getByRole('button',{name:'历史记录',exact:true}).click();await page.getByRole('button',{name:'查看原始行程',exact:true}).first().click();await expect(page.locator('.trip-result')).toBeVisible();
- await page.locator('.trip-days button').nth(1).click();await expect(page.locator('.journal-timeline')).toBeVisible();await page.screenshot({path:dir+'/restored-day2.png'});
+ await page.locator('.trip-days button').nth(1).click();await expect(page.locator('.journey-timeline')).toBeVisible();await page.screenshot({path:dir+'/restored-day2.png'});
  await page.getByRole('button',{name:'退出旅行，返回首页',exact:true}).click();expect(await page.evaluate(()=>localStorage.getItem('pathly.favorites.v1'))).toBe(saved.favorites);
+});
+test('Paris archived real itinerary loads current-day media and retains markers on label refresh',async({page})=>{
+ test.setTimeout(150000);const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.emulateMedia({reducedMotion:'reduce'});await page.goto('/');const raw=JSON.parse(fs.readFileSync('reports/planning-upgrade/paris.json','utf8'));
+ await page.evaluate(async raw=>{const {saveHistory}=await import('/src/services/travelLibrary.js');saveHistory(raw.snapshot||raw);},raw);
+ await page.getByRole('button',{name:'历史记录',exact:true}).click();await page.getByRole('button',{name:'查看原始行程',exact:true}).first().click();await expect(page.locator('.trip-result')).toBeVisible();
+ const state=()=>page.locator('.trip-result').evaluate(el=>{let v=el.__vueParentComponent;while(v&&!v.setupState.exportSnapshot)v=v.parent;return {day:v.setupState.dayIndex,presentation:JSON.parse(JSON.stringify(v.setupState.presentation))};});
+ await page.locator('.journey-route').scrollIntoViewIfNeeded();await expect.poll(()=>page.locator('.global-pin').count(),{timeout:15000}).toBeGreaterThan(0);
+ await page.evaluate(()=>window.originalPins=[...document.querySelectorAll('.global-pin')]);
+ await expect.poll(async()=>Object.values((await state()).presentation).some(p=>p.photoStatus==='ready'),{timeout:50000}).toBe(true);
+ expect(await page.evaluate(()=>window.originalPins.every(p=>p.isConnected))).toBe(true);
+ await page.waitForTimeout(15000);const first=await state();await page.locator('.trip-days button').nth(1).click();await page.waitForTimeout(10000);fs.writeFileSync(dir+'/paris-debug.json',JSON.stringify(await state(),null,2));await expect.poll(async()=>Object.values((await state()).presentation).filter(p=>p.photoStatus==='ready').length,{timeout:50000}).toBeGreaterThan(Object.values(first.presentation).filter(p=>p.photoStatus==='ready').length);
+ const second=await state();await page.locator('.trip-days button').nth(0).click();const last=await state();fs.writeFileSync(dir+'/paris-day-media.json',JSON.stringify({first,second,last},null,2));for(const [id,p] of Object.entries(first.presentation))if(p.photoStatus==='ready')expect(last.presentation[id].photoStatus).toBe('ready');
+ for(const img of await page.locator('.journey-timeline .activity-image img').all()){await img.scrollIntoViewIfNeeded();await expect.poll(()=>img.evaluate(e=>e.complete&&e.naturalWidth>0),{timeout:20000}).toBe(true);}
+ fs.writeFileSync(dir+'/paris-day-media.json',JSON.stringify({first,second,last,errors},null,2));expect(errors).toEqual([]);await page.locator('.journey-route').scrollIntoViewIfNeeded();await page.screenshot({path:dir+'/paris-result.png'});
 });

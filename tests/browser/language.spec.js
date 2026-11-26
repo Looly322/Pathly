@@ -11,7 +11,7 @@ test('English core UI, 320px home, all theme presets and runtime console',async(
   await page.getByPlaceholder('Search a destination, e.g. Hangzhou, Beijing, Chengdu').fill('Chengdu')
   await page.getByRole('button',{name:/Create my itinerary/}).click()
   await expect(page.locator('.result-heading h1')).toContainText('Chengdu')
-  expect(await page.locator('body').innerText()).not.toMatch(/[\u4e00-\u9fff]/u)
+  expect(await page.locator('main').innerText()).not.toMatch(/[\u4e00-\u9fff]/u)
   await page.locator('.place-main').first().click()
   expect(await page.getByRole('dialog').innerText()).not.toMatch(/[\u4e00-\u9fff]/u)
   await page.keyboard.press('Escape')

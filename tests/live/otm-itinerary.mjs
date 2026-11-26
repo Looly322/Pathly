@@ -3,7 +3,7 @@ import {chromium,expect} from '@playwright/test';
 import {writeFile,mkdir} from 'node:fs/promises';
 const browser=await chromium.launch({channel:'chrome',headless:true});
 const results=[];await mkdir('test-results',{recursive:true});
-for(const city of ['北京','东京','巴黎','开罗','马拉喀什','库斯科']){
+for(const city of (process.argv.slice(2).length?process.argv.slice(2):['北京','东京','巴黎','开罗','马拉喀什','库斯科'])){
  const page=await browser.newPage({viewport:{width:1280,height:900}});const row={city,days:[]},errors=[];let leaks=0;
  page.on('pageerror',e=>errors.push(e.name));page.on('request',r=>{if(/api\.opentripmap\.com|foursquare\.com/.test(r.url()))leaks++;});
  try{
@@ -25,10 +25,12 @@ for(const city of ['北京','东京','巴黎','开罗','马拉喀什','库斯科
    row.days.push({names,mainActivities:names.length});
   }
   expect(new Set(ids).size).toBe(ids.length);expect(errors).toEqual([]);expect(leaks).toBe(0);
+  await expect(page.locator('.leaflet-container,.amap-container')).toBeVisible({timeout:30000});
+  await expect(page.locator('.leaflet-container,.amap-container')).toBeVisible({timeout:30000});
   row.status='passed';row.map=await page.locator('.leaflet-container,.amap-container').count();
   await page.locator('.trip-days button').first().click();
   await page.screenshot({path:'test-results/otm-'+city+'.png',fullPage:true});
- }catch(e){row.status='failed';row.error=e.message.replace(/https?:\/\/\S+/g,'[url]').slice(0,700);}
- row.pageErrors=errors;results.push(row);console.log(JSON.stringify(row));await writeFile('backend/otm-browser-results.json',JSON.stringify(results,null,2));await page.close();
+ }catch(e){row.status='failed';row.visibleError=await page.locator('[role=alert]').allTextContents();row.error=e.message.replace(/https?:\/\/\S+/g,'[url]').slice(0,700);}
+ row.pageErrors=errors;results.push(row);console.log(JSON.stringify(row));await writeFile(process.argv.length>2?'backend/otm-browser-recheck.json':'backend/otm-browser-results.json',JSON.stringify(results,null,2));await page.close();
 }
 await browser.close();if(results.some(r=>r.status!=='passed'))process.exitCode=1;

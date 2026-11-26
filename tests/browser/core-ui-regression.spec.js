@@ -6,7 +6,7 @@ test('real Beijing plan: editing, locking, modes, stale search and mobile layout
  await form.locator('.generate').click();const choice=page.locator('.city-option').first();await choice.waitFor({state:'visible',timeout:5000}).then(()=>choice.click()).catch(()=>{});await expect(page.locator('.trip-result')).toBeVisible({timeout:120000});
  await expect(page.locator('.journey-cover h1')).toContainText('北京');
  const first=page.locator('.journal-places .trip-event').first();const id=await first.getAttribute('id');const originalTime=await first.locator('.event-time').innerText();
- await first.getByRole('button',{name:'锁定',exact:true}).click();await expect(first.getByRole('button',{name:'删除',exact:true})).toBeDisabled();await first.getByRole('button',{name:'+15',exact:true}).click();await expect(page.locator('.journey-route .error').first()).toContainText('解锁');expect(await first.locator('.event-time').innerText()).toBe(originalTime);
+ await first.getByRole('button',{name:'锁定',exact:true}).click();await expect(first.getByRole('button',{name:'删除',exact:true})).toBeDisabled();await first.getByRole('button',{name:'+15',exact:true}).click();await expect(page.locator('.edit-validation').first()).toContainText('解锁');expect(await first.locator('.event-time').innerText()).toBe(originalTime);
  await page.locator('.trip-actions button').last().click();expect(await page.locator('#'+id+' .event-time').innerText()).toBe(originalTime);
  await page.locator('.trip-paces button').last().click();expect(await page.locator('#'+id+' .event-time').innerText()).toBe(originalTime);
  await page.locator('#'+id).getByRole('button',{name:'解锁',exact:true}).click();

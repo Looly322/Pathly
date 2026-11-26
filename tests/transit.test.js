@@ -10,3 +10,7 @@ test('transit links use explicit destination coordinates across global cities',(
  }
  assert.throws(()=>transitUrl({latitude:NaN,longitude:0},{latitude:0,longitude:0}));
 });
+test('Chinese transit links request Chinese and preserve both exact coordinates',()=>{
+ const u=new URL(transitUrl({latitude:40.72,longitude:-74.01},{latitude:40.711,longitude:-74.013},'zh'));
+ assert.equal(u.searchParams.get('hl'),'zh-CN');assert.equal(u.searchParams.get('destination'),'40.711,-74.013');
+});

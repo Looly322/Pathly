@@ -47,3 +47,35 @@
 :is(.poi-search-panel,.must-layout>section) :is(.poi-source,small){color:var(--text-secondary)}
 @media(max-width:600px){#trip-planner .date-grid{grid-template-columns:1fr}#trip-planner .pace-options>button{flex:1 1 130px}#trip-planner .walking-row{flex-wrap:wrap;gap:12px}}
 @media(prefers-reduced-motion:reduce){:is(#trip-planner,.destination-overlay,.poi-search-panel) :is(button,input,select){transition:none}}
+/* Contact-inspired travel brief. Scoped to this section; business fields stay intact. */
+@font-face{font-family:PathlySearchSerif;src:url('/fonts/pathly-search-serif.woff2') format('woff2');font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:PathlySearchEnglish;src:url('/fonts/cormorant-garamond-500.ttf') format('truetype');font-weight:500;font-style:normal;font-display:block}
+#trip-planner.planning-section{position:relative;isolation:isolate;display:grid;grid-template-columns:minmax(0,42fr) minmax(0,58fr);gap:0;padding:112px 7vw 120px;background:#FAF8F3;overflow:visible;align-items:start}
+#trip-planner .planning-intro{position:sticky;top:64px;z-index:1;padding:10px 13% 0 0;align-self:start}
+#trip-planner .planning-intro .editorial-kicker{font-size:11px;letter-spacing:.13em;margin-bottom:38px;color:#617469}
+#trip-planner .planning-intro h2{font-family:PathlySearchSerif,'Source Han Serif SC','Songti SC',serif;font-synthesis:none;font-weight:400;font-size:clamp(40px,4.3vw,64px);line-height:1.55;letter-spacing:.025em;text-wrap:balance;color:#203C34;max-width:8em}
+html[lang=en] #trip-planner .planning-intro h2{font-family:PathlySearchEnglish,Georgia,serif;font-weight:500;font-size:clamp(46px,4.7vw,72px);line-height:1.12;letter-spacing:-.025em}
+#trip-planner .planning-intro>p:not(.editorial-kicker){margin-top:40px;max-width:270px;font-size:14px;line-height:2.1;color:#65736a}
+#trip-planner .form-panel{position:relative;z-index:2;border-left:1px solid #d9dfd5;padding:0 0 0 clamp(24px,4vw,64px)!important;background:transparent;box-shadow:none}
+#trip-planner .form-panel form{padding:0;background:transparent}
+#trip-planner :is(.field,.destination){font-size:13px;line-height:1.6;gap:10px}
+#trip-planner :is(input,select){border-radius:2px;background:#fffefb;border-color:#d8ddd3;min-height:48px;font-size:14px}
+#trip-planner .form-section{margin-top:30px}
+#trip-planner .label-row{font-size:13px;font-weight:500;margin-bottom:14px}
+#trip-planner :is(.chip,.segmented button){min-height:44px;border:1px solid #dbdfd5;border-radius:3px;background:#f5f2eb;padding:10px 15px;font-size:13px;box-shadow:none}
+#trip-planner .chips{gap:8px}
+#trip-planner .pace-options{display:flex;gap:8px;flex-wrap:wrap}
+#trip-planner .pace-options>button{flex:1 1 130px;text-align:left;padding:14px 12px;min-width:0}
+#trip-planner .pace-options strong{font-size:14px;font-weight:500}
+#trip-planner .pace-options small{display:block;margin-top:6px;font-size:11px;line-height:1.6;color:#627163}
+#trip-planner .walking-row{gap:14px;flex-wrap:wrap}
+#trip-planner .wishlist-section{margin-top:34px;padding-top:28px;border-top:1px solid #d9dfd5}
+#trip-planner .wishlist-section>p{line-height:1.8;color:#65736a}
+#trip-planner .wish-input{margin:14px 0}
+#trip-planner :is(.outline,.wish-input>button){min-height:44px;border-radius:3px}
+#trip-planner .primary.generate{margin-top:32px;min-height:54px;border-radius:3px;font-weight:500;letter-spacing:.06em;background:#203D35}
+#trip-planner .form-footnote{line-height:1.8;margin-top:16px;color:#6e796f}
+@media(max-width:900px){#trip-planner.planning-section{grid-template-columns:1fr;padding:68px 6vw 76px}#trip-planner .planning-intro{position:static;padding:0;margin-bottom:42px}#trip-planner .planning-intro h2{font-size:42px;max-width:11em}#trip-planner .planning-intro .editorial-kicker{margin-bottom:22px}#trip-planner .planning-intro>p:not(.editorial-kicker){margin-top:22px;max-width:440px}#trip-planner .form-panel{border-left:0;border-top:1px solid #d9dfd5;padding:32px 0 0!important}}
+@media(max-width:450px){#trip-planner .planning-intro h2{font-size:36px}#trip-planner .date-grid{grid-template-columns:1fr}#trip-planner .date-grid .field{grid-column:auto}#trip-planner .segmented{gap:6px}#trip-planner .segmented button{padding:10px 14px}}
+#trip-planner .planning-intro h2>span{display:block;white-space:nowrap}
+@media(min-width:901px) and (max-width:1100px){#trip-planner .planning-intro h2{font-size:36px}}
