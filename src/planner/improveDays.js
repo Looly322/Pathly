@@ -1,8 +1,9 @@
+import {visitTimingPenalty} from './recommendationValue.js';
 import {preservesLocks} from './feasibility.js';
 // Bounded moves and swaps share the normal scheduler: no shortened visits or relaxed constraints.
 export function improveDays(days,settings,pace,scheduleDay,risk){
  const visiting=d=>d.events.filter(e=>e.kind==='ACTIVITY').reduce((n,e)=>n+(e.duration||0),0);
- const score=d=>d.fatigue.travel+d.events.reduce((n,e)=>n+(e.travel?.km||0)*2+(e.kind==='ACTIVITY'&&settings.weather?risk(e,d.date,settings.weather).score:0),0)+Math.max(0,210-visiting(d))**2/210;
+ const score=d=>visitTimingPenalty(d.events)+d.fatigue.travel+d.events.reduce((n,e)=>n+(e.travel?.km||0)*2+(e.kind==='ACTIVITY'&&settings.weather?risk(e,d.date,settings.weather).score:0),0)+Math.max(0,210-visiting(d))**2/210;
  const pinned=d=>Boolean(settings.preservedDays?.[d.date])||d.events.some(e=>Boolean(settings.lockedSlots?.[e.id]));
  const reschedule=(d,items)=>({...d,...scheduleDay(items,{...settings,planningDate:d.date,assignedMeals:d.mealAssignments},pace,d.events.filter(e=>e.kind==='MEAL'&&e.place).map(e=>e.place))});
  const valid=(a,b)=>preservesLocks(a,b,settings)&&!b.conflicts.length&&b.items.filter(i=>i.place.category==='CAFE').length<=1&&a.events.filter(e=>e.kind==='MEAL').map(e=>e.place?.id||e.slot).join('|')===b.events.filter(e=>e.kind==='MEAL').map(e=>e.place?.id||e.slot).join('|');

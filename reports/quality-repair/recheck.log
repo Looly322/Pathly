@@ -12,21 +12,25 @@
   }
 ]
 北京亲子 [
-  { date: '2026-11-27', places: [ '北京动物园', '恭王府博物馆' ], conflicts: [] },
+  {
+    date: '2026-11-27',
+    places: [ '北京动物园', '奥林匹克森林公园' ],
+    conflicts: []
+  },
   {
     date: '2026-11-28',
     places: [ '天安门', '故宫博物院', '龙潭公园' ],
     conflicts: []
   },
-  { date: '2026-11-29', places: [ '颐和园', '圆明园遗址公园' ], conflicts: [] }
+  { date: '2026-11-29', places: [ '圆明园遗址公园', '颐和园' ], conflicts: [] }
 ]
 巴黎 [
   {
     date: '2026-11-27',
     places: [
       'Louvre Museum (Musée du Louvre)',
-      'Palais Royal',
-      'Musée des Arts Décoratifs'
+      'Musée des Arts Décoratifs',
+      'Jardin du Palais Royal'
     ],
     conflicts: []
   },
@@ -35,7 +39,8 @@
     places: [
       "Orsay Museum (Musée d'Orsay)",
       "Musée de l'Orangerie",
-      'Rodin Museum (Musée Rodin)'
+      'Eiffel Tower (Tour Eiffel)',
+      "Arc de Triomphe (Arc de Triomphe de l'Étoile)"
     ],
     conflicts: []
   },
@@ -43,9 +48,7 @@
     date: '2026-11-29',
     places: [
       'Bourse de Commerce – Pinault Collection',
-      'Maison Européenne de la Photographie',
-      'Cathedral of Notre-Dame de Paris (Cathédrale Notre-Dame de Paris)',
-      'Panthéon'
+      'Rodin Museum (Musée Rodin)'
     ],
     conflicts: []
   }

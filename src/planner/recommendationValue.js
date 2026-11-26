@@ -10,3 +10,9 @@ export function recommendationValue(place,settings,selected=[]){
  const minor=(type==='unknown'?30:0)+(type==='zoo'&&!place.website&&!/zoo|动物园|野生动物/i.test(place.name||'')?45:0)+(['installation','wall_painting','sculptures','fountains'].includes(place.featureType)?25:0);
  return {score:interest+diversity+evidence+retrieval+scope-minor,interest,diversity,evidence,retrieval,scope,minor,basis:'planning-rule',ratingUsed:false};
 }
+// Conservative daytime preference for venues with unknown hours, not an opening-hour fact.
+export function visitTimingPenalty(events){return events.reduce((sum,e)=>{
+ if(e.kind!=='ACTIVITY'||e.place?.openingHours||e.place?.seasonalHours)return sum;
+ if(!['museum','majorMuseum','historicComplex','historicBuilding','religious','zoo','aquarium'].includes(e.place?.visit?.type))return sum;
+ return sum+Math.max(0,e.end-17*60)*4;
+},0);}

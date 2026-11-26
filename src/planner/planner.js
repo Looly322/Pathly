@@ -1,7 +1,7 @@
 import {sightseeingEligible} from './attractionEligibility.js';
 import {visitDuration,withVisitProfile,collapseContained,containedBy} from './visitDuration.js';
 import {assignRestaurants} from './dining.js';
-import {recommendationValue} from './recommendationValue.js';
+import {recommendationValue,visitTimingPenalty} from './recommendationValue.js';
 import {evaluatePlan} from './planQuality.js';
 import {dedupePlaces,samePlace} from './identity.js';
 import {improveDays} from './improveDays.js';
@@ -129,7 +129,8 @@ export function fillDay(day,candidates,settings,pace,food=[]){
     const addedTravel=trial.fatigue.travel-next.fatigue.travel;
     if(next.items.length&&addedTravel>(pace==='relaxed'?60:90))continue;
     const weather=trial.events.filter(e=>e.kind==='ACTIVITY').reduce((n,e)=>n+(settings.weather?eventWeather(e,day.date,settings.weather).score:0),0);
-    const score=preferenceScore(p,settings,next.items.map(i=>i.place))-Math.max(0,addedTravel)*.5-weather;
+    const score=preferenceScore(p,settings,next.items.map(i=>i.place))-Math.max(0,addedTravel)*.5-weather-visitTimingPenalty(trial.events);
+    if(score<=0&&!settings.mustIds?.includes(p.id))continue;
     if(!best||score>best.score)best={...trial,score};
    }
   }
@@ -169,7 +170,8 @@ export function generateItineraries(candidatePlaces,settings){
           const trial=scheduleDay([...selected,entry.p],daySettings,pace,food.filter(p=>!used.has(p.id)));
           if(trial.conflicts.length)continue;
           const weatherPenalty=settings.weather?trial.events.filter(e=>e.kind==='ACTIVITY').reduce((n,e)=>n+eventWeather(e,dayDate,settings.weather).score,0):0;
-          const value=entry.score-trial.fatigue.score*SCORE_WEIGHTS.fatigue-weatherPenalty+(hasMust&&settings.mustIds?.includes(entry.p.id)?100000:0);
+          const value=entry.score-visitTimingPenalty(trial.events)-trial.fatigue.score*SCORE_WEIGHTS.fatigue-weatherPenalty+(hasMust&&settings.mustIds?.includes(entry.p.id)?100000:0);
+          if(value<0&&!settings.mustIds?.includes(entry.p.id))continue;
           if(!best||value>best.value)best={place:entry.p,schedule:trial,value};
         }
         if(!best)break;

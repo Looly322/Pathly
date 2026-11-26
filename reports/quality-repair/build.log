@@ -7,17 +7,17 @@ transforming...
 ✓ 132 modules transformed.
 rendering chunks...
 computing gzip size...
-dist/index.html                                 0.54 kB │ gzip:   0.39 kB
+dist/index.html                                 0.54 kB │ gzip:   0.38 kB
 dist/assets/maplibre-gl-worker-Ceb832pW.js    507.81 kB
 dist/assets/GlobalMap-Cl1k9Dy8.css             84.95 kB │ gzip:  11.00 kB
 dist/assets/index-t5f0rjHg.css                 94.40 kB │ gzip:  18.63 kB
 dist/assets/index-C-IBCNzz.js                   5.35 kB │ gzip:   1.80 kB
-dist/assets/MapPlanner-BfZIcOcu.js              9.81 kB │ gzip:   3.87 kB
-dist/assets/index-5YmZJ3ME.js                 357.35 kB │ gzip: 126.83 kB
-dist/assets/GlobalMap-CQPfT1gv.js           1,048.57 kB │ gzip: 285.96 kB
+dist/assets/MapPlanner-BB8gGkSR.js              9.81 kB │ gzip:   3.87 kB
+dist/assets/index-qcMnor7M.js                 357.72 kB │ gzip: 126.94 kB
+dist/assets/GlobalMap-B8xgN0xt.js           1,048.57 kB │ gzip: 285.96 kB
 
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
-✓ built in 2.37s
+✓ built in 2.15s
