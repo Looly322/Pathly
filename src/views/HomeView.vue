@@ -2,7 +2,7 @@
 import {tripDraft,draftError} from '../state/tripDraft';
 import FavoriteButton from '../components/FavoriteButton.vue';
 import PlacePicker from '../components/PlacePicker.vue';
-import {reactive,ref,computed,onMounted,onUnmounted} from 'vue';
+import {reactive,ref,computed,watch,onMounted,onUnmounted} from 'vue';
 import EditorialPhoto from '../components/EditorialPhoto.vue';
 import TravelHeroVideo from '../components/TravelHeroVideo.vue';
 import PoeticTheme from '../components/PoeticTheme.vue';
@@ -11,6 +11,8 @@ import {destinations,interests,copy} from '../data/homeEditorial';
 import photoCredits from '../../public/images/home/credits.json';
 import {t,language} from '../i18n';
 
+import WeatherPanel from '../components/WeatherPanel.vue';
+import {resolveDestinations} from '../providers/destinationResolver';
 import SearchCalligraphy from '../components/SearchCalligraphy.vue';
 import CitySearch from '../components/CitySearch.vue';
 import PreferenceSelector from '../components/PreferenceSelector.vue';
@@ -18,6 +20,12 @@ const props=defineProps({initial:Object,selectedCity:String,busy:Boolean,searchE
 const emit=defineEmits(['generate','open-map','cancel','update:selectedCity']);
 const form=tripDraft;
 const wish=ref(''),error=ref(false);
+const weatherDestination=ref(null),weatherOptions=ref([]),weatherLoading=ref(false),weatherError=ref('');let weatherRun=0;
+const weatherDates=computed(()=>Array.from({length:Math.min(14,Math.max(1,Number(form.days)||1))},(_,i)=>{const d=new Date(form.date+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+i);return Number.isFinite(d.getTime())?d.toISOString().slice(0,10):'';}).filter(Boolean));
+watch(()=>form.selectedCity,()=>{weatherRun++;weatherDestination.value=null;weatherOptions.value=[];weatherError.value='';weatherLoading.value=false;});
+async function queryWeather(){const run=++weatherRun;weatherLoading.value=true;weatherError.value='';try{const options=await resolveDestinations(form.selectedCity);if(run!==weatherRun)return;weatherOptions.value=options;if(options.length===1)weatherDestination.value=options[0];if(!options.length)throw Error();}catch{if(run===weatherRun)weatherError.value=language.value==='zh'?'无法确认目的地，请重试。':'Could not resolve destination. Please retry.';}finally{if(run===weatherRun)weatherLoading.value=false;}}
+onUnmounted(()=>weatherRun++);
+
 function addWish(){const name=wish.value.trim();if(name&&!form.wishlist.includes(name))form.wishlist.push(name);wish.value='';}
 function payload(){return JSON.parse(JSON.stringify({...form,selectedCity:form.selectedCity.trim()}));}
 function valid(){return form.selectedCity.trim()&&form.date&&form.days>=1&&form.days<=14&&form.start<form.end&&Object.values(form.mealWindows).every(w=>w.start<w.end)&&Number.isFinite(form.budget)&&form.budget>=0&&Number.isInteger(form.people)&&form.people>=1&&form.people<=30;}
@@ -45,8 +53,9 @@ function beginJourney(){if(!form.selectedCity.trim()){hero.value?.querySelector(
 <div class="poetic-stories"><PoeticTheme v-for="(item,i) in interests" :key="item.id" :item="item" :index="i" :busy="busy" :selected="form.interests.includes(item.id)" :selected-text="words.selected" @choose="chooseInterest"/></div>
 </section>
 <section id="travel-destinations" class="dest-section editorial-section"><div class="section-top"><div><p class="editorial-kicker">02 — {{words.destLabel}}</p><h2>{{words.destTitle}}</h2></div><p>{{words.destSub}}</p></div><DestinationGallery :destinations="destinations" :busy="busy" :choose-label="words.choose" @choose="chooseDestination"/></section>
-<section id="trip-planner" class="planning-section"><SearchCalligraphy/><aside class="planning-intro"><p class="editorial-kicker">03 — {{words.step}}</p><h2 id="planner-title" tabindex="-1"><template v-if="language==='zh'"><span>把向往，</span><span>安排成旅程。</span></template><template v-else>{{words.planTitle}}</template></h2><p>{{words.planSub}}</p></aside><section class="form-panel"><form @submit.prevent="submit"><p v-if="selectionNotice" class="selection-notice" role="status">✓ {{words.applied}} · {{t('planner.interests.'+selectionNotice)}}</p>
+<section id="trip-planner" class="planning-section"><SearchCalligraphy/><aside class="planning-intro"><p class="editorial-kicker">03 — {{words.step}}</p><h2 id="planner-title" tabindex="-1"><template v-if="language==='zh'"><span>把向往，</span><span>安排成旅程。</span></template><template v-else>{{words.planTitle}}</template></h2><p>{{words.planSub}}</p><div class="planning-ink-art" aria-hidden="true"></div></aside><section class="form-panel"><form @submit.prevent="submit"><p v-if="selectionNotice" class="selection-notice" role="status">✓ {{words.applied}} · {{t('planner.interests.'+selectionNotice)}}</p>
 <CitySearch v-model="form.selectedCity" @update:model-value="emit('update:selectedCity',$event)"/>
+<div class="planning-weather"><button type="button" class="text-button" :disabled="!form.selectedCity.trim()||weatherLoading" @click="queryWeather">{{weatherLoading?(language==='zh'?'正在查询天气…':'Loading weather…'):(language==='zh'?'查询目的地天气 ↗':'Destination weather ↗')}}</button><p v-if="weatherError" role="status">{{weatherError}}</p><div v-if="weatherOptions.length>1&&!weatherDestination"><button type="button" v-for="city in weatherOptions" :key="city.id" @click="weatherDestination=city">{{city.displayName}} · {{city.country}} {{city.region}}</button></div><WeatherPanel v-if="weatherDestination" :destination="weatherDestination" :dates="weatherDates"/></div>
 <div class="form-section date-grid"><label class="field">{{t('date')}}<input type="date" v-model="form.date" required/></label><label class="field">{{t('planner.days')}}<input type="number" min="1" max="14" v-model.number="form.days" required/></label><label class="field">{{t('planner.party')}}<select v-model="form.party"><option v-for="(label,id) in t('planner.parties')" :value="id" :key="id">{{label}}</option></select></label></div>
 <div class="form-section date-grid"><label class="field">{{t('start')}}<input type="time" v-model="form.start" required/></label><label class="field">{{t('end')}}<input type="time" v-model="form.end" required/></label></div>
 <div class="form-section date-grid"><label class="field">{{language==='zh'?'出行人数':'Travellers'}}<input type="number" min="1" max="30" v-model.number="form.people" required/></label><label class="field">{{language==='zh'?'交通偏好':'Transport'}}<select v-model="form.transport"><option value="transit">{{language==='zh'?'公共交通':'Public transport'}}</option><option value="walking">{{language==='zh'?'步行':'Walking'}}</option><option value="driving">{{language==='zh'?'驾车（当前为估算）':'Driving (estimated)'}}</option></select></label></div><div class="form-section"><div class="label-row">{{t('interests')}}</div><PreferenceSelector v-model="form.interests" :options="t('planner.interests')"/></div>

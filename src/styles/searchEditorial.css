@@ -79,3 +79,8 @@ html[lang=en] #trip-planner .planning-intro h2{font-family:PathlySearchEnglish,G
 @media(max-width:450px){#trip-planner .planning-intro h2{font-size:36px}#trip-planner .date-grid{grid-template-columns:1fr}#trip-planner .date-grid .field{grid-column:auto}#trip-planner .segmented{gap:6px}#trip-planner .segmented button{padding:10px 14px}}
 #trip-planner .planning-intro h2>span{display:block;white-space:nowrap}
 @media(min-width:901px) and (max-width:1100px){#trip-planner .planning-intro h2{font-size:36px}}
+/* The original transparent Shenlong manuscript, cropped without changing its strokes.
+   A quiet persistent fragment makes the decoration discoverable before pointer reveal. */
+#trip-planner .planning-ink-art{height:250px;max-width:340px;margin-top:42px;background:url('/images/search/lantingxu-ink.webp') right top / auto 250px no-repeat;opacity:.24;pointer-events:none;mask-image:linear-gradient(to bottom,#000 80%,transparent)}
+#trip-planner .planning-weather{margin:12px 0 20px;font-size:13px}
+@media(max-width:900px){#trip-planner .planning-ink-art{height:150px;max-width:100%;background-size:auto 150px;margin-top:24px}}

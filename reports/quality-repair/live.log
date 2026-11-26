@@ -1,0 +1,5 @@
+[
+  { city: '北京', n: 188, error: undefined },
+  { city: '北京亲子', n: 190, error: undefined },
+  { city: '巴黎', n: 46, error: undefined }
+]

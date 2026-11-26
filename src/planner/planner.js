@@ -1,3 +1,4 @@
+import {sightseeingEligible} from './attractionEligibility.js';
 import {visitDuration,withVisitProfile,collapseContained,containedBy} from './visitDuration.js';
 import {assignRestaurants} from './dining.js';
 import {recommendationValue} from './recommendationValue.js';
@@ -75,6 +76,7 @@ export function scheduleDay(items,settings,pace,foodPlaces=[]){
   for(const item of items){
     const place=item.place||item;
     let duration=visitDuration(place,settings,pace,item);
+    const internalMeals=[];
     const internal=place.visit?.internalBreaks||(duration>=240&&['majorMuseum','museum','historicComplex'].includes(place.visit?.type));
     let route=travelBetween(last,place,settings);
     if(!internal&&windows.length&&roundStart(Math.max(cursor,place.category==='NIGHTLIFE'?1080:cursor)+route.minutes+(last?style.buffer:0))+duration>windows[0].end-30) {meal(windows.shift(),events.some(e=>e.kind==='ACTIVITY')?null:place);route=travelBetween(last,place,settings);}
@@ -84,8 +86,8 @@ export function scheduleDay(items,settings,pace,foodPlaces=[]){
     const slot=openingSlot(place,settings.planningDate||settings.date,start,duration);start=roundStart(slot.start);
     const pinned=settings.lockedSlots?.[place.id];if(pinned){if(start>pinned.start)scheduleConflicts.push('transport');start=pinned.start;duration=pinned.end-pinned.start;}
     const matches=place.subcategories.filter(i=>settings.interests.includes(i));
-    if(internal){for(let n=windows.length-1;n>=0;n--){const w=windows[n];if(w.start<start+duration&&w.end>start){if(settings.assignedMeals?.[w.slot])scheduleConflicts.push('parkMeal');else windows.splice(n,1);}}restDone=true;}
-    push({internalBreaks:!!internal,id:place.id,kind:'ACTIVITY',activityType:place.category,place,travel:route,matches,reason:settings.mustIds?.includes(place.id)?'must':matches.length?'interest':'nearby'},start,duration);
+    if(internal){for(let n=windows.length-1;n>=0;n--){const w=windows[n];if(w.start<start+duration&&w.end>start){if(settings.assignedMeals?.[w.slot])scheduleConflicts.push('parkMeal');else {internalMeals.push(w.slot);windows.splice(n,1);}}}restDone=true;}
+    push({internalMeals,internalBreaks:!!internal,id:place.id,kind:'ACTIVITY',activityType:place.category,place,travel:route,matches,reason:settings.mustIds?.includes(place.id)?'must':matches.length?'interest':'nearby'},start,duration);
     continuous+=route.minutes+duration;last=place;
   }
   if(items.length&&!restDone)rest();
@@ -115,7 +117,7 @@ export function fillDay(day,candidates,settings,pace,food=[]){
  let next=day;
  if(next.conflicts.length||next.items.some(i=>i.place.visit?.fullDay))return next;
  const local={...settings,planningDate:day.date,assignedMeals:day.mealAssignments};
- const pool=dedupePlaces(candidates,settings.mustIds).filter(p=>validPlace(p)&&p.planningEligible!==false&&!p.isOutskirts&&!['FOOD','CAFE'].includes(p.category)&&(p.category!=='ENTERTAINMENT'||settings.interests.includes('ENTERTAINMENT')||settings.mustIds?.includes(p.id)));
+ const pool=dedupePlaces(candidates,settings.mustIds).filter(p=>validPlace(p)&&sightseeingEligible(p,settings)&&!p.isOutskirts&&!['FOOD','CAFE'].includes(p.category)&&(p.category!=='ENTERTAINMENT'||settings.interests.includes('ENTERTAINMENT')||settings.mustIds?.includes(p.id)));
  while(next.items.length<PACES[pace].max){
   let best=null;
   for(const p of pool){
@@ -144,7 +146,7 @@ export function generateItineraries(candidatePlaces,settings){
  settings={...settings,mustIds:[...new Set(originalMust.map(id=>covered.find(c=>c.id===id)?.parentId||id))]};
   return Object.keys(PACES).map(pace=>{
     const used=new Set(),days=[],food=unique.filter(p=>p.category==='FOOD'&&!settings.mustIds?.includes(p.id));
-    const core=unique.filter(p=>(p.category!=='ENTERTAINMENT'||settings.interests.includes('ENTERTAINMENT')||settings.mustIds?.includes(p.id))&&(!p.isOutskirts||settings.mustIds?.includes(p.id))&&(p.category!=='FOOD'||settings.mustIds?.includes(p.id))&&(p.category!=='CAFE'||settings.interests.includes('FOOD')||settings.mustIds?.includes(p.id)));
+    const core=unique.filter(p=>sightseeingEligible(p,settings)&&(p.category!=='ENTERTAINMENT'||settings.interests.includes('ENTERTAINMENT')||settings.mustIds?.includes(p.id))&&(!p.isOutskirts||settings.mustIds?.includes(p.id))&&(p.category!=='FOOD'||settings.mustIds?.includes(p.id))&&(p.category!=='CAFE'||settings.interests.includes('FOOD')||settings.mustIds?.includes(p.id)));
     for(let day=0;day<settings.days;day++){
       const date=new Date(settings.date+'T12:00:00');date.setDate(date.getDate()+day);
       const dayDate=`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;

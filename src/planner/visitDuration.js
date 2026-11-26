@@ -11,6 +11,8 @@ export const VISIT_TYPES={
  nationalPark:{label:'国家公园 / 大型户外景区',en:'National park',range:[240,360,600],fullDay:true,internalBreaks:true},
  historicComplex:{label:'历史建筑群',en:'Historic complex',range:[120,180,300]},
  historicBuilding:{label:'历史建筑',en:'Historic building',range:[30,60,90]},
+ zoo:{label:'动物园 / 野生动物园',en:'Zoo / wildlife park',range:[120,210,360]},
+ aquarium:{label:'水族馆',en:'Aquarium',range:[60,120,180]},
  cityPark:{label:'城市公园',en:'City park',range:[45,90,150]},
  district:{label:'街区 / 步行街',en:'Walking district',range:[45,90,150]},
  viewpoint:{label:'观景台',en:'Observation deck',range:[30,60,90]},
@@ -20,7 +22,7 @@ export const VISIT_TYPES={
  cafe:{label:'咖啡馆',en:'Café',range:[30,45,75]},
  unknown:{label:'信息不足的景点',en:'Unclassified place',range:[45,90,150]},
 };
-export function verifiedProfile(p){return profiles.find(v=>(!p.countryCode||p.countryCode===v.country)&&haversineDistance(p,{latitude:v.lat,longitude:v.lng})<4&&names(p).some(n=>v.names.some(alias=>clean(n)===clean(alias))));}
+export function verifiedProfile(p){return profiles.find(v=>(!p.countryCode||p.countryCode===v.country)&&haversineDistance(p,{latitude:v.lat,longitude:v.lng})<4&&names(p).flatMap(n=>String(n).split(/[()（）]/).filter(Boolean)).some(n=>v.names.some(alias=>clean(n)===clean(alias))));}
 export function visitProfile(p){
  const verified=verifiedProfile(p);
  const types=[...(p.categories||[]).map(v=>v.name),p.type,p.featureType,p.poiCategory,p.tourism,p.leisure,p.boundary,p.category].join(' ');
@@ -29,6 +31,9 @@ export function visitProfile(p){
  if(!type){
   if(/hotel|酒店|宾馆|商店|gift shop|parking|停车场/i.test(types))type='unknown';
   else if(/theme_park|theme park|主题[公乐]园|游乐园|游乐场|迪士尼乐园$|disneyland$|universal studios$|环球影城$/i.test(text))type='themePark';
+  else if(/zoo|动物园|野生动物/i.test(text))type='zoo';
+  else if(/aquarium|水族馆|海洋馆/i.test(text))type='aquarium';
+  else if(/世界遗产/.test(types)&&/园|城|遗址/.test(name)||/长城|great wall/i.test(name))type='historicComplex';
   else if(/national.?park|国家公园|国家森林公园/i.test(text))type='nationalPark';
   else if(/nature_reserve|scenic.?area|风景名胜区|自然保护区|风景区|国家级.*景区/i.test(text))type='scenicArea';
   else if(/major.?museum|大型博物馆/i.test(text))type='majorMuseum';
@@ -47,7 +52,7 @@ export function visitProfile(p){
  const base=VISIT_TYPES[type];
  return {...base,type,range:verified?.range||base.range,profileId:verified?.key||null,version:VISIT_PROFILE_VERSION,basis:verified?'reviewed-profile':type==='unknown'?'fallback':'type-rule',confidence:verified?'medium':'low',sources:verified?[verified.source]:[p.sourceUrl,p.website].filter(v=>/^https:\/\//.test(v||'')),reviewedAt:verified?'2026-11-10':null,estimated:true};
 }
-export function withVisitProfile(p){const visit=visitProfile(p);const verified=verifiedProfile(p);return {...p,aliases:[...new Set([...(p.aliases||[]),...(verified?.names||[])])],visit,estimatedDuration:visit.range[1],minimumDuration:visit.range[0],durationEstimated:true,large:visit.range[1]>=180};}
+export function withVisitProfile(p){const visit=visitProfile(p);const verified=verifiedProfile(p);return {...p,subcategories:[...new Set([...(p.subcategories||[]),...(verified?.key==='louvre'?['ART','CULTURE']:[])])],aliases:[...new Set([...(p.aliases||[]),...(verified?.names||[])])],visit,estimatedDuration:visit.range[1],minimumDuration:visit.range[0],durationEstimated:true,large:visit.range[1]>=180};}
 export function visitDuration(p,settings,pace='balanced',item={}){
  const pref=settings.visitPreferences?.[p.id],profile=p.visit||visitProfile(p);
  if(!p.visit&&!pref)return item.duration||Math.max(p.minimumDuration||15,Math.round((p.estimatedDuration||90)*({relaxed:1.15,balanced:1,efficient:.9}[pace]||1)/5)*5);
@@ -61,6 +66,13 @@ export function visitDuration(p,settings,pace='balanced',item={}){
 // Containment is NOT identity deduplication. Never infer containment from distance alone.
 export function parentProfile(p){return profiles.find(v=>(!p.countryCode||p.countryCode===v.country)&&haversineDistance(p,{latitude:v.lat,longitude:v.lng})<2&&names(p).some(n=>v.names.some(a=>clean(n)!==clean(a)&&clean(n).startsWith(clean(a))&&clean(a).length>3)));}
 export function containedBy(child,parent){if(child.id===parent.id)return false;
+ // A provider address explicitly names a parent site, with the same official
+ // website and nearby coordinates. This distinguishes internal exhibits from neighbours.
+ const addressName=s=>clean(s).replace(/muséed[eu]louvre/g,'museedulouvre');
+ if(haversineDistance(child,parent)<.5&&['museum','majorMuseum','historicComplex'].includes(parent.visit?.type)&&names(parent).some(n=>n.length>=8&&addressName(child.address||'').includes(addressName(n)))&&child.address!==parent.address)return true;
+ const host=url=>{try{return new URL(url).hostname.replace(/^www\./,'')}catch{return ''}};
+ if(parent.website&&host(parent.website)===host(child.website)&&haversineDistance(child,parent)<1&&names(parent).some(n=>clean(n).length>=5&&clean(child.address||'').includes(clean(n)))&&child.address!==parent.address)return true;
+
  // Provider-qualified subsite names are evidence only within the parent grounds.
  if(!['FOOD','CAFE','HOTEL'].includes(parent.category)&&haversineDistance(child,parent)<.5&&names(child).some(n=>names(parent).some(a=>a.length>=3&&n.startsWith(a+'-'))))return true;if(child.parentId===parent.id||child.partOf===parent.wikidata&&parent.wikidata)return true;const profile=parent.visit?.profileId||verifiedProfile(parent)?.key;const component=SITE_COMPONENTS[profile];
  if(component&&haversineDistance(child,parent)<component.radius&&names(child).some(n=>component.names.some(a=>clean(n)===clean(a))))return true;

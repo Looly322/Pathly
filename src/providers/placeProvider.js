@@ -2,7 +2,7 @@ import {apiJson} from '../services/apiClient.js';
 import {normalizePlace,validPlace} from '../planner/place.js';
 import {searchPlaces} from '../services/placeService.js';
 import {resolveMapCity} from '../services/cityService.js';
-const queries={CULTURE:['','博物馆'],FOOD:['','中餐厅'],NATURE:['公园','风景名胜'],SHOPPING:['购物中心','购物服务'],ART:['美术馆','科教文化服务'],CITY_WALK:['历史街区','风景名胜'],ENTERTAINMENT:['娱乐','体育休闲服务'],NIGHTLIFE:['夜景','风景名胜'],FAMILY:['动物园','风景名胜']};
+const queries={CULTURE:['','140100'],FOOD:['','050100'],NATURE:['公园','风景名胜'],SHOPPING:['购物中心','购物服务'],ART:['美术馆','科教文化服务'],CITY_WALK:['历史街区','风景名胜'],ENTERTAINMENT:['娱乐','体育休闲服务'],NIGHTLIFE:['夜景','风景名胜'],FAMILY:['动物园','风景名胜']};
 // PlaceProvider 契约：search({destination,interests,wishlist}) -> {places,warnings}。
 // 规划器不导入任何地图 SDK 或提供方。未来提供方实现相同方法即可注册。
 export const AmapPlaceProvider={
@@ -10,7 +10,7 @@ export const AmapPlaceProvider={
     const city=await resolveMapCity(destination.displayName||destination.city);
     const all=new Map(), warnings=[];
     const pageCount=Math.min(3,Math.max(1,Math.ceil(Number(days)/2)));
-    const categories=[['','风景名胜'],...interests.map(i=>queries[i]).filter(Boolean)];
+    const categories=[['','风景名胜'],['','110200'],...interests.filter(i=>i!=='FOOD').map(i=>queries[i]).filter(Boolean),...(interests.includes('FOOD')?[queries.FOOD]:[])];
     const requests=[...wishlist.slice(0,8).map(name=>[name,'',1]),...categories.flatMap(q=>Array.from({length:pageCount},(_,i)=>[...q,i+1]))];
     const deadline=Date.now()+35000;let count=0;
     for(const [keyword,type,pageIndex] of new Map(requests.map(q=>[q.join('|'),q])).values()) {
@@ -28,7 +28,7 @@ export const AmapPlaceProvider={
       } catch {warnings.push(keyword||type);}
     }
     if(!all.size) throw new Error('NO_PLACE_DATA');
-    return {places:[...all.values()].filter(p=>p.planningEligible!==false).filter(p=>p.planningEligible!==false),warnings,limited:false};
+    return {places:[...all.values()].filter(p=>p.planningEligible!==false),warnings,limited:false};
   }
 };
 export const CurrentOverseasProvider={

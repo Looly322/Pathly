@@ -3,6 +3,8 @@ export function openingRanges(place,date){
  if(place.closurePeriods?.some(c=>c.source&&date>=c.from&&date<=c.through))return [];
 
  if(place.openingHoursByDate&&Object.hasOwn(place.openingHoursByDate,date))return place.openingHoursByDate[date];
+ const season=place.seasonalHours;
+ if(season?.source){const d=new Date(date+'T12:00:00Z');if(season.closedWeekdays?.includes(d.getUTCDay()))return [];const range=season.seasons?.find(s=>s.months.includes(d.getUTCMonth()+1));if(range)return [range];}
  const weekly=place.openingHours?.weekly,day=new Date(date+'T12:00:00Z').getUTCDay();
  return weekly&&Object.hasOwn(weekly,day)?weekly[day]:null;
 }
