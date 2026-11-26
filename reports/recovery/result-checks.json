@@ -1,0 +1,13 @@
+{
+  "errors": [],
+  "source": "existing-snapshot: historical real POI data, not fresh live POI retrieval",
+  "checks": [
+    "full plan restore after reload",
+    "three section rendering",
+    "minus15 plus15 lock unlock",
+    "day switching",
+    "route favorite persisted",
+    "exit leaves history and favorites intact"
+  ],
+  "imgs": []
+}

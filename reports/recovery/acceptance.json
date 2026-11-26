@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-26",
+  "build": "passed",
+  "javascriptTests": {
+    "passed": 129,
+    "failed": 0
+  },
+  "pythonTests": {
+    "passed": 41,
+    "failed": 0
+  },
+  "browser": {
+    "video": "passed",
+    "calligraphy": "passed",
+    "folder": "passed",
+    "draftReload": "passed",
+    "mobileOverflow": "passed",
+    "originalSnapshotRestore": "passed",
+    "editDurationAndLock": "passed",
+    "historyAndFavoritePersistence": "passed",
+    "parisThreeDays": "passed with existing historical real POI snapshot"
+  },
+  "external": {
+    "citySearchParis": "passed",
+    "commonsCityCover": "passed",
+    "commonsPlaces": "partial; missing images retain placeholder",
+    "overseasHotelSearch": "UPSTREAM_UNAVAILABLE",
+    "domesticSearch": "not passed; original AMap configuration absent"
+  },
+  "sourceConversationCount": 1,
+  "novemberDevelopmentDates": [
+    "2026-11-03",
+    "2026-11-10",
+    "2026-11-17"
+  ],
+  "fullFileFragments": 222,
+  "distinctSnapshotFiles": 204,
+  "originalPhotoDownloads": {
+    "success": 43,
+    "total": 44
+  }
+}

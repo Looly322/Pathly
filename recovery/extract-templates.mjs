@@ -1,0 +1,4 @@
+import fs from 'node:fs';import vm from 'node:vm';
+const p='/Users/conths/.codex/sessions/2026/09/29/rollout-2026-09-29T14-10-41-01a0ebc9-6ae6-74a1-b8d1-7a327f071014.jsonl';const rows=[];
+for(const line of fs.readFileSync(p,'utf8').split('\n')){if(!line)continue;const r=JSON.parse(line),v=r.payload;if(r.timestamp>='2026-11-26'||v?.name!=='exec'||!v.input?.includes('cmd:`'))continue;const tools=new Proxy({},{get:(_,name)=>async args=>{if(name==='exec_command'&&args?.cmd)rows.push({at:r.timestamp,cmd:args.cmd});return {output:'',content:[]};}});try{await vm.runInNewContext('(async()=>{'+v.input+'})()',{tools,text:()=>{},image:()=>{},ALL_TOOLS:[],store:()=>{},load:()=>undefined},{timeout:100});}catch{}}
+fs.writeFileSync('recovery/template-commands.json',JSON.stringify(rows,null,2));console.log(rows.length);

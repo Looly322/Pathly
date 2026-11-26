@@ -17,6 +17,7 @@ for line in source.open():
    if re.search(r'(?:sk-|AIza)[A-Za-z0-9_-]{20,}',cmd):continue
    commands.append({'at':stamp,'cmd':cmd})
   except:pass
+Path('recovery/commands.json').write_text(json.dumps(commands,ensure_ascii=False))
 # Keep only original source creation payloads. Never execute recorded commands.
 count=0;manifest=[]
 for entry in commands:

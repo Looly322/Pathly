@@ -1,0 +1,9 @@
+{
+  "errors": [],
+  "checks": [
+    "folder default/open/retract",
+    "8 clickable postcards",
+    "draft reload preserves city/date/wish",
+    "mobile no horizontal overflow"
+  ]
+}

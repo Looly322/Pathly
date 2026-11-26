@@ -1,0 +1,3332 @@
+[
+  {
+    "at": "2026-09-29T06:15:44.553Z",
+    "action": "run",
+    "status": "review",
+    "error": "PermissionError: outside recovery root"
+  },
+  {
+    "at": "2026-09-29T06:17:08.053Z",
+    "action": "run",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-create.py'"
+  },
+  {
+    "at": "2026-09-29T06:29:58.444Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: outside recovery root"
+  },
+  {
+    "at": "2026-09-29T06:30:22.044Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T06:31:47.841Z",
+    "action": "cat > tests/browser/app.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-09-29T06:33:19.840Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T06:34:00.398Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T06:34:00.398Z",
+    "action": "cat > tests/browser/language.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-09-29T06:34:52.530Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T06:35:12.247Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T06:47:38.278Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: environment file excluded"
+  },
+  {
+    "at": "2026-09-29T06:49:29.888Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T06:51:32.685Z",
+    "action": "run",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T06:56:32.804Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T06:57:03.968Z",
+    "action": "cat > .tools/amap-live.mjs",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-09-29T06:57:48.894Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T06:58:34.743Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-09-29T07:00:47.062Z",
+    "action": "cat > tests/browser/map-planning.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-09-29T07:02:37.446Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:03:10.215Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:04:29.866Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-09-29T07:05:29.470Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:07:19.663Z",
+    "action": "cat > .tools/debug-resize.mjs",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-09-29T07:08:25.299Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:28:31.830Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:28:31.830Z",
+    "action": "cat > .tools/probe-transit.mjs",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-09-29T07:31:56.047Z",
+    "action": "run",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:31:56.047Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-09-29T07:33:19.152Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-09-29T07:41:53.502Z",
+    "action": "run",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:44:14.626Z",
+    "action": "cat >> tests/browser/map-planning.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-09-29T07:46:51.265Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:47:56.734Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:49:49.581Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:51:02.965Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:51:33.900Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T07:52:49.937Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:06:33.063Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:07:12.930Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:09:23.699Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:10:10.629Z",
+    "action": "cat >> tests/browser/app.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-09-29T08:10:10.629Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:10:39.878Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:11:46.375Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:12:02.735Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:14:03.385Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:23:43.270Z",
+    "action": "cat > .tools/inspect-regions.mjs",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-09-29T08:24:58.944Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:25:31.389Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-09-29T08:38:15.633Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:38:37.724Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-09-29T08:39:04.453Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-09-29T08:39:48.001Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-09-29T08:40:05.477Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-09-29T08:40:59.835Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "JSONDecodeError: Expecting property name enclosed in double quotes: line 3 column 5 (char 24)"
+  },
+  {
+    "at": "2026-09-29T08:42:00.111Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-09-29T08:42:40.067Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "JSONDecodeError: Expecting property name enclosed in double quotes: line 3 column 5 (char 24)"
+  },
+  {
+    "at": "2026-09-29T08:44:26.286Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:44:26.286Z",
+    "action": "cat >> tests/browser/app.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-09-29T08:45:42.303Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:54:13.879Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:55:24.051Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:56:28.095Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:59:22.025Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T08:59:22.025Z",
+    "action": "cat > tests/browser/nationwide.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-09-29T08:59:41.255Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T09:00:55.090Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T09:01:48.231Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T09:02:20.799Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T09:19:56.362Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:21:09.871Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: environment file excluded"
+  },
+  {
+    "at": "2026-09-29T11:21:22.689Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:22:08.396Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:22:24.175Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:37:30.223Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:39:37.247Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:39:59.903Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:41:00.126Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:42:32.533Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:42:32.533Z",
+    "action": "cat > tests/browser/global.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-09-29T11:42:48.857Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: sys"
+  },
+  {
+    "at": "2026-09-29T11:44:13.219Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:44:13.219Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: sys"
+  },
+  {
+    "at": "2026-09-29T11:44:37.439Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:45:36.261Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:46:36.792Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: sys"
+  },
+  {
+    "at": "2026-09-29T11:54:38.066Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:55:37.867Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:56:07.750Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:56:49.462Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T11:58:55.929Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:15:06.771Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:15:55.420Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:16:24.269Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:17:01.812Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:17:47.898Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:19:23.483Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:30:57.750Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-09-29T12:30:57.750Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-09-29T12:32:01.237Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:32:01.237Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:32:39.603Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:33:02.687Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:35:18.442Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:36:59.982Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:47:28.865Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-09-29T12:48:06.156Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:48:49.126Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:49:42.303Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:58:37.711Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T12:59:30.934Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:19:50.654Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: datetime"
+  },
+  {
+    "at": "2026-09-29T14:21:14.734Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:26:17.449Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:29:21.914Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:30:54.771Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-09-29T14:32:30.408Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:33:52.457Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:35:16.708Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:38:56.195Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:39:33.673Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:41:02.917Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:41:23.242Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:42:40.148Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:43:25.417Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:44:55.005Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:46:25.876Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:46:50.765Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:48:42.347Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:49:50.767Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:51:47.958Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:58:10.992Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T14:58:30.968Z",
+    "action": "run",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-09-29T14:58:56.800Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:00:29.032Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:00:29.032Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:00:55.226Z",
+    "action": "run",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-09-29T15:03:10.076Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:13:17.066Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: sys"
+  },
+  {
+    "at": "2026-09-29T15:13:42.655Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-09-29T15:13:54.144Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: sys"
+  },
+  {
+    "at": "2026-09-29T15:14:07.489Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: sys"
+  },
+  {
+    "at": "2026-09-29T15:17:18.050Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:18:15.687Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-09-29T15:21:03.159Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:21:57.982Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:22:18.519Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: glob"
+  },
+  {
+    "at": "2026-09-29T15:22:32.672Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:23:09.665Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:23:48.139Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: glob"
+  },
+  {
+    "at": "2026-09-29T15:24:15.171Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:58:04.682Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:58:20.160Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-29T15:59:00.010Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-30T04:34:56.752Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "AssertionError: "
+  },
+  {
+    "at": "2026-09-30T04:35:40.517Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-30T04:35:40.517Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: sys"
+  },
+  {
+    "at": "2026-09-30T04:36:14.506Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-30T04:37:25.227Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-09-30T04:38:40.765Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: sys"
+  },
+  {
+    "at": "2026-09-30T04:45:14.946Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-30T04:45:56.918Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-09-30T04:46:28.260Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-10-13T07:03:50.492Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-10-13T07:09:39.717Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-otm-openapi.json'"
+  },
+  {
+    "at": "2026-10-13T07:18:28.744Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: environment file excluded"
+  },
+  {
+    "at": "2026-10-13T07:24:11.765Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T07:30:25.366Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: sys"
+  },
+  {
+    "at": "2026-10-13T07:37:32.698Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: environment file excluded"
+  },
+  {
+    "at": "2026-10-13T07:41:59.201Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T07:43:50.992Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-10-13T07:52:10.643Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T07:54:12.792Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T07:55:21.014Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T07:55:50.009Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T07:56:24.569Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T07:58:05.026Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T07:59:32.834Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T08:10:54.352Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T08:16:13.690Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T08:18:18.691Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-10-13T08:20:58.834Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T08:22:14.998Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: glob"
+  },
+  {
+    "at": "2026-10-13T08:24:45.314Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T10:37:56.512Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-13T12:22:13.382Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: subprocess"
+  },
+  {
+    "at": "2026-10-13T12:25:35.494Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-14T13:50:21.793Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-doc-review/build.py'"
+  },
+  {
+    "at": "2026-10-14T13:51:27.221Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-doc-review/build.py'"
+  },
+  {
+    "at": "2026-10-15T05:46:35.035Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T05:48:09.190Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T05:49:10.845Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T05:50:53.098Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T05:51:34.389Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T05:52:09.557Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T05:54:01.899Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:14:39.195Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-positron.json'"
+  },
+  {
+    "at": "2026-10-15T06:17:18.043Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:20:31.752Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:21:39.298Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:22:17.856Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:24:52.735Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-positron.json'"
+  },
+  {
+    "at": "2026-10-15T06:28:30.748Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:32:11.720Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:44:50.990Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-liberty.json'"
+  },
+  {
+    "at": "2026-10-15T06:52:17.495Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:54:35.960Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:56:53.462Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:56:53.462Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T06:57:30.234Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T07:00:48.353Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T07:02:16.468Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T07:02:46.046Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T07:55:38.033Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-10-15T07:55:38.033Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T07:58:47.111Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-10-15T11:43:09.639Z",
+    "action": "run",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-10-15T11:46:42.041Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T11:47:43.124Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T11:48:34.585Z",
+    "action": "run",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-10-15T11:49:24.940Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-10-15T11:50:15.211Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T11:52:43.818Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T11:54:09.426Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T11:54:33.984Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T11:54:53.666Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T11:56:44.017Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ValueError: substring not found"
+  },
+  {
+    "at": "2026-10-15T11:58:14.931Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T11:58:47.151Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T12:02:05.715Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T12:04:51.031Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T12:22:10.540Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T12:23:02.238Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T12:24:53.067Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T12:32:01.924Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T12:48:25.994Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T12:49:49.940Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T12:49:49.940Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T12:52:38.645Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T13:07:59.647Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-15T13:10:51.234Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T06:13:10.797Z",
+    "action": "cat > api/index.py",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-10-20T06:13:10.797Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T06:13:10.797Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T06:14:15.487Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-10-20T06:15:05.233Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-10-20T06:16:40.800Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T06:26:11.068Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T06:48:17.814Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-photo.html'"
+  },
+  {
+    "at": "2026-10-20T06:52:12.448Z",
+    "action": "run",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: concurrent.futures"
+  },
+  {
+    "at": "2026-10-20T06:52:25.325Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-assets.py'"
+  },
+  {
+    "at": "2026-10-20T06:52:25.325Z",
+    "action": "run",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: concurrent.futures"
+  },
+  {
+    "at": "2026-10-20T06:53:52.323Z",
+    "action": "cat > src/data/homeEditorial.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T06:53:52.323Z",
+    "action": "cat > src/components/EditorialPhoto.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T06:53:52.323Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T06:55:20.707Z",
+    "action": "cat > src/views/homeEditorial.css",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T06:55:20.707Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T06:55:57.108Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T06:57:22.856Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T06:57:22.856Z",
+    "action": "cat > tests/browser/home-editorial.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T07:01:06.919Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T07:02:36.441Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: 'public/images/home/credits.json'"
+  },
+  {
+    "at": "2026-10-20T07:17:53.355Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-video-page.html'"
+  },
+  {
+    "at": "2026-10-20T07:20:05.407Z",
+    "action": "cat > src/components/TravelHeroVideo.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T07:20:05.407Z",
+    "action": "cat > src/components/PoeticTheme.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T07:22:12.816Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T07:22:45.711Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: 'public/images/home/credits.json'"
+  },
+  {
+    "at": "2026-10-20T07:23:42.161Z",
+    "action": "cat > tests/browser/home-video-poetry.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T07:24:36.474Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T07:26:46.449Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T07:27:35.925Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T07:39:24.591Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-wall-assets.py'"
+  },
+  {
+    "at": "2026-10-20T07:42:42.931Z",
+    "action": "cat > src/components/PoeticTheme.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T07:43:20.827Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T07:44:02.948Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-wall-assets.py'"
+  },
+  {
+    "at": "2026-10-20T07:44:32.968Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T07:45:16.628Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T07:46:01.907Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T07:46:01.907Z",
+    "action": "cat > tests/browser/home-image-walls.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T07:48:03.885Z",
+    "action": "cat > public/fonts/README.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T07:48:03.885Z",
+    "action": "cat > reports/home-image-walls/README.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T07:59:41.106Z",
+    "action": "cat > src/components/BrandIntro.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T07:59:41.106Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T08:00:48.930Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T08:04:55.818Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-intro-capture.mjs'"
+  },
+  {
+    "at": "2026-10-20T08:05:20.090Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-font-compare.py'"
+  },
+  {
+    "at": "2026-10-20T08:05:58.513Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-font-compare.py'"
+  },
+  {
+    "at": "2026-10-20T08:09:14.459Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-font-compare.py'"
+  },
+  {
+    "at": "2026-10-20T08:10:12.768Z",
+    "action": "cat > tests/browser/animation-repair.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T08:10:12.768Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T08:10:47.617Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T08:11:43.264Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T08:20:53.929Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-bright-assets.py'"
+  },
+  {
+    "at": "2026-10-20T08:21:30.600Z",
+    "action": "run",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T08:23:48.232Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-sourcehan.py'"
+  },
+  {
+    "at": "2026-10-20T08:41:54.331Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T08:42:16.755Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: hashlib"
+  },
+  {
+    "at": "2026-10-20T08:43:59.306Z",
+    "action": "cat > reports/home-visual/README.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T08:59:36.145Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T09:01:01.699Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: 'public/images/home/credits.json'"
+  },
+  {
+    "at": "2026-10-20T09:01:01.699Z",
+    "action": "cat > tests/browser/hero-eight-seconds.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T09:02:07.609Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T09:02:31.401Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T09:04:23.204Z",
+    "action": "cat > reports/hero-eight-seconds/README.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T09:13:51.789Z",
+    "action": "cat > src/components/DestinationGallery.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T09:13:51.789Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T09:14:16.951Z",
+    "action": "cat > tests/browser/destination-gallery.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T09:15:11.443Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T09:20:58.638Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T09:24:31.931Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: shutil"
+  },
+  {
+    "at": "2026-10-20T09:25:05.981Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/public/images/home/credits.json'"
+  },
+  {
+    "at": "2026-10-20T09:25:05.981Z",
+    "action": "cat > tests/browser/destination-gallery.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-20T09:26:31.710Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-20T09:26:51.194Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-21T13:13:30.717Z",
+    "action": "cat > src/components/DestinationGallery.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-21T13:14:14.220Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-21T13:14:43.802Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-21T13:41:26.055Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-21T13:42:13.544Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/tests/browser/destination-archive.spec.js'"
+  },
+  {
+    "at": "2026-10-21T13:43:33.269Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-21T13:49:57.672Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-21T13:50:18.752Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/tests/browser/destination-archive.spec.js'"
+  },
+  {
+    "at": "2026-10-23T13:06:00.209Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: shutil"
+  },
+  {
+    "at": "2026-10-23T13:08:26.468Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: 'tests/browser/destination-collage.spec.js'"
+  },
+  {
+    "at": "2026-10-23T13:11:17.507Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-23T13:30:56.018Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-23T13:33:53.133Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-23T13:34:42.382Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-23T13:35:40.733Z",
+    "action": "run",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: time"
+  },
+  {
+    "at": "2026-10-23T13:36:42.381Z",
+    "action": "cat >> backend/test_place_media.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-23T13:36:42.381Z",
+    "action": "cat >> tests/presentation.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-23T13:37:53.295Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-23T13:37:53.295Z",
+    "action": "cat > tests/browser/place-media-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-23T13:38:53.929Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/place-media/live.json'"
+  },
+  {
+    "at": "2026-10-23T13:44:37.179Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-23T13:47:47.094Z",
+    "action": "cat >> tests/browser/place-media-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-23T13:49:13.426Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-23T13:50:40.062Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-23T13:52:45.011Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-10-27T05:57:36.371Z",
+    "action": "cat > src/styles/searchEditorial.css",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T05:57:55.486Z",
+    "action": "cat > tests/browser/search-editorial.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T05:58:37.887Z",
+    "action": "cat >> tests/browser/search-editorial.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T06:35:18.834Z",
+    "action": "cat > backend/reference_cache.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T06:35:18.834Z",
+    "action": "cat > backend/climate.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T06:35:18.834Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T06:36:11.973Z",
+    "action": "cat > backend/media_delivery.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T06:36:11.973Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T06:36:11.973Z",
+    "action": "cat > backend/name_translation.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T06:36:11.973Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T06:36:49.037Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T06:36:49.037Z",
+    "action": "cat > backend/test_climate.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T06:37:08.644Z",
+    "action": "run",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-10-27T06:37:32.575Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-10-27T07:12:41.872Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T07:14:06.262Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T07:14:06.262Z",
+    "action": "cat >> tests/browser/data-upgrade.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T07:15:25.860Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T07:15:43.679Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T07:15:56.953Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T07:16:41.140Z",
+    "action": "cat > backend/test_media_delivery.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T07:18:22.385Z",
+    "action": "cat > docs/weather-name-image-upgrade.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:05:03.308Z",
+    "action": "cat > src/components/SearchCalligraphy.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:05:03.308Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T08:05:03.308Z",
+    "action": "cat >> src/styles/searchEditorial.css",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:05:39.668Z",
+    "action": "cat > tests/browser/search-contact.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:07:40.696Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T08:07:40.696Z",
+    "action": "cat >> src/styles/searchEditorial.css",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:08:42.089Z",
+    "action": "cat >> public/fonts/README.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:08:42.089Z",
+    "action": "cat > public/images/search/README.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:11:57.326Z",
+    "action": "cat > reports/search-contact/README.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:17:13.738Z",
+    "action": "cat > scripts/prepare-lanting.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:18:15.434Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-10-27T08:18:15.434Z",
+    "action": "cat > public/images/search/README.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:18:42.372Z",
+    "action": "cat > tests/browser/search-calligraphy.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-10-27T08:19:49.023Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-03T06:15:58.594Z",
+    "action": "cat > backend/commons_images.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-03T06:15:58.594Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-03T06:16:26.339Z",
+    "action": "run",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: time"
+  },
+  {
+    "at": "2026-11-03T06:16:48.355Z",
+    "action": "cat > backend/test_commons_images.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-03T06:17:18.221Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/commons-api/live.json'"
+  },
+  {
+    "at": "2026-11-03T06:17:34.894Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-03T06:17:34.894Z",
+    "action": "run",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: time"
+  },
+  {
+    "at": "2026-11-03T06:17:50.877Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-03T06:18:06.188Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/commons-api/live.json'"
+  },
+  {
+    "at": "2026-11-03T06:18:16.798Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/commons-api/live.json'"
+  },
+  {
+    "at": "2026-11-03T06:18:46.305Z",
+    "action": "cat > docs/commons-images.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-03T06:21:33.463Z",
+    "action": "cat > src/components/JourneyCover.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-03T06:21:33.463Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-03T06:22:09.715Z",
+    "action": "cat >> src/views/TripResultView.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-03T06:22:09.715Z",
+    "action": "cat > src/views/tripJournal.css",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-03T06:22:29.642Z",
+    "action": "cat > tests/browser/trip-journal-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-03T06:24:35.276Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-03T06:25:17.684Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:02:01.375Z",
+    "action": "cat > src/utils/coordinates.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:02:01.375Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:02:58.386Z",
+    "action": "cat > src/planner/feasibility.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:02:58.386Z",
+    "action": "cat > src/planner/travel.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:02:58.386Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:04:56.472Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:04:56.472Z",
+    "action": "cat > src/services/planningTransport.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:04:56.472Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:05:44.281Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:05:44.281Z",
+    "action": "cat > src/planner/improveDays.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:05:44.281Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:06:48.638Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:08:09.882Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:08:09.882Z",
+    "action": "cat > tests/coreRepair.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:09:08.961Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:09:08.961Z",
+    "action": "cat > tests/browser/core-repair-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:10:12.175Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:10:12.175Z",
+    "action": "cat >> tests/presentation.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:11:18.177Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-11-10T06:11:31.284Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-11-10T06:12:47.060Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:13:45.635Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:14:30.861Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:14:30.861Z",
+    "action": "cat >> tests/coreRepair.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:15:14.601Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-11-10T06:16:09.088Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:18:43.071Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:19:09.845Z",
+    "action": "cat > tests/coreProviders.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:19:21.720Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/core-repair/Beijing.json'"
+  },
+  {
+    "at": "2026-11-10T06:20:11.810Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:20:11.810Z",
+    "action": "cat >> backend/test_opentripmap.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:20:50.293Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:21:39.429Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:21:39.429Z",
+    "action": "cat > tests/browser/core-ui-regression.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:22:23.748Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:23:09.549Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:24:19.314Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:26:39.054Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:28:41.625Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/core-repair/Beijing.json'"
+  },
+  {
+    "at": "2026-11-10T06:32:35.020Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:45:10.137Z",
+    "action": "cat > src/planner/identity.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:45:10.137Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:45:53.252Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:46:53.376Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:47:34.522Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:47:34.522Z",
+    "action": "cat > tests/itineraryEditing.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:48:11.631Z",
+    "action": "cat > tests/browser/editing-repair-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:48:36.749Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/editing-repair/suzhou-before.json'"
+  },
+  {
+    "at": "2026-11-10T06:48:55.453Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/editing-repair/suzhou-before.json'"
+  },
+  {
+    "at": "2026-11-10T06:49:20.779Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:50:11.254Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:50:53.531Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:52:15.100Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:53:31.205Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/editing-repair/delete-debug.json'"
+  },
+  {
+    "at": "2026-11-10T06:54:22.508Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:54:51.561Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:55:38.355Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/editing-repair/suzhou-before.json'"
+  },
+  {
+    "at": "2026-11-10T06:56:25.025Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:56:25.025Z",
+    "action": "cat >> tests/browser/editing-repair-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:57:23.854Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T06:57:23.854Z",
+    "action": "cat >> tests/itineraryEditing.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T06:59:04.753Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:00:20.413Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:09:53.403Z",
+    "action": "cat >> backend/osm_places.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:09:53.403Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:09:53.403Z",
+    "action": "cat > src/services/namedPlaces.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:09:53.403Z",
+    "action": "cat > src/components/PlacePicker.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:10:50.218Z",
+    "action": "cat > src/planner/dining.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:10:50.218Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:12:11.538Z",
+    "action": "cat > src/services/travelLibrary.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:12:11.538Z",
+    "action": "cat > src/components/FavoriteButton.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:12:11.538Z",
+    "action": "cat > src/views/LibraryView.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:13:08.458Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:14:27.880Z",
+    "action": "cat > tests/travelLibrary.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:15:22.531Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:15:22.531Z",
+    "action": "cat > tests/browser/travel-library-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:16:04.642Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-11-10T07:16:23.217Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:16:44.368Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-11-10T07:17:22.896Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: sys"
+  },
+  {
+    "at": "2026-11-10T07:18:01.062Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/travel-library/beijing.json'"
+  },
+  {
+    "at": "2026-11-10T07:18:25.512Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/travel-library/beijing.json'"
+  },
+  {
+    "at": "2026-11-10T07:19:10.326Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:19:29.608Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: urllib.request"
+  },
+  {
+    "at": "2026-11-10T07:20:27.352Z",
+    "action": "cat > src/planner/openingHours.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:20:27.352Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:20:27.352Z",
+    "action": "cat >> src/App.vue",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:21:14.686Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:21:14.686Z",
+    "action": "cat >> tests/travelLibrary.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:21:14.686Z",
+    "action": "cat >> tests/browser/travel-library-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:26:40.366Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:27:41.589Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/travel-library/beijing.json'"
+  },
+  {
+    "at": "2026-11-10T07:28:47.438Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/travel-library/tokyo.json'"
+  },
+  {
+    "at": "2026-11-10T07:29:19.940Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:31:13.596Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:32:46.142Z",
+    "action": "cat > reports/travel-library/REPORT.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:33:38.506Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:44:01.801Z",
+    "action": "cat > src/state/tripDraft.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:44:01.801Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:45:17.146Z",
+    "action": "cat > src/planner/visitProfiles.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:45:17.146Z",
+    "action": "cat > src/planner/visitDuration.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:45:17.146Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:46:14.057Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:48:34.843Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:50:04.487Z",
+    "action": "cat > tests/draftDuration.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:50:04.487Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:52:27.954Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:52:27.954Z",
+    "action": "cat > tests/browser/draft-duration-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T07:53:33.997Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/draft-duration/disney-before.json'"
+  },
+  {
+    "at": "2026-11-10T07:54:36.473Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/draft-duration/disney-before.json'"
+  },
+  {
+    "at": "2026-11-10T07:56:04.872Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:57:10.537Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/draft-duration/disney-before.json'"
+  },
+  {
+    "at": "2026-11-10T07:57:59.904Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/draft-duration/disney-before.json'"
+  },
+  {
+    "at": "2026-11-10T07:58:46.172Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T07:59:36.768Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/draft-duration/disney-before.json'"
+  },
+  {
+    "at": "2026-11-10T07:59:54.248Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/draft-duration/disney-before.json'"
+  },
+  {
+    "at": "2026-11-10T08:00:18.565Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T08:00:58.053Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-10T08:04:14.454Z",
+    "action": "cat > reports/draft-duration/REPORT.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-10T08:05:09.712Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:08:56.703Z",
+    "action": "run",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:09:45.317Z",
+    "action": "cat > tests/browser/planner-quality-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T02:10:32.297Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-quality/shanghai.json'"
+  },
+  {
+    "at": "2026-11-17T02:10:59.180Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-quality/shanghai.json'"
+  },
+  {
+    "at": "2026-11-17T02:11:22.552Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:11:50.499Z",
+    "action": "cat > tests/plannerQuality.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T02:12:03.288Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-quality/shanghai.json'"
+  },
+  {
+    "at": "2026-11-17T02:12:27.847Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:12:50.549Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-quality/shanghai.json'"
+  },
+  {
+    "at": "2026-11-17T02:13:23.294Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:13:44.461Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-quality/shanghai.json'"
+  },
+  {
+    "at": "2026-11-17T02:14:22.721Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:14:45.779Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-quality/shanghai.json'"
+  },
+  {
+    "at": "2026-11-17T02:14:55.950Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-quality/shanghai.json'"
+  },
+  {
+    "at": "2026-11-17T02:15:15.443Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:15:29.974Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-quality/shanghai.json'"
+  },
+  {
+    "at": "2026-11-17T02:15:57.591Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:15:57.591Z",
+    "action": "cat >> tests/plannerQuality.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T02:16:32.828Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:16:58.072Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: os"
+  },
+  {
+    "at": "2026-11-17T02:17:28.059Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:17:42.327Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-quality/shanghai-balanced.json'"
+  },
+  {
+    "at": "2026-11-17T02:17:53.351Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-quality/shanghai-relaxed.json'"
+  },
+  {
+    "at": "2026-11-17T02:19:05.520Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: 'reports/planner-quality/shanghai-balanced.json'"
+  },
+  {
+    "at": "2026-11-17T02:19:27.598Z",
+    "action": "cat >> reports/planner-quality/REPORT.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T02:36:33.270Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:37:18.896Z",
+    "action": "cat > src/planner/routeCandidates.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T02:37:18.896Z",
+    "action": "cat > src/services/planningTransport.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T02:37:18.896Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:37:39.324Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-followup/network.json'"
+  },
+  {
+    "at": "2026-11-17T02:38:58.699Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:39:30.700Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-followup/shanghai-relaxed.json'"
+  },
+  {
+    "at": "2026-11-17T02:40:28.023Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T02:41:10.991Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-followup/shanghai-relaxed.json'"
+  },
+  {
+    "at": "2026-11-17T02:41:53.261Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-followup/shanghai-relaxed.json'"
+  },
+  {
+    "at": "2026-11-17T02:43:02.082Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T03:01:28.285Z",
+    "action": "cat > tests/plannerFollowup.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T03:02:28.897Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T03:02:54.007Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-followup/shanghai-relaxed.json'"
+  },
+  {
+    "at": "2026-11-17T03:03:28.488Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-followup/shanghai-relaxed.json'"
+  },
+  {
+    "at": "2026-11-17T03:03:58.058Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T03:04:37.289Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-followup/shanghai-relaxed.json'"
+  },
+  {
+    "at": "2026-11-17T03:05:18.263Z",
+    "action": "cat >> tests/plannerFollowup.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T03:06:10.694Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: os"
+  },
+  {
+    "at": "2026-11-17T03:06:48.476Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planner-followup/shanghai-relaxed.json'"
+  },
+  {
+    "at": "2026-11-17T03:08:19.343Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: shutil"
+  },
+  {
+    "at": "2026-11-17T06:00:28.508Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:00:28.508Z",
+    "action": "cat > tests/optimizerLocks.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:13:32.217Z",
+    "action": "cat > src/planner/recommendationValue.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:13:32.217Z",
+    "action": "cat > src/planner/planQuality.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:13:32.217Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:14:21.283Z",
+    "action": "cat > src/planner/improveDays.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:14:21.283Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:15:26.287Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:16:24.944Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:16:24.944Z",
+    "action": "cat > tests/planningUpgrade.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:16:56.424Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:16:56.424Z",
+    "action": "cat > tests/browser/planning-upgrade-live.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:18:02.467Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/beijing.json'"
+  },
+  {
+    "at": "2026-11-17T06:18:29.090Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/beijing.json'"
+  },
+  {
+    "at": "2026-11-17T06:18:40.554Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/beijing.json'"
+  },
+  {
+    "at": "2026-11-17T06:19:24.673Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:20:13.159Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:20:13.159Z",
+    "action": "cat > src/services/routeDiscovery.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:20:13.159Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:20:37.119Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: glob"
+  },
+  {
+    "at": "2026-11-17T06:21:09.346Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:22:56.314Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: os"
+  },
+  {
+    "at": "2026-11-17T06:23:18.478Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/beijing.json'"
+  },
+  {
+    "at": "2026-11-17T06:24:38.747Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/paris.json'"
+  },
+  {
+    "at": "2026-11-17T06:25:06.078Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/paris.json'"
+  },
+  {
+    "at": "2026-11-17T06:26:10.954Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:27:18.124Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:28:54.834Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/editing-repair/suzhou-before.json'"
+  },
+  {
+    "at": "2026-11-17T06:30:12.774Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:30:12.774Z",
+    "action": "cat >> tests/planningUpgrade.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:31:53.377Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "PermissionError: outside source scope"
+  },
+  {
+    "at": "2026-11-17T06:32:17.661Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:33:40.637Z",
+    "action": "cat > reports/planning-upgrade/IMPLEMENTATION.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:34:04.256Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: os"
+  },
+  {
+    "at": "2026-11-17T06:34:22.190Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/paris.json'"
+  },
+  {
+    "at": "2026-11-17T06:34:40.186Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/recovery/tmp/pathly-paris-provider.json'"
+  },
+  {
+    "at": "2026-11-17T06:35:22.532Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: hashlib"
+  },
+  {
+    "at": "2026-11-17T06:36:24.961Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:38:03.440Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/beijing.json'"
+  },
+  {
+    "at": "2026-11-17T06:38:23.900Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/paris.json'"
+  },
+  {
+    "at": "2026-11-17T06:39:07.012Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/paris.json'"
+  },
+  {
+    "at": "2026-11-17T06:40:09.467Z",
+    "action": "cat > src/planner/verifiedAccess.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:40:09.467Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:40:09.467Z",
+    "action": "cat >> tests/planningUpgrade.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:42:40.338Z",
+    "action": "cat >> reports/planning-upgrade/IMPLEMENTATION.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:43:31.806Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/beijing.json'"
+  },
+  {
+    "at": "2026-11-17T06:43:44.227Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/paris.json'"
+  },
+  {
+    "at": "2026-11-17T06:44:06.055Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/planning-upgrade/paris.json'"
+  },
+  {
+    "at": "2026-11-17T06:45:25.978Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:45:25.978Z",
+    "action": "cat >> tests/planningUpgrade.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:45:47.201Z",
+    "action": "cat >> tests/planningUpgrade.test.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:46:52.021Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: 'reports/planning-upgrade/beijing.json'"
+  },
+  {
+    "at": "2026-11-17T06:47:45.541Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T06:48:37.384Z",
+    "action": "cat >> reports/planning-upgrade/IMPLEMENTATION.md",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T06:49:35.524Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: 'reports/planning-upgrade/RESULTS.md'"
+  },
+  {
+    "at": "2026-11-17T07:10:02.827Z",
+    "action": "run",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: time"
+  },
+  {
+    "at": "2026-11-17T07:10:52.549Z",
+    "action": "run",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T07:11:35.051Z",
+    "action": "run",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T07:11:35.051Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T07:12:50.843Z",
+    "action": "run",
+    "status": "review",
+    "error": "ImportError: historical import not allowed: time"
+  },
+  {
+    "at": "2026-11-17T07:13:53.742Z",
+    "action": "cat > tests/browser/media-draft-video.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T07:14:11.678Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T07:15:49.735Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T07:16:43.328Z",
+    "action": "cat > backend/test_media_identity.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T07:16:43.328Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T07:17:35.837Z",
+    "action": "cat >> tests/browser/media-draft-video.spec.js",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T07:18:56.541Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T07:20:13.895Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/media-draft-video/paris-day-media.json'"
+  },
+  {
+    "at": "2026-11-17T07:20:42.274Z",
+    "action": "cat > reports/media-draft-video/benchmark-cold.py",
+    "status": "snapshot"
+  },
+  {
+    "at": "2026-11-17T07:21:20.590Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T07:21:51.893Z",
+    "action": "python3 -",
+    "status": "applied"
+  },
+  {
+    "at": "2026-11-17T07:22:06.266Z",
+    "action": "python3 -",
+    "status": "review",
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/conths/Documents/ChatGPT/Pathly-final-recovery/recovery/stage/reports/media-draft-video/paris-debug.json'"
+  },
+  {
+    "at": "2026-11-17T07:22:23.581Z",
+    "action": "python3 -",
+    "status": "applied"
+  }
+]
