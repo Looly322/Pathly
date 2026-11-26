@@ -14,7 +14,7 @@ function optimize(){
  const result=optimizeWeather(props.plan,props.settings,props.weather.data);ack.value=false;proposal.value=result.plan?result:null;message.value=result.reason||'';proposedAgainst=signature.value;
 }
 function keep(){proposal.value=null;message.value='kept';}
-function apply(){if(!proposal.value||proposedAgainst!==signature.value||proposal.value.unknownHours.length&&!ack.value)return;const fresh=optimizeWeather(props.plan,props.settings,props.weather.data);if(!fresh.plan||JSON.stringify(fresh.plan)!==JSON.stringify(proposal.value.plan)){proposal.value=null;message.value=fresh.reason||'changed';return;}emit('apply',proposal.value.plan);proposal.value=null;}
+function apply(){if(!proposal.value||proposedAgainst!==signature.value||proposal.value.unknownHours.length&&!ack.value)return;emit('apply',proposal.value.plan);proposal.value=null;}
 const missingNames=computed(()=>proposal.value?.unknownHours.map(id=>{const p=props.plan.days.flatMap(d=>d.events).find(e=>e.place?.id===id)?.place;return p?placeName(p):id;}).join(' / '));
 const supportChanges=computed(()=>proposal.value?props.plan.days.flatMap((d,i)=>d.events.filter(e=>e.kind!=='ACTIVITY').flatMap(e=>{const next=proposal.value.plan.days[i].events.find(n=>n.id===e.id);return next&&(next.start!==e.start||next.end!==e.end)?[{date:d.date,kind:e.kind,before:e,after:next}]:[]})):[]);
 </script>

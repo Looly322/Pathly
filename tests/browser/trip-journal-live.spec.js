@@ -1,0 +1,26 @@
+import {test,expect} from '@playwright/test';
+import fs from 'node:fs';
+test('Beijing three-day actual generated journey magazine',async({page})=>{
+ test.setTimeout(240000);await page.setViewportSize({width:1440,height:1050});await page.emulateMedia({reducedMotion:'reduce'});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('/');const form=page.locator('#trip-planner');await form.locator('.destination input').fill('北京');await form.locator('input[type=number]').first().fill('3');await form.locator('.generate').click();
+ const choice=page.locator('.destination-overlay .city-option').first();await choice.waitFor({state:'visible',timeout:10000}).then(()=>choice.click()).catch(()=>{});
+ await expect(page.locator('.trip-result')).toBeVisible({timeout:150000});
+ await page.evaluate(()=>scrollTo(0,0));
+ const cover=page.locator('.journey-cover-photo img');await expect(cover).toBeVisible({timeout:35000});await expect.poll(()=>cover.evaluate(e=>e.complete&&e.naturalWidth>0),{timeout:25000}).toBe(true);
+ await page.screenshot({path:'reports/trip-journal/cover.png'});
+ await page.locator('.explore-journey').click();await expect(page.locator('.journey-timeline')).toBeVisible();await expect(page.locator('.trip-days button')).toHaveCount(3);
+ await page.locator('.trip-days button').nth(1).click();await expect(page.locator('.trip-days button').nth(1)).toHaveAttribute('aria-pressed','true');
+ const stop=page.locator('.stop-select').first();await stop.click();await expect(stop).toHaveAttribute('aria-pressed','true');
+ await page.locator('.trip-days button').first().click();
+ await page.locator('.day-layout').scrollIntoViewIfNeeded();await page.screenshot({path:'reports/trip-journal/route.png'});
+ await page.locator('.journal-places').scrollIntoViewIfNeeded();
+ const img=page.locator('.journal-places .activity-image img').first();await expect(img).toBeVisible({timeout:30000});await expect.poll(()=>img.evaluate(e=>e.complete&&e.naturalWidth>0),{timeout:25000}).toBe(true);
+ await page.screenshot({path:'reports/trip-journal/places.png'});
+ const event=page.locator('.journal-places .trip-event').first();const time=await event.locator('.event-time').innerText();await event.getByRole('button',{name:'+15',exact:true}).click();expect(await event.locator('.event-time').innerText()).not.toBe(time);
+ await page.locator('.journey-timeline .timeline-heading button').click();expect(await event.locator('.event-time').innerText()).toBe(time);
+ await page.locator('.trip-actions button').first().click();await expect(page.locator('.comparison-scroll')).toBeVisible();
+ await page.locator('.journal-weather summary').click();await expect(page.locator('.weather-panel')).toBeVisible();await expect(page.locator('.weather-advice')).toBeVisible();
+ await page.setViewportSize({width:390,height:844});await page.evaluate(()=>scrollTo(0,0));expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'reports/trip-journal/mobile.png'});
+ fs.writeFileSync('reports/trip-journal/live.json',JSON.stringify({errors,days:await page.locator('.trip-days button').count(),places:await page.locator('.journal-places h3').allTextContents(),cover:await cover.getAttribute('src')},null,2));expect(errors).toEqual([]);
+});

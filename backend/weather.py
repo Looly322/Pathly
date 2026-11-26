@@ -13,7 +13,7 @@ def forecast(params):
         if not math.isfinite(lat+lon) or not(-90<=lat<=90 and -180<=lon<=180):raise ValueError()
     except (KeyError,TypeError,ValueError):raise ApiError('INVALID_COORDINATES',400)
     lat,lon=round(lat,4),round(lon,4)
-    key=hashlib.sha256(f'hourly-v1:{lat},{lon}'.encode()).hexdigest()
+    key=hashlib.sha256(f'{lat},{lon}'.encode()).hexdigest()
     path=ROOT/(key+'.json')
     def cached():
         try:
@@ -39,7 +39,6 @@ def forecast(params):
         usage.write_text(json.dumps(recent+[now]))
         query={'latitude':lat,'longitude':lon,'timezone':'auto','forecast_days':16,
           'current':'temperature_2m,weather_code,wind_speed_10m',
-          'hourly':'temperature_2m,precipitation_probability,wind_speed_10m',
           'daily':'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max',
           'temperature_unit':'celsius','wind_speed_unit':'kmh'}
         try:

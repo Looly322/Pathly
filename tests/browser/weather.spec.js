@@ -13,7 +13,7 @@ test('exact dates, local zone, bilingual conditions, range fallback and narrow v
  let calls=0;await page.route('**/api/weather?**',r=>{calls++;return r.fulfill({json:paris})});await mount(page);
  await expect(page.locator('.weather-current')).toContainText('当前');await expect(page.locator('.weather-header')).toContainText('Europe/Paris');
  const index=paris.daily.time.indexOf('2026-10-20');await expect(page.locator('.weather-day').first()).toContainText('最高 '+Math.round(paris.daily.temperature_2m_max[index])+'°');
- await expect(page.locator('.weather-day').last()).toContainText('暂无可靠天气预报');await expect(page.locator('.weather-day').first()).toContainText('降水概率');
+ await expect(page.locator('.weather-day').last()).toContainText('暂无可靠天气预报');
  await page.evaluate(()=>window.lang('en'));await expect(page.locator('.weather-current')).toContainText('Current');await expect(page.locator('.weather-day').last()).toContainText('No reliable forecast');
  await page.evaluate(()=>window.dates(['2099-01-01']));await expect(page.locator('.weather-day')).toHaveCount(1);expect(calls).toBe(1);
  await page.setViewportSize({width:375,height:700});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);

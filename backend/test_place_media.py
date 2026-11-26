@@ -1,4 +1,4 @@
-import unittest,tempfile,json,time
+import unittest,tempfile
 from pathlib import Path
 from unittest.mock import patch
 import place_media as media
@@ -17,7 +17,4 @@ class MediaTests(unittest.TestCase):
             params={'name':'Place','latitude':1,'longitude':2}
             with patch.object(media,'localized_place',return_value={'photoStatus':'missing'}) as lookup:
                 media.get_presentation(params);media.get_presentation(params)
-                self.assertEqual(lookup.call_count,1)
-                path=next(Path(folder).glob('*.json'));record=json.loads(path.read_text());record['at']=time.time()-601;path.write_text(json.dumps(record))
-                media.get_presentation(params)
                 self.assertEqual(lookup.call_count,2)

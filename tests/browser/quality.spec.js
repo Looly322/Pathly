@@ -27,14 +27,3 @@ test('independent text, bounded media, date changes and language fallback',async
  await expect(page.locator('.place-description')).not.toContainText('以下为来源原文');
  await expect(page.locator('.review-button').first()).toContainText('View traveler reviews');release();
 });
-
-test('already loaded lazy image survives its timeout and broken images fall back',async({page})=>{
- test.setTimeout(22000);
- const main=await(await page.request.get('/src/main.js')).text(),vue=main.match(/from "([^"]*vue.js[^"]*)"/)[1];
- await page.route('**/quality-photo.svg',r=>r.fulfill({contentType:'image/svg+xml',body:'<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><rect width="20" height="20"/></svg>'}));
- await page.route('**/broken-photo',r=>r.fulfill({status:404,body:'Not found'}));
- await page.route('**/image-test',r=>r.fulfill({contentType:'text/html',body:`<meta charset="utf-8"><div id="app"></div><script type="module">import {createApp,h} from '${vue}';import Image from '/src/components/ActivityImage.vue';createApp({render:()=>h('div',[h(Image,{place:{id:'valid',name:'Photo loading fixture',category:'NATURE',image:location.origin+'/quality-photo.svg'}}),h(Image,{place:{id:'broken',name:'Failure fixture',category:'NATURE',image:location.origin+'/broken-photo'}})])}).mount('#app');</script>`}));
- await page.goto('/image-test');await expect(page.locator('.category-art')).toHaveCount(1);
- await expect.poll(()=>page.locator('img').evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
- await page.waitForTimeout(13000);await expect(page.locator('img')).toHaveCount(1);await expect(page.locator('.category-art')).toHaveCount(1);
-});

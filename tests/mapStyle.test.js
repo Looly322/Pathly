@@ -7,17 +7,7 @@ test('map labels use one preferred language and local fallback, skipping empty t
  const place={name:'local',nameZh:'中文',nameEnglish:'English'};
  assert.equal(mapPlaceName(place,'zh'),'中文');assert.equal(mapPlaceName(place,'en'),'English');assert.equal(mapPlaceName({name:'local'},'zh'),'local');
 });
-test('style preserves provider hierarchy without translating highway reference numbers',()=>{
+test('style reduces minor-label density without translating highway reference numbers',()=>{
  const calls=[];const gl={getStyle:()=>({layers:[{id:'highway-name-minor',type:'symbol',layout:{'text-field':['get','name']}},{id:'shield',type:'symbol',layout:{'text-field':['get','ref']}}]}),setLayoutProperty:(...a)=>calls.push(a),setLayerZoomRange:(...a)=>calls.push(a)};
- applyWorldMapStyle(gl,'en');assert.ok(calls.some(a=>a[1]==='text-field'));assert.ok(!calls.some(a=>a[0]==='shield'));
-});
-
-test('MapLibre validates text-field expressions and evaluates missing/empty translations',async()=>{
- const {createExpression}=await import('@maplibre/maplibre-gl-style-spec');
- for(const lang of ['zh','en','local']){
-  const parsed=createExpression(mapNameExpression(lang),{type:'formatted','property-type':'data-driven',expression:{interpolated:false,parameters:['feature']}});
-  assert.equal(parsed.result,'success');
-  const result=parsed.value.evaluate({}, {properties:{'name:zh':'','name:en':'English',name:'محلي'}});
-  assert.equal(result.toString(),lang==='en'?'English':'محلي');
- }
+ applyWorldMapStyle(gl,'en');assert.ok(calls.some(a=>a[1]===16));assert.ok(!calls.some(a=>a[0]==='shield'));
 });

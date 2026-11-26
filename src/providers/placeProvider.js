@@ -1,4 +1,3 @@
-import {apiJson} from '../services/apiClient.js';
 import { normalizePlace, validPlace } from '../planner/place.js';
 import { searchPlaces } from '../services/placeService.js';
 import { resolveMapCity } from '../services/cityService.js';
@@ -20,40 +19,17 @@ export const AmapPlaceProvider={
       } catch {warnings.push(keyword||type);}
     }
     if(!all.size) throw new Error('NO_PLACE_DATA');
-    return {places:[...all.values()].filter(p=>p.planningEligible!==false),warnings,limited:false};
+    return {places:[...all.values()],warnings,limited:false};
   }
 };
 export const CurrentOverseasProvider={
-  async search({destination,interests=[]}) {
-    // 快照只是缓存来源，不能成为未覆盖城市的入口限制。
-    let places=[];
-    try{
-      const r=await fetch('/api/current-places?'+new URLSearchParams({latitude:destination.latitude,longitude:destination.longitude,countryCode:destination.countryCode,radius:50000}),{signal:AbortSignal.timeout(15000)});
-      if(r.ok){const data=await r.json();places=data.places.map(p=>normalizePlace(p,destination)).filter(p=>validPlace(p)&&p.planningEligible!==false);}
-    }catch{/* 继续尝试开放数据提供方 */}
-    // 现有快照充足时复用；未覆盖城市或兴趣缺口由同一个全球开放数据提供方补充。
-    if(places.length<12 || interests.some(i=>!places.some(p=>p.subcategories.includes(i)))){
-      try{
-        const response=await fetch('/api/open-places?'+new URLSearchParams({latitude:destination.latitude,longitude:destination.longitude,city:destination.city}),{signal:AbortSignal.timeout(30000)});
-        if(!response.ok)throw new Error('NO_PLACE_DATA');
-        const live=await response.json();
-        for(const raw of live.places){const p=normalizePlace(raw,destination);if(validPlace(p)&&p.planningEligible!==false&&!places.some(v=>v.name===p.name&&Math.abs(v.latitude-p.latitude)<.001&&Math.abs(v.longitude-p.longitude)<.001))places.push(p);}
-      }catch{if(!places.length)return {places:[],warnings:['NO_PLACE_DATA'],limited:true};}
-    }
-    return {places,warnings:[],limited:true};
+  async search({destination}) {
+    // 仅读取本地已有真实快照；不调用以前的搜索端点，也不读取任何第三方密钥。
+    const r=await fetch('/api/current-places?'+new URLSearchParams({latitude:destination.latitude,longitude:destination.longitude,countryCode:destination.countryCode,radius:50000}),{signal:AbortSignal.timeout(15000)});
+    if(!r.ok) throw new Error('NO_PLACE_DATA');
+    const data=await r.json();
+    return {places:data.places.map(p=>normalizePlace(p,destination)).filter(validPlace),warnings:[],limited:true};
   }
 };
-export const OpenTripMapPlaceProvider={
- async search({destination,interests=[]}){
-  const params=new URLSearchParams({latitude:destination.latitude,longitude:destination.longitude,city:destination.city,countryCode:destination.countryCode,interests:interests.join(',')});
-  // 餐饮查询与景点并行，不让慢餐饮接口阻塞首屏行程。
-  const supplement=interests.includes('FOOD')?fetch('/api/open-places?'+params,{signal:AbortSignal.timeout(12000)})
-    .then(async r=>r.ok?(await r.json()).places.map(p=>normalizePlace(p,destination)).filter(p=>['FOOD','CAFE'].includes(p.category)):[]).catch(()=>[]):Promise.resolve([]);
-  const data=await apiJson('/api/otm/places?'+params,{timeout:45000});
-  if(!Array.isArray(data.places))throw new Error('API_INVALID_RESPONSE');
-  const places=data.places.map(p=>normalizePlace(p,destination));
-  return {places:places.filter(validPlace),supplement,warnings:[],limited:true};
- }
-};
-export function getPlaceProvider(destination){return destination.countryCode==='CN'?AmapPlaceProvider:OpenTripMapPlaceProvider;}
+export function getPlaceProvider(destination){return destination.countryCode==='CN'?AmapPlaceProvider:CurrentOverseasProvider;}
 export async function getCandidatePlaces(settings,destination){return getPlaceProvider(destination).search({...settings,destination});}

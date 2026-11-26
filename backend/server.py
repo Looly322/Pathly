@@ -2,12 +2,7 @@
 import json
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse, parse_qs
-from global_places import destinations, search_places, localized_place, current_places, ApiError
-
-from weather import forecast as weather_forecast
-from place_media import get_presentation
-from osm_places import search_osm
-from opentripmap import search as otm_search, details as otm_details, resolve_destinations
+from global_places import destinations, search_places, ApiError
 
 class Handler(BaseHTTPRequestHandler):
     def log_message(self, *args):
@@ -17,28 +12,10 @@ class Handler(BaseHTTPRequestHandler):
         url = urlparse(self.path)
         params = {k: v[0] for k, v in parse_qs(url.query).items()}
         try:
-            if url.path == '/api/weather':
-                data = weather_forecast(params)
-            elif url.path == '/api/destinations/search':
-                data = {'destinations': resolve_destinations(params.get('q', ''))}
-            elif url.path == '/api/otm/places':
-                data = otm_search(params)
-            elif url.path == '/api/otm/details':
-                from global_places import REQUEST_DEADLINE
-                import time
-                REQUEST_DEADLINE.at=time.monotonic()+12
-                data = otm_details(params.get('xid',''),params.get('part','all'))
-            elif url.path == '/api/open-places':
-                data = search_osm(params)
-            elif url.path == '/api/current-places':
-                data = current_places(params)
+            if url.path == '/api/destinations/search':
+                data = {'destinations': destinations(params.get('q', ''))}
             elif url.path == '/api/places/search':
                 data = search_places(params)
-            elif url.path == '/api/places/localize':
-                from global_places import REQUEST_DEADLINE
-                import time
-                REQUEST_DEADLINE.at=time.monotonic()+12
-                data = get_presentation(params)
             elif url.path == '/api/health':
                 data = {'ok': True}
             else:
@@ -54,10 +31,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header('Cache-Control', 'no-store')
         self.send_header('Content-Length', str(len(body)))
         self.end_headers()
-        try:
-            self.wfile.write(body)
-        except (BrokenPipeError, ConnectionResetError):
-            pass  # 用户切换页面中断请求，不是上游接口故障。
+        self.wfile.write(body)
 
 if __name__ == '__main__':
     print('Pathly backend: http://127.0.0.1:8787', flush=True)

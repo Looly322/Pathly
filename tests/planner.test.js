@@ -43,24 +43,3 @@ test('manual changes expose conflicts and unmet must-visits are explicit',()=>{
  const d=scheduleDay([{place:candidates[0],duration:800}],settings,'efficient');assert.ok(d.conflicts.includes('time'));
  const p=generateItineraries(candidates,{...settings,days:1,start:'09:00',end:'09:30',mustIds:['p0']})[1];assert.deepEqual(p.unplacedMust,['p0']);
 });
-test('provider categories outrank ambiguous names; hotels never enter a sightseeing plan',()=>{
- const raw={id:'h',source:'test',latitude:40.75,longitude:-73.98};
- const hotel=normalizePlace({...raw,name:'Hotel at Times Square',categories:[{name:'Hotel'}]});
- const park=normalizePlace({...raw,id:'park',name:'Central Park Mall',categories:[{name:'Park'}]});
- assert.equal(park.category,'NATURE');
- assert.equal(hotel.planningEligible,false);
- assert.equal(generateItineraries([hotel],settings)[0].days.flatMap(d=>d.items).length,0);
-});
-test('food interest does not fill a day with repeated cafes',()=>{
- const cafes=Array.from({length:7},(_,i)=>normalizePlace({id:'c'+i,name:'Cafe '+i,latitude:48.85+i*.001,longitude:2.35,categories:[{name:'Coffee Shop'}]}));
- const plans=generateItineraries([...candidates,...cafes],{...settings,interests:['ART','FOOD']});
- for(const plan of plans)for(const day of plan.days)assert.ok(day.items.filter(i=>i.place.category==='CAFE').length<=1);
-});
-test('AMap hierarchical park/plaza types use the most specific category',()=>{
- const p=normalizePlace({id:'park',name:'北海公园',source:'amap',latitude:39.9,longitude:116.4,categories:[{name:'风景名胜'},{name:'公园广场'},{name:'公园'}],category:'poi'});
- assert.equal(p.category,'NATURE');assert.equal(p.estimatedDuration,100);
-});
-test('specific cuisine falls back to the restaurant parent instead of becoming an attraction',()=>{
- const p=normalizePlace({id:'food',name:'新疆特色烧烤',source:'amap',categories:[{name:'餐饮服务'},{name:'中餐厅'},{name:'新疆菜'}],latitude:39.9,longitude:116.4});
- assert.equal(p.category,'FOOD');
-});

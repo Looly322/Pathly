@@ -1,0 +1,26 @@
+import { test, expect } from '@playwright/test';
+const paris = { id:'1', name:'Paris',city:'Paris', country:'France',countryCode:'FR',region:'Île-de-France',latitude:48.85341,longitude:2.3488 };
+const place = {id:'foursquare-test',source:'foursquare',sourceId:'test',name:'Test museum',latitude:48.85,longitude:2.35,categories:[{name:'Museum'}],address:'Paris',website:null,distance:200};
+test('global destination confirmation, category search, errors and narrow layout', async ({page}) => {
+  const requests=[];
+  await page.route('**/api/destinations/search?*', r => r.fulfill({json:{destinations:[paris]}}));
+  await page.route('**/api/places/search?*', r => { requests.push(new URL(r.request().url())); return r.fulfill({json:{places:[place],queryUsed:''}}); });
+  await page.goto('/');
+  await page.getByRole('button',{name:'探索全球目的地',exact:true}).click();
+  await page.getByLabel('旅行目的地',{exact:true}).fill('巴黎');
+  await page.getByRole('button',{name:'查找城市',exact:true}).click();
+  await page.getByRole('button',{name:/Paris.*France/}).click();
+  await expect(page.locator('.global-place')).toContainText('Test museum');
+  await page.getByLabel('地点分类',{exact:true}).selectOption('museums');
+  await expect.poll(()=>requests.length).toBe(2);
+  expect(requests[1].searchParams.get('latitude')).toBe('48.85341');
+  expect(requests[1].searchParams.get('category')).toBe('museums');
+  await page.route('**/api/places/search?*',r=>r.fulfill({status:429,json:{error:'UPSTREAM_429'}}));
+  await page.getByRole('button',{name:'搜索地点',exact:true}).click();
+  await expect(page.getByRole('alert')).toContainText('额度');
+  await expect(page.locator('.global-place')).toHaveCount(0);
+  await page.setViewportSize({width:320,height:800});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.getByRole('button',{name:'EN',exact:true}).click();
+  await expect(page.locator('h1')).toHaveText('Explore destinations worldwide');
+});

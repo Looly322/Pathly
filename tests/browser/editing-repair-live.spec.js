@@ -1,0 +1,30 @@
+import {test,expect} from '@playwright/test';import fs from 'node:fs';
+test('Suzhou actual wishes and all editing controls',async({page})=>{
+ test.setTimeout(240000);await page.emulateMedia({reducedMotion:'reduce'});await page.setViewportSize({width:1440,height:1000});await page.goto('/');
+ const form=page.locator('#trip-planner');await form.locator('.destination input').fill('苏州');await form.locator('input[type=date]').fill('2026-11-13');
+ for(const name of ['寒山寺','拙政园']){await form.locator('.wish-input input').fill(name);await form.locator('.wish-input button').click();}
+ await form.locator('.generate').click();await page.locator('.city-option').first().waitFor({timeout:5000}).then(()=>page.locator('.city-option').first().click()).catch(()=>{});await expect(page.locator('.trip-result')).toBeVisible({timeout:120000});
+ const state=()=>page.locator('.trip-result').evaluate(el=>{let v=el.__vueParentComponent;while(v&&!v.setupState.current)v=v.parent;return JSON.parse(JSON.stringify({plan:v.setupState.current,settings:v.setupState.settings,index:v.setupState.dayIndex,loading:v.setupState.transportLoading}));});
+ await expect.poll(async()=>!(await state()).loading,{timeout:45000}).toBe(true);
+ let current=await state();fs.writeFileSync('reports/editing-repair/suzhou-before.json',JSON.stringify(current,null,2));
+ const all=current.plan.days.flatMap(d=>d.items.map(i=>i.place));expect(all.some(p=>p.name.includes('寒山寺'))).toBe(true);expect(all.some(p=>p.name.includes('拙政园'))).toBe(true);expect(all.filter(p=>p.name.includes('寒山寺')).length).toBe(1);
+ const idx=current.plan.days.findIndex(d=>d.items.length>=2);expect(idx).toBeGreaterThanOrEqual(0);await page.locator('.trip-days button').nth(idx).click();await expect.poll(async()=>!(await state()).loading,{timeout:45000}).toBe(true);
+ const readDay=async()=>{const a=await state();return a.plan.days[a.index];};
+ const card=id=>page.locator('[id="event-'+id+'"]');const before=await readDay();const id=before.items[0].place.id;const duration=before.items[0].duration;
+ await card(id).getByRole('button',{name:'−15',exact:true}).click();expect((await readDay()).items.find(i=>i.place.id===id).duration).toBe(duration-15);
+ await card(id).getByRole('button',{name:'+15',exact:true}).click();expect((await readDay()).items.find(i=>i.place.id===id).duration).toBe(duration);
+ await card(id).getByRole('button',{name:'下移',exact:true}).click();expect((await readDay()).items[1].place.id).toBe(id);
+ await expect.poll(async()=>!(await state()).loading,{timeout:45000}).toBe(true);await card(id).getByRole('button',{name:'上移',exact:true}).click();expect((await readDay()).items[0].place.id).toBe(id);
+ await expect.poll(async()=>!(await state()).loading,{timeout:45000}).toBe(true);
+ await card(id).getByRole('button',{name:'锁定',exact:true}).click();const time=(await readDay()).events.find(e=>e.id===id).start;await page.locator('.trip-actions button').last().click();expect((await readDay()).events.find(e=>e.id===id).start).toBe(time);await card(id).getByRole('button',{name:'解锁',exact:true}).click();
+ // Delete a must-visit through the real confirmation dialog, then replace another site.
+ const required=(await readDay()).items.find(i=>(current.settings.mustIds||[]).includes(i.place.id));if(required){page.once('dialog',d=>d.accept());await card(required.place.id).getByRole('button',{name:'删除',exact:true}).click();expect((await readDay()).items.some(i=>i.place.id===required.place.id)).toBe(false);}
+ await expect.poll(async()=>!(await state()).loading,{timeout:45000}).toBe(true);
+ const replaceId=(await readDay()).items[0].place.id;await card(replaceId).getByRole('button',{name:'换一个',exact:true}).click();expect((await readDay()).items.some(i=>i.place.id===replaceId)).toBe(false);
+ const newId=(await readDay()).items[0].place.id;await expect.poll(async()=>!(await state()).loading,{timeout:45000}).toBe(true);
+ for(let i=0;i<50;i++){await card(newId).getByRole('button',{name:'+15',exact:true}).click();if(await page.locator('.edit-validation').count())break;}
+ await expect(page.locator('.edit-validation')).toBeVisible();await page.locator('.edit-validation summary').click();await expect(page.locator('.edit-validation')).toContainText('2026-11');await page.screenshot({path:'reports/editing-repair/conflict.png'});
+ await card(newId).getByRole('button',{name:'−15',exact:true}).click();await expect(page.locator('.edit-validation')).toHaveCount(0);
+ await page.locator('.trip-days button').nth((idx+1)%3).click();await expect.poll(async()=>!(await state()).loading,{timeout:45000}).toBe(true);const other=(await readDay()).items[0];if(other){await card(other.place.id).getByRole('button',{name:'−15',exact:true}).click();expect((await readDay()).items[0].duration).toBe(other.duration-15);}
+ current=await state();expect(current.plan.days.every(d=>d.events.every(e=>e.start%15===0))).toBe(true);fs.writeFileSync('reports/editing-repair/suzhou-after.json',JSON.stringify(current,null,2));await page.locator('.journey-route').scrollIntoViewIfNeeded();await page.screenshot({path:'reports/editing-repair/suzhou.png'});
+});

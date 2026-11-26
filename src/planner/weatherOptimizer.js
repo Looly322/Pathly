@@ -96,13 +96,6 @@ function validTrial(original,trial,settings,data,now){
  for(let d=0;d<trial.days.length;d++){
   const a=original.days[d],b=trial.days[d];if(a===b)continue;
   if(b.conflicts.length||b.fatigue.travel>a.fatigue.travel+20||km(b)>km(a)+Math.max(1,km(a)*.2)||b.fatigue.score>a.fatigue.score+5)return null;
-  for(const event of a.events.filter(e=>e.place)){
-   const next=b.events.find(e=>e.id===event.id);
-   if(pinned(event,settings,a,now,data)&&(!next||event.start!==next.start||event.end!==next.end||a.events.indexOf(event)!==b.events.indexOf(next)))return null;
-   if(event.kind==='MEAL'&&next&&(event.start!==next.start||event.end!==next.end)){
-    const open=openAt(event.place,b.date,next.start,next.end);if(open===false)return null;if(open===null)unknown.push(event.place.id);
-   }
-  }
   const oldMeals=a.events.filter(e=>e.kind==='MEAL'),newMeals=b.events.filter(e=>e.kind==='MEAL');
   if(oldMeals.length!==newMeals.length||oldMeals.some((e,i)=>e.slot!==newMeals[i].slot||e.place?.id!==newMeals[i].place?.id))return null;
  }

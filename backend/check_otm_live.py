@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 from collections import Counter
-from opentripmap import request,search,details,resolve_destinations
+from opentripmap import request,search,details
 from global_places import destinations
 report=[]
 for zh,en in [('北京','Beijing'),('东京','Tokyo'),('巴黎','Paris'),('开罗','Cairo'),('马拉喀什','Marrakech'),('库斯科','Cusco')]:
@@ -18,7 +18,7 @@ for zh,en in [('北京','Beijing'),('东京','Tokyo'),('巴黎','Paris'),('开�
             try:row['sampleDetails'].append({'name':p['name'],**details(p['sourceId'])})
             except Exception as e:row['sampleDetails'].append({'name':p['name'],'error':str(e)})
         try:
-            resolved=resolve_destinations(zh);row['chineseResolved']=any(d['countryCode']==city['country'] for d in resolved)
+            resolved=destinations(zh);row['chineseResolved']=any(d['countryCode']==city['country'] for d in resolved)
         except Exception as e:row['chineseResolverError']=str(e)
     except Exception as e:row['error']=str(e)
     report.append(row);Path('backend/otm-live-results.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))

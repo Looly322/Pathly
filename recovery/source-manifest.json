@@ -1,0 +1,1112 @@
+[
+  {
+    "at": "2026-09-29T06:13:38.669Z",
+    "file": "src/main.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:15:44.553Z",
+    "file": "src/i18n/index.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:15:44.553Z",
+    "file": "src/utils/theme.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:15:44.553Z",
+    "file": "src/config/appConfig.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:17:08.053Z",
+    "file": "src/services/cityService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:17:08.053Z",
+    "file": "src/services/placeService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:17:08.053Z",
+    "file": "src/services/routeService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:17:08.053Z",
+    "file": "src/services/weatherService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:17:08.053Z",
+    "file": "src/services/amapService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:18:23.661Z",
+    "file": "src/utils/itinerary.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:18:23.661Z",
+    "file": "src/utils/stability.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:18:23.661Z",
+    "file": "src/utils/recommendation.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/BrandLogo.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/LanguageSelector.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/ThemeSelector.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/PreferenceSelector.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/CitySearch.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/views/HomeView.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/MapView.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/PlaceImage.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/CrowdBadge.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/StabilityCard.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/PlanStyleTabs.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/ModalShell.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/PlanComparison.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:21:14.008Z",
+    "file": "src/components/PlaceDetailDialog.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:25:21.689Z",
+    "file": "src/components/ItineraryTimeline.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:25:21.689Z",
+    "file": "src/views/ResultView.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:25:21.689Z",
+    "file": "src/App.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:28:55.266Z",
+    "file": "src/style.css",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:29:58.444Z",
+    "file": "tests/planning.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:31:47.841Z",
+    "file": "tests/browser/app.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:34:00.398Z",
+    "file": "tests/browser/language.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:49:29.888Z",
+    "file": "src/utils/geo.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:49:29.888Z",
+    "file": "src/utils/routeOptimizer.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:49:29.888Z",
+    "file": "src/services/amapService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:49:29.888Z",
+    "file": "src/services/placeService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:51:32.685Z",
+    "file": "src/components/PlaceSearchPanel.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:51:32.685Z",
+    "file": "src/components/SelectedPlacesPanel.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:51:32.685Z",
+    "file": "src/components/CustomPlaceDialog.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:54:16.987Z",
+    "file": "src/components/MapPlanner.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:54:16.987Z",
+    "file": "src/views/MapPlanningView.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:56:32.804Z",
+    "file": "src/map-planning.css",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T06:57:48.894Z",
+    "file": "tests/map-planning.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T07:00:47.062Z",
+    "file": "tests/fixtures/amap-sdk.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T07:00:47.062Z",
+    "file": "tests/browser/map-planning.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T07:02:18.192Z",
+    "file": "tests/live/amap-smoke.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T07:30:08.999Z",
+    "file": "src/services/transportService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T07:31:56.047Z",
+    "file": "src/components/TransportRoutes.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T07:44:14.626Z",
+    "file": "tests/live/transport-smoke.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T08:06:33.063Z",
+    "file": "src/services/itineraryMapService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T08:06:33.063Z",
+    "file": "src/components/MapView.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T08:08:18.560Z",
+    "file": "tests/live/result-map-smoke.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T08:24:58.944Z",
+    "file": "src/utils/regionPlanning.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T08:42:40.067Z",
+    "file": "src/components/PlanStyleTabs.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T08:54:13.879Z",
+    "file": "src/services/destinationPlanningService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T08:57:17.866Z",
+    "file": "tests/live/nationwide-smoke.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T08:59:22.025Z",
+    "file": "tests/browser/nationwide.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:21:09.871Z",
+    "file": "backend/verify_foursquare.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:36:45.262Z",
+    "file": "backend/global_places.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:36:45.262Z",
+    "file": "backend/server.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:37:30.223Z",
+    "file": "src/services/globalPlaceService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:37:53.411Z",
+    "file": "backend/check_global_live.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:39:37.247Z",
+    "file": "src/views/GlobalPlacesView.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:42:32.533Z",
+    "file": "scripts/dev.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:42:32.533Z",
+    "file": "backend/test_global_places.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:42:32.533Z",
+    "file": "tests/browser/global.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:43:46.127Z",
+    "file": "tests/live/global-smoke.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:45:36.261Z",
+    "file": "backend/README.md",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:54:38.066Z",
+    "file": "src/utils/globalLabels.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T11:54:38.066Z",
+    "file": "src/components/GlobalMap.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T12:15:55.420Z",
+    "file": "src/components/GlobalPlacePhoto.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T12:32:01.237Z",
+    "file": "src/utils/transit.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T12:32:01.237Z",
+    "file": "src/components/GlobalPlacePhoto.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T12:34:42.304Z",
+    "file": "tests/transit.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:21:14.734Z",
+    "file": "src/planner/place.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:21:14.734Z",
+    "file": "src/providers/placeProvider.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:21:14.734Z",
+    "file": "src/providers/destinationResolver.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:23:15.233Z",
+    "file": "src/planner/planner.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:24:52.389Z",
+    "file": "src/providers/imageProvider.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:24:52.389Z",
+    "file": "src/components/ActivityImage.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:24:52.389Z",
+    "file": "src/components/UnifiedTripMap.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:24:52.389Z",
+    "file": "src/views/HomeView.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:26:17.449Z",
+    "file": "src/i18n/plannerZh.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:26:17.449Z",
+    "file": "src/i18n/plannerEn.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:28:11.907Z",
+    "file": "src/views/TripResultView.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:29:21.914Z",
+    "file": "src/App.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:30:20.317Z",
+    "file": "tests/planner.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:30:54.771Z",
+    "file": "scripts/check-core-data.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:32:20.534Z",
+    "file": "scripts/check-core-plans.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:33:24.788Z",
+    "file": "src/components/TripTransport.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:34:45.268Z",
+    "file": "tests/browser/core.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:42:26.471Z",
+    "file": "backend/README.md",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T14:58:10.992Z",
+    "file": "src/services/placePresentation.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T15:00:29.032Z",
+    "file": "tests/presentation.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T15:17:18.050Z",
+    "file": "backend/place_media.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T15:17:18.050Z",
+    "file": "scripts/audit-place-images.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T15:18:15.687Z",
+    "file": "src/services/placePresentation.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-29T15:23:09.665Z",
+    "file": "backend/test_place_media.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-30T04:34:56.752Z",
+    "file": "backend/osm_places.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-30T04:36:14.506Z",
+    "file": "backend/test_osm_places.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-30T04:45:14.946Z",
+    "file": "src/providers/photoEligibility.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-09-30T04:45:56.918Z",
+    "file": "tests/photoEligibility.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-13T07:21:39.236Z",
+    "file": "backend/settings.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-13T07:21:39.236Z",
+    "file": "backend/opentripmap.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-13T07:41:59.201Z",
+    "file": "src/planner/routeOrdering.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-13T07:49:50.615Z",
+    "file": "backend/check_otm_live.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-13T07:52:10.643Z",
+    "file": "backend/test_opentripmap.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-13T07:52:10.643Z",
+    "file": "tests/routeOrdering.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-13T07:59:32.834Z",
+    "file": "tests/live/otm-itinerary.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-13T08:18:18.691Z",
+    "file": "backend/README.md",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T05:46:35.035Z",
+    "file": "src/utils/reviews.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T05:46:35.035Z",
+    "file": "src/components/TouristReviews.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T05:46:35.035Z",
+    "file": "tests/reviews.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T05:48:09.190Z",
+    "file": "tests/browser/reviews.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T06:17:18.043Z",
+    "file": "src/utils/mapStyle.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T06:19:26.465Z",
+    "file": "tests/mapStyle.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T06:19:26.465Z",
+    "file": "tests/browser/maps.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T06:49:50.477Z",
+    "file": "tests/live/amap-overseas.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T06:55:55.493Z",
+    "file": "tests/live/world-map-candidate.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T07:50:44.348Z",
+    "file": "tests/live/quality-profile.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T07:55:38.033Z",
+    "file": "src/services/placePresentation.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T07:58:47.111Z",
+    "file": "src/providers/destinationResolver.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T11:43:09.639Z",
+    "file": "src/components/PlaceDescription.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T11:53:18.768Z",
+    "file": "tests/live/photo-diagnostic.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T11:55:40.858Z",
+    "file": "tests/browser/quality.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:22:10.540Z",
+    "file": "backend/weather.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:22:10.540Z",
+    "file": "src/services/weatherService.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:23:02.238Z",
+    "file": "src/i18n/weatherZh.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:23:02.238Z",
+    "file": "src/i18n/weatherEn.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:23:02.238Z",
+    "file": "src/components/WeatherPanel.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:24:07.097Z",
+    "file": "tests/live/weather.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:24:53.067Z",
+    "file": "tests/weather.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:24:53.067Z",
+    "file": "backend/test_weather.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:26:21.876Z",
+    "file": "tests/browser/weather.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:30:00.487Z",
+    "file": "tests/live/weather-ui.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:48:25.994Z",
+    "file": "src/planner/weatherOptimizer.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:49:49.940Z",
+    "file": "src/i18n/weatherAdviceZh.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:49:49.940Z",
+    "file": "src/i18n/weatherAdviceEn.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:49:49.940Z",
+    "file": "src/components/WeatherAdvice.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:51:25.034Z",
+    "file": "tests/weatherOptimizer.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T12:55:33.205Z",
+    "file": "tests/browser/weather-optimizer.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-15T13:03:01.503Z",
+    "file": "tests/live/weather-assessment.mjs",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T06:13:10.797Z",
+    "file": "src/services/apiClient.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T06:13:43.121Z",
+    "file": "tests/apiClient.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T06:13:43.121Z",
+    "file": "backend/test_vercel_entry.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T06:15:57.051Z",
+    "file": "tests/browser/search-deployment.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T06:53:52.323Z",
+    "file": "src/data/homeEditorial.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T06:53:52.323Z",
+    "file": "src/components/EditorialPhoto.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T06:55:20.707Z",
+    "file": "src/views/homeEditorial.css",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T06:57:22.856Z",
+    "file": "tests/browser/home-editorial.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T07:20:05.407Z",
+    "file": "src/components/TravelHeroVideo.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T07:20:05.407Z",
+    "file": "src/components/PoeticTheme.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T07:23:42.161Z",
+    "file": "tests/browser/home-video-poetry.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T07:42:42.931Z",
+    "file": "src/components/PoeticTheme.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T07:46:01.907Z",
+    "file": "tests/browser/home-image-walls.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T07:59:41.106Z",
+    "file": "src/components/BrandIntro.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T08:10:12.768Z",
+    "file": "tests/browser/animation-repair.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T09:01:01.699Z",
+    "file": "tests/browser/hero-eight-seconds.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T09:13:51.789Z",
+    "file": "src/components/DestinationGallery.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T09:14:16.951Z",
+    "file": "tests/browser/destination-gallery.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-20T09:25:05.981Z",
+    "file": "tests/browser/destination-gallery.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-21T13:13:30.717Z",
+    "file": "src/components/DestinationGallery.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-23T13:37:53.295Z",
+    "file": "tests/browser/place-media-live.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T05:57:36.371Z",
+    "file": "src/styles/searchEditorial.css",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T05:57:55.486Z",
+    "file": "tests/browser/search-editorial.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T06:35:18.834Z",
+    "file": "backend/reference_cache.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T06:35:18.834Z",
+    "file": "backend/climate.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T06:36:11.973Z",
+    "file": "backend/media_delivery.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T06:36:11.973Z",
+    "file": "backend/name_translation.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T06:36:49.037Z",
+    "file": "backend/test_climate.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T07:16:41.140Z",
+    "file": "backend/test_media_delivery.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T08:05:03.308Z",
+    "file": "src/components/SearchCalligraphy.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T08:05:39.668Z",
+    "file": "tests/browser/search-contact.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T08:17:13.738Z",
+    "file": "scripts/prepare-lanting.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-10-27T08:18:42.372Z",
+    "file": "tests/browser/search-calligraphy.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-03T06:15:58.594Z",
+    "file": "backend/commons_images.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-03T06:16:48.355Z",
+    "file": "backend/test_commons_images.py",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-03T06:21:33.463Z",
+    "file": "src/components/JourneyCover.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-03T06:22:09.715Z",
+    "file": "src/views/tripJournal.css",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-03T06:22:29.642Z",
+    "file": "tests/browser/trip-journal-live.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:02:01.375Z",
+    "file": "src/utils/coordinates.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:02:58.386Z",
+    "file": "src/planner/feasibility.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:02:58.386Z",
+    "file": "src/planner/travel.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:04:56.472Z",
+    "file": "src/services/planningTransport.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:05:44.281Z",
+    "file": "src/planner/improveDays.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:08:09.882Z",
+    "file": "tests/coreRepair.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:09:08.961Z",
+    "file": "tests/browser/core-repair-live.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:19:09.845Z",
+    "file": "tests/coreProviders.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:21:39.429Z",
+    "file": "tests/browser/core-ui-regression.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:45:10.137Z",
+    "file": "src/planner/identity.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:47:34.522Z",
+    "file": "tests/itineraryEditing.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T06:48:11.631Z",
+    "file": "tests/browser/editing-repair-live.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:09:53.403Z",
+    "file": "src/services/namedPlaces.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:09:53.403Z",
+    "file": "src/components/PlacePicker.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:10:50.218Z",
+    "file": "src/planner/dining.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:12:11.538Z",
+    "file": "src/services/travelLibrary.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:12:11.538Z",
+    "file": "src/components/FavoriteButton.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:12:11.538Z",
+    "file": "src/views/LibraryView.vue",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:14:27.880Z",
+    "file": "tests/travelLibrary.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:15:22.531Z",
+    "file": "tests/browser/travel-library-live.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:20:27.352Z",
+    "file": "src/planner/openingHours.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:44:01.801Z",
+    "file": "src/state/tripDraft.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:45:17.146Z",
+    "file": "src/planner/visitProfiles.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:45:17.146Z",
+    "file": "src/planner/visitDuration.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:50:04.487Z",
+    "file": "tests/draftDuration.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-10T07:52:27.954Z",
+    "file": "tests/browser/draft-duration-live.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T02:09:45.317Z",
+    "file": "tests/browser/planner-quality-live.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T02:11:50.499Z",
+    "file": "tests/plannerQuality.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T02:37:18.896Z",
+    "file": "src/planner/routeCandidates.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T02:37:18.896Z",
+    "file": "src/services/planningTransport.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T03:01:28.285Z",
+    "file": "tests/plannerFollowup.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T06:00:28.508Z",
+    "file": "tests/optimizerLocks.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T06:13:32.217Z",
+    "file": "src/planner/recommendationValue.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T06:13:32.217Z",
+    "file": "src/planner/planQuality.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T06:14:21.283Z",
+    "file": "src/planner/improveDays.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T06:16:24.944Z",
+    "file": "tests/planningUpgrade.test.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T06:16:56.424Z",
+    "file": "tests/browser/planning-upgrade-live.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T06:20:13.159Z",
+    "file": "src/services/routeDiscovery.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T06:40:09.467Z",
+    "file": "src/planner/verifiedAccess.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T07:13:53.742Z",
+    "file": "tests/browser/media-draft-video.spec.js",
+    "method": "original heredoc snapshot"
+  },
+  {
+    "at": "2026-11-17T07:16:43.328Z",
+    "file": "backend/test_media_identity.py",
+    "method": "original heredoc snapshot"
+  }
+]

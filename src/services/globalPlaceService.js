@@ -20,7 +20,7 @@ export async function searchGlobalPlaces({ destination, query = '', category = '
     const places = await searchAmapPlaces(city.name, query, { cityCode: city.adcode, type: amapTypes[category] || '风景名胜' });
     return { places, source: 'amap', queryUsed: query };
   }
-  return api('current-places', {
+  return api('places/search', {
     query, category, city: destination.city, countryCode: destination.countryCode,
     latitude: destination.latitude, longitude: destination.longitude, radius, limit,
   }, signal);

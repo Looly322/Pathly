@@ -1,21 +1,17 @@
 """已核验媒体独立持久缓存；不缓存网络失败，不请求任何收费地点服务。"""
 import hashlib,json,time,threading
-from global_places import CACHE,localized_place,commons_photo,ApiError
+from global_places import CACHE,localized_place,ApiError
 MEDIA=CACHE/'place-media-v1'
 MEDIA.mkdir(exist_ok=True)
 locks={}
 guard=threading.Lock()
 def media_key(p):
-    try:
-        lat,lng=float(p['latitude']),float(p['longitude'])
-        if not (-90<=lat<=90 and -180<=lng<=180): raise ValueError()
-    except (KeyError,ValueError,TypeError): raise ApiError('INVALID_COORDINATES',400)
-    return hashlib.sha256(json.dumps([p.get('name'),round(lat,5),round(lng,5),p.get('image','1')],ensure_ascii=False).encode()).hexdigest()
+    return hashlib.sha256(json.dumps([p.get('name'),round(float(p['latitude']),5),round(float(p['longitude']),5)],ensure_ascii=False).encode()).hexdigest()
 def cached_media(p):
     path=MEDIA/(media_key(p)+'.json')
     try:
         record=json.loads(path.read_text())
-        if time.time()-record['at']<(604800 if record['data'].get('photo') else 600):return record['data']
+        if record['data'].get('photo'): return record['data']
     except (OSError,ValueError,KeyError):pass
     return None
 def get_presentation(params):
@@ -26,15 +22,8 @@ def get_presentation(params):
     with lock:
         saved=cached_media(params)
         if saved:return saved
-        result=None
-        filename=params.get('commonsFile','')
-        if params.get('image')!='0' and filename.startswith('File:') and len(filename)<240:
-            try:
-                photo=commons_photo(filename[5:])
-                if photo:result={'photo':photo,'photoStatus':'ready'}
-            except ApiError:pass
-        if result is None:result=localized_place(params)
+        result=localized_place(params)
         # 短暂请求失败不能变成永久“无图”；成功照片保留来源供复查。
-        if result is not None:
+        if result.get('photo'):
             tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps({'at':time.time(),'data':result},ensure_ascii=False));tmp.replace(path)
         return result

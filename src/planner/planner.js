@@ -1,5 +1,4 @@
 import { haversineDistance } from '../utils/geo.js';
-import {orderDailyRoute} from './routeOrdering.js';
 import { validPlace } from './place.js';
 export const PACES={relaxed:{max:3,stay:1.15,buffer:20,rest:30,fatigue:58},balanced:{max:4,stay:1,buffer:15,rest:25,fatigue:70},efficient:{max:5,stay:.9,buffer:10,rest:20,fatigue:80}};
 export const SCORE_WEIGHTS={interest:45,diversity:24,wish:500,distance:7,fatigue:1.2,value:10};
@@ -10,7 +9,7 @@ export function preferenceScore(place,settings,selected=[]){
   const matches=place.subcategories.filter(i=>settings.interests.includes(i));
   const categories=new Set(selected.map(p=>p.category));
   const last=selected.at(-1);
-  return matches.length*SCORE_WEIGHTS.interest+(categories.has(place.category)?0:SCORE_WEIGHTS.diversity)+(settings.mustIds?.includes(place.id)?SCORE_WEIGHTS.wish:0)+SCORE_WEIGHTS.value+(place.heritage?15:0)+(place.quality||0)*3+(place.wikidata?3:0)-distance(last,place)*SCORE_WEIGHTS.distance;
+  return matches.length*SCORE_WEIGHTS.interest+(categories.has(place.category)?0:SCORE_WEIGHTS.diversity)+(settings.mustIds?.includes(place.id)?SCORE_WEIGHTS.wish:0)+SCORE_WEIGHTS.value-distance(last,place)*SCORE_WEIGHTS.distance;
 }
 function travelBetween(a,b,settings){
   const km=distance(a,b);
@@ -42,7 +41,7 @@ export function mealWindows(settings){
 }
 export function scheduleDay(items,settings,pace,foodPlaces=[]){
   const style=PACES[pace],events=[],end=minutes(settings.end),windows=mealWindows(settings),usedFood=new Set();
-  let cursor=minutes(settings.start),last=settings.origin||null,continuous=0,restDone=false;
+  let cursor=minutes(settings.start),last=null,continuous=0,restDone=false;
   const push=(event,start,duration)=>{events.push({...event,start,end:start+duration,duration});cursor=start+duration;};
   const rest=()=>{push({id:'rest-'+events.length,kind:'REST',activityType:'REST',reason:'rest',travel:{minutes:0}},cursor,style.rest);continuous=0;restDone=true;};
   function meal(w){
@@ -62,7 +61,7 @@ export function scheduleDay(items,settings,pace,foodPlaces=[]){
     let duration=item.duration||Math.max(place.minimumDuration,Math.round(place.estimatedDuration*style.stay/5)*5);
     if(settings.party==='family'||settings.party==='seniors') duration=Math.max(duration,place.estimatedDuration);
     let route=travelBetween(last,place,settings);
-    if(windows.length&&Math.max(cursor,place.category==='NIGHTLIFE'?1080:cursor)+route.minutes+(last?style.buffer:0)+duration>windows[0].end-Math.min(60,windows[0].end-windows[0].start)) {meal(windows.shift());route=travelBetween(last,place,settings);}
+    if(windows.length&&cursor+route.minutes+(last?style.buffer:0)+duration>windows[0].end-Math.min(60,windows[0].end-windows[0].start)) {meal(windows.shift());route=travelBetween(last,place,settings);}
     if(continuous+duration+route.minutes>180&&continuous>0){rest();route=travelBetween(last,place,settings);}
     if(place.category==='NIGHTLIFE')cursor=Math.max(cursor,1080);
     const start=cursor+route.minutes+(last?style.buffer:0);
@@ -90,21 +89,20 @@ export function scheduleDay(items,settings,pace,foodPlaces=[]){
   return {events,fatigue,knownCost,reserve,conflicts,overflow:Math.max(0,cursor-end),free,stability,usedFood:[...usedFood],items:items.map(i=>i.place?i:{place:i})};
 }
 export function generateItineraries(candidatePlaces,settings){
-  const unique=[...new Map(candidatePlaces.filter(p=>validPlace(p)&&p.planningEligible!==false).map(p=>[p.id,p])).values()];
+  const unique=[...new Map(candidatePlaces.filter(validPlace).map(p=>[p.id,p])).values()];
   return Object.keys(PACES).map(pace=>{
     const used=new Set(),days=[],food=unique.filter(p=>p.category==='FOOD');
-    const core=unique.filter(p=>(!p.isOutskirts||settings.mustIds?.includes(p.id))&&p.category!=='FOOD'&&(p.category!=='CAFE'||settings.interests.includes('FOOD')));
+    const core=unique.filter(p=>p.category!=='FOOD'&&(p.category!=='CAFE'||settings.interests.includes('FOOD')));
     for(let day=0;day<settings.days;day++){
       const available=core.filter(p=>!used.has(p.id));
       // 将有限候选分配到各天，避免第一天耗尽候选、后续重复景点。
       const max=Math.min(PACES[pace].max,Math.ceil(available.length/(settings.days-day)));
       let selected=[],schedule=scheduleDay([],settings,pace,food);
       while(selected.length<max){
-        const ranked=available.filter(p=>!selected.some(s=>s.id===p.id)&&(p.category!=='CAFE'||!selected.some(s=>s.category==='CAFE'))).map(p=>({p,score:preferenceScore(p,settings,selected)})).sort((a,b)=>b.score-a.score);
+        const ranked=available.filter(p=>!selected.some(s=>s.id===p.id)).map(p=>({p,score:preferenceScore(p,settings,selected)})).sort((a,b)=>b.score-a.score);
         let best=null;
         for(const entry of ranked){
-          // 以当日首站为空间锚点聚类；下一天从未选候选中重新取种子。
-          if(selected.length&&distance(selected[0],entry.p)>(pace==='relaxed'?4:7)&&!settings.mustIds?.includes(entry.p.id))continue;
+          // 同一天优先形成空间聚集；跨地区来回跑会被移动时间和疲劳成本扣分。
           const trial=scheduleDay([...selected,entry.p],settings,pace,food.filter(p=>!used.has(p.id)));
           if(trial.conflicts.length)continue;
           const value=entry.score-trial.fatigue.score*SCORE_WEIGHTS.fatigue;
@@ -113,12 +111,9 @@ export function generateItineraries(candidatePlaces,settings){
         if(!best)break;
         selected.push(best.place);schedule=best.schedule;
       }
-      const ordered=orderDailyRoute(selected);
-      const optimized=scheduleDay(ordered,settings,pace,food.filter(p=>!used.has(p.id)));
-      if(!optimized.conflicts.length){selected=ordered;schedule=optimized;}
       selected.forEach(p=>used.add(p.id));schedule.usedFood.forEach(id=>used.add(id));
       const date=new Date(settings.date+'T12:00:00');date.setDate(date.getDate()+day);
-      days.push({...schedule,day:day+1,date:`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`,underfilled:selected.length<2,availableCount:available.length});
+      days.push({...schedule,day:day+1,date:`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`,underfilled:selected.length<Math.min(2,max),availableCount:available.length});
     }
     const planned=new Set(days.flatMap(d=>d.events.filter(e=>e.place).map(e=>e.place.id)));
     return {id:pace,days,unplacedMust:(settings.mustIds||[]).filter(id=>!planned.has(id)),unused:unique.filter(p=>!planned.has(p.id))};

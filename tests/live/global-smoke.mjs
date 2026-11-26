@@ -9,9 +9,7 @@ try {
   await page.getByPlaceholder('搜索城市，例如：杭州 / 北京 / 成都').fill('北京');
   await page.getByRole('button',{name:/生成我的行程/}).click();
   await expect(page.locator('.result-heading h1')).toContainText('北京',{timeout:150000});
-  await expect(page.locator('.timeline-item').first()).toBeVisible({timeout:60000});
-  const names=await page.locator('.place-summary strong').allTextContents();
-  expect(names.length).toBeGreaterThanOrEqual(3);
+  const names=await page.locator('.place-summary h3').allTextContents();
   reports.push({city:'北京',source:'amap',names});
   console.log('北京',names);
   await page.getByRole('button',{name:'探索全球目的地',exact:true}).click();

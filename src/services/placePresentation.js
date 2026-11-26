@@ -1,15 +1,10 @@
 // 有界队列、请求去重与正/负缓存：失败和无结果也必须结束加载。
 const cache=new Map(),pending=new Map(),queue=[];
 let running=0;
-const storageKey='pathly-presentation-v4';
+const storageKey='pathly-presentation-v3';
 try{for(const [key,value] of JSON.parse(localStorage.getItem(storageKey)||'[]'))if(value.expires>Date.now())cache.set(key,value);}catch{}
 function persist(){try{localStorage.setItem(storageKey,JSON.stringify([...cache].slice(-200)));}catch{}}
-function run(){while(running<4&&queue.length){
- const job=queue.shift();if(job.signal.aborted){job.reject(job.signal.reason);continue;}running++;
- let abort;
- const cancelled=new Promise((_,reject)=>{abort=()=>reject(job.signal.reason);job.signal.addEventListener('abort',abort,{once:true});});
- Promise.race([job.work(job.signal),cancelled]).then(job.resolve,job.reject).finally(()=>{job.signal.removeEventListener('abort',abort);running--;run();});
-}}
+function run(){while(running<4&&queue.length){const job=queue.shift();if(job.signal.aborted){job.reject(job.signal.reason);continue;}running++;job.work(job.signal).then(job.resolve,job.reject).finally(()=>{running--;run();});}}
 function schedule(work,timeout){
  const signal=AbortSignal.timeout(timeout);
  const task=new Promise((resolve,reject)=>{signal.addEventListener('abort',()=>reject(signal.reason),{once:true});queue.push({work,resolve,reject,signal});run();});
